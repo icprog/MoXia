@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="10/13/2017 09:33:54" ReportInfo.Modified="02/25/2018 09:46:31" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDhPFD1w+LtzdaMPBNAktErGxs64DDYLeXDR/WnfV+NUA==">
+      <TableDataSource Name="Table" DataType="System.Int32" Enabled="true" SelectCommand="SELECT row,OPI003+WPC015+'(封边)汇总'+'('+WPC001+')' WO,CUU008,CUU003,WPC004,REPLACE(WPC006,'毛','') WPC006,REPLACE(WPC009,'毛','') WPC009,REPLACE(WPC012,'净','') WPC012,CONVERT(INT,REPLACE(WPC012,'净','')) WPC0122,case ISNUMERIC(REPLACE(WPC006,'毛','')) when 1 then CONVERT(DECIMAL,REPLACE(WPC006,'毛','')) when 0 then '99999' END WPC0006,CONVERT(FLOAT,WPC016) WPC016,CONVERT(FLOAT,CUU003*WPC016) WPC,WPC017 FROM MOXWPC A INNER JOIN (SELECT ROW_NUMBER() over(ORDER BY CUU001) row,CUU001,CUU002,CUU003,CUU008 FROM MOXCUU) B ON A.WPC001=B.CUU001 AND A.WPC002=B.CUU002 INNER JOIN MOXOPI C ON A.WPC002=C.OPI001 WHERE WPC001='1801' AND OPI003='兰卡威' AND WPC002 IN ('51-1.001.02.004','51-1.001.02.006-1','51-1.001.02.007','51-1.001.02.009','51-1.001.02.011','51-1.001.03.003','51-1.001.03.004-1','51-1.001.03.005','51-1.001.03.007','51-1.002.01.005','51-1.002.04.010','51-1.002.04.011','51-1.002.04.012','51-1.002.09.002','51-1.002.09.003','51-1.002.09.008','51-1.003.01.005','51-1.003.03.005','51-1.003.03.006','51-1.003.03.007','51-1.003.03.008','51-1.004.01.003','51-1.004.01.003-2','51-1.004.01.004','51-1.004.01.005','51-1.004.03.001','51-1.004.05.001','51-1.004.05.002','51-1.004.06.001','51-1.005.01.001','51-1.005.01.002','51-1.005.01.003','51-1.005.01.004','51-1.005.06.001','51-1.005.06.002','51-1.005.06.003','51-1.005.06.004','51-1.005.06.005','51-1.005.06.006','51-1.005.06.011','51-1.005.06.012','51-1.005.06.013','51-1.005.06.014','51-1.005.06.015','51-1.005.06.016','51-1.005.06.017','51-1.005.06.018','51-1.007.06.001','59-1.001.01.001','59-1.001.03.004','59-1.002.01.001','59-1.002.04.012','59-1.002.06.005','59-1.002.12.002','59-1.003.01.002','59-1.003.03.003','59-1.003.03.003-1','59-1.003.03.004','59-1.003.03.004-1','59-1.003.03.008','59-1.005.01.004','59-1.005.01.007','59-1.005.01.007-3','59-1.006.03-2.003','59-1.006.03-2.005','59-1.006.03-2.009','59-1.006.03-2.009-1','59-1.007.02.005','59-1.007.03.001','59-1.008.04.001','59-1.008.05.001','59-1.009.03.001','64-1.001.02.003-1','64-1.002.01.005','64-1.002.07.003','64-1.005.01.004','64-1.007.02.002') AND WPC015='包拼' AND WPC004 LIKE '%封边%' &#13;&#10;ORDER BY CONVERT(INT,REPLACE(WPC012,'净','')) DESC,&#13;&#10;case ISNUMERIC(REPLACE(WPC006,'毛','')) when 1 then CONVERT(DECIMAL,REPLACE(WPC006,'毛','')) when 0 then '99999' END DESC">
+        <Column Name="WO" DataType="System.String"/>
+        <Column Name="CUU003" DataType="System.Int32"/>
+        <Column Name="WPC004" DataType="System.String"/>
+        <Column Name="WPC006" DataType="System.String"/>
+        <Column Name="WPC009" DataType="System.String"/>
+        <Column Name="WPC012" DataType="System.String"/>
+        <Column Name="WPC016" DataType="System.Double"/>
+        <Column Name="WPC" DataType="System.Double"/>
+        <Column Name="WPC017" DataType="System.String"/>
+        <Column Name="CUU008" DataType="System.String"/>
+        <Column Name="WPC0122" DataType="System.Int32"/>
+        <Column Name="row" DataType="System.Int64"/>
+        <Column Name="WPC0006" DataType="System.Decimal"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="Text17" Width="718.2" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Table.WO]" HorzAlign="Center" VertAlign="Center" Font="宋体, 22pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="56.7">
+      <TextObject Name="Text1" Width="179.55" Height="56.7" Border.Lines="All" Border.Style="Dot" Text="产品名称" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text2" Left="179.55" Width="56.7" Height="56.7" Border.Lines="All" Border.Style="Dot" Text="生产数量" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text3" Left="236.25" Width="94.5" Height="56.7" Border.Lines="All" Border.Style="Dot" Text="部件名称" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text4" Left="330.75" Width="122.85" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="规格(mm)" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text5" Left="330.75" Top="28.35" Width="47.25" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="毛" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text7" Left="378" Top="28.35" Width="37.8" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="毛" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text9" Left="415.8" Top="28.35" Width="37.8" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="净" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text10" Left="453.6" Width="37.8" Height="56.7" Border.Lines="All" Border.Style="Dot" Text="单量" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text11" Left="491.4" Width="75.6" Height="56.7" Border.Lines="All" Border.Style="Dot" Text="总量" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text12" Left="567" Width="151.2" Height="56.7" Border.Lines="All" Border.Style="Dot" Text="材质" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+    </PageHeaderBand>
+    <GroupHeaderBand Name="GroupHeader1" Top="102.5" Width="718.2" Condition="[Table.WPC0122]" SortOrder="Descending">
+      <DataBand Name="Data1" Top="106.5" Width="718.2" Height="37.8" DataSource="Table">
+        <TextObject Name="Text13" Width="179.55" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Table.CUU008]" Duplicates="Merge" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text14" Left="179.55" Width="56.7" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Table.CUU003]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text15" Left="236.25" Width="94.5" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Table.WPC004]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text22" Left="453.6" Width="37.8" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Table.WPC016]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text23" Left="491.4" Width="75.6" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Table.WPC]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text24" Left="567" Width="151.2" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Table.WPC017]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text25" Left="330.75" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Table.WPC006]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text27" Left="378" Width="37.8" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Table.WPC009]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text29" Left="415.8" Width="37.8" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Table.WPC012]" Format="Number" Format.UseLocale="true" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <Sort>
+          <Sort Expression="[Table.WPC0122]" Descending="true"/>
+          <Sort Expression="[Table.WPC0006]" Descending="true"/>
+        </Sort>
+      </DataBand>
+      <GroupFooterBand Name="GroupFooter1" Top="148.3" Width="718.2" Height="37.8">
+        <TextObject Name="Text41" Width="179.55" Height="37.8" Border.Lines="All" Border.Style="Dot" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text42" Left="179.55" Width="56.7" Height="37.8" Border.Lines="All" Border.Style="Dot" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text43" Left="236.25" Width="94.5" Height="37.8" Border.Lines="All" Border.Style="Dot" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text44" Left="453.6" Width="37.8" Height="37.8" Border.Lines="All" Border.Style="Dot" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text45" Left="491.4" Width="75.6" Height="37.8" Border.Lines="All" Border.Style="Dot" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text46" Left="567" Width="151.2" Height="37.8" Border.Lines="All" Border.Style="Dot" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text47" Left="330.75" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text48" Left="378" Width="37.8" Height="37.8" Border.Lines="All" Border.Style="Dot" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+        <TextObject Name="Text49" Left="415.8" Width="37.8" Height="37.8" Border.Lines="All" Border.Style="Dot" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      </GroupFooterBand>
+    </GroupHeaderBand>
+    <PageFooterBand Name="PageFooter1" Top="190.1" Width="718.2" Height="28.35">
+      <TextObject Name="Text16" Left="47.25" Width="94.5" Height="28.35" Text="审核:" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text36" Left="283.5" Width="47.25" Height="28.35" Text="[PageN]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text40" Left="349.65" Width="75.6" Height="28.35" Text="共[Page#]页" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

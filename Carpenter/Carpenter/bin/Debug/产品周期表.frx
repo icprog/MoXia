@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="07/21/2017 17:42:04" ReportInfo.Modified="09/25/2017 11:04:38" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDhPFD1w+LtzdaMPBNAktErbgdMgam6TUPLnwaISC1T5Q==">
+      <TableDataSource Name="Table" Alias="TableOne" DataType="System.Int32" Enabled="true" SelectCommand="SELECT CONVERT(VARCHAR,YEAR(PRD013))+'年产品周期表' PRD ,A.CUU001,A.CUU002,A.CUU008,A.CUU009,A.CUU003,PRD013,PWF012,DATEDIFF(DAY,PRD013,PWF012) CHA FROM &#13;&#10;              MOXCUU A INNER JOIN (SELECT MIN(PRD013) PRD013,PRD007,PRD008 FROM MOXPRD GROUP BY PRD007,PRD008) B ON A.CUU001=B.PRD007 AND A.CUU002=B.PRD008&#13;&#10;                       INNER JOIN MOXPWF C ON A.CUU001=C.PWF002 AND A.CUU002=C.PWF003&#13;&#10;                       WHERE YEAR(PRD013)=2017 &#13;&#10;                       GROUP BY  A.idx,A.CUU001,A.CUU002,A.CUU008,A.CUU009,A.CUU003,PRD013,PWF012 &#13;&#10;                       HAVING SUM(PWF016)=CUU003&#13;&#10;                       ORDER BY CUU001,CUU002">
+        <Column Name="CUU001" DataType="System.String"/>
+        <Column Name="CUU002" DataType="System.String"/>
+        <Column Name="CUU008" DataType="System.String"/>
+        <Column Name="CUU009" DataType="System.String"/>
+        <Column Name="CUU003" DataType="System.Int32"/>
+        <Column Name="PRD013" DataType="System.DateTime"/>
+        <Column Name="PWF012" DataType="System.String"/>
+        <Column Name="CHA" DataType="System.Int32"/>
+        <Column Name="PRD" DataType="System.String"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="253">
+    <ReportTitleBand Name="ReportTitle1" Width="880.74" Height="66.15">
+      <TextObject Name="Text1" Width="878.85" Height="37.8" Text="[TableOne.PRD]" HorzAlign="Center" Font="宋体, 24pt, style=Bold"/>
+      <TextObject Name="Text2" Top="37.8" Width="56.7" Height="28.35" Border.Lines="All" Text="批号" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text3" Left="56.7" Top="37.8" Width="151.2" Height="28.35" Border.Lines="All" Text="品号" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text4" Left="207.9" Top="37.8" Width="160.65" Height="28.35" Border.Lines="All" Text="品名" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text5" Left="368.55" Top="37.8" Width="160.65" Height="28.35" Border.Lines="All" Text="规格" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text10" Left="529.2" Top="37.8" Width="56.7" Height="28.35" Border.Lines="All" Text="数量" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text12" Left="585.9" Top="37.8" Width="113.4" Height="28.35" Border.Lines="All" Text="开始时间" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text13" Left="699.3" Top="37.8" Width="113.4" Height="28.35" Border.Lines="All" Text="结束时间" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text14" Left="812.7" Top="37.8" Width="66.15" Height="28.35" Border.Lines="All" Text="周期" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+    </ReportTitleBand>
+    <DataBand Name="Data1" Top="70.15" Width="880.74" Height="37.8" DataSource="Table">
+      <TextObject Name="Text6" Width="56.7" Height="37.8" Border.Lines="All" Text="[TableOne.CUU001]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text7" Left="56.7" Width="151.2" Height="37.8" Border.Lines="All" Text="[TableOne.CUU002]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text8" Left="207.9" Width="160.65" Height="37.8" Border.Lines="All" Text="[TableOne.CUU008]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text9" Left="368.55" Width="160.65" Height="37.8" Border.Lines="All" Text="[TableOne.CUU009]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text11" Left="529.2" Width="56.7" Height="37.8" Border.Lines="All" Text="[TableOne.CUU003]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text15" Left="585.9" Width="113.4" Height="37.8" Border.Lines="All" Text="[TableOne.PRD013]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text16" Left="699.3" Width="113.4" Height="37.8" Border.Lines="All" Text="[TableOne.PWF012]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text17" Left="812.7" Width="66.15" Height="37.8" Border.Lines="All" Text="[TableOne.CHA]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+    </DataBand>
+  </ReportPage>
+</Report>

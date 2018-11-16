@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="05/03/2018 09:24:08" ReportInfo.Modified="05/07/2018 16:50:34" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDhPFD1w+LtzdaMPBNAktEr+g/Sm3lULf9FnM6g745axA==">
+      <TableDataSource Name="Table" DataType="System.Int32" Enabled="true" SelectCommand="SELECT PRD004,PRD005,PRD013,PRD007,PRD009,PRD011,PRD034,PRD003,PRD019,PRD023 FROM MOXPRD&#13;&#10;">
+        <Column Name="PRD004" DataType="System.String"/>
+        <Column Name="PRD005" DataType="System.String"/>
+        <Column Name="PRD013" DataType="System.DateTime"/>
+        <Column Name="PRD007" DataType="System.String"/>
+        <Column Name="PRD011" DataType="System.String"/>
+        <Column Name="PRD034" DataType="System.String"/>
+        <Column Name="PRD003" DataType="System.String"/>
+        <Column Name="PRD019" DataType="System.Decimal"/>
+        <Column Name="PRD023" DataType="System.Int32"/>
+        <Column Name="PRD009" DataType="System.String"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="Text1" Width="718.2" Height="37.8" Text="生产报工记录表" HorzAlign="Center" VertAlign="Center" Font="宋体, 18pt"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="56.7">
+      <TextObject Name="Text2" Width="94.5" Height="28.35" Text="员工姓名：" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text3" Left="94.5" Width="151.2" Height="28.35" Text="[Table.PRD005]" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text4" Left="245.7" Width="94.5" Height="28.35" Text="报工日期：" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text5" Left="340.2" Width="378" Height="28.35" Text="[Table.PRD013]" Format="Date" Format.Format="d" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text6" Top="28.35" Width="66.15" Height="28.35" Border.Lines="All" Text="批号" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text7" Left="66.15" Top="28.35" Width="132.3" Height="28.35" Border.Lines="All" Text="品名" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text8" Left="198.45" Top="28.35" Width="151.2" Height="28.35" Border.Lines="All" Text="零件名称" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text9" Left="349.65" Top="28.35" Width="132.3" Height="28.35" Border.Lines="All" Text="零件规格" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text10" Left="481.95" Top="28.35" Width="85.05" Height="28.35" Border.Lines="All" Text="工艺名称" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text11" Left="567" Top="28.35" Width="75.6" Height="28.35" Border.Lines="All" Text="记工数量" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text12" Left="642.6" Top="28.35" Width="75.6" Height="28.35" Border.Lines="All" Text="加工次数" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="102.5" Width="718.2" Height="28.35" DataSource="Table">
+      <TextObject Name="Text14" Width="66.15" Height="28.35" Border.Lines="All" Text="[Table.PRD007]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text15" Left="66.15" Width="132.3" Height="28.35" Border.Lines="All" Text="[Table.PRD009]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text16" Left="198.45" Width="151.2" Height="28.35" Border.Lines="All" Text="[Table.PRD011]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text17" Left="349.65" Width="132.3" Height="28.35" Border.Lines="All" Text="[Table.PRD034]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text18" Left="481.95" Width="85.05" Height="28.35" Border.Lines="All" Text="[Table.PRD003]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text19" Left="567" Width="75.6" Height="28.35" Border.Lines="All" Text="[Table.PRD019]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text20" Left="642.6" Width="75.6" Height="28.35" Border.Lines="All" Text="[Table.PRD023]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

@@ -1,0 +1,780 @@
+09:47:20.278 @EMP002 系统管理员
+09:47:20.309 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:28:55.132 @EMP002 系统管理员
+10:28:55.179 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:45:02.031 @EMP002 系统管理员
+10:45:02.062 @EMP009 d2f278e251d1566edd72846d4ad97f
+11:46:54.794 执行超时已过期。完成操作之前已超时或服务器未响应。 
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   在 System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 344
+11:46:54.795 SELECT GETDATE() t 
+11:46:54.813 执行超时已过期。完成操作之前已超时或服务器未响应。 
+
+Stack Trace:
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 360
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 218
+   在 CarpenterBll.UserInformation.dt() 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\UserInformation.cs:行号 65
+   在 Carpenter.FormCodeDailyWork.ThreadProcSafePost() 位置 D:\Project data\MoXia\Carpenter\Carpenter\FormCodeDailyWork.cs:行号 541
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+13:50:57.963  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+13:53:45.120  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+13:54:02.920 @EMP002 系统管理员
+13:54:02.935 @EMP009 d2f278e251d1566edd72846d4ad97f
+14:09:59.103  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:10:07.714 @EMP002 系统管理员
+14:10:07.714 @EMP009 d2f278e251d1566edd72846d4ad97f
+14:15:31.687  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:15:41.250 @EMP002 系统管理员
+14:15:41.250 @EMP009 d2f278e251d1566edd72846d4ad97f
+14:17:25.727  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:17:39.689 @EMP002 系统管理员
+14:17:39.689 @EMP009 d2f278e251d1566edd72846d4ad97f
+14:20:36.374  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:20:45.203 @EMP002 系统管理员
+14:20:45.203 @EMP009 d2f278e251d1566edd72846d4ad97f
+14:26:49.146  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:29:46.248 @EMP002 系统管理员
+14:29:46.264 @EMP009 d2f278e251d1566edd72846d4ad97f
+14:52:56.242  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:53:57.347 @EMP002 系统管理员
+14:53:57.347 @EMP009 d2f278e251d1566edd72846d4ad97f
+15:22:20.215  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+15:22:40.839 @EMP002 系统管理员
+15:22:40.839 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+15:22:42.773 @EMP002 系统管理员
+15:22:42.773 @EMP009 d2f278e251d1566edd72846d4ad97f
+15:23:21.899 参数化查询 '(@PRS001 nvarchar(4),@PRS002 nvarchar(15),@PRS031 date)UPDATE MO' 需要参数 '@PRS031'，但未提供该参数。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteNonQueryBool(String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 191
+15:23:21.899 UPDATE MOXPRS SET PRS031=@PRS031 WHERE PRS001=@PRS001 AND PRS002=@PRS002
+15:24:37.265  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+15:25:15.122 @EMP002 系统管理员
+15:25:15.123 @EMP009 d2f278e251d1566edd72846d4ad97f
+15:28:17.766  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+15:28:47.772 @EMP002 系统管理员
+15:28:47.773 @EMP009 6f1ec1fd1b3a20c8aea0e973ec7863
+15:28:51.692 @EMP002 系统管理员
+15:28:51.695 @EMP009 d2f278e251d1566edd72846d4ad97f
+15:29:01.643 参数化查询 '(@PRS001 nvarchar(4),@PRS002 nvarchar(15),@PRS031 date)UPDATE MO' 需要参数 '@PRS031'，但未提供该参数。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteNonQueryBool(String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 191
+15:29:01.645 UPDATE MOXPRS SET PRS031=@PRS031 WHERE PRS001=@PRS001 AND PRS002=@PRS002
+15:30:26.057  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+15:30:34.935 @EMP002 系统管理员
+15:30:34.937 @EMP009 d2f278e251d1566edd72846d4ad97f
+15:31:36.236 参数化查询 '(@PRS001 nvarchar(4),@PRS002 nvarchar(15),@PRS031 date)UPDATE MO' 需要参数 '@PRS031'，但未提供该参数。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteNonQueryBool(String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 191
+15:31:36.237 UPDATE MOXPRS SET PRS031=NULL WHERE PRS001=@PRS001 AND PRS002=@PRS002
+15:33:01.294  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+15:33:17.978 @EMP002 系统管理员
+15:33:17.980 @EMP009 d2f278e251d1566edd72846d4ad97f
+15:34:41.644  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+15:35:07.962 @EMP002 系统管理员
+15:35:07.963 @EMP009 d2f278e251d1566edd72846d4ad97f
+15:44:37.904  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+15:44:42.591 @EMP002 系统管理员
+15:44:42.592 @EMP009 d2f278e251d1566edd72846d4ad97f
+15:46:12.324 列名 'PRS008' 不明确。
+列名 'PRS010' 不明确。
+列名 'PRS031' 不明确。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 344
+15:46:12.326 SELECT A.idx,PAS001,PAS002,PAS003,PAS004,PAS005,OPI006,OPI007,PAS016,PRS008,PRS010,PAS029,PAS007,PAS008,PAS009,PST022,PAS011,PAS012,PAS013,PAS030,CONVERT(BIT,CASE WHEN ISNULL(PAS011,0)=PAS016 THEN 1 ELSE 0 END) PAS017,PRS031 FROM MOXPAS A LEFT JOIN MOXPRS B ON A.PAS001=B.PRS001 AND A.PAS002=B.PRS002 LEFT JOIN MOXOPI C ON A.PAS002=C.OPI001 LEFT JOIN MOXPST D ON A.PAS001=D.PST001 AND A.PAS002=D.PST002 LEFT JOIN MOXPRS E ON A.PAS001=E.PRS001 AND A.PAS002=E.PRS002 WHERE 1=1 AND (PAS018 IS NULL OR PAS018='' OR PAS018='0') ORDER BY PAS017 DESC,PAS001,OPI006
+15:47:28.080  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+15:47:36.312 @EMP002 系统管理员
+15:47:36.313 @EMP009 d2f278e251d1566edd72846d4ad97f
+15:58:58.249 列名 'PRS002' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 344
+15:58:58.251 SELECT A.idx,PDP001,PDP002,PDP003,PDP004,PDP005,PDP006,PDP007,PDP008,PDP009,PDP010,PDP011,PDP012,PDP013,PDP014,PDP015,PDP016,PDP017,PDP018,PDP019,PDP020,PDP021,PDP022,PDP023,PDP024,PDP025,OPI006,PAS011,PAS012,PDP026,PRS031 FROM MOXPDP A LEFT JOIN MOXOPI B ON A.PDP002=B.OPI001 LEFT JOIN MOXPAS C ON A.PDP001=C.PAS001 AND A.PDP002=C.PAS002 LEFT JOIN MOXPRS D ON A.PDP001=D.PRS001 AND A.PDP002=B.PRS002 WHERE 1=1 AND (PDP027 IS NULL OR PDP027='' OR PDP027='0')  ORDER BY PDP026 DESC,PDP001,OPI006
+16:00:01.637  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:00:10.261 @EMP002 系统管理员
+16:00:10.263 @EMP009 d2f278e251d1566edd72846d4ad97f
+16:14:07.114  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:14:41.100 @EMP002 系统管理员
+16:14:41.101 @EMP009 ccefdba16a32341174283820a65de7d7
+16:14:41.613 @EMP002 系统管理员
+16:14:41.615 @EMP009 ccefdba16a32341174283820a65de7d7
+16:14:47.091 @EMP002 系统管理员
+16:14:47.093 @EMP009 d2f278e251d1566edd72846d4ad97f
+16:17:32.706  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:17:40.373 @EMP002 系统管理员
+16:17:40.374 @EMP009 d2f278e251d1566edd72846d4ad97f
+16:19:56.070  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:20:03.740 @EMP002 系统管理员
+16:20:03.741 @EMP009 d2f278e251d1566edd72846d4ad97f
+16:21:42.398  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:22:09.910 @EMP002 系统管理员
+16:22:09.911 @EMP009 d2f278e251d1566edd72846d4ad97f
+16:24:38.875  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:24:43.238 @EMP002 系统管理员
+16:24:43.239 @EMP009 d2f278e251d1566edd72846d4ad97f
+16:27:00.322  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:27:59.076 @EMP002 系统管理员
+16:27:59.077 @EMP009 d2f278e251d1566edd72846d4ad97f
+16:37:58.508  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:38:38.270 @EMP002 系统管理员
+16:38:38.271 @EMP009 d2f278e251d1566edd72846d4ad97f
+16:44:56.853  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:45:16.063 @EMP002 系统管理员
+16:45:16.065 @EMP009 d2f278e251d1566edd72846d4ad97f
+16:58:24.772  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:58:47.278 @EMP002 系统管理员
+16:58:47.279 @EMP009 d2f278e251d1566edd72846d4ad97f
+17:02:51.436  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:03:07.783 @EMP002 系统管理员
+17:03:07.784 @EMP009 d2f278e251d1566edd72846d4ad97f
+17:04:33.996 @PWE001 20180705001
+17:04:33.997 @PWE002 完工
+17:04:33.998 @PWE003 1810-1
+17:04:33.999 @PWE004 51-1.005.01.002
+17:04:34.000 @PWE005 3号双人沙发（不含活动柜）
+17:04:34.001 @PWE006 60
+17:04:34.002 @PWE007 60
+17:04:34.003 @PWE008 
+17:04:34.004 @PWE009 2018/7/5 17:04:33
+17:04:34.005 @PWE010 系统管理员
+17:04:34.006 @PWE011 False
+17:04:34.007 @PWE012 False
+17:04:34.010 @PWD001 20180705001
+17:04:34.012 @PWD002 包装
+17:04:34.012 @PWD003 2018/7/5 17:04:29
+17:04:34.013 @PWD004 2018/7/6 17:04:29
+17:04:34.015 @PWD005 False
+17:04:34.016 @PWD006 False
+17:04:34.017 @PWD007 2018/7/5 17:04:33
+17:04:34.018 @PWD008 系统管理员
+17:04:34.019 @PWD009 0
+17:04:34.020 @PWD010 
+17:04:34.024 @PWE001 20180705001
+17:04:34.026 @PWE002 完工
+17:04:34.027 @PWE003 1811
+17:04:34.028 @PWE004 61-1.005.05.001
+17:04:34.028 @PWE005 1605单人沙发
+17:04:34.029 @PWE006 40
+17:04:34.030 @PWE007 40
+17:04:34.031 @PWE008 
+17:04:34.032 @PWE009 2018/7/5 17:04:33
+17:04:34.033 @PWE010 系统管理员
+17:04:34.035 @PWE011 False
+17:04:34.036 @PWE012 False
+17:04:34.038 @PWE001 20180705001
+17:04:34.039 @PWE002 完工
+17:04:34.040 @PWE003 1811
+17:04:34.041 @PWE004 61-1.005.05.002
+17:04:34.042 @PWE005 1605双人沙发
+17:04:34.043 @PWE006 20
+17:04:34.044 @PWE007 20
+17:04:34.045 @PWE008 
+17:04:34.046 @PWE009 2018/7/5 17:04:33
+17:04:34.047 @PWE010 系统管理员
+17:04:34.048 @PWE011 False
+17:04:34.049 @PWE012 False
+17:04:34.051 @PWE001 20180705001
+17:04:34.052 @PWE002 完工
+17:04:34.053 @PWE003 1810-1
+17:04:34.053 @PWE004 51-1.005.01.003
+17:04:34.055 @PWE005 3号双人沙发活动柜
+17:04:34.056 @PWE006 60
+17:04:34.057 @PWE007 60
+17:04:34.058 @PWE008 
+17:04:34.059 @PWE009 2018/7/5 17:04:33
+17:04:34.060 @PWE010 系统管理员
+17:04:34.061 @PWE011 False
+17:04:34.062 @PWE012 False
+17:04:34.064 @PWE001 20180705001
+17:04:34.066 @PWE002 完工
+17:04:34.067 @PWE003 1810-1
+17:04:34.068 @PWE004 51-1.005.01.001
+17:04:34.069 @PWE005 3号单人沙发
+17:04:34.070 @PWE006 60
+17:04:34.071 @PWE007 60
+17:04:34.072 @PWE008 
+17:04:34.073 @PWE009 2018/7/5 17:04:33
+17:04:34.074 @PWE010 系统管理员
+17:04:34.075 @PWE011 False
+17:04:34.076 @PWE012 False
+17:04:46.540 @PWD001 20180705001
+17:04:46.543 @PWD006 True
+17:04:46.544 @PWD007 2018/7/5 17:04:46
+17:04:46.546 @PWD008 系统管理员
+17:04:46.549 @REV001 FormProductionPaintDay
+17:04:46.550 @REV002 20180705001
+17:04:46.551 @REV003 系统管理员
+17:04:46.552 @REV004 2018/7/5 17:04:46
+17:04:46.553 @REV005 反审核
+17:04:46.554 @REV006 
+17:08:31.865  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:10:42.108 @EMP002 系统管理员
+17:10:42.110 @EMP009 d2f278e251d1566edd72846d4ad97f
+17:11:29.193 @PWF001 20180705001
+17:11:29.194 @PWF002 1810-1
+17:11:29.195 @PWF003 51-1.005.01.003
+17:11:29.196 @PWF004 3号双人沙发活动柜
+17:11:29.197 @PWF005 380*785*390
+17:11:29.198 @PWF006 60
+17:11:29.199 @PWF007 0
+17:11:29.200 @PWF008 0
+17:11:29.201 @PWF009 0
+17:11:29.202 @PWF010 0
+17:11:29.203 @PWF011 0
+17:11:29.204 @PWF012 2018/7/4 17:11:25
+17:11:29.205 @PWF013 2018/7/5 17:11:29
+17:11:29.206 @PWF014 系统管理员
+17:11:29.207 @PWF015 False
+17:11:29.208 @PWF016 60
+17:11:29.209 @PWF017 20180705001
+17:11:29.212 @PWF001 20180705001
+17:11:29.214 @PWF002 1810-1
+17:11:29.214 @PWF003 51-1.005.01.001
+17:11:29.215 @PWF004 3号单人沙发
+17:11:29.216 @PWF005 1100*860*570
+17:11:29.217 @PWF006 60
+17:11:29.218 @PWF007 0
+17:11:29.219 @PWF008 0
+17:11:29.220 @PWF009 0
+17:11:29.221 @PWF010 0
+17:11:29.222 @PWF011 0
+17:11:29.223 @PWF012 2018/7/4 17:11:25
+17:11:29.224 @PWF013 2018/7/5 17:11:29
+17:11:29.225 @PWF014 系统管理员
+17:11:29.226 @PWF015 False
+17:11:29.227 @PWF016 60
+17:11:29.228 @PWF017 20180705001
+17:11:29.230 @PWF001 20180705001
+17:11:29.231 @PWF002 1810-1
+17:11:29.232 @PWF003 51-1.005.01.002
+17:11:29.233 @PWF004 3号双人沙发（不含活动柜）
+17:11:29.234 @PWF005 1880*860*570
+17:11:29.235 @PWF006 60
+17:11:29.236 @PWF007 0
+17:11:29.238 @PWF008 0
+17:11:29.239 @PWF009 0
+17:11:29.240 @PWF010 0
+17:11:29.241 @PWF011 0
+17:11:29.242 @PWF012 2018/7/4 17:11:25
+17:11:29.243 @PWF013 2018/7/5 17:11:29
+17:11:29.244 @PWF014 系统管理员
+17:11:29.245 @PWF015 False
+17:11:29.246 @PWF016 60
+17:11:29.247 @PWF017 20180705001
+17:11:29.249 @PWF001 20180705001
+17:11:29.250 @PWF002 1811
+17:11:29.251 @PWF003 61-1.005.05.001
+17:11:29.252 @PWF004 1605单人沙发
+17:11:29.253 @PWF005 1100*930*890
+17:11:29.254 @PWF006 40
+17:11:29.255 @PWF007 0
+17:11:29.256 @PWF008 0
+17:11:29.257 @PWF009 0
+17:11:29.257 @PWF010 0
+17:11:29.258 @PWF011 0
+17:11:29.259 @PWF012 2018/7/4 17:11:25
+17:11:29.260 @PWF013 2018/7/5 17:11:29
+17:11:29.262 @PWF014 系统管理员
+17:11:29.263 @PWF015 False
+17:11:29.264 @PWF016 40
+17:11:29.265 @PWF017 20180705001
+17:11:29.266 @PWF001 20180705001
+17:11:29.268 @PWF002 1811
+17:11:29.269 @PWF003 61-1.005.05.002
+17:11:29.270 @PWF004 1605双人沙发
+17:11:29.271 @PWF005 1610*930*890
+17:11:29.272 @PWF006 20
+17:11:29.273 @PWF007 0
+17:11:29.274 @PWF008 0
+17:11:29.275 @PWF009 0
+17:11:29.276 @PWF010 0
+17:11:29.277 @PWF011 0
+17:11:29.278 @PWF012 2018/7/4 17:11:25
+17:11:29.279 @PWF013 2018/7/5 17:11:29
+17:11:29.280 @PWF014 系统管理员
+17:11:29.281 @PWF015 False
+17:11:29.282 @PWF016 20
+17:11:29.283 @PWF017 20180705001
+17:12:16.059 @DATE 2018/5/15 0:00:00
+17:12:16.060 @PDP001 1810-1
+17:12:16.061 @PDP002 51-1.005.01.001
+17:12:16.138 '=' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteSqlTran(Hashtable SQLStringList) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 973
+17:12:16.139 UPDATE MOXPDP SET =@DATE WHERE PDP001=@PDP001 AND PDP002=@PDP002
+17:13:28.562  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:13:36.452 @EMP002 系统管理员
+17:13:36.453 @EMP009 d2f278e251d1566edd72846d4ad97f
+17:14:36.944 @PWF001 20180705001
+17:14:36.945 @PWF002 1811
+17:14:36.947 @PWF003 61-1.005.05.002
+17:14:36.948 @PWF004 1605双人沙发
+17:14:36.950 @PWF005 1610*930*890
+17:14:36.951 @PWF006 20
+17:14:36.952 @PWF007 0
+17:14:36.953 @PWF008 0
+17:14:36.954 @PWF009 0
+17:14:36.956 @PWF010 0
+17:14:36.957 @PWF011 0
+17:14:36.962 @PWF012 2018/7/4 17:14:32
+17:14:36.964 @PWF013 2018/7/5 17:14:34
+17:14:36.965 @PWF014 系统管理员
+17:14:36.966 @PWF015 False
+17:14:36.967 @PWF016 20
+17:14:36.969 @PWF017 20180705001
+17:14:36.978 @PWF001 20180705001
+17:14:36.980 @PWF002 1810-1
+17:14:36.981 @PWF003 51-1.005.01.001
+17:14:36.982 @PWF004 3号单人沙发
+17:14:36.983 @PWF005 1100*860*570
+17:14:36.984 @PWF006 60
+17:14:36.986 @PWF007 0
+17:14:36.987 @PWF008 0
+17:14:36.988 @PWF009 0
+17:14:36.990 @PWF010 0
+17:14:36.991 @PWF011 0
+17:14:36.993 @PWF012 2018/7/4 17:14:32
+17:14:36.994 @PWF013 2018/7/5 17:14:34
+17:14:36.995 @PWF014 系统管理员
+17:14:36.996 @PWF015 False
+17:14:36.997 @PWF016 60
+17:14:36.998 @PWF017 20180705001
+17:14:37.000 @PWF001 20180705001
+17:14:37.001 @PWF002 1811
+17:14:37.003 @PWF003 61-1.005.05.001
+17:14:37.004 @PWF004 1605单人沙发
+17:14:37.005 @PWF005 1100*930*890
+17:14:37.006 @PWF006 40
+17:14:37.007 @PWF007 0
+17:14:37.008 @PWF008 0
+17:14:37.009 @PWF009 0
+17:14:37.010 @PWF010 0
+17:14:37.011 @PWF011 0
+17:14:37.013 @PWF012 2018/7/4 17:14:32
+17:14:37.013 @PWF013 2018/7/5 17:14:34
+17:14:37.015 @PWF014 系统管理员
+17:14:37.016 @PWF015 False
+17:14:37.017 @PWF016 40
+17:14:37.019 @PWF017 20180705001
+17:14:37.031 @PWF001 20180705001
+17:14:37.033 @PWF002 1810-1
+17:14:37.034 @PWF003 51-1.005.01.002
+17:14:37.035 @PWF004 3号双人沙发（不含活动柜）
+17:14:37.037 @PWF005 1880*860*570
+17:14:37.038 @PWF006 60
+17:14:37.039 @PWF007 0
+17:14:37.040 @PWF008 0
+17:14:37.041 @PWF009 0
+17:14:37.042 @PWF010 0
+17:14:37.043 @PWF011 0
+17:14:37.044 @PWF012 2018/7/4 17:14:32
+17:14:37.046 @PWF013 2018/7/5 17:14:34
+17:14:37.047 @PWF014 系统管理员
+17:14:37.049 @PWF015 False
+17:14:37.050 @PWF016 60
+17:14:37.052 @PWF017 20180705001
+17:14:37.066 @PWF001 20180705001
+17:14:37.067 @PWF002 1810-1
+17:14:37.068 @PWF003 51-1.005.01.003
+17:14:37.069 @PWF004 3号双人沙发活动柜
+17:14:37.070 @PWF005 380*785*390
+17:14:37.072 @PWF006 60
+17:14:37.073 @PWF007 0
+17:14:37.074 @PWF008 0
+17:14:37.075 @PWF009 0
+17:14:37.076 @PWF010 0
+17:14:37.077 @PWF011 0
+17:14:37.079 @PWF012 2018/7/4 17:14:32
+17:14:37.080 @PWF013 2018/7/5 17:14:34
+17:14:37.081 @PWF014 系统管理员
+17:14:37.082 @PWF015 False
+17:14:37.083 @PWF016 60
+17:14:37.084 @PWF017 20180705001
+17:15:52.934 @DATE 2018/5/15 0:00:00
+17:15:52.935 @PDP001 1810-1
+17:15:52.936 @PDP002 51-1.005.01.001
+17:15:53.005 '=' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteSqlTran(Hashtable SQLStringList) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 973
+17:15:53.006 UPDATE MOXPDP SET =@DATE WHERE PDP001=@PDP001 AND PDP002=@PDP002
+17:17:45.169  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:19:33.511 @EMP002 系统管理员
+17:19:33.513 @EMP009 d2f278e251d1566edd72846d4ad97f
+17:20:25.409 @PWF001 20180705001
+17:20:25.410 @PWF002 1810-1
+17:20:25.411 @PWF003 51-1.005.01.003
+17:20:25.412 @PWF004 3号双人沙发活动柜
+17:20:25.413 @PWF005 380*785*390
+17:20:25.414 @PWF006 60
+17:20:25.415 @PWF007 0
+17:20:25.416 @PWF008 0
+17:20:25.417 @PWF009 0
+17:20:25.418 @PWF010 0
+17:20:25.420 @PWF011 0
+17:20:25.421 @PWF012 2018/7/4 17:20:24
+17:20:25.421 @PWF013 2018/7/5 17:20:25
+17:20:25.422 @PWF014 系统管理员
+17:20:25.423 @PWF015 False
+17:20:25.424 @PWF016 60
+17:20:25.425 @PWF017 20180705001
+17:20:25.438 @PWF001 20180705001
+17:20:25.439 @PWF002 1811
+17:20:25.440 @PWF003 61-1.005.05.001
+17:20:25.441 @PWF004 1605单人沙发
+17:20:25.442 @PWF005 1100*930*890
+17:20:25.443 @PWF006 40
+17:20:25.444 @PWF007 0
+17:20:25.445 @PWF008 0
+17:20:25.446 @PWF009 0
+17:20:25.448 @PWF010 0
+17:20:25.449 @PWF011 0
+17:20:25.450 @PWF012 2018/7/4 17:20:24
+17:20:25.451 @PWF013 2018/7/5 17:20:25
+17:20:25.452 @PWF014 系统管理员
+17:20:25.453 @PWF015 False
+17:20:25.454 @PWF016 40
+17:20:25.455 @PWF017 20180705001
+17:20:25.457 @PWF001 20180705001
+17:20:25.458 @PWF002 1810-1
+17:20:25.459 @PWF003 51-1.005.01.002
+17:20:25.461 @PWF004 3号双人沙发（不含活动柜）
+17:20:25.462 @PWF005 1880*860*570
+17:20:25.462 @PWF006 60
+17:20:25.463 @PWF007 0
+17:20:25.464 @PWF008 0
+17:20:25.465 @PWF009 0
+17:20:25.466 @PWF010 0
+17:20:25.467 @PWF011 0
+17:20:25.468 @PWF012 2018/7/4 17:20:24
+17:20:25.469 @PWF013 2018/7/5 17:20:25
+17:20:25.470 @PWF014 系统管理员
+17:20:25.471 @PWF015 False
+17:20:25.472 @PWF016 60
+17:20:25.473 @PWF017 20180705001
+17:20:25.474 @PWF001 20180705001
+17:20:25.476 @PWF002 1811
+17:20:25.477 @PWF003 61-1.005.05.002
+17:20:25.478 @PWF004 1605双人沙发
+17:20:25.479 @PWF005 1610*930*890
+17:20:25.479 @PWF006 20
+17:20:25.480 @PWF007 0
+17:20:25.481 @PWF008 0
+17:20:25.482 @PWF009 0
+17:20:25.483 @PWF010 0
+17:20:25.484 @PWF011 0
+17:20:25.485 @PWF012 2018/7/4 17:20:24
+17:20:25.486 @PWF013 2018/7/5 17:20:25
+17:20:25.487 @PWF014 系统管理员
+17:20:25.488 @PWF015 False
+17:20:25.489 @PWF016 20
+17:20:25.489 @PWF017 20180705001
+17:20:25.492 @PWF001 20180705001
+17:20:25.493 @PWF002 1810-1
+17:20:25.494 @PWF003 51-1.005.01.001
+17:20:25.494 @PWF004 3号单人沙发
+17:20:25.495 @PWF005 1100*860*570
+17:20:25.496 @PWF006 60
+17:20:25.497 @PWF007 0
+17:20:25.498 @PWF008 0
+17:20:25.499 @PWF009 0
+17:20:25.500 @PWF010 0
+17:20:25.500 @PWF011 0
+17:20:25.501 @PWF012 2018/7/4 17:20:24
+17:20:25.502 @PWF013 2018/7/5 17:20:25
+17:20:25.503 @PWF014 系统管理员
+17:20:25.504 @PWF015 False
+17:20:25.505 @PWF016 60
+17:20:25.506 @PWF017 20180705001
+17:20:45.041 @DATE 2018/5/15 0:00:00
+17:20:45.042 @PDP001 1810-1
+17:20:45.043 @PDP002 51-1.005.01.003
+17:20:45.048 @DATE 2018/6/20 0:00:00
+17:20:45.050 @PDP001 1811
+17:20:45.051 @PDP002 61-1.005.05.001
+17:20:45.054 @DATE 2018/5/15 0:00:00
+17:20:45.055 @PDP001 1810-1
+17:20:45.056 @PDP002 51-1.005.01.001
+17:20:45.060 @DATE 2018/5/15 0:00:00
+17:20:45.061 @PDP001 1810-1
+17:20:45.062 @PDP002 51-1.005.01.002
+17:20:45.066 @DATE 2018/6/20 0:00:00
+17:20:45.067 @PDP001 1811
+17:20:45.069 @PDP002 61-1.005.05.002
+17:28:40.192  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:29:20.335 @EMP002 系统管理员
+17:29:20.337 @EMP009 d2f278e251d1566edd72846d4ad97f
+17:30:17.212 @PWF001 20180705001
+17:30:17.214 @PWF002 1810-1
+17:30:17.215 @PWF003 51-1.005.01.001
+17:30:17.215 @PWF004 3号单人沙发
+17:30:17.216 @PWF005 1100*860*570
+17:30:17.217 @PWF006 60
+17:30:17.218 @PWF007 0
+17:30:17.219 @PWF008 0
+17:30:17.220 @PWF009 0
+17:30:17.221 @PWF010 0
+17:30:17.222 @PWF011 0
+17:30:17.223 @PWF012 2018/7/4 17:30:14
+17:30:17.224 @PWF013 2018/7/5 17:30:17
+17:30:17.225 @PWF014 系统管理员
+17:30:17.226 @PWF015 False
+17:30:17.227 @PWF016 60
+17:30:17.228 @PWF017 20180705001
+17:30:17.232 @PWF001 20180705001
+17:30:17.233 @PWF002 1811
+17:30:17.237 @PWF003 61-1.005.05.002
+17:30:17.238 @PWF004 1605双人沙发
+17:30:17.240 @PWF005 1610*930*890
+17:30:17.242 @PWF006 20
+17:30:17.243 @PWF007 0
+17:30:17.244 @PWF008 0
+17:30:17.245 @PWF009 0
+17:30:17.246 @PWF010 0
+17:30:17.248 @PWF011 0
+17:30:17.249 @PWF012 2018/7/4 17:30:14
+17:30:17.251 @PWF013 2018/7/5 17:30:17
+17:30:17.252 @PWF014 系统管理员
+17:30:17.253 @PWF015 False
+17:30:17.254 @PWF016 20
+17:30:17.255 @PWF017 20180705001
+17:30:17.263 @PWF001 20180705001
+17:30:17.264 @PWF002 1810-1
+17:30:17.265 @PWF003 51-1.005.01.003
+17:30:17.267 @PWF004 3号双人沙发活动柜
+17:30:17.268 @PWF005 380*785*390
+17:30:17.270 @PWF006 60
+17:30:17.271 @PWF007 0
+17:30:17.272 @PWF008 0
+17:30:17.274 @PWF009 0
+17:30:17.275 @PWF010 0
+17:30:17.276 @PWF011 0
+17:30:17.277 @PWF012 2018/7/4 17:30:14
+17:30:17.278 @PWF013 2018/7/5 17:30:17
+17:30:17.279 @PWF014 系统管理员
+17:30:17.280 @PWF015 False
+17:30:17.281 @PWF016 60
+17:30:17.282 @PWF017 20180705001
+17:30:17.290 @PWF001 20180705001
+17:30:17.292 @PWF002 1810-1
+17:30:17.293 @PWF003 51-1.005.01.002
+17:30:17.294 @PWF004 3号双人沙发（不含活动柜）
+17:30:17.295 @PWF005 1880*860*570
+17:30:17.296 @PWF006 60
+17:30:17.297 @PWF007 0
+17:30:17.298 @PWF008 0
+17:30:17.299 @PWF009 0
+17:30:17.300 @PWF010 0
+17:30:17.301 @PWF011 0
+17:30:17.302 @PWF012 2018/7/4 17:30:14
+17:30:17.303 @PWF013 2018/7/5 17:30:17
+17:30:17.304 @PWF014 系统管理员
+17:30:17.305 @PWF015 False
+17:30:17.306 @PWF016 60
+17:30:17.307 @PWF017 20180705001
+17:30:17.309 @PWF001 20180705001
+17:30:17.310 @PWF002 1811
+17:30:17.311 @PWF003 61-1.005.05.001
+17:30:17.312 @PWF004 1605单人沙发
+17:30:17.313 @PWF005 1100*930*890
+17:30:17.314 @PWF006 40
+17:30:17.315 @PWF007 0
+17:30:17.316 @PWF008 0
+17:30:17.317 @PWF009 0
+17:30:17.318 @PWF010 0
+17:30:17.319 @PWF011 0
+17:30:17.320 @PWF012 2018/7/4 17:30:14
+17:30:17.321 @PWF013 2018/7/5 17:30:17
+17:30:17.322 @PWF014 系统管理员
+17:30:17.323 @PWF015 False
+17:30:17.324 @PWF016 40
+17:30:17.325 @PWF017 20180705001
+17:33:31.630 @DATE 2018/5/15 0:00:00
+17:33:31.631 @PDP001 1810-1
+17:33:31.632 @PDP002 51-1.005.01.003
+17:33:31.637 @DATE 2018/5/15 0:00:00
+17:33:31.638 @PDP001 1810-1
+17:33:31.639 @PDP002 51-1.005.01.002
+17:33:31.644 @DATE 2018/6/20 0:00:00
+17:33:31.645 @PDP001 1811
+17:33:31.646 @PDP002 61-1.005.05.002
+17:33:31.650 @DATE 2018/5/15 0:00:00
+17:33:31.652 @PDP001 1810-1
+17:33:31.653 @PDP002 51-1.005.01.001
+17:33:31.656 @DATE 2018/6/20 0:00:00
+17:33:31.658 @PDP001 1811
+17:33:31.659 @PDP002 61-1.005.05.001
+17:34:36.402 @DATE 2018/6/27 0:00:00
+17:34:36.403 @PDP001 1818
+17:34:36.404 @PDP002 61-1.002.09.003-2
+17:34:36.410 @DATE 2018/6/27 0:00:00
+17:34:36.411 @PDP001 1818
+17:34:36.412 @PDP002 61-1.002.09.003
+17:34:36.416 @DATE 2018/6/27 0:00:00
+17:34:36.418 @PDP001 1818
+17:34:36.419 @PDP002 61-1.003.03.003
+17:34:36.422 @DATE 2018/6/28 0:00:00
+17:34:36.423 @PDP001 1818
+17:34:36.424 @PDP002 58-1.001.01.004
+17:34:36.429 @DATE 2018/6/27 0:00:00
+17:34:36.431 @PDP001 1818
+17:34:36.432 @PDP002 61-1.003.03.001-1
+17:34:36.436 @DATE 2018/6/27 0:00:00
+17:34:36.437 @PDP001 1818
+17:34:36.438 @PDP002 58-1.009.01.004
+17:34:36.441 @DATE 2018/6/27 0:00:00
+17:34:36.443 @PDP001 1818
+17:34:36.444 @PDP002 58-1.004.03.003
+17:34:36.448 @DATE 2018/6/27 0:00:00
+17:34:36.449 @PDP001 1818
+17:34:36.450 @PDP002 61-1.003.03.001
+17:34:36.454 @DATE 2018/6/26 0:00:00
+17:34:36.455 @PDP001 1815
+17:34:36.456 @PDP002 51-1.006.03.002-1
+17:34:36.460 @DATE 2018/6/27 0:00:00
+17:34:36.461 @PDP001 1815
+17:34:36.463 @PDP002 61-1.004.01.021
+17:34:36.467 @DATE 2018/6/27 0:00:00
+17:34:36.468 @PDP001 1815
+17:34:36.469 @PDP002 61-1.006.02.003
+17:34:36.473 @DATE 2018/6/28 0:00:00
+17:34:36.474 @PDP001 1817
+17:34:36.475 @PDP002 61-1.004.01.006

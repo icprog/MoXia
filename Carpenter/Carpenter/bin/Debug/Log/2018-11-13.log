@@ -1,0 +1,179 @@
+16:41:31.502 @EMP002 系统管理员
+16:41:31.510 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+16:41:35.824 @EMP002 系统管理员
+16:41:35.824 @EMP009 d2f278e251d1566edd72846d4ad97f
+17:17:34.755 @EMP002 系统管理员
+17:17:34.763 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+17:17:37.732 @EMP002 系统管理员
+17:17:37.732 @EMP009 d2f278e251d1566edd72846d4ad97f
+17:38:33.236    在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 282
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:38:39.409    在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 282
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:39:55.953    在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 283
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:40:31.167    在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 283
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:42:27.928    在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 283
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:42:31.443    在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 283
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:42:39.962    在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 283
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:43:39.853    在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 283
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:43:42.954    在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 283
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:44:01.434    在 System.Data.SqlClient.SqlConnection.PermissionDemand()
+   在 System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 288
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:44:04.863    在 System.Data.SqlClient.SqlConnection.PermissionDemand()
+   在 System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 288
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:45:13.936    在 System.Data.SqlClient.SqlConnection.PermissionDemand()
+   在 System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 289
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:45:16.789    在 System.Data.SqlClient.SqlConnection.PermissionDemand()
+   在 System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 289
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:47:42.426    在 System.Data.SqlClient.SqlConnection.PermissionDemand()
+   在 System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 289
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:48:34.070    在 System.Data.SqlClient.SqlConnection.PermissionDemand()
+   在 System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteDataTable(String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 289
+   在 CarpenterBll.Dao.EmployeeDao.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 241
+   在 CarpenterBll.Bll.EmployeeBll.GetUserNum(String username) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 100
+   在 Carpenter.FormLogin.readNum() 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 108
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 69
+17:50:17.119 ExecuteScalar: Connection 属性尚未初始化。
+   在 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 StudentMgr.SqlHelper.GetSingle(String SQLSting, Object[] parameter) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 914
+   在 StudentMgr.SqlHelper.Exists(String sql, Object[] parameter) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 956
+17:50:17.125 SELECT COUNT(1) COUN FROM MOXEMP WHERE EMP002=@EMP002 AND EMP009=@EMP009 AND EMP008=0
+17:50:17.725    在 StudentMgr.SqlHelper.Exists(String sql, Object[] parameter) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 967
+   在 CarpenterBll.Dao.EmployeeDao.yesOrNoLogin(String userName, String pwdMD5) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 223
+   在 CarpenterBll.Bll.EmployeeBll.yesOrNoLogin(String userName, String pwdMD5) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 90
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 84
+18:01:28.870 ExecuteScalar: Connection 属性尚未初始化。
+   在 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 StudentMgr.SqlHelper.GetSingle(String SQLSting, Object[] parameter) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 940
+   在 StudentMgr.SqlHelper.Exists(String sql, Object[] parameter) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 982
+18:01:28.875 SELECT COUNT(1) COUN FROM MOXEMP WHERE EMP002=@EMP002 AND EMP009=@EMP009 AND EMP008=0
+18:01:29.473    在 StudentMgr.SqlHelper.Exists(String sql, Object[] parameter) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\SqlHelper.cs:行号 993
+   在 CarpenterBll.Dao.EmployeeDao.yesOrNoLogin(String userName, String pwdMD5) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Dao\EmployeeDao.cs:行号 223
+   在 CarpenterBll.Bll.EmployeeBll.yesOrNoLogin(String userName, String pwdMD5) 位置 D:\ProjectData\MoXia\Project\Carpenter\CarpenterBll\Bll\EmployeeBll.cs:行号 90
+   在 Carpenter.FormLogin.btnOk_Click(Object sender, EventArgs e) 位置 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\FormLogin.cs:行号 84

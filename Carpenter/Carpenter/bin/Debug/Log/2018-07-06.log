@@ -1,0 +1,555 @@
+08:40:42.186  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+08:44:38.587 @EMP002 系统管理员
+08:44:38.588 @EMP009 d2f278e251d1566edd72846d4ad97f
+08:48:09.762  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+08:52:57.773 @EMP002 系统管理员
+08:52:57.775 @EMP009 d2f278e251d1566edd72846d4ad97f
+09:20:41.507  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+09:20:50.937 @EMP002 系统管理员
+09:20:50.938 @EMP009 d2f278e251d1566edd72846d4ad97f
+09:23:09.460  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+09:23:18.511 @EMP002 系统管理员
+09:23:18.512 @EMP009 d2f278e251d1566edd72846d4ad97f
+09:24:15.668 @PBA001 51-1.001.02.003
+09:24:15.671 @PBA002 12号床靠1.5米
+09:24:15.673 @PBA003 主面
+09:24:15.674 @PBA004 1
+09:24:15.675 @PBA005 兰卡威
+09:24:15.680 @PBA001 2870.3000
+09:24:15.681 @PBA002 2号硬包
+09:24:15.682 @PBA003 次面
+09:24:15.683 @PBA004 2
+09:24:15.684 @PBA005 装材
+09:24:15.697 @PBA001 51-1.001.02.009
+09:24:15.699 @PBA002 21号床靠1.8米
+09:24:15.700 @PBA003 次面
+09:24:15.701 @PBA004 4
+09:24:15.702 @PBA005 兰卡威
+09:24:15.705 @PBA001 51-1.001.02.014
+09:24:15.706 @PBA002 50号床靠1.8米
+09:24:15.707 @PBA003 主面
+09:24:15.708 @PBA004 3
+09:24:15.709 @PBA005 兰卡威
+09:27:17.505  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+09:27:22.650 @EMP002 系统管理员
+09:27:22.651 @EMP009 d2f278e251d1566edd72846d4ad97f
+09:27:50.589 @PBA001 2870.3000
+09:27:50.590 @PBA002 2号硬包
+09:27:50.591 @PBA003 次面
+09:27:50.593 @PBA004 2
+09:27:50.595 @PBA005 装材
+09:27:50.596 @idx 2
+09:27:50.602 @PBA001 51-1.001.03.018
+09:27:50.604 @PBA002 床铺板（新）1.8米
+09:27:50.605 @PBA003 主面
+09:27:50.606 @PBA004 3
+09:27:50.607 @PBA005 兰卡威
+09:27:50.609 @idx 4
+09:27:50.612 @PBA001 51-1.001.02.009
+09:27:50.613 @PBA002 21号床靠1.8米
+09:27:50.614 @PBA003 次面
+09:27:50.615 @PBA004 4
+09:27:50.617 @PBA005 兰卡威
+09:27:50.618 @idx 3
+09:27:50.622 @PBA001 51-1.001.02.003
+09:27:50.624 @PBA002 12号床靠1.5米
+09:27:50.625 @PBA003 主面
+09:27:50.627 @PBA004 1
+09:27:50.628 @PBA005 兰卡威
+09:27:50.630 @idx 1
+11:33:56.011  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+11:35:57.299 @EMP002 系统管理员
+11:35:57.301 @EMP009 d2f278e251d1566edd72846d4ad97f
+11:36:47.831  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+11:36:54.105 @EMP002 系统管理员
+11:36:54.106 @EMP009 d2f278e251d1566edd72846d4ad97f
+12:00:08.044  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+12:01:40.320 @EMP002 系统管理员
+12:01:40.321 @EMP009 d2f278e251d1566edd72846d4ad97f
+12:02:50.152  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+12:02:57.563 @EMP002 系统管理员
+12:02:57.564 @EMP009 d2f278e251d1566edd72846d4ad97f
+12:04:58.023  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+12:06:00.405 @EMP002 系统管理员
+12:06:00.406 @EMP009 d2f278e251d1566edd72846d4ad97f
+12:06:57.360  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+12:07:05.137 @EMP002 系统管理员
+12:07:05.139 @EMP009 d2f278e251d1566edd72846d4ad97f
+12:08:03.011 从字符串转换日期和/或时间时，转换失败。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   在 System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   在 System.Data.SqlClient.SqlDataReader.Read()
+   在 System.Data.SqlClient.SqlCommand.CompleteExecuteScalar(SqlDataReader ds, Boolean returnSqlValue)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 StudentMgr.SqlHelper.GetSingle(String SQLSting, Object[] parameter) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 747
+12:08:03.012 SELECT COUNT(1) FROM MOXEPP WHERE EPP001='兰卡威' AND EPP002='次面' AND EPP003='1v' AND EPP004='底漆' AND EPP005='2v' AND EPP007='1'
+12:08:03.067 从字符串转换日期和/或时间时，转换失败。
+   在 StudentMgr.SqlHelper.GetSingle(String SQLSting, Object[] parameter) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 767
+   在 StudentMgr.SqlHelper.Exists(String sql, Object[] parameter) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 787
+12:08:03.068 SELECT COUNT(1) FROM MOXEPP WHERE EPP001='兰卡威' AND EPP002='次面' AND EPP003='1v' AND EPP004='底漆' AND EPP005='2v' AND EPP007='1'
+12:49:07.836  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+12:49:22.412 @EMP002 系统管理员
+12:49:22.413 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+12:49:24.463 @EMP002 系统管理员
+12:49:24.465 @EMP009 d2f278e251d1566edd72846d4ad97f
+12:49:45.827 @EPP001 兰卡威
+12:49:45.830 @EPP002 次面
+12:49:45.831 @EPP003 1v
+12:49:45.832 @EPP004 底漆
+12:49:45.833 @EPP005 2v
+12:49:45.834 @EPP006 1
+12:49:45.835 @EPP007 2018/7/5 0:00:00
+12:49:45.917 将参数值从 String 转换到 Decimal 失败。
+   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters, Boolean includeReturnValue)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteSqlTran(Hashtable SQLStringList) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 973
+12:49:45.919 INSERT INTO MOXEPP(EPP001,EPP002,EPP003,EPP004,EPP005,EPP006,EPP007) VALUES (@EPP001,@EPP002,@EPP003,@EPP004,@EPP005,@EPP006,@EPP007)
+12:53:39.474  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+12:53:49.295 @EMP002 系统管理员
+12:53:49.296 @EMP009 d2f278e251d1566edd72846d4ad97f
+12:54:10.038 @EPP001 兰卡威
+12:54:10.040 @EPP002 次面
+12:54:10.042 @EPP003 1v
+12:54:10.043 @EPP004 底漆
+12:54:10.044 @EPP005 2v
+12:54:10.045 @EPP006 2
+12:54:10.045 @EPP007 2018/7/6 0:00:00
+12:54:30.448 @EPP001 兰卡威
+12:54:30.451 @EPP002 主面
+12:54:30.454 @EPP003 1v
+12:54:30.457 @EPP004 底漆
+12:54:30.461 @EPP005 2v
+12:54:30.463 @EPP006 1
+12:54:30.466 @EPP007 2018/7/6 0:00:00
+12:54:52.236 @EPP001 兰卡威
+12:54:52.238 @EPP002 次面
+12:54:52.240 @EPP003 1v
+12:54:52.241 @EPP004 底漆
+12:54:52.242 @EPP005 2v
+12:54:52.244 @EPP006 3
+12:54:52.245 @EPP007 2018/7/7 0:00:00
+12:56:42.787  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+12:56:58.689 @EMP002 系统管理员
+12:56:58.691 @EMP009 d2f278e251d1566edd72846d4ad97f
+12:58:09.185  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+12:58:55.832 @EMP002 系统管理员
+12:58:55.834 @EMP009 d2f278e251d1566edd72846d4ad97f
+12:59:38.167  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+12:59:44.255 @EMP002 系统管理员
+12:59:44.256 @EMP009 d2f278e251d1566edd72846d4ad97f
+13:00:24.592  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+13:00:37.258 @EMP002 系统管理员
+13:00:37.260 @EMP009 d2f278e251d1566edd72846d4ad97f
+13:03:44.873 @idx 2
+13:03:44.877 @EPP001 兰卡威
+13:03:44.878 @EPP002 次面
+13:03:44.879 @EPP003 1v
+13:03:44.880 @EPP004 底漆
+13:03:44.881 @EPP005 2v
+13:03:44.882 @EPP006 3
+13:03:44.883 @EPP007 2018/7/7 0:00:00
+13:03:44.884 @idx 3
+13:03:44.888 @EPP001 兰卡威
+13:03:44.889 @EPP002 次面
+13:03:44.890 @EPP003 1v
+13:03:44.892 @EPP004 底漆
+13:03:44.893 @EPP005 2v
+13:03:44.894 @EPP006 2
+13:03:44.895 @EPP007 2018/7/6 0:00:00
+13:03:44.896 @idx 1
+13:03:48.797 @idx 3
+13:03:48.801 @idx 1
+13:04:41.392  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+13:04:48.140 @EMP002 系统管理员
+13:04:48.141 @EMP009 d2f278e251d1566edd72846d4ad97f
+13:06:24.197  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+13:06:33.048 @EMP002 系统管理员
+13:06:33.049 @EMP009 d2f278e251d1566edd72846d4ad97f
+13:17:44.793  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+13:17:53.323 @EMP002 系统管理员
+13:17:53.324 @EMP009 d2f278e251d1566edd72846d4ad97f
+13:18:53.351 @PBA001 51-1.001.02.003
+13:18:53.353 @PBA002 12号床靠1.5米
+13:18:53.354 @PBA003 面板
+13:18:53.356 @PBA004 1
+13:18:53.357 @PBA005 兰卡威
+13:18:53.358 @idx 1
+13:18:53.363 @PBA001 51-1.001.02.009
+13:18:53.365 @PBA002 21号床靠1.8米
+13:18:53.366 @PBA003 面板
+13:18:53.366 @PBA004 4
+13:18:53.367 @PBA005 兰卡威
+13:18:53.368 @idx 3
+13:18:53.370 @PBA001 51-1.001.03.018
+13:18:53.372 @PBA002 床铺板（新）1.8米
+13:18:53.372 @PBA003 面板
+13:18:53.373 @PBA004 3
+13:18:53.374 @PBA005 兰卡威
+13:18:53.375 @idx 4
+13:18:53.377 @PBA001 2870.3000
+13:18:53.379 @PBA002 2号硬包
+13:18:53.379 @PBA003 面板
+13:18:53.380 @PBA004 2
+13:18:53.381 @PBA005 装材
+13:18:53.382 @idx 2
+13:20:43.104 @EPP001 兰卡威
+13:20:43.105 @EPP002 面板
+13:20:43.106 @EPP003 主面
+13:20:43.107 @EPP004 底漆
+13:20:43.108 @EPP005 HX-T底漆
+13:20:43.109 @EPP006 0.25
+13:20:43.110 @EPP007 2018/7/6 0:00:00
+13:20:43.113 @EPP001 兰卡威
+13:20:43.114 @EPP002 面板
+13:20:43.115 @EPP003 主面
+13:20:43.116 @EPP004 面漆
+13:20:43.117 @EPP005 HX-T底漆
+13:20:43.118 @EPP006 0.8
+13:20:43.119 @EPP007 2018/7/6 0:00:00
+13:20:43.122 @EPP001 兰卡威
+13:20:43.123 @EPP002 面板
+13:20:43.124 @EPP003 次面
+13:20:43.125 @EPP004 修色
+13:20:43.126 @EPP005 HX-T底漆
+13:20:43.127 @EPP006 0.4
+13:20:43.128 @EPP007 2018/7/6 0:00:00
+13:20:43.130 @EPP001 装材
+13:20:43.131 @EPP002 面板
+13:20:43.132 @EPP003 主面
+13:20:43.134 @EPP004 底漆
+13:20:43.135 @EPP005 HX-T底漆
+13:20:43.136 @EPP006 0.6
+13:20:43.137 @EPP007 2018/7/6 0:00:00
+13:20:43.139 @EPP001 装材
+13:20:43.140 @EPP002 面板
+13:20:43.141 @EPP003 次面
+13:20:43.143 @EPP004 修色
+13:20:43.144 @EPP005 HX-T底漆
+13:20:43.145 @EPP006 0.9
+13:20:43.145 @EPP007 2018/7/6 0:00:00
+13:21:14.357 @WXP001 201807
+13:21:14.359 @WXP002 HX-T底漆
+13:21:14.360 @WXP003 63YA6
+13:21:14.362 @WXP004 公斤
+13:21:14.362 @WXP005 100
+14:06:20.397  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:06:34.843 @EMP002 系统管理员
+14:06:34.844 @EMP009 d2f278e251d1566edd72846d4ad97f
+14:08:58.126 @EPP001 装材
+14:08:58.127 @EPP002 面板
+14:08:58.129 @EPP003 次面
+14:08:58.130 @EPP004 修色
+14:08:58.131 @EPP005 HX-T底漆
+14:08:58.132 @EPP006 0.9
+14:08:58.132 @EPP007 2018/6/6 0:00:00
+14:08:58.133 @idx 8
+14:08:58.138 @EPP001 兰卡威
+14:08:58.140 @EPP002 面板
+14:08:58.140 @EPP003 主面
+14:08:58.142 @EPP004 面漆
+14:08:58.142 @EPP005 HX-T底漆
+14:08:58.143 @EPP006 0.8
+14:08:58.144 @EPP007 2018/6/6 0:00:00
+14:08:58.145 @idx 5
+14:08:58.147 @EPP001 兰卡威
+14:08:58.148 @EPP002 面板
+14:08:58.149 @EPP003 主面
+14:08:58.150 @EPP004 底漆
+14:08:58.151 @EPP005 HX-T底漆
+14:08:58.152 @EPP006 0.6
+14:08:58.153 @EPP007 2018/7/8 0:00:00
+14:08:58.156 @EPP001 兰卡威
+14:08:58.157 @EPP002 面板
+14:08:58.158 @EPP003 主面
+14:08:58.159 @EPP004 底漆
+14:08:58.160 @EPP005 HX-T底漆
+14:08:58.161 @EPP006 0.25
+14:08:58.162 @EPP007 2018/6/6 0:00:00
+14:08:58.163 @idx 4
+14:08:58.166 @EPP001 装材
+14:08:58.168 @EPP002 面板
+14:08:58.169 @EPP003 主面
+14:08:58.170 @EPP004 底漆
+14:08:58.171 @EPP005 HX-T底漆
+14:08:58.172 @EPP006 0.6
+14:08:58.173 @EPP007 2018/6/6 0:00:00
+14:08:58.174 @idx 7
+14:08:58.176 @EPP001 兰卡威
+14:08:58.177 @EPP002 面板
+14:08:58.178 @EPP003 主面
+14:08:58.179 @EPP004 面漆
+14:08:58.181 @EPP005 HX-T底漆
+14:08:58.182 @EPP006 0.2
+14:08:58.183 @EPP007 2018/7/17 0:00:00
+14:08:58.185 @EPP001 兰卡威
+14:08:58.186 @EPP002 面板
+14:08:58.188 @EPP003 次面
+14:08:58.189 @EPP004 修色
+14:08:58.190 @EPP005 HX-T底漆
+14:08:58.191 @EPP006 0.4
+14:08:58.191 @EPP007 2018/6/18 0:00:00
+14:08:58.192 @idx 6
+14:09:38.085 @EPP001 装材
+14:09:38.087 @EPP002 面板
+14:09:38.088 @EPP003 次面
+14:09:38.090 @EPP004 修色
+14:09:38.091 @EPP005 HX-T底漆
+14:09:38.092 @EPP006 0.9
+14:09:38.093 @EPP007 2018/6/6 0:00:00
+14:09:38.094 @idx 8
+14:09:38.096 @EPP001 兰卡威
+14:09:38.098 @EPP002 面板
+14:09:38.099 @EPP003 主面
+14:09:38.100 @EPP004 底漆
+14:09:38.101 @EPP005 HX-T底漆
+14:09:38.102 @EPP006 0.6
+14:09:38.103 @EPP007 2018/6/8 0:00:00
+14:09:38.104 @idx 9
+14:09:38.106 @EPP001 装材
+14:09:38.108 @EPP002 面板
+14:09:38.109 @EPP003 主面
+14:09:38.110 @EPP004 底漆
+14:09:38.111 @EPP005 HX-T底漆
+14:09:38.112 @EPP006 0.6
+14:09:38.112 @EPP007 2018/6/6 0:00:00
+14:09:38.113 @idx 7
+14:09:38.116 @EPP001 兰卡威
+14:09:38.117 @EPP002 面板
+14:09:38.118 @EPP003 主面
+14:09:38.119 @EPP004 面漆
+14:09:38.120 @EPP005 HX-T底漆
+14:09:38.121 @EPP006 0.8
+14:09:38.122 @EPP007 2018/6/6 0:00:00
+14:09:38.123 @idx 5
+14:09:38.125 @EPP001 兰卡威
+14:09:38.127 @EPP002 面板
+14:09:38.129 @EPP003 次面
+14:09:38.130 @EPP004 修色
+14:09:38.132 @EPP005 HX-T底漆
+14:09:38.133 @EPP006 0.4
+14:09:38.134 @EPP007 2018/6/18 0:00:00
+14:09:38.136 @idx 6
+14:09:38.138 @EPP001 兰卡威
+14:09:38.139 @EPP002 面板
+14:09:38.140 @EPP003 主面
+14:09:38.141 @EPP004 面漆
+14:09:38.142 @EPP005 HX-T底漆
+14:09:38.143 @EPP006 0.2
+14:09:38.144 @EPP007 2018/6/17 0:00:00
+14:09:38.145 @idx 10
+14:09:38.147 @EPP001 兰卡威
+14:09:38.148 @EPP002 面板
+14:09:38.149 @EPP003 主面
+14:09:38.150 @EPP004 底漆
+14:09:38.151 @EPP005 HX-T底漆
+14:09:38.152 @EPP006 0.25
+14:09:38.154 @EPP007 2018/6/6 0:00:00
+14:09:38.154 @idx 4
+14:34:30.632  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:35:15.822 @EMP002 系统管理员
+14:35:15.824 @EMP009 d2f278e251d1566edd72846d4ad97f
+14:36:21.231  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:36:28.464 @EMP002 系统管理员
+14:36:28.465 @EMP009 d2f278e251d1566edd72846d4ad97f
+14:37:29.196 @EPA001 201806
+14:37:29.197 @EPA002 HX-T底漆
+14:37:29.198 @EPA006 222.000000
+14:39:19.072 @EPA001 201806
+14:39:19.074 @EPA002 HX-T底漆
+14:39:19.076 @EPA008 100
+14:39:21.120 @EPA001 201806
+14:39:21.121 @EPA002 HX-T底漆
+14:39:21.122 @EPA006 222.000000
+14:39:51.955 @EPA001 201806
+14:39:51.956 @EPA002 HX-T底漆
+14:39:51.957 @EPA003 1.2
+14:39:51.958 @EPA004 23
+14:39:51.959 @EPA005 32
+14:39:51.960 @EPA006 222
+14:39:51.961 @EPA007 
+14:39:51.962 @EPA008 100
+14:39:51.963 @idx 3
+14:42:41.835  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:42:46.990 @EMP002 系统管理员
+14:42:46.991 @EMP009 d2f278e251d1566edd72846d4ad97f
+14:43:07.969 @EPA001 201806
+14:43:07.970 @EPA002 HX-T底漆
+14:43:07.971 @EPA008 100
+14:43:09.984 @EPA001 201806
+14:43:09.985 @EPA002 HX-T底漆
+14:43:09.986 @EPA006 222.000000
+14:46:25.377 @EPP001 兰卡威
+14:46:25.379 @EPP002 面板
+14:46:25.380 @EPP003 次面
+14:46:25.380 @EPP004 修色
+14:46:25.381 @EPP005 HX-T底漆
+14:46:25.382 @EPP006 0.4
+14:46:25.383 @EPP007 2018/6/18 0:00:00
+14:46:25.384 @idx 6
+14:46:25.386 @EPP001 兰卡威
+14:46:25.388 @EPP002 面板
+14:46:25.389 @EPP003 主面
+14:46:25.390 @EPP004 面漆
+14:46:25.391 @EPP005 HX-T底漆
+14:46:25.392 @EPP006 0.2
+14:46:25.392 @EPP007 2018/6/17 0:00:00
+14:46:25.393 @idx 10
+14:46:25.396 @EPP001 兰卡威
+14:46:25.397 @EPP002 面板
+14:46:25.398 @EPP003 油性
+14:46:25.399 @EPP004 底漆
+14:46:25.400 @EPP005 G107固化剂
+14:46:25.401 @EPP006 1.2
+14:46:25.401 @EPP007 2018/6/6 0:00:00
+14:46:25.404 @EPP001 兰卡威
+14:46:25.406 @EPP002 面板
+14:46:25.407 @EPP003 主面
+14:46:25.408 @EPP004 底漆
+14:46:25.408 @EPP005 HX-T底漆
+14:46:25.409 @EPP006 0.25
+14:46:25.410 @EPP007 2018/6/6 0:00:00
+14:46:25.412 @idx 4
+14:46:25.414 @EPP001 兰卡威
+14:46:25.415 @EPP002 面板
+14:46:25.416 @EPP003 次面
+14:46:25.416 @EPP004 修色
+14:46:25.418 @EPP005 G107固化剂
+14:46:25.419 @EPP006 0.6
+14:46:25.420 @EPP007 2018/6/13 0:00:00
+14:46:25.422 @EPP001 装材
+14:46:25.423 @EPP002 面板
+14:46:25.424 @EPP003 主面
+14:46:25.425 @EPP004 底漆
+14:46:25.426 @EPP005 HX-T底漆
+14:46:25.427 @EPP006 0.6
+14:46:25.428 @EPP007 2018/6/6 0:00:00
+14:46:25.429 @idx 7
+14:46:25.431 @EPP001 兰卡威
+14:46:25.432 @EPP002 面板
+14:46:25.434 @EPP003 主面
+14:46:25.435 @EPP004 底漆
+14:46:25.436 @EPP005 HX-T底漆
+14:46:25.437 @EPP006 0.6
+14:46:25.438 @EPP007 2018/6/8 0:00:00
+14:46:25.439 @idx 9
+14:46:25.441 @EPP001 装材
+14:46:25.442 @EPP002 面板
+14:46:25.443 @EPP003 次面
+14:46:25.444 @EPP004 修色
+14:46:25.445 @EPP005 HX-T底漆
+14:46:25.446 @EPP006 0.9
+14:46:25.446 @EPP007 2018/6/6 0:00:00
+14:46:25.447 @idx 8
+14:46:25.449 @EPP001 兰卡威
+14:46:25.451 @EPP002 面板
+14:46:25.452 @EPP003 主面
+14:46:25.452 @EPP004 面漆
+14:46:25.453 @EPP005 HX-T底漆
+14:46:25.454 @EPP006 0.8
+14:46:25.455 @EPP007 2018/6/6 0:00:00
+14:46:25.456 @idx 5
+14:46:39.826 @EPA001 201806
+14:46:39.827 @EPA002 HX-T底漆
+14:46:39.829 @EPA008 100
+14:46:41.896 @EPA001 201806
+14:46:41.897 @EPA002 HX-T底漆
+14:46:41.898 @EPA006 222.000000
+14:46:41.900 @EPA001 201806
+14:46:41.902 @EPA002 G107固化剂
+14:46:41.902 @EPA006 216.000000
+14:48:13.718  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:48:29.642 @EMP002 系统管理员
+14:48:29.643 @EMP009 d2f278e251d1566edd72846d4ad97f
+14:48:43.135 @EPA001 201806
+14:48:43.137 @EPA002 HX-T底漆
+14:48:43.138 @EPA008 100
+14:48:45.108 @EPA001 201806
+14:48:45.109 @EPA002 G107固化剂
+14:48:45.110 @EPA006 216.000000
+14:48:45.113 @EPA001 201806
+14:48:45.114 @EPA002 HX-T底漆
+14:48:45.115 @EPA006 222.000000
+14:50:20.948  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:50:49.325 @EMP002 系统管理员
+14:50:49.326 @EMP009 d2f278e251d1566edd72846d4ad97f
+14:51:00.557 @EPA001 201806
+14:51:00.558 @EPA002 HX-T底漆
+14:51:00.560 @EPA008 100
+14:51:02.663 @EPA001 201806
+14:51:02.665 @EPA002 HX-T底漆
+14:51:02.666 @EPA006 222.000000
+14:51:02.668 @EPA001 201806
+14:51:02.669 @EPA002 G107固化剂
+14:51:02.670 @EPA006 216.000000
+14:51:45.208  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:51:58.961 @EMP002 系统管理员
+14:51:58.962 @EMP009 d2f278e251d1566edd72846d4ad97f
+15:08:18.299  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+15:09:18.293 @EMP002 系统管理员
+15:09:18.294 @EMP009 d2f278e251d1566edd72846d4ad97f

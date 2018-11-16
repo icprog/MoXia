@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Files>
+  <description>1:更新壳界面，新增快捷键功能</description>
+  <Count>29</Count>
+  <remarks />
+<File Ver="1.0.0.1" Name="Carpenter.exe" />
+<File Ver="1.0.0.1" Name="CarpenterBll.dll" />
+<File Ver="1.0.0.1" Name="CarpenterEntity.dll" />
+<File Ver="1.0.0.1" Name="Connection.dll" />
+<File Ver="1.0.0.1" Name="ConnectionBll.dll" />
+<File Ver="1.0.0.1" Name="Utility.dll" />
+<File Ver="1.0.0.1" Name="UIControl.dll" />
+<File Ver="1.0.0.1" Name="备料车间生产日计划.frx" />
+<File Ver="1.0.0.1" Name="备料车间周计划表.frx" />
+<File Ver="1.0.0.1" Name="备料日计划报工打印.frx" />
+<File Ver="1.0.0.1" Name="备料周计划报工打印.frx" />
+<File Ver="1.0.0.1" Name="传票.frx" />
+<File Ver="1.0.0.1" Name="工作联系单.frx" />
+<File Ver="1.0.0.1" Name="工作联系单列表.frx" />
+<File Ver="1.0.0.1" Name="机加工车间生产日计划.frx" />
+<File Ver="1.0.0.1" Name="机加工车间周计划表.frx" />
+<File Ver="1.0.0.1" Name="机加工日计划报工打印.frx" />
+<File Ver="1.0.0.1" Name="机加工周计划报工打印.frx" />
+<File Ver="1.0.0.1" Name="开料生产计划表.frx" />
+<File Ver="1.0.0.1" Name="人员信息.frx" />
+<File Ver="1.0.0.1" Name="设备信息.frx" />
+<File Ver="1.0.0.1" Name="油漆车间生产日计划.frx" />
+<File Ver="1.0.0.1" Name="油漆车间周计划表.frx" />
+<File Ver="1.0.0.1" Name="油漆日计划报工打印.frx" />
+<File Ver="1.0.0.1" Name="油漆周计划报工打印.frx" />
+<File Ver="1.0.0.1" Name="组装车间生产日计划.frx" />
+<File Ver="1.0.0.1" Name="组装车间周计划表.frx" />
+<File Ver="1.0.0.1" Name="组装派工单.frx" />
+<File Ver="1.0.0.1" Name="组装日计划报工打印.frx" />
+<File Ver="1.0.0.1" Name="组装周计划报工打印.frx" />
+</Files>

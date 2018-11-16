@@ -1,0 +1,569 @@
+10:42:53.996  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+11:06:59.939 @EMP002 系统管理员
+11:06:59.940 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+11:11:57.560  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+11:14:34.104 @EMP002 系统管理员
+11:14:34.105 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+11:15:31.085 @PRD001 101011
+11:15:31.087 @PRD002 木工热压机
+11:15:31.088 @PRD003 压板
+11:15:31.089 @PRD004 1000
+11:15:31.090 @PRD005 阳林
+11:15:31.091 @PRD006 201711300319
+11:15:31.092 @PRD007 1746
+11:15:31.092 @PRD008 51-1.002.05.004
+11:15:31.093 @PRD009 50号电视柜1.68米
+11:15:31.094 @PRD010 1680*480*635
+11:15:31.095 @PRD011 面框竖档
+11:15:31.096 @PRD012 20
+11:15:31.097 @PRD013 2018/5/5 11:15:31
+11:15:31.098 @PRD014 True
+11:15:31.099 @PRD015 7
+11:15:31.099 @PRD016 
+11:15:31.100 @PRD017 2018/5/5 11:15:31
+11:15:31.101 @PRD018 系统管理员
+11:15:31.101 @PRD019 40.0
+11:15:31.102 @PRD020 False
+11:15:31.102 @PRD021 False
+11:15:31.103 @PRD022 
+11:15:31.103 @PRD023 1
+11:15:31.107 @PRD024 
+11:15:31.107 @PRD025 0
+11:15:31.108 @PRD026 
+11:15:31.109 @PRD027 
+11:15:31.109 @PRD028 0
+11:15:31.110 @PRD029 0
+11:15:31.110 @PRD030 0
+11:15:31.111 @PRD031 
+11:15:31.111 @PRD032 0047
+11:15:31.112 @PRD033 
+11:15:31.113 @PRD034 106*394*22
+11:31:45.701  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+11:39:24.463 @EMP002 系统管理员
+11:39:24.464 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+11:46:27.657  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+11:46:39.834 @EMP002 系统管理员
+11:46:39.835 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+11:51:36.912  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+11:51:42.263 @EMP002 系统管理员
+11:51:42.264 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+11:52:23.056 @PRD001 101011
+11:52:23.057 @PRD002 木工热压机
+11:52:23.057 @PRD003 压板
+11:52:23.058 @PRD004 1000
+11:52:23.059 @PRD005 阳林
+11:52:23.060 @PRD006 201711300319
+11:52:23.061 @PRD007 1746
+11:52:23.061 @PRD008 51-1.002.05.004
+11:52:23.062 @PRD009 50号电视柜1.68米
+11:52:23.062 @PRD010 1680*480*635
+11:52:23.063 @PRD011 面框竖档
+11:52:23.063 @PRD012 20
+11:52:23.064 @PRD013 2018/5/5 11:52:23
+11:52:23.065 @PRD014 False
+11:52:23.065 @PRD015 8
+11:52:23.066 @PRD016 
+11:52:23.067 @PRD017 2018/5/5 11:52:23
+11:52:23.067 @PRD018 系统管理员
+11:52:23.068 @PRD019 40.0
+11:52:23.068 @PRD020 False
+11:52:23.069 @PRD021 False
+11:52:23.070 @PRD022 
+11:52:23.070 @PRD023 1
+11:52:23.071 @PRD024 
+11:52:23.073 @PRD025 0
+11:52:23.074 @PRD026 
+11:52:23.075 @PRD027 
+11:52:23.076 @PRD028 0
+11:52:23.077 @PRD029 0
+11:52:23.078 @PRD030 0
+11:52:23.079 @PRD031 
+11:52:23.080 @PRD032 0047
+11:52:23.081 @PRD033 
+11:52:23.082 @PRD034 106*394*22
+11:54:43.934  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+11:54:48.966 @EMP002 系统管理员
+11:54:48.967 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+11:55:30.958 @PRD001 101011
+11:55:30.959 @PRD002 木工热压机
+11:55:30.959 @PRD003 压板
+11:55:30.960 @PRD004 1000
+11:55:30.961 @PRD005 阳林
+11:55:30.962 @PRD006 201711300319
+11:55:30.962 @PRD007 1746
+11:55:30.963 @PRD008 51-1.002.05.004
+11:55:30.964 @PRD009 50号电视柜1.68米
+11:55:30.964 @PRD010 1680*480*635
+11:55:30.965 @PRD011 面框竖档
+11:55:30.966 @PRD012 20
+11:55:30.967 @PRD013 2018/5/5 11:55:30
+11:55:30.967 @PRD014 True
+11:55:30.968 @PRD015 7
+11:55:30.969 @PRD016 
+11:55:30.970 @PRD017 2018/5/5 11:55:30
+11:55:30.971 @PRD018 系统管理员
+11:55:30.972 @PRD019 40.0
+11:55:30.972 @PRD020 False
+11:55:30.973 @PRD021 False
+11:55:30.974 @PRD022 
+11:55:30.974 @PRD023 1
+11:55:30.975 @PRD024 
+11:55:30.976 @PRD025 0
+11:55:30.977 @PRD026 
+11:55:30.977 @PRD027 
+11:55:30.978 @PRD028 0
+11:55:30.979 @PRD029 0
+11:55:30.979 @PRD030 0
+11:55:30.980 @PRD031 
+11:55:30.981 @PRD032 0047
+11:55:30.981 @PRD033 
+11:55:30.982 @PRD034 106*394*22
+11:55:37.816 @PRD001 101011
+11:55:37.817 @PRD002 木工热压机
+11:55:37.818 @PRD003 压板
+11:55:37.819 @PRD004 1000
+11:55:37.820 @PRD005 阳林
+11:55:37.821 @PRD006 201711300319
+11:55:37.821 @PRD007 1746
+11:55:37.823 @PRD008 51-1.002.05.004
+11:55:37.823 @PRD009 50号电视柜1.68米
+11:55:37.824 @PRD010 1680*480*635
+11:55:37.825 @PRD011 面框竖档
+11:55:37.825 @PRD012 20
+11:55:37.826 @PRD013 2018/5/5 11:55:37
+11:55:37.827 @PRD014 False
+11:55:37.827 @PRD015 8
+11:55:37.828 @PRD016 
+11:55:37.829 @PRD017 2018/5/5 11:55:37
+11:55:37.829 @PRD018 系统管理员
+11:55:37.830 @PRD019 40.0
+11:55:37.831 @PRD020 False
+11:55:37.832 @PRD021 False
+11:55:37.832 @PRD022 
+11:55:37.833 @PRD023 1
+11:55:37.834 @PRD024 
+11:55:37.834 @PRD025 0
+11:55:37.835 @PRD026 
+11:55:37.836 @PRD027 
+11:55:37.836 @PRD028 0
+11:55:37.837 @PRD029 0
+11:55:37.838 @PRD030 0
+11:55:37.838 @PRD031 
+11:55:37.839 @PRD032 0047
+11:55:37.839 @PRD033 
+11:55:37.840 @PRD034 106*394*22
+12:00:10.176  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+12:00:17.928 @EMP002 系统管理员
+12:00:17.930 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+12:07:52.469  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+12:07:59.537 @EMP002 系统管理员
+12:07:59.538 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+12:10:03.538 @PRD001 101011
+12:10:03.539 @PRD002 木工热压机
+12:10:03.540 @PRD003 压板
+12:10:03.540 @PRD004 1000
+12:10:03.541 @PRD005 阳林
+12:10:03.541 @PRD006 201711300319
+12:10:03.542 @PRD007 1746
+12:10:03.543 @PRD008 51-1.002.05.004
+12:10:03.543 @PRD009 50号电视柜1.68米
+12:10:03.544 @PRD010 1680*480*635
+12:10:03.544 @PRD011 面框竖档
+12:10:03.545 @PRD012 20
+12:10:03.545 @PRD013 2018/5/5 12:10:03
+12:10:03.546 @PRD014 True
+12:10:03.546 @PRD015 7
+12:10:03.547 @PRD016 
+12:10:03.547 @PRD017 2018/5/5 12:10:03
+12:10:03.548 @PRD018 系统管理员
+12:10:03.549 @PRD019 40
+12:10:03.552 @PRD020 False
+12:10:03.552 @PRD021 False
+12:10:03.553 @PRD022 
+12:10:03.554 @PRD023 1
+12:10:03.554 @PRD024 
+12:10:03.555 @PRD025 0
+12:10:03.556 @PRD026 
+12:10:03.556 @PRD027 
+12:10:03.557 @PRD028 0
+12:10:03.557 @PRD029 0
+12:10:03.558 @PRD030 0
+12:10:03.559 @PRD031 
+12:10:03.559 @PRD032 0047
+12:10:03.560 @PRD033 
+12:10:03.561 @PRD034 106*394*22
+13:55:53.577  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+13:56:02.414 @EMP002 系统管理员
+13:56:02.415 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+13:56:20.476 @EQU001 101010
+13:56:20.477 @EQU002 木工油压机
+13:56:20.478 @EQU003 MH3248
+13:56:20.479 @EQU004 正常
+13:56:20.480 @EQU005 机加工车间
+13:56:20.481 @EQU007 False
+13:56:20.481 @EQU008 2018/5/5 13:56:20
+13:56:20.482 @EQU009 系统管理员
+13:56:20.483 @EQU010 
+13:56:20.484 @idx 113
+13:56:20.504 @EQV001 101010
+13:56:20.505 @EQV002 0002
+13:56:20.505 @EQV003 多片锯
+13:56:20.506 @EQV004 2018/5/5 13:56:20
+13:56:20.506 @EQV005 系统管理员
+13:56:20.512 @EQV001 101010
+13:56:20.514 @EQV002 0047
+13:56:20.514 @EQV003 压板
+13:56:20.515 @EQV004 2018/5/5 13:56:20
+13:56:20.516 @EQV005 系统管理员
+13:56:23.349 @EQU001 101010
+13:56:23.350 @EQU002 木工油压机
+13:56:23.351 @EQU003 MH3248
+13:56:23.351 @EQU004 正常
+13:56:23.352 @EQU005 机加工车间
+13:56:23.353 @EQU007 False
+13:56:23.353 @EQU008 2018/5/5 13:56:23
+13:56:23.354 @EQU009 系统管理员
+13:56:23.355 @EQU010 
+13:56:23.355 @idx 113
+13:56:23.359 @EQV001 101010
+13:56:23.360 @EQV002 0002
+13:56:23.361 @EQV003 多片锯
+13:56:23.361 @EQV004 2018/5/5 13:56:23
+13:56:23.363 @EQV005 系统管理员
+13:56:23.369 @EQV001 101010
+13:56:23.370 @EQV002 0047
+13:56:23.371 @EQV003 压板
+13:56:23.371 @EQV004 2018/5/5 13:56:23
+13:56:23.372 @EQV005 系统管理员
+13:56:43.104 @EQV001 101010
+13:56:43.105 @EQV002 0012
+13:56:43.106 @EQV003 卧式带锯
+13:56:43.106 @EQV004 2018/5/5 13:56:43
+13:56:43.107 @EQV005 系统管理员
+13:56:43.112 @EQV001 101010
+13:56:43.114 @EQV002 0002
+13:56:43.115 @EQV003 多片锯
+13:56:43.115 @EQV004 2018/5/5 13:56:43
+13:56:43.116 @EQV005 系统管理员
+13:56:43.120 @EQV001 101010
+13:56:43.122 @EQV002 0005
+13:56:43.122 @EQV003 自动平刨
+13:56:43.123 @EQV004 2018/5/5 13:56:43
+13:56:43.124 @EQV005 系统管理员
+13:56:43.128 @EQV001 101010
+13:56:43.129 @EQV002 0047
+13:56:43.130 @EQV003 压板
+13:56:43.131 @EQV004 2018/5/5 13:56:43
+13:56:43.132 @EQV005 系统管理员
+13:56:43.136 @EQU001 101010
+13:56:43.137 @EQU002 木工油压机
+13:56:43.138 @EQU003 MH3248
+13:56:43.138 @EQU004 正常
+13:56:43.139 @EQU005 机加工车间
+13:56:43.140 @EQU007 False
+13:56:43.140 @EQU008 2018/5/5 13:56:43
+13:56:43.141 @EQU009 系统管理员
+13:56:43.142 @EQU010 
+13:56:43.142 @idx 113
+13:56:58.524 @EQU001 101017
+13:56:58.525 @EQU002 砂光机
+13:56:58.525 @EQU003 MM2615
+13:56:58.526 @EQU004 正常
+13:56:58.527 @EQU005 机加工车间
+13:56:58.527 @EQU007 False
+13:56:58.528 @EQU008 2018/5/5 13:56:58
+13:56:58.529 @EQU009 系统管理员
+13:56:58.530 @EQU010 
+13:56:58.531 @idx 120
+13:56:58.536 @EQV001 101017
+13:56:58.537 @EQV002 0006
+13:56:58.537 @EQV003 自动修边
+13:56:58.538 @EQV004 2018/5/5 13:56:58
+13:56:58.538 @EQV005 系统管理员
+13:56:58.543 @EQV001 101017
+13:56:58.544 @EQV002 0037
+13:56:58.544 @EQV003 弯砂
+13:56:58.545 @EQV004 2018/5/5 13:56:58
+13:56:58.546 @EQV005 系统管理员
+13:57:04.788 @EQV001 101017
+13:57:04.789 @EQV002 0006
+13:57:04.790 @EQV003 自动修边
+13:57:04.790 @EQV004 2018/5/5 13:57:04
+13:57:04.791 @EQV005 系统管理员
+13:57:04.796 @EQV001 101017
+13:57:04.797 @EQV002 0037
+13:57:04.797 @EQV003 弯砂
+13:57:04.798 @EQV004 2018/5/5 13:57:04
+13:57:04.799 @EQV005 系统管理员
+13:57:04.803 @EQU001 101017
+13:57:04.804 @EQU002 砂光机
+13:57:04.806 @EQU003 MM2615
+13:57:04.807 @EQU004 正常
+13:57:04.807 @EQU005 机加工车间
+13:57:04.808 @EQU007 False
+13:57:04.809 @EQU008 2018/5/5 13:57:04
+13:57:04.809 @EQU009 系统管理员
+13:57:04.810 @EQU010 
+13:57:04.811 @idx 120
+13:57:04.816 @EQV001 101017
+13:57:04.817 @EQV002 0024
+13:57:04.818 @EQV003 砂光
+13:57:04.819 @EQV004 2018/5/5 13:57:04
+13:57:04.820 @EQV005 系统管理员
+13:57:11.995 @EQU001 102070
+13:57:11.996 @EQU002 双端截料锯
+13:57:11.997 @EQU003 MJ243A
+13:57:11.997 @EQU004 正常
+13:57:11.998 @EQU005 机加工车间
+13:57:11.999 @EQU007 False
+13:57:11.999 @EQU008 2018/5/5 13:57:11
+13:57:12.000 @EQU009 系统管理员
+13:57:12.000 @EQU010 
+13:57:12.001 @idx 191
+13:57:12.007 @EQV001 102070
+13:57:12.008 @EQV002 0040
+13:57:12.008 @EQV003 切角
+13:57:12.009 @EQV004 2018/5/5 13:57:11
+13:57:12.010 @EQV005 系统管理员
+13:57:12.014 @EQV001 102070
+13:57:12.015 @EQV002 0002
+13:57:12.016 @EQV003 多片锯
+13:57:12.016 @EQV004 2018/5/5 13:57:11
+13:57:12.017 @EQV005 系统管理员
+13:57:17.821 @EQV001 102070
+13:57:17.822 @EQV002 0040
+13:57:17.823 @EQV003 切角
+13:57:17.824 @EQV004 2018/5/5 13:57:17
+13:57:17.824 @EQV005 系统管理员
+13:57:17.830 @EQV001 102070
+13:57:17.831 @EQV002 0002
+13:57:17.835 @EQV003 多片锯
+13:57:17.835 @EQV004 2018/5/5 13:57:17
+13:57:17.836 @EQV005 系统管理员
+13:57:17.841 @EQU001 102070
+13:57:17.842 @EQU002 双端截料锯
+13:57:17.843 @EQU003 MJ243A
+13:57:17.843 @EQU004 正常
+13:57:17.844 @EQU005 机加工车间
+13:57:17.845 @EQU007 False
+13:57:17.846 @EQU008 2018/5/5 13:57:17
+13:57:17.846 @EQU009 系统管理员
+13:57:17.847 @EQU010 
+13:57:17.848 @idx 191
+13:57:17.852 @EQV001 102070
+13:57:17.853 @EQV002 0020
+13:57:17.854 @EQV003 刨砂
+13:57:17.854 @EQV004 2018/5/5 13:57:17
+13:57:17.855 @EQV005 系统管理员
+13:58:14.641 @EQV001 101014
+13:58:14.642 @EQV002 0003
+13:58:14.643 @EQV003 电子锯
+13:58:14.644 @EQV004 2018/5/5 13:58:14
+13:58:14.645 @EQV005 系统管理员
+13:58:14.650 @EQU001 101014
+13:58:14.651 @EQU002 拉手锯
+13:58:14.652 @EQU003 MJ2236
+13:58:14.652 @EQU004 正常
+13:58:14.653 @EQU005 机加工车间
+13:58:14.653 @EQU007 False
+13:58:14.654 @EQU008 2018/5/5 13:58:14
+13:58:14.655 @EQU009 系统管理员
+13:58:14.656 @EQU010 
+13:58:14.656 @idx 112
+13:58:14.701 违反了 PRIMARY KEY 约束 'PK_MOXEQU'。不能在对象 'dbo.MOXEQU' 中插入重复键。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteSqlTran(Hashtable SQLStringList) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 884
+13:58:14.702 UPDATE MOXEQU SET EQU001=@EQU001,EQU002=@EQU002,EQU003=@EQU003,EQU004=@EQU004,EQU005=@EQU005,EQU007=@EQU007,EQU008=@EQU008,EQU009=@EQU009,EQU010=@EQU010 WHERE idx=@idx
+14:00:27.462  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:00:31.875 @EMP002 系统管理员
+14:00:31.876 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+14:02:44.797 @EQV001 101004
+14:02:44.798 @EQV002 0003
+14:02:44.799 @EQV003 电子锯
+14:02:44.800 @EQV004 2018/5/5 14:00:55
+14:02:44.800 @EQV005 系统管理员
+14:02:44.814 @EQU001 101004
+14:02:44.815 @EQU002 立式单轴木工镂铣机
+14:02:44.816 @EQU003 MXS5115A
+14:02:44.817 @EQU004 正常
+14:02:44.818 @EQU005 机加工车间
+14:02:44.819 @EQU007 False
+14:02:44.820 @EQU008 2018/5/5 14:00:55
+14:02:44.821 @EQU009 系统管理员
+14:02:44.822 @EQU010 
+14:02:44.823 @idx 112
+14:04:15.066  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:05:40.289 @EMP002 系统管理员
+14:05:40.290 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+14:08:15.729  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:08:27.799 @EMP002 系统管理员
+14:08:27.800 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+14:09:16.325 @EQU001 101004
+14:09:16.326 @EQU002 立式单轴木工镂铣机
+14:09:16.326 @EQU003 MXS5115A
+14:09:16.327 @EQU004 正常
+14:09:16.328 @EQU005 机加工车间
+14:09:16.329 @EQU007 False
+14:09:16.329 @EQU008 2018/5/5 14:08:37
+14:09:16.330 @EQU009 系统管理员
+14:09:16.331 @EQU010 
+14:09:16.331 @idx 112
+14:09:16.364 违反了 PRIMARY KEY 约束 'PK_MOXEQU'。不能在对象 'dbo.MOXEQU' 中插入重复键。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StudentMgr.SqlHelper.ExecuteSqlTran(Hashtable SQLStringList) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 884
+14:09:16.365 UPDATE MOXEQU SET EQU001=@EQU001,EQU002=@EQU002,EQU003=@EQU003,EQU004=@EQU004,EQU005=@EQU005,EQU007=@EQU007,EQU008=@EQU008,EQU009=@EQU009,EQU010=@EQU010 WHERE idx=@idx
+14:10:44.302  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:10:48.669 @EMP002 系统管理员
+14:10:48.670 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+14:14:39.727  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:14:44.710 @EMP002 系统管理员
+14:14:44.711 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+14:15:03.734 @EQU001 101004
+14:15:03.735 @EQU002 立式单轴木工镂铣机
+14:15:03.736 @EQU003 MXS5115A
+14:15:03.736 @EQU004 正常
+14:15:03.737 @EQU005 机加工车间
+14:15:03.738 @EQU007 False
+14:15:03.739 @EQU008 2018/5/5 14:14:59
+14:15:03.741 @EQU009 系统管理员
+14:15:03.742 @EQU010 
+14:15:03.743 @idx 107
+14:15:11.920 @EQV001 101004
+14:15:11.921 @EQV002 0003
+14:15:11.922 @EQV003 电子锯
+14:15:11.923 @EQV004 2018/5/5 14:15:11
+14:15:11.924 @EQV005 系统管理员
+14:15:11.931 @EQU001 101004
+14:15:11.932 @EQU002 立式单轴木工镂铣机
+14:15:11.933 @EQU003 MXS5115A
+14:15:11.934 @EQU004 正常
+14:15:11.934 @EQU005 机加工车间
+14:15:11.935 @EQU007 False
+14:15:11.936 @EQU008 2018/5/5 14:15:11
+14:15:11.937 @EQU009 系统管理员
+14:15:11.938 @EQU010 
+14:15:11.939 @idx 107
+14:15:20.750 @EQU001 101014
+14:15:20.752 @EQU002 拉手锯
+14:15:20.752 @EQU003 MJ2236
+14:15:20.753 @EQU004 正常
+14:15:20.754 @EQU005 机加工车间
+14:15:20.756 @EQU007 False
+14:15:20.757 @EQU008 2018/5/5 14:15:20
+14:15:20.758 @EQU009 系统管理员
+14:15:20.759 @EQU010 
+14:15:20.760 @idx 117
+16:32:05.044  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:32:09.757 @EMP002 系统管理员
+16:32:09.758 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+16:44:40.358  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:44:45.399 @EMP002 系统管理员
+16:44:45.400 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+17:01:08.421  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:01:36.966 @EMP002 系统管理员
+17:01:36.967 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+17:08:06.192  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:08:12.980 @EMP002 系统管理员
+17:08:12.981 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+17:09:27.905  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:09:41.556 @EMP002 系统管理员
+17:09:41.557 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+17:10:24.123  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:10:28.095 @EMP002 系统管理员
+17:10:28.096 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+17:11:09.075  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:11:49.601 @EMP002 系统管理员
+17:11:49.602 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+17:12:45.665  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:12:53.648 @EMP002 系统管理员
+17:12:53.649 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+17:14:26.183  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:14:40.060 @EMP002 系统管理员
+17:14:40.061 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+17:15:28.652  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:15:34.014 @EMP002 系统管理员
+17:15:34.015 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+17:17:11.739  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:17:18.474 @EMP002 系统管理员
+17:17:18.475 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+17:19:09.787  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:19:13.722 @EMP002 系统管理员
+17:19:13.723 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+17:22:36.119  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:22:44.408 @EMP002 系统管理员
+17:22:44.409 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+17:25:14.854  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:25:31.576 @EMP002 系统管理员
+17:25:31.577 @EMP009 cebfd1559b68d67688884d7a3d3e8c

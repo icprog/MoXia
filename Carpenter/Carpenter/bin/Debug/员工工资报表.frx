@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="07/21/2017 17:42:04" ReportInfo.Modified="12/18/2017 10:08:06" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDhPFD1w+LtzdaMPBNAktErWo/yNwWMBKUaYuWJ8Hp0Bw==">
+      <TableDataSource Name="Table" Alias="TableOne" DataType="System.Int32" Enabled="true" SelectCommand="SELECT A.PWS001,A.PWS002,B.EMP011,SUM(A.PWS026) PWS026,'员工工资报表['+A.PWS028+']' PWS028 FROM MOXPWS A LEFT JOIN MOXEMP B ON A.PWS001=B.EMP001&#13;&#10;GROUP BY PWS001,PWS002,EMP011,PWS028">
+        <Column Name="PWS001" DataType="System.String"/>
+        <Column Name="PWS002" DataType="System.String"/>
+        <Column Name="EMP011" DataType="System.Decimal"/>
+        <Column Name="PWS026" DataType="System.Decimal"/>
+        <Column Name="PWS028" DataType="System.String"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" RawPaperSize="9">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="66.15">
+      <TextObject Name="Text1" Width="718.2" Height="37.8" Text="[TableOne.PWS028]" HorzAlign="Center" Font="宋体, 24pt, style=Bold"/>
+      <TextObject Name="Text2" Top="37.8" Width="132.3" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="员工编号" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text3" Left="132.3" Top="37.8" Width="226.8" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="员工姓名" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text4" Left="359.1" Top="37.8" Width="122.85" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="评分" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text5" Left="481.95" Top="37.8" Width="236.25" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="计件工资" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+    </ReportTitleBand>
+    <DataBand Name="Data1" Top="70.15" Width="718.2" Height="28.35" DataSource="Table">
+      <TextObject Name="Text6" Width="132.3" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.PWS001]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text7" Left="132.3" Width="226.8" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.PWS002]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text8" Left="359.1" Width="122.85" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.EMP011]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <TextObject Name="Text9" Left="481.95" Width="236.25" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.PWS026]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+    </DataBand>
+  </ReportPage>
+</Report>

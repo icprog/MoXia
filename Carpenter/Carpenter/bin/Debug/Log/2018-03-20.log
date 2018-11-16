@@ -1,0 +1,26 @@
+10:15:33.620  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+10:15:42.903 @EMP002 系统管理员
+10:15:42.904 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+10:16:21.251 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 StudentMgr.SqlHelper.ExecuteNoStore(String conS, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 403
+10:16:21.271 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 StudentMgr.SqlHelper.ExecuteNoStore(String conS, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 417
+10:16:51.022  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+10:16:54.551 @EMP002 系统管理员
+10:16:54.552 @EMP009 cebfd1559b68d67688884d7a3d3e8c

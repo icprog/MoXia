@@ -1,0 +1,15 @@
+D:\Project data\MoXia\Carpenter\CarpenterEntity\bin\Debug\CarpenterEntity.dll
+D:\Project data\MoXia\Carpenter\CarpenterEntity\bin\Debug\CarpenterEntity.pdb
+D:\Project data\MoXia\Carpenter\CarpenterEntity\obj\Debug\CarpenterEntity.dll
+D:\Project data\MoXia\Carpenter\CarpenterEntity\obj\Debug\CarpenterEntity.pdb
+D:\Project data\MoXia\Carpenter\CarpenterEntity\obj\Debug\CarpenterEntity.csprojResolveAssemblyReference.cache
+D:\ProjectData\MoXia\Carpenter\CarpenterEntity\bin\Debug\CarpenterEntity.dll
+D:\ProjectData\MoXia\Carpenter\CarpenterEntity\bin\Debug\CarpenterEntity.pdb
+D:\ProjectData\MoXia\Carpenter\CarpenterEntity\obj\Debug\CarpenterEntity.csprojResolveAssemblyReference.cache
+D:\ProjectData\MoXia\Carpenter\CarpenterEntity\obj\Debug\CarpenterEntity.dll
+D:\ProjectData\MoXia\Carpenter\CarpenterEntity\obj\Debug\CarpenterEntity.pdb
+D:\ProjectData\MoXia\Project\Carpenter\CarpenterEntity\bin\Debug\CarpenterEntity.dll
+D:\ProjectData\MoXia\Project\Carpenter\CarpenterEntity\bin\Debug\CarpenterEntity.pdb
+D:\ProjectData\MoXia\Project\Carpenter\CarpenterEntity\obj\Debug\CarpenterEntity.csprojResolveAssemblyReference.cache
+D:\ProjectData\MoXia\Project\Carpenter\CarpenterEntity\obj\Debug\CarpenterEntity.dll
+D:\ProjectData\MoXia\Project\Carpenter\CarpenterEntity\obj\Debug\CarpenterEntity.pdb

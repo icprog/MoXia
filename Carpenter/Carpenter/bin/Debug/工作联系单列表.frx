@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="07/05/2017 10:22:09" ReportInfo.Modified="12/18/2017 10:04:25" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDhPFD1w+LtzdaMPBNAktErSW5Q0h/iAhhhIjR+62W1hw==">
+      <TableDataSource Name="Table" Alias="Maintain" DataType="System.Int32" Enabled="true" SelectCommand="SELECT MTR001,MTR002,MTR003,MTR009,CONVERT(CHAR(8),MTR004,120) MTR004,MTR005,MTR006,MTR008,MTR010 FROM MOXMTR &#13;&#10;">
+        <Column Name="MTR001" DataType="System.String"/>
+        <Column Name="MTR002" DataType="System.String"/>
+        <Column Name="MTR003" DataType="System.String"/>
+        <Column Name="MTR009" DataType="System.String"/>
+        <Column Name="MTR004" DataType="System.String"/>
+        <Column Name="MTR005" DataType="System.String"/>
+        <Column Name="MTR006" DataType="System.String"/>
+        <Column Name="MTR008" DataType="System.String"/>
+        <Column Name="MTR010" DataType="System.String"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="Text1" Width="718.2" Height="37.8" Text="工作联系单" HorzAlign="Center" VertAlign="Center" Font="宋体, 22pt"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="37.8">
+      <TextObject Name="Text2" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="联系编号" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text3" Left="47.25" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="结束标记" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text4" Left="94.5" Width="75.6" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="开单日期" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text5" Left="170.1" Width="75.6" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="最近修改日期" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text6" Left="245.7" Width="66.15" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="开单时间" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text7" Left="311.85" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="开单人员" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text8" Left="359.1" Width="56.7" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="人员姓名" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text9" Left="415.8" Width="75.6" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="单据类型" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text10" Left="491.4" Width="226.8" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="流转人员" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="83.6" Width="718.2" Height="37.8" DataSource="Table">
+      <TextObject Name="Text11" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Maintain.MTR001]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text12" Left="47.25" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Maintain.MTR002]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text13" Left="94.5" Width="75.6" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Maintain.MTR003]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text14" Left="170.1" Width="75.6" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Maintain.MTR009]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text15" Left="245.7" Width="66.15" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Maintain.MTR004]" Format="Time" Format.Format="T" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text16" Left="311.85" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Maintain.MTR005]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text17" Left="359.1" Width="56.7" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Maintain.MTR006]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text18" Left="415.8" Width="75.6" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Maintain.MTR008]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text19" Left="491.4" Width="226.8" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[Maintain.MTR010]" VertAlign="Center" Font="宋体, 8pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

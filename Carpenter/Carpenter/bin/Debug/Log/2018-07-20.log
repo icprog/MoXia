@@ -1,0 +1,27 @@
+15:17:05.273  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+15:17:13.298 @EMP002 系统管理员
+15:17:13.299 @EMP009 d2f278e251d1566edd72846d4ad97f
+16:37:32.307  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:37:39.092 @EMP002 系统管理员
+16:37:39.094 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+16:37:40.973 @EMP002 系统管理员
+16:37:40.975 @EMP009 d2f278e251d1566edd72846d4ad97f
+16:40:57.008  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:45:31.104 @EMP002 系统管理员
+16:45:31.106 @EMP009 d2f278e251d1566edd72846d4ad97f
+16:53:04.646  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:53:14.113 @EMP002 系统管理员
+16:53:14.115 @EMP009 d2f278e251d1566edd72846d4ad97f
+16:56:19.561  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:57:32.642 @EMP002 系统管理员
+16:57:32.643 @EMP009 d2f278e251d1566edd72846d4ad97f

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoUpdater>
+  <Description>Application autoUpdate</Description>
+  <Updater>
+    <Url>http://192.168.1.188/</Url>
+    <LastUpdateTime>2017-07-07</LastUpdateTime>
+  </Updater>
+  <Application applicationId="Carpenter">
+    <EntryPoint>Carpenter.exe</EntryPoint>
+    <Location>.</Location>
+    <VersionName>1.0.0.2900</VersionName>
+    <VersionId>2900</VersionId>
+  </Application>
+</AutoUpdater>

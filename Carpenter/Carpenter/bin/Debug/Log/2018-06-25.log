@@ -1,0 +1,2256 @@
+08:52:43.376  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+08:53:51.689 @EMP002 系统管理员
+08:53:51.690 @EMP009 d2f278e251d1566edd72846d4ad97f
+08:59:43.263  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+08:59:54.985 @EMP002 系统管理员
+08:59:54.987 @EMP009 d2f278e251d1566edd72846d4ad97f
+09:05:41.250  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+09:08:19.752 @EMP002 系统管理员
+09:08:19.753 @EMP009 d2f278e251d1566edd72846d4ad97f
+09:14:50.267  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+09:15:08.839 @EMP002 系统管理员
+09:15:08.840 @EMP009 d2f278e251d1566edd72846d4ad97f
+09:24:39.486  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+09:29:09.324 @EMP002 系统管理员
+09:29:09.325 @EMP009 d2f278e251d1566edd72846d4ad97f
+09:34:42.686  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+09:36:09.624 @EMP002 系统管理员
+09:36:09.625 @EMP009 d2f278e251d1566edd72846d4ad97f
+09:38:39.854  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+09:38:51.073 @EMP002 系统管理员
+09:38:51.075 @EMP009 d2f278e251d1566edd72846d4ad97f
+09:47:08.054  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+09:47:15.645 @EMP002 系统管理员
+09:47:15.646 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:03:42.103  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+10:04:25.781 @EMP002 系统管理员
+10:04:25.782 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:04:53.534 关键字 'SELECT' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 344
+10:04:53.536 WITH CET AS (SELECT PMY002,PMY003,PMY004,PST028,PMX007,OPI006,PMX008,PMY009 PMY FROM MOXPMY A INNER JOIN MOXPMX B ON A.PMY002=B.PMX003 AND A.PMY003=B.PMX004 AND A.PMY016=B.PMX001 INNER JOIN MOXOPI C ON A.PMY003=C.OPI001 INNER JOIN MOXPMW D ON B.PMX001=D.PMW001 INNER JOIN MOXPST E ON A.PMY002=E.PST001 AND A.PMY003=E.PST002 WHERE PMY012='2018/6/21' AND PMY014='沈彬彬' AND PMW002='倒圆' AND PMY009>0),CFT AS (SELECT A.PMY002,A.PMY003,MAX(A.PMY009) PMY FROM MOXPMY A INNER JOIN CET B ON A.PMY002=B.PMY002 AND A.PMY003=B.PMY003 GROUP BY A.PMY002,A.PMY003 SELECT A.*,B.PMY PMYSUM FROM CET A INNER JOIN CFT B ON A.PMY002=B.PMY002 AND A.PMY003=B.PMY003
+10:05:35.106  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+10:05:40.366 @EMP002 系统管理员
+10:05:40.367 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:11:00.193  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+10:11:08.425 @EMP002 系统管理员
+10:11:08.427 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:23:34.048  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+10:24:08.147 @EMP002 系统管理员
+10:24:08.149 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:25:39.969  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+10:25:44.785 @EMP002 系统管理员
+10:25:44.786 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:39:11.001  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+10:39:15.839 @EMP002 系统管理员
+10:39:15.841 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:41:15.039  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+10:41:19.952 @EMP002 系统管理员
+10:41:19.954 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:42:03.933  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+10:42:12.479 @EMP002 徐鹏
+10:42:12.480 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+10:44:45.236  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+10:44:54.827 @EMP002 系统管理员
+10:44:54.828 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:45:30.181 @PAY001 761
+10:45:30.182 @PAY002 谷桂绒
+10:45:30.183 @PAY003 201806
+10:45:30.184 @PAY004 
+10:45:30.185 @PAY005 
+10:45:30.186 @PAY006 
+10:45:30.187 @PAY007 
+10:45:30.188 @PAY008 
+10:45:30.189 @PAY009 
+10:45:30.190 @PAY010 
+10:45:30.191 @PAY011 
+10:45:30.191 @PAY012 
+10:45:30.192 @PAY013 
+10:45:30.193 @PAY014 
+10:45:30.194 @PAY015 
+10:45:30.195 @PAY016 
+10:45:30.196 @PAY017 
+10:45:30.197 @PAY018 
+10:45:30.198 @PAY019 
+10:45:30.199 @PAY020 
+10:45:30.200 @PAY021 
+10:45:30.201 @PAY022 
+10:45:30.201 @PAY023 
+10:45:30.202 @PAY024 
+10:45:30.203 @PAY025 
+10:45:30.204 @PAY026 
+10:45:30.205 @PAY027 
+10:45:30.206 @PAY028 
+10:45:30.207 @PAY029 
+10:45:30.208 @PAY030 
+10:45:30.209 @PAY031 
+10:45:30.210 @PAY032 
+10:45:30.210 @PAY033 
+10:45:30.211 @PAY034 
+10:45:30.216 @PAY001 672
+10:45:30.217 @PAY002 金传波
+10:45:30.218 @PAY003 201806
+10:45:30.219 @PAY004 
+10:45:30.220 @PAY005 
+10:45:30.221 @PAY006 
+10:45:30.222 @PAY007 
+10:45:30.223 @PAY008 
+10:45:30.224 @PAY009 
+10:45:30.225 @PAY010 
+10:45:30.226 @PAY011 
+10:45:30.227 @PAY012 
+10:45:30.227 @PAY013 
+10:45:30.229 @PAY014 
+10:45:30.230 @PAY015 
+10:45:30.231 @PAY016 
+10:45:30.232 @PAY017 
+10:45:30.232 @PAY018 
+10:45:30.234 @PAY019 
+10:45:30.235 @PAY020 
+10:45:30.236 @PAY021 
+10:45:30.237 @PAY022 
+10:45:30.237 @PAY023 
+10:45:30.238 @PAY024 
+10:45:30.239 @PAY025 
+10:45:30.240 @PAY026 
+10:45:30.241 @PAY027 
+10:45:30.242 @PAY028 
+10:45:30.243 @PAY029 
+10:45:30.245 @PAY030 
+10:45:30.246 @PAY031 
+10:45:30.247 @PAY032 
+10:45:30.248 @PAY033 
+10:45:30.249 @PAY034 
+10:45:30.251 @PAY001 809
+10:45:30.252 @PAY002 涂启宏
+10:45:30.253 @PAY003 201806
+10:45:30.254 @PAY004 
+10:45:30.255 @PAY005 
+10:45:30.256 @PAY006 
+10:45:30.257 @PAY007 
+10:45:30.258 @PAY008 
+10:45:30.258 @PAY009 
+10:45:30.259 @PAY010 
+10:45:30.260 @PAY011 
+10:45:30.261 @PAY012 
+10:45:30.262 @PAY013 
+10:45:30.263 @PAY014 
+10:45:30.264 @PAY015 
+10:45:30.266 @PAY016 
+10:45:30.267 @PAY017 
+10:45:30.268 @PAY018 
+10:45:30.268 @PAY019 
+10:45:30.269 @PAY020 
+10:45:30.270 @PAY021 
+10:45:30.271 @PAY022 
+10:45:30.272 @PAY023 
+10:45:30.273 @PAY024 
+10:45:30.274 @PAY025 
+10:45:30.275 @PAY026 
+10:45:30.276 @PAY027 
+10:45:30.277 @PAY028 
+10:45:30.278 @PAY029 
+10:45:30.279 @PAY030 
+10:45:30.280 @PAY031 
+10:45:30.281 @PAY032 
+10:45:30.282 @PAY033 
+10:45:30.283 @PAY034 
+10:45:30.286 @PAY001 1480
+10:45:30.287 @PAY002 王朝祥
+10:45:30.288 @PAY003 201806
+10:45:30.289 @PAY004 
+10:45:30.290 @PAY005 
+10:45:30.291 @PAY006 
+10:45:30.293 @PAY007 
+10:45:30.294 @PAY008 
+10:45:30.295 @PAY009 
+10:45:30.297 @PAY010 
+10:45:30.297 @PAY011 
+10:45:30.298 @PAY012 
+10:45:30.300 @PAY013 
+10:45:30.301 @PAY014 
+10:45:30.302 @PAY015 
+10:45:30.303 @PAY016 
+10:45:30.304 @PAY017 
+10:45:30.305 @PAY018 
+10:45:30.306 @PAY019 
+10:45:30.307 @PAY020 
+10:45:30.308 @PAY021 
+10:45:30.309 @PAY022 
+10:45:30.310 @PAY023 
+10:45:30.311 @PAY024 
+10:45:30.312 @PAY025 
+10:45:30.313 @PAY026 
+10:45:30.313 @PAY027 
+10:45:30.314 @PAY028 
+10:45:30.315 @PAY029 
+10:45:30.316 @PAY030 
+10:45:30.317 @PAY031 
+10:45:30.318 @PAY032 
+10:45:30.319 @PAY033 
+10:45:30.320 @PAY034 
+10:45:30.322 @PAY001 749
+10:45:30.323 @PAY002 尹小芬
+10:45:30.324 @PAY003 201806
+10:45:30.326 @PAY004 
+10:45:30.327 @PAY005 
+10:45:30.332 @PAY006 
+10:45:30.333 @PAY007 
+10:45:30.334 @PAY008 
+10:45:30.335 @PAY009 
+10:45:30.336 @PAY010 
+10:45:30.337 @PAY011 
+10:45:30.338 @PAY012 
+10:45:30.339 @PAY013 
+10:45:30.340 @PAY014 
+10:45:30.341 @PAY015 
+10:45:30.342 @PAY016 
+10:45:30.343 @PAY017 
+10:45:30.344 @PAY018 
+10:45:30.345 @PAY019 
+10:45:30.346 @PAY020 
+10:45:30.347 @PAY021 
+10:45:30.348 @PAY022 
+10:45:30.349 @PAY023 
+10:45:30.350 @PAY024 
+10:45:30.351 @PAY025 
+10:45:30.352 @PAY026 
+10:45:30.352 @PAY027 
+10:45:30.353 @PAY028 
+10:45:30.354 @PAY029 
+10:45:30.355 @PAY030 
+10:45:30.357 @PAY031 
+10:45:30.358 @PAY032 
+10:45:30.359 @PAY033 
+10:45:30.360 @PAY034 
+10:45:30.362 @PAY001 763
+10:45:30.364 @PAY002 俞有良
+10:45:30.365 @PAY003 201806
+10:45:30.366 @PAY004 
+10:45:30.367 @PAY005 
+10:45:30.369 @PAY006 
+10:45:30.370 @PAY007 
+10:45:30.371 @PAY008 
+10:45:30.372 @PAY009 
+10:45:30.373 @PAY010 
+10:45:30.374 @PAY011 
+10:45:30.375 @PAY012 
+10:45:30.376 @PAY013 
+10:45:30.377 @PAY014 
+10:45:30.378 @PAY015 
+10:45:30.379 @PAY016 
+10:45:30.380 @PAY017 
+10:45:30.381 @PAY018 
+10:45:30.382 @PAY019 
+10:45:30.383 @PAY020 
+10:45:30.384 @PAY021 
+10:45:30.385 @PAY022 
+10:45:30.386 @PAY023 
+10:45:30.387 @PAY024 
+10:45:30.388 @PAY025 
+10:45:30.389 @PAY026 
+10:45:30.390 @PAY027 
+10:45:30.391 @PAY028 
+10:45:30.392 @PAY029 
+10:45:30.393 @PAY030 
+10:45:30.394 @PAY031 
+10:45:30.395 @PAY032 
+10:45:30.396 @PAY033 
+10:45:30.397 @PAY034 
+10:45:30.400 @PAY001 722
+10:45:30.401 @PAY002 朱德书
+10:45:30.402 @PAY003 201806
+10:45:30.403 @PAY004 
+10:45:30.403 @PAY005 
+10:45:30.404 @PAY006 
+10:45:30.405 @PAY007 
+10:45:30.406 @PAY008 
+10:45:30.407 @PAY009 
+10:45:30.408 @PAY010 
+10:45:30.409 @PAY011 
+10:45:30.410 @PAY012 
+10:45:30.411 @PAY013 
+10:45:30.412 @PAY014 
+10:45:30.413 @PAY015 
+10:45:30.414 @PAY016 
+10:45:30.415 @PAY017 
+10:45:30.416 @PAY018 
+10:45:30.417 @PAY019 
+10:45:30.418 @PAY020 
+10:45:30.419 @PAY021 
+10:45:30.420 @PAY022 
+10:45:30.421 @PAY023 
+10:45:30.422 @PAY024 
+10:45:30.423 @PAY025 
+10:45:30.424 @PAY026 
+10:45:30.425 @PAY027 
+10:45:30.426 @PAY028 
+10:45:30.427 @PAY029 
+10:45:30.428 @PAY030 
+10:45:30.429 @PAY031 
+10:45:30.430 @PAY032 
+10:45:30.431 @PAY033 
+10:45:30.432 @PAY034 
+10:45:30.434 @PAY001 943
+10:45:30.436 @PAY002 裘德霞
+10:45:30.437 @PAY003 201806
+10:45:30.437 @PAY004 
+10:45:30.438 @PAY005 
+10:45:30.439 @PAY006 
+10:45:30.440 @PAY007 
+10:45:30.441 @PAY008 
+10:45:30.442 @PAY009 
+10:45:30.443 @PAY010 
+10:45:30.444 @PAY011 
+10:45:30.445 @PAY012 
+10:45:30.446 @PAY013 
+10:45:30.447 @PAY014 
+10:45:30.448 @PAY015 
+10:45:30.449 @PAY016 
+10:45:30.450 @PAY017 
+10:45:30.451 @PAY018 
+10:45:30.452 @PAY019 
+10:45:30.453 @PAY020 
+10:45:30.454 @PAY021 
+10:45:30.455 @PAY022 
+10:45:30.456 @PAY023 
+10:45:30.457 @PAY024 
+10:45:30.458 @PAY025 
+10:45:30.459 @PAY026 
+10:45:30.459 @PAY027 
+10:45:30.460 @PAY028 
+10:45:30.461 @PAY029 
+10:45:30.463 @PAY030 
+10:45:30.464 @PAY031 
+10:45:30.465 @PAY032 
+10:45:30.466 @PAY033 
+10:45:30.467 @PAY034 
+10:45:46.968 @PAY001 809
+10:45:46.970 @PAY002 涂启宏
+10:45:46.971 @PAY003 201806
+10:45:46.972 @PAY004 
+10:45:46.973 @PAY005 
+10:45:46.974 @PAY006 
+10:45:46.975 @PAY007 
+10:45:46.976 @PAY008 
+10:45:46.977 @PAY009 
+10:45:46.978 @PAY010 
+10:45:46.979 @PAY011 
+10:45:46.980 @PAY012 
+10:45:46.981 @PAY013 
+10:45:46.982 @PAY014 
+10:45:46.983 @PAY015 
+10:45:46.984 @PAY016 
+10:45:46.986 @PAY017 
+10:45:46.987 @PAY018 
+10:45:46.988 @PAY019 
+10:45:46.989 @PAY020 
+10:45:46.990 @PAY021 
+10:45:46.990 @PAY022 
+10:45:46.991 @PAY023 
+10:45:46.992 @PAY024 
+10:45:46.993 @PAY025 
+10:45:46.994 @PAY026 
+10:45:46.995 @PAY027 
+10:45:46.996 @PAY028 
+10:45:46.997 @PAY029 
+10:45:46.998 @PAY030 
+10:45:46.999 @PAY031 
+10:45:47.000 @PAY032 
+10:45:47.001 @PAY033 
+10:45:47.002 @PAY034 
+10:45:47.010 @PAY001 672
+10:45:47.011 @PAY002 金传波
+10:45:47.012 @PAY003 201806
+10:45:47.013 @PAY004 
+10:45:47.014 @PAY005 
+10:45:47.015 @PAY006 
+10:45:47.016 @PAY007 
+10:45:47.017 @PAY008 
+10:45:47.018 @PAY009 
+10:45:47.019 @PAY010 
+10:45:47.019 @PAY011 
+10:45:47.020 @PAY012 
+10:45:47.021 @PAY013 
+10:45:47.022 @PAY014 
+10:45:47.023 @PAY015 
+10:45:47.024 @PAY016 
+10:45:47.025 @PAY017 
+10:45:47.026 @PAY018 
+10:45:47.027 @PAY019 
+10:45:47.028 @PAY020 
+10:45:47.028 @PAY021 
+10:45:47.029 @PAY022 
+10:45:47.030 @PAY023 
+10:45:47.031 @PAY024 
+10:45:47.032 @PAY025 
+10:45:47.033 @PAY026 
+10:45:47.034 @PAY027 
+10:45:47.035 @PAY028 
+10:45:47.036 @PAY029 
+10:45:47.037 @PAY030 
+10:45:47.037 @PAY031 
+10:45:47.038 @PAY032 
+10:45:47.039 @PAY033 
+10:45:47.040 @PAY034 
+10:45:47.043 @PAY001 943
+10:45:47.044 @PAY002 裘德霞
+10:45:47.045 @PAY003 201806
+10:45:47.046 @PAY004 
+10:45:47.047 @PAY005 
+10:45:47.048 @PAY006 
+10:45:47.049 @PAY007 
+10:45:47.050 @PAY008 
+10:45:47.050 @PAY009 
+10:45:47.051 @PAY010 
+10:45:47.052 @PAY011 
+10:45:47.053 @PAY012 
+10:45:47.054 @PAY013 
+10:45:47.055 @PAY014 
+10:45:47.056 @PAY015 
+10:45:47.056 @PAY016 
+10:45:47.057 @PAY017 
+10:45:47.058 @PAY018 
+10:45:47.059 @PAY019 
+10:45:47.060 @PAY020 
+10:45:47.061 @PAY021 
+10:45:47.062 @PAY022 
+10:45:47.063 @PAY023 
+10:45:47.064 @PAY024 
+10:45:47.065 @PAY025 
+10:45:47.066 @PAY026 
+10:45:47.067 @PAY027 
+10:45:47.068 @PAY028 
+10:45:47.069 @PAY029 
+10:45:47.069 @PAY030 
+10:45:47.070 @PAY031 
+10:45:47.071 @PAY032 
+10:45:47.072 @PAY033 
+10:45:47.073 @PAY034 
+10:45:47.075 @PAY001 761
+10:45:47.076 @PAY002 谷桂绒
+10:45:47.077 @PAY003 201806
+10:45:47.079 @PAY004 
+10:45:47.080 @PAY005 
+10:45:47.081 @PAY006 
+10:45:47.082 @PAY007 
+10:45:47.083 @PAY008 
+10:45:47.084 @PAY009 
+10:45:47.085 @PAY010 
+10:45:47.086 @PAY011 
+10:45:47.087 @PAY012 
+10:45:47.088 @PAY013 
+10:45:47.088 @PAY014 
+10:45:47.089 @PAY015 
+10:45:47.090 @PAY016 
+10:45:47.091 @PAY017 
+10:45:47.092 @PAY018 
+10:45:47.093 @PAY019 
+10:45:47.095 @PAY020 
+10:45:47.096 @PAY021 
+10:45:47.097 @PAY022 
+10:45:47.097 @PAY023 
+10:45:47.098 @PAY024 
+10:45:47.099 @PAY025 
+10:45:47.100 @PAY026 
+10:45:47.101 @PAY027 
+10:45:47.102 @PAY028 
+10:45:47.103 @PAY029 
+10:45:47.104 @PAY030 
+10:45:47.105 @PAY031 
+10:45:47.106 @PAY032 
+10:45:47.107 @PAY033 
+10:45:47.108 @PAY034 
+10:45:47.110 @PAY001 1480
+10:45:47.112 @PAY002 王朝祥
+10:45:47.113 @PAY003 201806
+10:45:47.114 @PAY004 
+10:45:47.115 @PAY005 
+10:45:47.117 @PAY006 
+10:45:47.118 @PAY007 
+10:45:47.119 @PAY008 
+10:45:47.120 @PAY009 
+10:45:47.121 @PAY010 
+10:45:47.122 @PAY011 
+10:45:47.123 @PAY012 
+10:45:47.124 @PAY013 
+10:45:47.126 @PAY014 
+10:45:47.127 @PAY015 
+10:45:47.128 @PAY016 
+10:45:47.129 @PAY017 
+10:45:47.130 @PAY018 
+10:45:47.131 @PAY019 
+10:45:47.132 @PAY020 
+10:45:47.133 @PAY021 
+10:45:47.134 @PAY022 
+10:45:47.135 @PAY023 
+10:45:47.136 @PAY024 
+10:45:47.137 @PAY025 
+10:45:47.138 @PAY026 
+10:45:47.139 @PAY027 
+10:45:47.140 @PAY028 
+10:45:47.140 @PAY029 
+10:45:47.142 @PAY030 
+10:45:47.143 @PAY031 
+10:45:47.143 @PAY032 
+10:45:47.144 @PAY033 
+10:45:47.145 @PAY034 
+10:45:47.147 @PAY001 749
+10:45:47.148 @PAY002 尹小芬
+10:45:47.149 @PAY003 201806
+10:45:47.150 @PAY004 
+10:45:47.151 @PAY005 
+10:45:47.152 @PAY006 
+10:45:47.153 @PAY007 
+10:45:47.154 @PAY008 
+10:45:47.155 @PAY009 
+10:45:47.156 @PAY010 
+10:45:47.157 @PAY011 
+10:45:47.159 @PAY012 
+10:45:47.160 @PAY013 
+10:45:47.161 @PAY014 
+10:45:47.162 @PAY015 
+10:45:47.163 @PAY016 
+10:45:47.164 @PAY017 
+10:45:47.165 @PAY018 
+10:45:47.166 @PAY019 
+10:45:47.167 @PAY020 
+10:45:47.168 @PAY021 
+10:45:47.169 @PAY022 
+10:45:47.169 @PAY023 
+10:45:47.171 @PAY024 
+10:45:47.172 @PAY025 
+10:45:47.173 @PAY026 
+10:45:47.174 @PAY027 
+10:45:47.175 @PAY028 
+10:45:47.176 @PAY029 
+10:45:47.177 @PAY030 
+10:45:47.178 @PAY031 
+10:45:47.179 @PAY032 
+10:45:47.180 @PAY033 
+10:45:47.180 @PAY034 
+10:45:47.183 @PAY001 722
+10:45:47.184 @PAY002 朱德书
+10:45:47.185 @PAY003 201806
+10:45:47.186 @PAY004 
+10:45:47.187 @PAY005 
+10:45:47.188 @PAY006 
+10:45:47.189 @PAY007 
+10:45:47.190 @PAY008 
+10:45:47.191 @PAY009 
+10:45:47.192 @PAY010 
+10:45:47.193 @PAY011 
+10:45:47.194 @PAY012 
+10:45:47.195 @PAY013 
+10:45:47.196 @PAY014 
+10:45:47.197 @PAY015 
+10:45:47.198 @PAY016 
+10:45:47.199 @PAY017 
+10:45:47.200 @PAY018 
+10:45:47.201 @PAY019 
+10:45:47.202 @PAY020 
+10:45:47.203 @PAY021 
+10:45:47.203 @PAY022 
+10:45:47.204 @PAY023 
+10:45:47.205 @PAY024 
+10:45:47.207 @PAY025 
+10:45:47.208 @PAY026 
+10:45:47.209 @PAY027 
+10:45:47.209 @PAY028 
+10:45:47.210 @PAY029 
+10:45:47.211 @PAY030 
+10:45:47.212 @PAY031 
+10:45:47.213 @PAY032 
+10:45:47.214 @PAY033 
+10:45:47.215 @PAY034 
+10:45:47.218 @PAY001 763
+10:45:47.219 @PAY002 俞有良
+10:45:47.220 @PAY003 201806
+10:45:47.221 @PAY004 
+10:45:47.222 @PAY005 
+10:45:47.223 @PAY006 
+10:45:47.224 @PAY007 
+10:45:47.224 @PAY008 
+10:45:47.226 @PAY009 
+10:45:47.227 @PAY010 
+10:45:47.228 @PAY011 
+10:45:47.229 @PAY012 
+10:45:47.230 @PAY013 
+10:45:47.231 @PAY014 
+10:45:47.232 @PAY015 
+10:45:47.233 @PAY016 
+10:45:47.234 @PAY017 
+10:45:47.235 @PAY018 
+10:45:47.236 @PAY019 
+10:45:47.237 @PAY020 
+10:45:47.238 @PAY021 
+10:45:47.239 @PAY022 
+10:45:47.240 @PAY023 
+10:45:47.241 @PAY024 
+10:45:47.242 @PAY025 
+10:45:47.243 @PAY026 
+10:45:47.244 @PAY027 
+10:45:47.245 @PAY028 
+10:45:47.246 @PAY029 
+10:45:47.247 @PAY030 
+10:45:47.248 @PAY031 
+10:45:47.249 @PAY032 
+10:45:47.250 @PAY033 
+10:45:47.251 @PAY034 
+10:51:45.081  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+10:51:49.738 @EMP002 系统管理员
+10:51:49.740 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:57:16.549  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+10:57:26.228 @EMP002 系统管理员
+10:57:26.229 @EMP009 d2f278e251d1566edd72846d4ad97f
+11:17:05.566  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+11:17:35.354 @EMP002 系统管理员
+11:17:35.354 @EMP009 d2f278e251d1566edd72846d4ad97f
+11:28:24.620  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+11:28:30.033 @EMP002 系统管理员
+11:28:30.033 @EMP009 d2f278e251d1566edd72846d4ad97f
+14:41:18.146  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:41:26.870 @EMP002 系统管理员
+14:41:26.872 @EMP009 d2f278e251d1566edd72846d4ad97f
+20:06:02.670  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+20:06:10.616 @EMP002 系统管理员
+20:06:10.617 @EMP009 d2f278e251d1566edd72846d4ad97f
+20:06:58.846  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+20:07:11.296 @EMP002 系统管理员
+20:07:11.297 @EMP009 d2f278e251d1566edd72846d4ad97f
+20:07:32.257 '=' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 344
+20:07:32.258 SELECT OPV003 FROM OPV001=2018 AND OPV002=6
+20:09:56.863  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+20:10:01.553 @EMP002 系统管理员
+20:10:01.554 @EMP009 d2f278e251d1566edd72846d4ad97f
+20:10:09.315 '=' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 344
+20:10:09.317 SELECT OPV003 FROM MOXOPV OPV001=2018 AND OPV002=6
+20:10:56.236  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+20:11:01.588 @EMP002 系统管理员
+20:11:01.589 @EMP009 d2f278e251d1566edd72846d4ad97f
+20:12:00.019  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+20:12:07.427 @EMP002 系统管理员
+20:12:07.428 @EMP009 d2f278e251d1566edd72846d4ad97f
+20:13:47.438  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+20:13:53.792 @EMP002 系统管理员
+20:13:53.793 @EMP009 d2f278e251d1566edd72846d4ad97f
+20:14:57.024  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+20:15:01.708 @EMP002 系统管理员
+20:15:01.710 @EMP009 d2f278e251d1566edd72846d4ad97f
+20:16:21.772  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+20:16:28.832 @EMP002 系统管理员
+20:16:28.834 @EMP009 d2f278e251d1566edd72846d4ad97f
+20:16:34.806 @OPV001 2018
+20:16:34.807 @OPV002 6
+20:16:34.808 @OPV003 0
+20:16:34.809 @OPV004 0
+20:16:34.817 @OPV001 2018
+20:16:34.818 @OPV002 6
+20:16:34.819 @OPV003 0
+20:16:34.820 @OPV004 0
+20:16:34.822 @OPV001 2018
+20:16:34.823 @OPV002 6
+20:16:34.824 @OPV003 0
+20:16:34.825 @OPV004 0
+20:16:34.827 @OPV001 2018
+20:16:34.828 @OPV002 6
+20:16:34.829 @OPV003 0
+20:16:34.830 @OPV004 0
+20:16:34.832 @OPV001 2018
+20:16:34.833 @OPV002 6
+20:16:34.834 @OPV003 0
+20:16:34.835 @OPV004 0
+20:16:34.837 @OPV001 2018
+20:16:34.838 @OPV002 6
+20:16:34.839 @OPV003 0
+20:16:34.840 @OPV004 0
+20:16:34.842 @OPV001 2018
+20:16:34.844 @OPV002 6
+20:16:34.845 @OPV003 0
+20:16:34.846 @OPV004 0
+20:16:34.848 @OPV001 2018
+20:16:34.849 @OPV002 6
+20:16:34.851 @OPV003 0
+20:16:34.852 @OPV004 0
+20:16:34.854 @OPV001 2018
+20:16:34.855 @OPV002 6
+20:16:34.856 @OPV003 0
+20:16:34.858 @OPV004 0
+20:16:34.860 @OPV001 2018
+20:16:34.861 @OPV002 6
+20:16:34.862 @OPV003 0
+20:16:34.864 @OPV004 0
+20:16:34.866 @OPV001 2018
+20:16:34.867 @OPV002 6
+20:16:34.868 @OPV003 0
+20:16:34.869 @OPV004 0
+20:16:34.872 @OPV001 2018
+20:16:34.873 @OPV002 6
+20:16:34.874 @OPV003 0
+20:16:34.875 @OPV004 0
+20:16:34.877 @OPV001 2018
+20:16:34.878 @OPV002 6
+20:16:34.880 @OPV003 0
+20:16:34.881 @OPV004 0
+20:16:34.884 @OPV001 2018
+20:16:34.885 @OPV002 6
+20:16:34.887 @OPV003 0
+20:16:34.888 @OPV004 0
+20:16:34.890 @OPV001 2018
+20:16:34.891 @OPV002 6
+20:16:34.892 @OPV003 0
+20:16:34.894 @OPV004 0
+20:16:34.896 @OPV001 2018
+20:16:34.897 @OPV002 6
+20:16:34.898 @OPV003 0
+20:16:34.899 @OPV004 0
+20:16:34.902 @OPV001 2018
+20:16:34.903 @OPV002 6
+20:16:34.904 @OPV003 0
+20:16:34.906 @OPV004 0
+20:16:34.908 @OPV001 2018
+20:16:34.909 @OPV002 6
+20:16:34.910 @OPV003 0
+20:16:34.911 @OPV004 0
+20:16:34.913 @OPV001 2018
+20:16:34.914 @OPV002 6
+20:16:34.916 @OPV003 0
+20:16:34.917 @OPV004 0
+20:16:34.932 @OPV001 2018
+20:16:34.933 @OPV002 6
+20:16:34.934 @OPV003 0
+20:16:34.936 @OPV004 0
+20:16:34.938 @OPV001 2018
+20:16:34.940 @OPV002 6
+20:16:34.941 @OPV003 0
+20:16:34.942 @OPV004 0
+20:16:34.944 @OPV001 2018
+20:16:34.945 @OPV002 6
+20:16:34.947 @OPV003 0
+20:16:34.948 @OPV004 0
+20:16:34.950 @OPV001 2018
+20:16:34.951 @OPV002 6
+20:16:34.952 @OPV003 0
+20:16:34.953 @OPV004 0
+20:16:34.955 @OPV001 2018
+20:16:34.956 @OPV002 6
+20:16:34.957 @OPV003 0
+20:16:34.959 @OPV004 0
+20:16:34.961 @OPV001 2018
+20:16:34.962 @OPV002 6
+20:16:34.963 @OPV003 0
+20:16:34.964 @OPV004 0
+20:16:34.966 @OPV001 2018
+20:16:34.967 @OPV002 6
+20:16:34.968 @OPV003 0
+20:16:34.969 @OPV004 0
+20:16:34.972 @OPV001 2018
+20:16:34.973 @OPV002 6
+20:16:34.974 @OPV003 0
+20:16:34.975 @OPV004 0
+20:16:34.977 @OPV001 2018
+20:16:34.978 @OPV002 6
+20:16:34.979 @OPV003 0
+20:16:34.981 @OPV004 0
+20:16:34.983 @OPV001 2018
+20:16:34.984 @OPV002 6
+20:16:34.986 @OPV003 0
+20:16:34.987 @OPV004 0
+20:16:34.992 @OPV001 2018
+20:16:34.994 @OPV002 6
+20:16:34.995 @OPV003 0
+20:16:34.996 @OPV004 0
+20:16:34.999 @OPV001 2018
+20:16:35.000 @OPV002 6
+20:16:35.001 @OPV003 0
+20:16:35.002 @OPV004 0
+20:16:35.004 @OPV001 2018
+20:16:35.006 @OPV002 6
+20:16:35.007 @OPV003 0
+20:16:35.008 @OPV004 0
+20:16:35.010 @OPV001 2018
+20:16:35.011 @OPV002 6
+20:16:35.012 @OPV003 0
+20:16:35.014 @OPV004 0
+20:16:35.016 @OPV001 2018
+20:16:35.017 @OPV002 6
+20:16:35.018 @OPV003 0
+20:16:35.019 @OPV004 0
+20:16:35.021 @OPV001 2018
+20:16:35.023 @OPV002 6
+20:16:35.024 @OPV003 0
+20:16:35.025 @OPV004 0
+20:16:35.027 @OPV001 2018
+20:16:35.028 @OPV002 6
+20:16:35.029 @OPV003 0
+20:16:35.030 @OPV004 0
+20:16:35.032 @OPV001 2018
+20:16:35.033 @OPV002 6
+20:16:35.035 @OPV003 0
+20:16:35.036 @OPV004 0
+20:16:35.038 @OPV001 2018
+20:16:35.039 @OPV002 6
+20:16:35.040 @OPV003 0
+20:16:35.041 @OPV004 0
+20:16:35.043 @OPV001 2018
+20:16:35.044 @OPV002 6
+20:16:35.045 @OPV003 0
+20:16:35.046 @OPV004 0
+20:16:35.063 @OPV001 2018
+20:16:35.064 @OPV002 6
+20:16:35.066 @OPV003 0
+20:16:35.067 @OPV006 0
+20:16:35.073 @OPV001 2018
+20:16:35.074 @OPV002 6
+20:16:35.075 @OPV003 0
+20:16:35.076 @OPV006 0
+20:16:35.078 @OPV001 2018
+20:16:35.080 @OPV002 6
+20:16:35.081 @OPV003 0
+20:16:35.082 @OPV006 0
+20:16:35.084 @OPV001 2018
+20:16:35.086 @OPV002 6
+20:16:35.087 @OPV003 0
+20:16:35.088 @OPV006 0
+20:16:35.090 @OPV001 2018
+20:16:35.091 @OPV002 6
+20:16:35.092 @OPV003 0
+20:16:35.093 @OPV006 0
+20:16:35.095 @OPV001 2018
+20:16:35.097 @OPV002 6
+20:16:35.098 @OPV003 0
+20:16:35.099 @OPV006 0
+20:16:35.103 @OPV001 2018
+20:16:35.104 @OPV002 6
+20:16:35.106 @OPV003 0
+20:16:35.107 @OPV006 0
+20:16:35.109 @OPV001 2018
+20:16:35.111 @OPV002 6
+20:16:35.112 @OPV003 0
+20:16:35.113 @OPV006 0
+20:16:35.116 @OPV001 2018
+20:16:35.117 @OPV002 6
+20:16:35.118 @OPV003 0
+20:16:35.119 @OPV006 0
+20:16:35.121 @OPV001 2018
+20:16:35.122 @OPV002 6
+20:16:35.123 @OPV003 0
+20:16:35.125 @OPV006 0
+20:16:35.127 @OPV001 2018
+20:16:35.128 @OPV002 6
+20:16:35.129 @OPV003 0
+20:16:35.130 @OPV006 0
+20:16:35.132 @OPV001 2018
+20:16:35.133 @OPV002 6
+20:16:35.134 @OPV003 0
+20:16:35.135 @OPV006 0
+20:16:35.137 @OPV001 2018
+20:16:35.139 @OPV002 6
+20:16:35.140 @OPV003 0
+20:16:35.141 @OPV006 0
+20:16:35.143 @OPV001 2018
+20:16:35.145 @OPV002 6
+20:16:35.146 @OPV003 0
+20:16:35.147 @OPV006 0
+20:16:35.149 @OPV001 2018
+20:16:35.150 @OPV002 6
+20:16:35.151 @OPV003 0
+20:16:35.153 @OPV006 0
+20:16:35.156 @OPV001 2018
+20:16:35.157 @OPV002 6
+20:16:35.158 @OPV003 0
+20:16:35.159 @OPV006 0
+20:16:35.161 @OPV001 2018
+20:16:35.163 @OPV002 6
+20:16:35.164 @OPV003 0
+20:16:35.165 @OPV006 0
+20:16:35.167 @OPV001 2018
+20:16:35.168 @OPV002 6
+20:16:35.169 @OPV003 0
+20:16:35.170 @OPV006 0
+20:16:35.173 @OPV001 2018
+20:16:35.174 @OPV002 6
+20:16:35.175 @OPV003 0
+20:16:35.176 @OPV006 0
+20:16:35.178 @OPV001 2018
+20:16:35.179 @OPV002 6
+20:16:35.180 @OPV003 0
+20:16:35.182 @OPV006 0
+20:16:35.184 @OPV001 2018
+20:16:35.185 @OPV002 6
+20:16:35.186 @OPV003 0
+20:16:35.187 @OPV006 0
+20:16:35.189 @OPV001 2018
+20:16:35.190 @OPV002 6
+20:16:35.192 @OPV003 0
+20:16:35.193 @OPV006 0
+20:16:35.231 @OPV001 2018
+20:16:35.233 @OPV002 6
+20:16:35.234 @OPV003 0
+20:16:35.235 @OPV007 0
+20:16:35.236 @OPV008 0
+20:16:35.237 @OPV009 0
+20:16:35.238 @OPV010 0
+20:16:35.242 @OPV001 2018
+20:16:35.244 @OPV002 6
+20:16:35.245 @OPV003 0
+20:16:35.246 @OPV007 0
+20:16:35.247 @OPV008 0
+20:16:35.248 @OPV009 0
+20:16:35.249 @OPV010 0
+20:16:35.253 @OPV001 2018
+20:16:35.254 @OPV002 6
+20:16:35.255 @OPV003 0
+20:16:35.256 @OPV007 0
+20:16:35.257 @OPV008 0
+20:16:35.258 @OPV009 0
+20:16:35.259 @OPV010 0
+20:16:35.262 @OPV001 2018
+20:16:35.263 @OPV002 6
+20:16:35.264 @OPV003 0
+20:16:35.265 @OPV007 0
+20:16:35.266 @OPV008 0
+20:16:35.267 @OPV009 0
+20:16:35.268 @OPV010 0
+20:16:35.270 @OPV001 2018
+20:16:35.272 @OPV002 6
+20:16:35.273 @OPV003 0
+20:16:35.274 @OPV007 0
+20:16:35.275 @OPV008 0
+20:16:35.276 @OPV009 0
+20:16:35.277 @OPV010 0
+20:16:35.279 @OPV001 2018
+20:16:35.280 @OPV002 6
+20:16:35.282 @OPV003 0
+20:16:35.283 @OPV007 0
+20:16:35.284 @OPV008 0
+20:16:35.285 @OPV009 0
+20:16:35.286 @OPV010 0
+20:16:35.288 @OPV001 2018
+20:16:35.289 @OPV002 6
+20:16:35.290 @OPV003 0
+20:16:35.292 @OPV007 0
+20:16:35.293 @OPV008 0
+20:16:35.294 @OPV009 0
+20:16:35.295 @OPV010 0
+20:16:35.297 @OPV001 2018
+20:16:35.298 @OPV002 6
+20:16:35.299 @OPV003 0
+20:16:35.300 @OPV007 0
+20:16:35.302 @OPV008 0
+20:16:35.303 @OPV009 0
+20:16:35.304 @OPV010 0
+20:16:35.306 @OPV001 2018
+20:16:35.307 @OPV002 6
+20:16:35.308 @OPV003 0
+20:16:35.309 @OPV007 0
+20:16:35.310 @OPV008 0
+20:16:35.312 @OPV009 0
+20:16:35.313 @OPV010 0
+20:16:35.315 @OPV001 2018
+20:16:35.316 @OPV002 6
+20:16:35.317 @OPV003 0
+20:16:35.318 @OPV007 0
+20:16:35.319 @OPV008 0
+20:16:35.320 @OPV009 0
+20:16:35.321 @OPV010 0
+20:16:35.323 @OPV001 2018
+20:16:35.324 @OPV002 6
+20:16:35.325 @OPV003 0
+20:16:35.326 @OPV007 0
+20:16:35.327 @OPV008 0
+20:16:35.328 @OPV009 0
+20:16:35.329 @OPV010 0
+20:16:35.332 @OPV001 2018
+20:16:35.333 @OPV002 6
+20:16:35.334 @OPV003 0
+20:16:35.335 @OPV007 0
+20:16:35.336 @OPV008 0
+20:16:35.337 @OPV009 0
+20:16:35.338 @OPV010 0
+20:16:35.341 @OPV001 2018
+20:16:35.343 @OPV002 6
+20:16:35.344 @OPV003 0
+20:16:35.345 @OPV007 0
+20:16:35.346 @OPV008 0
+20:16:35.347 @OPV009 0
+20:16:35.348 @OPV010 0
+20:16:35.350 @OPV001 2018
+20:16:35.351 @OPV002 6
+20:16:35.353 @OPV003 0
+20:16:35.354 @OPV007 0
+20:16:35.355 @OPV008 0
+20:16:35.356 @OPV009 0
+20:16:35.357 @OPV010 0
+20:16:35.359 @OPV001 2018
+20:16:35.360 @OPV002 6
+20:16:35.361 @OPV003 0
+20:16:35.362 @OPV007 0
+20:16:35.363 @OPV008 0
+20:16:35.364 @OPV009 0
+20:16:35.365 @OPV010 0
+20:16:35.367 @OPV001 2018
+20:16:35.368 @OPV002 6
+20:16:35.369 @OPV003 0
+20:16:35.370 @OPV007 0
+20:16:35.372 @OPV008 0
+20:16:35.373 @OPV009 0
+20:16:35.374 @OPV010 0
+20:16:35.376 @OPV001 2018
+20:16:35.377 @OPV002 6
+20:16:35.378 @OPV003 0
+20:16:35.379 @OPV007 0
+20:16:35.380 @OPV008 0
+20:16:35.382 @OPV009 0
+20:16:35.383 @OPV010 0
+20:16:35.385 @OPV001 2018
+20:16:35.386 @OPV002 6
+20:16:35.387 @OPV003 0
+20:16:35.388 @OPV007 0
+20:16:35.389 @OPV008 0
+20:16:35.391 @OPV009 0
+20:16:35.392 @OPV010 0
+20:16:35.394 @OPV001 2018
+20:16:35.395 @OPV002 6
+20:16:35.396 @OPV003 0
+20:16:35.397 @OPV007 0
+20:16:35.399 @OPV008 0
+20:16:35.400 @OPV009 0
+20:16:35.401 @OPV010 0
+20:16:35.403 @OPV001 2018
+20:16:35.404 @OPV002 6
+20:16:35.405 @OPV003 0
+20:16:35.407 @OPV007 0
+20:16:35.408 @OPV008 0
+20:16:35.409 @OPV009 0
+20:16:35.411 @OPV010 0
+20:16:35.413 @OPV001 2018
+20:16:35.414 @OPV002 6
+20:16:35.415 @OPV003 0
+20:16:35.416 @OPV007 0
+20:16:35.418 @OPV008 0
+20:16:35.419 @OPV009 0
+20:16:35.421 @OPV010 0
+20:16:35.423 @OPV001 2018
+20:16:35.425 @OPV002 6
+20:16:35.426 @OPV003 0
+20:16:35.427 @OPV007 0
+20:16:35.428 @OPV008 0
+20:16:35.429 @OPV009 0
+20:16:35.430 @OPV010 0
+20:16:35.432 @OPV001 2018
+20:16:35.433 @OPV002 6
+20:16:35.434 @OPV003 0
+20:16:35.435 @OPV007 0
+20:16:35.436 @OPV008 0
+20:16:35.438 @OPV009 0
+20:16:35.439 @OPV010 0
+20:16:35.461 @OPV001 2018
+20:16:35.462 @OPV002 6
+20:16:35.464 @OPV003 0
+20:16:35.465 @OPV011 0
+20:16:35.469 @OPV001 2018
+20:16:35.470 @OPV002 6
+20:16:35.471 @OPV003 0
+20:16:35.472 @OPV011 0
+20:16:35.474 @OPV001 2018
+20:16:35.476 @OPV002 6
+20:16:35.477 @OPV003 0
+20:16:35.478 @OPV011 0
+20:16:35.480 @OPV001 2018
+20:16:35.481 @OPV002 6
+20:16:35.482 @OPV003 0
+20:16:35.484 @OPV011 0
+20:16:35.486 @OPV001 2018
+20:16:35.487 @OPV002 6
+20:16:35.488 @OPV003 0
+20:16:35.489 @OPV011 0
+20:16:35.491 @OPV001 2018
+20:16:35.493 @OPV002 6
+20:16:35.494 @OPV003 0
+20:16:35.495 @OPV011 0
+20:16:35.497 @OPV001 2018
+20:16:35.499 @OPV002 6
+20:16:35.500 @OPV003 0
+20:16:35.502 @OPV011 0
+20:16:42.125 @OPV001 2018
+20:16:42.127 @OPV002 6
+20:16:42.129 @OPV003 0
+20:16:42.132 @OPV004 0
+20:16:42.136 @OPV001 2018
+20:16:42.138 @OPV002 6
+20:16:42.139 @OPV003 0
+20:16:42.140 @OPV004 0
+20:16:42.143 @OPV001 2018
+20:16:42.144 @OPV002 6
+20:16:42.145 @OPV003 0
+20:16:42.146 @OPV004 0
+20:16:42.149 @OPV001 2018
+20:16:42.150 @OPV002 6
+20:16:42.151 @OPV003 0
+20:16:42.152 @OPV004 0
+20:16:42.154 @OPV001 2018
+20:16:42.155 @OPV002 6
+20:16:42.156 @OPV003 0
+20:16:42.157 @OPV004 0
+20:16:42.159 @OPV001 2018
+20:16:42.161 @OPV002 6
+20:16:42.162 @OPV003 0
+20:16:42.163 @OPV004 0
+20:16:42.165 @OPV001 2018
+20:16:42.166 @OPV002 6
+20:16:42.167 @OPV003 0
+20:16:42.168 @OPV004 0
+20:16:42.170 @OPV001 2018
+20:16:42.172 @OPV002 6
+20:16:42.173 @OPV003 0
+20:16:42.174 @OPV004 0
+20:16:42.176 @OPV001 2018
+20:16:42.177 @OPV002 6
+20:16:42.178 @OPV003 0
+20:16:42.179 @OPV004 0
+20:16:42.181 @OPV001 2018
+20:16:42.183 @OPV002 6
+20:16:42.184 @OPV003 0
+20:16:42.185 @OPV004 0
+20:16:42.187 @OPV001 2018
+20:16:42.188 @OPV002 6
+20:16:42.189 @OPV003 0
+20:16:42.190 @OPV004 0
+20:16:42.192 @OPV001 2018
+20:16:42.193 @OPV002 6
+20:16:42.194 @OPV003 0
+20:16:42.195 @OPV004 0
+20:16:42.198 @OPV001 2018
+20:16:42.199 @OPV002 6
+20:16:42.200 @OPV003 0
+20:16:42.201 @OPV004 0
+20:16:42.203 @OPV001 2018
+20:16:42.205 @OPV002 6
+20:16:42.206 @OPV003 0
+20:16:42.207 @OPV004 0
+20:16:42.209 @OPV001 2018
+20:16:42.210 @OPV002 6
+20:16:42.211 @OPV003 0
+20:16:42.212 @OPV004 0
+20:16:42.214 @OPV001 2018
+20:16:42.215 @OPV002 6
+20:16:42.216 @OPV003 0
+20:16:42.218 @OPV004 0
+20:16:42.219 @OPV001 2018
+20:16:42.221 @OPV002 6
+20:16:42.222 @OPV003 0
+20:16:42.223 @OPV004 0
+20:16:42.225 @OPV001 2018
+20:16:42.226 @OPV002 6
+20:16:42.228 @OPV003 0
+20:16:42.229 @OPV004 0
+20:16:42.231 @OPV001 2018
+20:16:42.232 @OPV002 6
+20:16:42.233 @OPV003 0
+20:16:42.234 @OPV004 0
+20:16:42.243 @OPV001 2018
+20:16:42.244 @OPV002 6
+20:16:42.245 @OPV003 0
+20:16:42.246 @OPV004 0
+20:16:42.248 @OPV001 2018
+20:16:42.249 @OPV002 6
+20:16:42.251 @OPV003 0
+20:16:42.252 @OPV004 0
+20:16:42.254 @OPV001 2018
+20:16:42.255 @OPV002 6
+20:16:42.256 @OPV003 0
+20:16:42.257 @OPV004 0
+20:16:42.260 @OPV001 2018
+20:16:42.261 @OPV002 6
+20:16:42.262 @OPV003 0
+20:16:42.263 @OPV004 0
+20:16:42.265 @OPV001 2018
+20:16:42.266 @OPV002 6
+20:16:42.267 @OPV003 0
+20:16:42.269 @OPV004 0
+20:16:42.273 @OPV001 2018
+20:16:42.274 @OPV002 6
+20:16:42.275 @OPV003 0
+20:16:42.276 @OPV004 0
+20:16:42.279 @OPV001 2018
+20:16:42.280 @OPV002 6
+20:16:42.281 @OPV003 0
+20:16:42.282 @OPV004 0
+20:16:42.284 @OPV001 2018
+20:16:42.285 @OPV002 6
+20:16:42.286 @OPV003 0
+20:16:42.287 @OPV004 0
+20:16:42.290 @OPV001 2018
+20:16:42.291 @OPV002 6
+20:16:42.292 @OPV003 0
+20:16:42.293 @OPV004 0
+20:16:42.295 @OPV001 2018
+20:16:42.296 @OPV002 6
+20:16:42.298 @OPV003 0
+20:16:42.299 @OPV004 0
+20:16:42.301 @OPV001 2018
+20:16:42.302 @OPV002 6
+20:16:42.303 @OPV003 0
+20:16:42.304 @OPV004 0
+20:16:42.306 @OPV001 2018
+20:16:42.308 @OPV002 6
+20:16:42.309 @OPV003 0
+20:16:42.310 @OPV004 0
+20:16:42.312 @OPV001 2018
+20:16:42.313 @OPV002 6
+20:16:42.314 @OPV003 0
+20:16:42.315 @OPV004 0
+20:16:42.317 @OPV001 2018
+20:16:42.319 @OPV002 6
+20:16:42.320 @OPV003 0
+20:16:42.321 @OPV004 0
+20:16:42.323 @OPV001 2018
+20:16:42.325 @OPV002 6
+20:16:42.326 @OPV003 0
+20:16:42.327 @OPV004 0
+20:16:42.329 @OPV001 2018
+20:16:42.330 @OPV002 6
+20:16:42.332 @OPV003 0
+20:16:42.333 @OPV004 0
+20:16:42.335 @OPV001 2018
+20:16:42.336 @OPV002 6
+20:16:42.337 @OPV003 0
+20:16:42.338 @OPV004 0
+20:16:42.340 @OPV001 2018
+20:16:42.341 @OPV002 6
+20:16:42.342 @OPV003 0
+20:16:42.344 @OPV004 0
+20:16:42.346 @OPV001 2018
+20:16:42.347 @OPV002 6
+20:16:42.348 @OPV003 0
+20:16:42.349 @OPV004 0
+20:16:42.351 @OPV001 2018
+20:16:42.353 @OPV002 6
+20:16:42.354 @OPV003 0
+20:16:42.355 @OPV004 0
+20:16:42.364 @OPV001 2018
+20:16:42.365 @OPV002 6
+20:16:42.366 @OPV003 0
+20:16:42.367 @OPV006 0
+20:16:42.370 @OPV001 2018
+20:16:42.371 @OPV002 6
+20:16:42.372 @OPV003 0
+20:16:42.373 @OPV006 0
+20:16:42.375 @OPV001 2018
+20:16:42.377 @OPV002 6
+20:16:42.378 @OPV003 0
+20:16:42.379 @OPV006 0
+20:16:42.381 @OPV001 2018
+20:16:42.382 @OPV002 6
+20:16:42.383 @OPV003 0
+20:16:42.384 @OPV006 0
+20:16:42.387 @OPV001 2018
+20:16:42.388 @OPV002 6
+20:16:42.389 @OPV003 0
+20:16:42.390 @OPV006 0
+20:16:42.394 @OPV001 2018
+20:16:42.395 @OPV002 6
+20:16:42.396 @OPV003 0
+20:16:42.398 @OPV006 0
+20:16:42.400 @OPV001 2018
+20:16:42.401 @OPV002 6
+20:16:42.402 @OPV003 0
+20:16:42.403 @OPV006 0
+20:16:42.405 @OPV001 2018
+20:16:42.407 @OPV002 6
+20:16:42.408 @OPV003 0
+20:16:42.409 @OPV006 0
+20:16:42.411 @OPV001 2018
+20:16:42.413 @OPV002 6
+20:16:42.414 @OPV003 0
+20:16:42.415 @OPV006 0
+20:16:42.417 @OPV001 2018
+20:16:42.419 @OPV002 6
+20:16:42.419 @OPV003 0
+20:16:42.420 @OPV006 0
+20:16:42.423 @OPV001 2018
+20:16:42.424 @OPV002 6
+20:16:42.425 @OPV003 0
+20:16:42.426 @OPV006 0
+20:16:42.428 @OPV001 2018
+20:16:42.429 @OPV002 6
+20:16:42.430 @OPV003 0
+20:16:42.431 @OPV006 0
+20:16:42.433 @OPV001 2018
+20:16:42.434 @OPV002 6
+20:16:42.435 @OPV003 0
+20:16:42.436 @OPV006 0
+20:16:42.438 @OPV001 2018
+20:16:42.439 @OPV002 6
+20:16:42.440 @OPV003 0
+20:16:42.442 @OPV006 0
+20:16:42.445 @OPV001 2018
+20:16:42.446 @OPV002 6
+20:16:42.447 @OPV003 0
+20:16:42.448 @OPV006 0
+20:16:42.450 @OPV001 2018
+20:16:42.451 @OPV002 6
+20:16:42.452 @OPV003 0
+20:16:42.453 @OPV006 0
+20:16:42.455 @OPV001 2018
+20:16:42.456 @OPV002 6
+20:16:42.457 @OPV003 0
+20:16:42.458 @OPV006 0
+20:16:42.460 @OPV001 2018
+20:16:42.462 @OPV002 6
+20:16:42.463 @OPV003 0
+20:16:42.463 @OPV006 0
+20:16:42.465 @OPV001 2018
+20:16:42.466 @OPV002 6
+20:16:42.468 @OPV003 0
+20:16:42.469 @OPV006 0
+20:16:42.471 @OPV001 2018
+20:16:42.473 @OPV002 6
+20:16:42.474 @OPV003 0
+20:16:42.474 @OPV006 0
+20:16:42.476 @OPV001 2018
+20:16:42.478 @OPV002 6
+20:16:42.478 @OPV003 0
+20:16:42.479 @OPV006 0
+20:16:42.481 @OPV001 2018
+20:16:42.482 @OPV002 6
+20:16:42.483 @OPV003 0
+20:16:42.485 @OPV006 0
+20:16:42.508 @OPV001 2018
+20:16:42.510 @OPV002 6
+20:16:42.511 @OPV003 0
+20:16:42.512 @OPV007 0
+20:16:42.513 @OPV008 0
+20:16:42.514 @OPV009 0
+20:16:42.515 @OPV010 0
+20:16:42.516 @OPV001 2018
+20:16:42.518 @OPV002 6
+20:16:42.519 @OPV003 0
+20:16:42.520 @OPV007 0
+20:16:42.521 @OPV008 0
+20:16:42.522 @OPV009 0
+20:16:42.523 @OPV010 0
+20:16:42.525 @OPV001 2018
+20:16:42.526 @OPV002 6
+20:16:42.527 @OPV003 0
+20:16:42.528 @OPV007 0
+20:16:42.529 @OPV008 0
+20:16:42.530 @OPV009 0
+20:16:42.531 @OPV010 0
+20:16:42.533 @OPV001 2018
+20:16:42.534 @OPV002 6
+20:16:42.535 @OPV003 0
+20:16:42.537 @OPV007 0
+20:16:42.538 @OPV008 0
+20:16:42.539 @OPV009 0
+20:16:42.540 @OPV010 0
+20:16:42.542 @OPV001 2018
+20:16:42.543 @OPV002 6
+20:16:42.544 @OPV003 0
+20:16:42.546 @OPV007 0
+20:16:42.547 @OPV008 0
+20:16:42.548 @OPV009 0
+20:16:42.549 @OPV010 0
+20:16:42.552 @OPV001 2018
+20:16:42.553 @OPV002 6
+20:16:42.554 @OPV003 0
+20:16:42.555 @OPV007 0
+20:16:42.556 @OPV008 0
+20:16:42.557 @OPV009 0
+20:16:42.558 @OPV010 0
+20:16:42.564 @OPV001 2018
+20:16:42.565 @OPV002 6
+20:16:42.566 @OPV003 0
+20:16:42.568 @OPV007 0
+20:16:42.569 @OPV008 0
+20:16:42.570 @OPV009 0
+20:16:42.572 @OPV010 0
+20:16:42.576 @OPV001 2018
+20:16:42.577 @OPV002 6
+20:16:42.579 @OPV003 0
+20:16:42.580 @OPV007 0
+20:16:42.581 @OPV008 0
+20:16:42.582 @OPV009 0
+20:16:42.583 @OPV010 0
+20:16:42.588 @OPV001 2018
+20:16:42.589 @OPV002 6
+20:16:42.591 @OPV003 0
+20:16:42.593 @OPV007 0
+20:16:42.594 @OPV008 0
+20:16:42.596 @OPV009 0
+20:16:42.597 @OPV010 0
+20:16:42.602 @OPV001 2018
+20:16:42.604 @OPV002 6
+20:16:42.605 @OPV003 0
+20:16:42.606 @OPV007 0
+20:16:42.608 @OPV008 0
+20:16:42.609 @OPV009 0
+20:16:42.610 @OPV010 0
+20:16:42.614 @OPV001 2018
+20:16:42.616 @OPV002 6
+20:16:42.617 @OPV003 0
+20:16:42.619 @OPV007 0
+20:16:42.620 @OPV008 0
+20:16:42.621 @OPV009 0
+20:16:42.623 @OPV010 0
+20:16:42.625 @OPV001 2018
+20:16:42.627 @OPV002 6
+20:16:42.628 @OPV003 0
+20:16:42.629 @OPV007 0
+20:16:42.631 @OPV008 0
+20:16:42.632 @OPV009 0
+20:16:42.633 @OPV010 0
+20:16:42.636 @OPV001 2018
+20:16:42.638 @OPV002 6
+20:16:42.639 @OPV003 0
+20:16:42.640 @OPV007 0
+20:16:42.642 @OPV008 0
+20:16:42.643 @OPV009 0
+20:16:42.645 @OPV010 0
+20:16:42.647 @OPV001 2018
+20:16:42.649 @OPV002 6
+20:16:42.650 @OPV003 0
+20:16:42.652 @OPV007 0
+20:16:42.653 @OPV008 0
+20:16:42.654 @OPV009 0
+20:16:42.655 @OPV010 0
+20:16:42.658 @OPV001 2018
+20:16:42.659 @OPV002 6
+20:16:42.660 @OPV003 0
+20:16:42.662 @OPV007 0
+20:16:42.663 @OPV008 0
+20:16:42.664 @OPV009 0
+20:16:42.665 @OPV010 0
+20:16:42.667 @OPV001 2018
+20:16:42.669 @OPV002 6
+20:16:42.670 @OPV003 0
+20:16:42.672 @OPV007 0
+20:16:42.673 @OPV008 0
+20:16:42.674 @OPV009 0
+20:16:42.675 @OPV010 0
+20:16:42.678 @OPV001 2018
+20:16:42.679 @OPV002 6
+20:16:42.681 @OPV003 0
+20:16:42.682 @OPV007 0
+20:16:42.683 @OPV008 0
+20:16:42.685 @OPV009 0
+20:16:42.686 @OPV010 0
+20:16:42.688 @OPV001 2018
+20:16:42.690 @OPV002 6
+20:16:42.691 @OPV003 0
+20:16:42.693 @OPV007 0
+20:16:42.694 @OPV008 0
+20:16:42.695 @OPV009 0
+20:16:42.697 @OPV010 0
+20:16:42.700 @OPV001 2018
+20:16:42.701 @OPV002 6
+20:16:42.703 @OPV003 0
+20:16:42.704 @OPV007 0
+20:16:42.705 @OPV008 0
+20:16:42.706 @OPV009 0
+20:16:42.708 @OPV010 0
+20:16:42.711 @OPV001 2018
+20:16:42.712 @OPV002 6
+20:16:42.713 @OPV003 0
+20:16:42.715 @OPV007 0
+20:16:42.716 @OPV008 0
+20:16:42.717 @OPV009 0
+20:16:42.719 @OPV010 0
+20:16:42.721 @OPV001 2018
+20:16:42.723 @OPV002 6
+20:16:42.724 @OPV003 0
+20:16:42.726 @OPV007 0
+20:16:42.727 @OPV008 0
+20:16:42.729 @OPV009 0
+20:16:42.730 @OPV010 0
+20:16:42.733 @OPV001 2018
+20:16:42.734 @OPV002 6
+20:16:42.736 @OPV003 0
+20:16:42.737 @OPV007 0
+20:16:42.739 @OPV008 0
+20:16:42.740 @OPV009 0
+20:16:42.741 @OPV010 0
+20:16:42.744 @OPV001 2018
+20:16:42.745 @OPV002 6
+20:16:42.747 @OPV003 0
+20:16:42.748 @OPV007 0
+20:16:42.750 @OPV008 0
+20:16:42.751 @OPV009 0
+20:16:42.752 @OPV010 0
+20:16:42.763 @OPV001 2018
+20:16:42.765 @OPV002 6
+20:16:42.766 @OPV003 0
+20:16:42.767 @OPV011 0
+20:16:42.770 @OPV001 2018
+20:16:42.771 @OPV002 6
+20:16:42.773 @OPV003 0
+20:16:42.774 @OPV011 0
+20:16:42.776 @OPV001 2018
+20:16:42.778 @OPV002 6
+20:16:42.779 @OPV003 0
+20:16:42.781 @OPV011 0
+20:16:42.783 @OPV001 2018
+20:16:42.785 @OPV002 6
+20:16:42.786 @OPV003 0
+20:16:42.787 @OPV011 0
+20:16:42.789 @OPV001 2018
+20:16:42.791 @OPV002 6
+20:16:42.792 @OPV003 0
+20:16:42.794 @OPV011 0
+20:16:42.796 @OPV001 2018
+20:16:42.797 @OPV002 6
+20:16:42.799 @OPV003 0
+20:16:42.800 @OPV011 0
+20:16:42.803 @OPV001 2018
+20:16:42.805 @OPV002 6
+20:16:42.806 @OPV003 0
+20:16:42.808 @OPV011 0
+20:16:46.644 @OPV001 2018
+20:16:46.646 @OPV002 5
+20:16:46.648 @OPV003 0
+20:16:46.650 @OPV004 0
+20:16:46.656 @OPV001 2018
+20:16:46.658 @OPV002 5
+20:16:46.661 @OPV003 0
+20:16:46.664 @OPV004 0
+20:16:46.668 @OPV001 2018
+20:16:46.669 @OPV002 5
+20:16:46.670 @OPV003 0
+20:16:46.672 @OPV004 0
+20:16:46.674 @OPV001 2018
+20:16:46.675 @OPV002 5
+20:16:46.676 @OPV003 0
+20:16:46.677 @OPV004 0
+20:16:46.679 @OPV001 2018
+20:16:46.681 @OPV002 5
+20:16:46.682 @OPV003 0
+20:16:46.683 @OPV004 0
+20:16:46.685 @OPV001 2018
+20:16:46.686 @OPV002 5
+20:16:46.687 @OPV003 0
+20:16:46.688 @OPV004 0
+20:16:46.691 @OPV001 2018
+20:16:46.692 @OPV002 5
+20:16:46.693 @OPV003 0
+20:16:46.694 @OPV004 0
+20:16:46.696 @OPV001 2018
+20:16:46.697 @OPV002 5
+20:16:46.700 @OPV003 0
+20:16:46.701 @OPV004 0
+20:16:46.703 @OPV001 2018
+20:16:46.705 @OPV002 5
+20:16:46.706 @OPV003 0
+20:16:46.706 @OPV004 0
+20:16:46.708 @OPV001 2018
+20:16:46.709 @OPV002 5
+20:16:46.710 @OPV003 0
+20:16:46.712 @OPV004 0
+20:16:46.714 @OPV001 2018
+20:16:46.715 @OPV002 5
+20:16:46.716 @OPV003 0
+20:16:46.717 @OPV004 0
+20:16:46.719 @OPV001 2018
+20:16:46.720 @OPV002 5
+20:16:46.721 @OPV003 0
+20:16:46.722 @OPV004 0
+20:16:46.724 @OPV001 2018
+20:16:46.725 @OPV002 5
+20:16:46.726 @OPV003 0
+20:16:46.727 @OPV004 0
+20:16:46.730 @OPV001 2018
+20:16:46.731 @OPV002 5
+20:16:46.732 @OPV003 0
+20:16:46.733 @OPV004 0
+20:16:46.735 @OPV001 2018
+20:16:46.736 @OPV002 5
+20:16:46.737 @OPV003 0
+20:16:46.738 @OPV004 0
+20:16:46.740 @OPV001 2018
+20:16:46.741 @OPV002 5
+20:16:46.742 @OPV003 0
+20:16:46.743 @OPV004 0
+20:16:46.745 @OPV001 2018
+20:16:46.746 @OPV002 5
+20:16:46.747 @OPV003 0
+20:16:46.748 @OPV004 0
+20:16:46.750 @OPV001 2018
+20:16:46.751 @OPV002 5
+20:16:46.752 @OPV003 0
+20:16:46.753 @OPV004 0
+20:16:46.755 @OPV001 2018
+20:16:46.756 @OPV002 5
+20:16:46.757 @OPV003 0
+20:16:46.758 @OPV004 0
+20:16:46.760 @OPV001 2018
+20:16:46.761 @OPV002 5
+20:16:46.762 @OPV003 0
+20:16:46.763 @OPV004 0
+20:16:46.765 @OPV001 2018
+20:16:46.766 @OPV002 5
+20:16:46.767 @OPV003 0
+20:16:46.768 @OPV004 0
+20:16:46.770 @OPV001 2018
+20:16:46.771 @OPV002 5
+20:16:46.772 @OPV003 0
+20:16:46.773 @OPV004 0
+20:16:46.775 @OPV001 2018
+20:16:46.776 @OPV002 5
+20:16:46.777 @OPV003 0
+20:16:46.778 @OPV004 0
+20:16:46.780 @OPV001 2018
+20:16:46.781 @OPV002 5
+20:16:46.783 @OPV003 0
+20:16:46.784 @OPV004 0
+20:16:46.786 @OPV001 2018
+20:16:46.787 @OPV002 5
+20:16:46.788 @OPV003 0
+20:16:46.789 @OPV004 0
+20:16:46.791 @OPV001 2018
+20:16:46.792 @OPV002 5
+20:16:46.793 @OPV003 0
+20:16:46.794 @OPV004 0
+20:16:46.796 @OPV001 2018
+20:16:46.798 @OPV002 5
+20:16:46.799 @OPV003 0
+20:16:46.800 @OPV004 0
+20:16:46.815 @OPV001 2018
+20:16:46.816 @OPV002 5
+20:16:46.817 @OPV003 0
+20:16:46.819 @OPV004 0
+20:16:46.821 @OPV001 2018
+20:16:46.822 @OPV002 5
+20:16:46.823 @OPV003 0
+20:16:46.824 @OPV004 0
+20:16:46.826 @OPV001 2018
+20:16:46.827 @OPV002 5
+20:16:46.828 @OPV003 0
+20:16:46.829 @OPV004 0
+20:16:46.831 @OPV001 2018
+20:16:46.832 @OPV002 5
+20:16:46.834 @OPV003 0
+20:16:46.835 @OPV004 0
+20:16:46.837 @OPV001 2018
+20:16:46.838 @OPV002 5
+20:16:46.839 @OPV003 0
+20:16:46.840 @OPV004 0
+20:16:46.842 @OPV001 2018
+20:16:46.844 @OPV002 5
+20:16:46.845 @OPV003 0
+20:16:46.846 @OPV004 0
+20:16:46.848 @OPV001 2018
+20:16:46.849 @OPV002 5
+20:16:46.851 @OPV003 0
+20:16:46.852 @OPV004 0
+20:16:46.854 @OPV001 2018
+20:16:46.855 @OPV002 5
+20:16:46.856 @OPV003 0
+20:16:46.857 @OPV004 0
+20:16:46.859 @OPV001 2018
+20:16:46.860 @OPV002 5
+20:16:46.862 @OPV003 0
+20:16:46.863 @OPV004 0
+20:16:46.865 @OPV001 2018
+20:16:46.866 @OPV002 5
+20:16:46.867 @OPV003 0
+20:16:46.868 @OPV004 0
+20:16:46.870 @OPV001 2018
+20:16:46.872 @OPV002 5
+20:16:46.873 @OPV003 0
+20:16:46.874 @OPV004 0
+20:16:46.876 @OPV001 2018
+20:16:46.877 @OPV002 5
+20:16:46.878 @OPV003 0
+20:16:46.879 @OPV004 0
+20:16:46.881 @OPV001 2018
+20:16:46.882 @OPV002 5
+20:16:46.884 @OPV003 0
+20:16:46.885 @OPV004 0
+20:16:46.887 @OPV001 2018
+20:16:46.888 @OPV002 5
+20:16:46.889 @OPV003 0
+20:16:46.890 @OPV004 0
+20:16:46.892 @OPV001 2018
+20:16:46.893 @OPV002 5
+20:16:46.894 @OPV003 0
+20:16:46.896 @OPV004 0
+20:16:46.898 @OPV001 2018
+20:16:46.899 @OPV002 5
+20:16:46.900 @OPV003 0
+20:16:46.901 @OPV004 0
+20:16:46.904 @OPV001 2018
+20:16:46.905 @OPV002 5
+20:16:46.906 @OPV003 0
+20:16:46.907 @OPV004 0
+20:16:46.909 @OPV001 2018
+20:16:46.910 @OPV002 5
+20:16:46.912 @OPV003 0
+20:16:46.913 @OPV004 0
+20:16:46.915 @OPV001 2018
+20:16:46.916 @OPV002 5
+20:16:46.917 @OPV003 0
+20:16:46.918 @OPV004 0
+20:16:46.920 @OPV001 2018
+20:16:46.921 @OPV002 5
+20:16:46.922 @OPV003 0
+20:16:46.924 @OPV004 0
+20:16:46.926 @OPV001 2018
+20:16:46.927 @OPV002 5
+20:16:46.928 @OPV003 0
+20:16:46.929 @OPV004 0
+20:16:46.931 @OPV001 2018
+20:16:46.932 @OPV002 5
+20:16:46.933 @OPV003 0
+20:16:46.934 @OPV004 0
+20:16:46.936 @OPV001 2018
+20:16:46.937 @OPV002 5
+20:16:46.939 @OPV003 0
+20:16:46.940 @OPV004 0
+20:16:46.942 @OPV001 2018
+20:16:46.943 @OPV002 5
+20:16:46.944 @OPV003 0
+20:16:46.945 @OPV004 0
+20:16:46.947 @OPV001 2018
+20:16:46.948 @OPV002 5
+20:16:46.950 @OPV003 0
+20:16:46.951 @OPV004 0
+20:16:46.953 @OPV001 2018
+20:16:46.954 @OPV002 5
+20:16:46.956 @OPV003 0
+20:16:46.957 @OPV004 0
+20:16:46.959 @OPV001 2018
+20:16:46.960 @OPV002 5
+20:16:46.961 @OPV003 0
+20:16:46.962 @OPV004 0
+20:16:46.964 @OPV001 2018
+20:16:46.965 @OPV002 5
+20:16:46.967 @OPV003 0
+20:16:46.968 @OPV004 0
+20:16:46.971 @OPV001 2018
+20:16:46.972 @OPV002 5
+20:16:46.973 @OPV003 0
+20:16:46.974 @OPV004 0
+20:16:46.992 @OPV001 2018
+20:16:46.994 @OPV002 5
+20:16:46.995 @OPV003 0
+20:16:46.996 @OPV006 0
+20:16:46.998 @OPV001 2018
+20:16:47.000 @OPV002 5
+20:16:47.001 @OPV003 0
+20:16:47.002 @OPV006 0
+20:16:47.004 @OPV001 2018
+20:16:47.006 @OPV002 5
+20:16:47.007 @OPV003 0
+20:16:47.008 @OPV006 0
+20:16:47.010 @OPV001 2018
+20:16:47.011 @OPV002 5
+20:16:47.012 @OPV003 0
+20:16:47.013 @OPV006 0
+20:16:47.015 @OPV001 2018
+20:16:47.016 @OPV002 5
+20:16:47.018 @OPV003 0
+20:16:47.019 @OPV006 0
+20:16:47.021 @OPV001 2018
+20:16:47.022 @OPV002 5
+20:16:47.023 @OPV003 0
+20:16:47.024 @OPV006 0
+20:16:47.026 @OPV001 2018
+20:16:47.027 @OPV002 5
+20:16:47.028 @OPV003 0
+20:16:47.029 @OPV006 0
+20:16:47.031 @OPV001 2018
+20:16:47.033 @OPV002 5
+20:16:47.034 @OPV003 0
+20:16:47.035 @OPV006 0
+20:16:47.037 @OPV001 2018
+20:16:47.038 @OPV002 5
+20:16:47.039 @OPV003 0
+20:16:47.040 @OPV006 0
+20:16:47.042 @OPV001 2018
+20:16:47.044 @OPV002 5
+20:16:47.045 @OPV003 0
+20:16:47.046 @OPV006 0
+20:16:47.048 @OPV001 2018
+20:16:47.049 @OPV002 5
+20:16:47.051 @OPV003 0
+20:16:47.052 @OPV006 0
+20:16:47.054 @OPV001 2018
+20:16:47.055 @OPV002 5
+20:16:47.056 @OPV003 0
+20:16:47.057 @OPV006 0
+20:16:47.059 @OPV001 2018
+20:16:47.060 @OPV002 5
+20:16:47.062 @OPV003 0
+20:16:47.063 @OPV006 0
+20:16:47.065 @OPV001 2018
+20:16:47.066 @OPV002 5
+20:16:47.067 @OPV003 0
+20:16:47.068 @OPV006 0
+20:16:47.070 @OPV001 2018
+20:16:47.071 @OPV002 5
+20:16:47.072 @OPV003 0
+20:16:47.073 @OPV006 0
+20:16:47.075 @OPV001 2018
+20:16:47.076 @OPV002 5
+20:16:47.077 @OPV003 0
+20:16:47.079 @OPV006 0
+20:16:47.081 @OPV001 2018
+20:16:47.082 @OPV002 5
+20:16:47.083 @OPV003 0
+20:16:47.084 @OPV006 0
+20:16:47.086 @OPV001 2018
+20:16:47.087 @OPV002 5
+20:16:47.088 @OPV003 0
+20:16:47.089 @OPV006 0
+20:16:47.091 @OPV001 2018
+20:16:47.093 @OPV002 5
+20:16:47.094 @OPV003 0
+20:16:47.095 @OPV006 0
+20:16:47.097 @OPV001 2018
+20:16:47.098 @OPV002 5
+20:16:47.099 @OPV003 0
+20:16:47.100 @OPV006 0
+20:16:47.102 @OPV001 2018
+20:16:47.104 @OPV002 5
+20:16:47.105 @OPV003 0
+20:16:47.106 @OPV006 0
+20:16:47.108 @OPV001 2018
+20:16:47.109 @OPV002 5
+20:16:47.110 @OPV003 0
+20:16:47.111 @OPV006 0
+20:16:47.113 @OPV001 2018
+20:16:47.115 @OPV002 5
+20:16:47.116 @OPV003 0
+20:16:47.117 @OPV006 0
+20:16:47.119 @OPV001 2018
+20:16:47.120 @OPV002 5
+20:16:47.121 @OPV003 0
+20:16:47.122 @OPV006 0
+20:16:47.124 @OPV001 2018
+20:16:47.125 @OPV002 5
+20:16:47.127 @OPV003 0
+20:16:47.128 @OPV006 0
+20:16:47.129 @OPV001 2018
+20:16:47.131 @OPV002 5
+20:16:47.132 @OPV003 0
+20:16:47.133 @OPV006 0
+20:16:47.135 @OPV001 2018
+20:16:47.136 @OPV002 5
+20:16:47.137 @OPV003 0
+20:16:47.138 @OPV006 0
+20:16:47.141 @OPV001 2018
+20:16:47.142 @OPV002 5
+20:16:47.144 @OPV003 0
+20:16:47.145 @OPV006 0
+20:16:47.171 @OPV001 2018
+20:16:47.173 @OPV002 5
+20:16:47.174 @OPV003 0
+20:16:47.175 @OPV007 0
+20:16:47.176 @OPV008 0
+20:16:47.177 @OPV009 0
+20:16:47.178 @OPV010 0
+20:16:47.180 @OPV001 2018
+20:16:47.181 @OPV002 5
+20:16:47.182 @OPV003 0
+20:16:47.183 @OPV007 0
+20:16:47.184 @OPV008 0
+20:16:47.185 @OPV009 0
+20:16:47.186 @OPV010 0
+20:16:47.187 @OPV001 2018
+20:16:47.189 @OPV002 5
+20:16:47.189 @OPV003 0
+20:16:47.190 @OPV007 0
+20:16:47.192 @OPV008 0
+20:16:47.193 @OPV009 0
+20:16:47.194 @OPV010 0
+20:16:47.196 @OPV001 2018
+20:16:47.197 @OPV002 5
+20:16:47.198 @OPV003 0
+20:16:47.199 @OPV007 0
+20:16:47.200 @OPV008 0
+20:16:47.201 @OPV009 0
+20:16:47.202 @OPV010 0
+20:16:47.204 @OPV001 2018
+20:16:47.205 @OPV002 5
+20:16:47.206 @OPV003 0
+20:16:47.207 @OPV007 0
+20:16:47.208 @OPV008 0
+20:16:47.209 @OPV009 0
+20:16:47.210 @OPV010 0
+20:16:47.212 @OPV001 2018
+20:16:47.213 @OPV002 5
+20:16:47.214 @OPV003 0
+20:16:47.215 @OPV007 0
+20:16:47.216 @OPV008 0
+20:16:47.217 @OPV009 0
+20:16:47.218 @OPV010 0
+20:16:47.220 @OPV001 2018
+20:16:47.221 @OPV002 5
+20:16:47.222 @OPV003 0
+20:16:47.223 @OPV007 0
+20:16:47.224 @OPV008 0
+20:16:47.226 @OPV009 0
+20:16:47.226 @OPV010 0
+20:16:47.228 @OPV001 2018
+20:16:47.230 @OPV002 5
+20:16:47.231 @OPV003 0
+20:16:47.232 @OPV007 0
+20:16:47.233 @OPV008 0
+20:16:47.234 @OPV009 0
+20:16:47.235 @OPV010 0
+20:16:47.237 @OPV001 2018
+20:16:47.238 @OPV002 5
+20:16:47.239 @OPV003 0
+20:16:47.240 @OPV007 0
+20:16:47.241 @OPV008 0
+20:16:47.243 @OPV009 0
+20:16:47.244 @OPV010 0
+20:16:47.246 @OPV001 2018
+20:16:47.247 @OPV002 5
+20:16:47.248 @OPV003 0
+20:16:47.249 @OPV007 0
+20:16:47.250 @OPV008 0
+20:16:47.251 @OPV009 0
+20:16:47.252 @OPV010 0
+20:16:47.254 @OPV001 2018
+20:16:47.255 @OPV002 5
+20:16:47.256 @OPV003 0
+20:16:47.257 @OPV007 0
+20:16:47.259 @OPV008 0
+20:16:47.259 @OPV009 0
+20:16:47.260 @OPV010 0
+20:16:47.262 @OPV001 2018
+20:16:47.264 @OPV002 5
+20:16:47.265 @OPV003 0
+20:16:47.266 @OPV007 0
+20:16:47.267 @OPV008 0
+20:16:47.269 @OPV009 0
+20:16:47.270 @OPV010 0
+20:16:47.272 @OPV001 2018
+20:16:47.273 @OPV002 5
+20:16:47.274 @OPV003 0
+20:16:47.275 @OPV007 0
+20:16:47.276 @OPV008 0
+20:16:47.277 @OPV009 0
+20:16:47.278 @OPV010 0
+20:16:47.280 @OPV001 2018
+20:16:47.282 @OPV002 5
+20:16:47.283 @OPV003 0
+20:16:47.284 @OPV007 0
+20:16:47.285 @OPV008 0
+20:16:47.287 @OPV009 0
+20:16:47.288 @OPV010 0
+20:16:47.290 @OPV001 2018
+20:16:47.291 @OPV002 5
+20:16:47.292 @OPV003 0
+20:16:47.293 @OPV007 0
+20:16:47.295 @OPV008 0
+20:16:47.296 @OPV009 0
+20:16:47.297 @OPV010 0
+20:16:47.299 @OPV001 2018
+20:16:47.300 @OPV002 5
+20:16:47.301 @OPV003 0
+20:16:47.302 @OPV007 0
+20:16:47.303 @OPV008 0
+20:16:47.304 @OPV009 0
+20:16:47.305 @OPV010 0
+20:16:47.307 @OPV001 2018
+20:16:47.308 @OPV002 5
+20:16:47.309 @OPV003 0
+20:16:47.311 @OPV007 0
+20:16:47.312 @OPV008 0
+20:16:47.313 @OPV009 0
+20:16:47.314 @OPV010 0
+20:16:47.316 @OPV001 2018
+20:16:47.317 @OPV002 5
+20:16:47.318 @OPV003 0
+20:16:47.319 @OPV007 0
+20:16:47.320 @OPV008 0
+20:16:47.322 @OPV009 0
+20:16:47.323 @OPV010 0
+20:16:47.325 @OPV001 2018
+20:16:47.326 @OPV002 5
+20:16:47.327 @OPV003 0
+20:16:47.329 @OPV007 0
+20:16:47.330 @OPV008 0
+20:16:47.331 @OPV009 0
+20:16:47.332 @OPV010 0
+20:16:47.334 @OPV001 2018
+20:16:47.335 @OPV002 5
+20:16:47.336 @OPV003 0
+20:16:47.337 @OPV007 0
+20:16:47.338 @OPV008 0
+20:16:47.339 @OPV009 0
+20:16:47.340 @OPV010 0
+20:16:47.342 @OPV001 2018
+20:16:47.343 @OPV002 5
+20:16:47.345 @OPV003 0
+20:16:47.346 @OPV007 0
+20:16:47.347 @OPV008 0
+20:16:47.348 @OPV009 0
+20:16:47.349 @OPV010 0
+20:16:47.351 @OPV001 2018
+20:16:47.352 @OPV002 5
+20:16:47.353 @OPV003 0
+20:16:47.354 @OPV007 0
+20:16:47.355 @OPV008 0
+20:16:47.356 @OPV009 0
+20:16:47.357 @OPV010 0
+20:16:47.360 @OPV001 2018
+20:16:47.361 @OPV002 5
+20:16:47.362 @OPV003 0
+20:16:47.363 @OPV007 0
+20:16:47.365 @OPV008 0
+20:16:47.366 @OPV009 0
+20:16:47.367 @OPV010 0
+20:16:47.369 @OPV001 2018
+20:16:47.370 @OPV002 5
+20:16:47.371 @OPV003 0
+20:16:47.372 @OPV007 0
+20:16:47.373 @OPV008 0
+20:16:47.374 @OPV009 0
+20:16:47.375 @OPV010 0
+20:16:47.377 @OPV001 2018
+20:16:47.378 @OPV002 5
+20:16:47.379 @OPV003 0
+20:16:47.381 @OPV007 0
+20:16:47.382 @OPV008 0
+20:16:47.383 @OPV009 0
+20:16:47.384 @OPV010 0
+20:16:47.386 @OPV001 2018
+20:16:47.387 @OPV002 5
+20:16:47.389 @OPV003 0
+20:16:47.390 @OPV007 0
+20:16:47.391 @OPV008 0
+20:16:47.392 @OPV009 0
+20:16:47.393 @OPV010 0
+20:16:47.395 @OPV001 2018
+20:16:47.396 @OPV002 5
+20:16:47.397 @OPV003 0
+20:16:47.398 @OPV007 0
+20:16:47.399 @OPV008 0
+20:16:47.400 @OPV009 0
+20:16:47.402 @OPV010 0
+20:16:47.404 @OPV001 2018
+20:16:47.405 @OPV002 5
+20:16:47.406 @OPV003 0
+20:16:47.408 @OPV007 0
+20:16:47.409 @OPV008 0
+20:16:47.410 @OPV009 0
+20:16:47.411 @OPV010 0
+20:16:47.438 @OPV001 2018
+20:16:47.439 @OPV002 5
+20:16:47.440 @OPV003 0
+20:16:47.441 @OPV011 0
+20:16:47.443 @OPV001 2018
+20:16:47.444 @OPV002 5
+20:16:47.445 @OPV003 0
+20:16:47.446 @OPV011 0
+20:16:47.448 @OPV001 2018
+20:16:47.450 @OPV002 5
+20:16:47.451 @OPV003 0
+20:16:47.452 @OPV011 0
+20:16:47.454 @OPV001 2018
+20:16:47.455 @OPV002 5
+20:16:47.456 @OPV003 0
+20:16:47.456 @OPV011 0
+20:16:47.458 @OPV001 2018
+20:16:47.459 @OPV002 5
+20:16:47.460 @OPV003 0
+20:16:47.461 @OPV011 0
+20:16:47.463 @OPV001 2018
+20:16:47.465 @OPV002 5
+20:16:47.466 @OPV003 0
+20:16:47.467 @OPV011 0
+20:16:47.469 @OPV001 2018
+20:16:47.470 @OPV002 5
+20:16:47.472 @OPV003 0
+20:16:47.473 @OPV011 0
+20:16:47.475 @OPV001 2018
+20:16:47.476 @OPV002 5
+20:16:47.477 @OPV003 0
+20:16:47.478 @OPV011 0
+20:16:47.480 @OPV001 2018
+20:16:47.481 @OPV002 5
+20:16:47.483 @OPV003 0
+20:16:47.484 @OPV011 0
+20:16:47.486 @OPV001 2018
+20:16:47.488 @OPV002 5
+20:16:47.489 @OPV003 0
+20:16:47.490 @OPV011 0
+20:16:47.492 @OPV001 2018
+20:16:47.493 @OPV002 5
+20:16:47.494 @OPV003 0
+20:16:47.495 @OPV011 0
+20:16:47.498 @OPV001 2018
+20:16:47.499 @OPV002 5
+20:16:47.500 @OPV003 0
+20:16:47.501 @OPV011 0
+20:16:47.503 @OPV001 2018
+20:16:47.505 @OPV002 5
+20:16:47.506 @OPV003 0
+20:16:47.507 @OPV011 0
+20:16:47.509 @OPV001 2018
+20:16:47.510 @OPV002 5
+20:16:47.512 @OPV003 0
+20:16:47.513 @OPV011 0
+20:16:47.515 @OPV001 2018
+20:16:47.516 @OPV002 5
+20:16:47.517 @OPV003 0
+20:16:47.518 @OPV011 0
+20:16:47.520 @OPV001 2018
+20:16:47.521 @OPV002 5
+20:16:47.522 @OPV003 0
+20:16:47.523 @OPV011 0
+20:16:47.525 @OPV001 2018
+20:16:47.526 @OPV002 5
+20:16:47.527 @OPV003 0
+20:16:47.528 @OPV011 0
+20:16:47.530 @OPV001 2018
+20:16:47.532 @OPV002 5
+20:16:47.533 @OPV003 0
+20:16:47.534 @OPV011 0
+20:16:47.536 @OPV001 2018
+20:16:47.537 @OPV002 5
+20:16:47.538 @OPV003 0
+20:16:47.539 @OPV011 0
+20:16:47.541 @OPV001 2018
+20:16:47.542 @OPV002 5
+20:16:47.543 @OPV003 0
+20:16:47.544 @OPV011 0
+20:16:47.546 @OPV001 2018
+20:16:47.548 @OPV002 5
+20:16:47.549 @OPV003 0
+20:16:47.550 @OPV011 0
+20:16:47.552 @OPV001 2018
+20:16:47.553 @OPV002 5
+20:16:47.554 @OPV003 0
+20:16:47.555 @OPV011 0
+20:16:47.557 @OPV001 2018
+20:16:47.559 @OPV002 5
+20:16:47.560 @OPV003 0
+20:16:47.561 @OPV011 0
+20:16:47.563 @OPV001 2018
+20:16:47.564 @OPV002 5
+20:16:47.565 @OPV003 0
+20:16:47.566 @OPV011 0
+20:16:47.568 @OPV001 2018
+20:16:47.570 @OPV002 5
+20:16:47.571 @OPV003 0
+20:16:47.572 @OPV011 0
+20:16:47.574 @OPV001 2018
+20:16:47.575 @OPV002 5
+20:16:47.576 @OPV003 0
+20:16:47.578 @OPV011 0
+20:16:47.580 @OPV001 2018
+20:16:47.581 @OPV002 5
+20:16:47.582 @OPV003 0
+20:16:47.583 @OPV011 0
+20:16:47.585 @OPV001 2018
+20:16:47.586 @OPV002 5
+20:16:47.588 @OPV003 0
+20:16:47.589 @OPV011 0
+20:16:47.592 @OPV001 2018
+20:16:47.594 @OPV002 5
+20:16:47.595 @OPV003 0
+20:16:47.596 @OPV011 0

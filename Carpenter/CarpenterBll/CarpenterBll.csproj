@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{199D06B8-7B2F-44BF-B8FD-8BF4926CC4B7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CarpenterBll</RootNamespace>
+    <AssemblyName>CarpenterBll</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CarpenterEntity">
+      <HintPath>..\CarpenterEntity\bin\Debug\CarpenterEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraCharts.v16.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraPrinting.v16.2.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\Carpenter\bin\Debug\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\Carpenter\bin\Debug\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\Carpenter\bin\Debug\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\Carpenter\bin\Debug\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Utility">
+      <HintPath>..\Utility\obj\Debug\Utility.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bll\ArtBll.cs" />
+    <Compile Include="Bll\AssembleWorkOrderBll.cs" />
+    <Compile Include="Bll\BomWorkPlanBll.cs" />
+    <Compile Include="Bll\BomWorkPlanCodeBll.cs" />
+    <Compile Include="Bll\DepartMentBll.cs" />
+    <Compile Include="Bll\EmployeeBll.cs" />
+    <Compile Include="Bll\EquipmentBll.cs" />
+    <Compile Include="Bll\ExoendBasePaintBll.cs" />
+    <Compile Include="Bll\ExpendPaintAnalysisBll.cs" />
+    <Compile Include="Bll\ExpendPaintBll.cs" />
+    <Compile Include="Bll\ExpendPlanPaintBll.cs" />
+    <Compile Include="Bll\ExpendWoodAnalysisBll.cs" />
+    <Compile Include="Bll\ExpendWoodBll.cs" />
+    <Compile Include="Bll\ExportPaintBll.cs" />
+    <Compile Include="Bll\ExportWoodBll.cs" />
+    <Compile Include="Bll\ImportExeclToTableBll.cs" />
+    <Compile Include="Bll\MainBll.cs" />
+    <Compile Include="Bll\MaintainTransmitBll.cs" />
+    <Compile Include="Bll\OPIBll.cs" />
+    <Compile Include="Bll\OutPutValueBll.cs" />
+    <Compile Include="Bll\PaintBaseAndProductBll.cs" />
+    <Compile Include="Bll\PayrollReportBll.cs" />
+    <Compile Include="Bll\PiceWageStatisticalTableBll.cs" />
+    <Compile Include="Bll\PlanAssembleDayBll.cs" />
+    <Compile Include="Bll\PlanAssembleDayDailyBll.cs" />
+    <Compile Include="Bll\PlanAssembleWeekBll.cs" />
+    <Compile Include="Bll\PlanAssembleWeekDailyBll.cs" />
+    <Compile Include="Bll\PlanCuttingBll.cs" />
+    <Compile Include="Bll\PlanMachinBll.cs" />
+    <Compile Include="Bll\PlanMachinDayDailyWorkBll.cs" />
+    <Compile Include="Bll\PlanMachinWeekDailyWorkBll.cs" />
+    <Compile Include="Bll\PlanMachinWorkBll.cs" />
+    <Compile Include="Bll\PlanStockBll.cs" />
+    <Compile Include="Bll\PlanStockDailyWeekBll.cs" />
+    <Compile Include="Bll\PlanStockDailyWorkBll.cs" />
+    <Compile Include="Bll\PlanStockWorkBll.cs" />
+    <Compile Include="Bll\PowerBll.cs" />
+    <Compile Include="Bll\ProductBLWorkBll.cs" />
+    <Compile Include="Bll\ProductCycleBll.cs" />
+    <Compile Include="Bll\ProductDailyWorkBll.cs" />
+    <Compile Include="Bll\ProductionAssembleBll.cs" />
+    <Compile Include="Bll\ProductionPaintBll.cs" />
+    <Compile Include="Bll\ProductionPaintDayBll.cs" />
+    <Compile Include="Bll\ProductionPaintDayDailyBll.cs" />
+    <Compile Include="Bll\ProductionPaintWeekBll.cs" />
+    <Compile Include="Bll\ProductionPaintWeekDailyBll.cs" />
+    <Compile Include="Bll\ProductionStockBll.cs" />
+    <Compile Include="Bll\ProductScheduleBll.cs" />
+    <Compile Include="Bll\ProductScheduleTrackTableBll.cs" />
+    <Compile Include="Bll\ProgramControlBll.cs" />
+    <Compile Include="Bll\RemindBll.cs" />
+    <Compile Include="Bll\SchedulBll.cs" />
+    <Compile Include="Bll\SetReviewBll.cs" />
+    <Compile Include="Bll\SetTransmitBll.cs" />
+    <Compile Include="Bll\TransmitBll.cs" />
+    <Compile Include="Bll\WageCoefBll.cs" />
+    <Compile Include="Bll\WoodBaseBll.cs" />
+    <Compile Include="Bll\WoodPaintBll.cs" />
+    <Compile Include="ColumnValues.cs" />
+    <Compile Include="Dao\ArtDao.cs" />
+    <Compile Include="Dao\AssembleWorkOrderDao.cs" />
+    <Compile Include="Dao\BomWorkPlanCodeDao.cs" />
+    <Compile Include="Dao\BomWorkPlanDao.cs" />
+    <Compile Include="Dao\DepartMentDao.cs" />
+    <Compile Include="Dao\EmployeeDao.cs" />
+    <Compile Include="Dao\EncryptQuery.cs" />
+    <Compile Include="Dao\EquipmentDao.cs" />
+    <Compile Include="Dao\ExoendBasePaintDao.cs" />
+    <Compile Include="Dao\ExpendPaintAnalysisDao.cs" />
+    <Compile Include="Dao\ExpendPaintDao.cs" />
+    <Compile Include="Dao\ExpendPlanPaintDao.cs" />
+    <Compile Include="Dao\ExpendWoodAnalysisDao.cs" />
+    <Compile Include="Dao\ExpendWoodDao.cs" />
+    <Compile Include="Dao\ExportPaintDao.cs" />
+    <Compile Include="Dao\ExportWoodDao.cs" />
+    <Compile Include="Dao\ImportExeclToTableDao.cs" />
+    <Compile Include="Dao\MainDao.cs" />
+    <Compile Include="Dao\MaintainTransmitDao.cs" />
+    <Compile Include="Dao\OPIDao.cs" />
+    <Compile Include="Dao\OutPutValueDao.cs" />
+    <Compile Include="Dao\PaintBaseAndProductDao.cs" />
+    <Compile Include="Dao\PayrollReportDao.cs" />
+    <Compile Include="Dao\PiceWageStatisticalTableDao.cs" />
+    <Compile Include="Dao\PlanAssembleDayDailyDao.cs" />
+    <Compile Include="Dao\PlanAssembleDayDao.cs" />
+    <Compile Include="Dao\PlanAssembleDay_Dao.cs" />
+    <Compile Include="Dao\PlanAssembleWeekDailyDao.cs" />
+    <Compile Include="Dao\PlanAssembleWeekDao.cs" />
+    <Compile Include="Dao\PlanAssembleWeek_Dao.cs" />
+    <Compile Include="Dao\PlanCuttingDao.cs" />
+    <Compile Include="Dao\PlanMachinDao.cs" />
+    <Compile Include="Dao\PlanMachinDayDailyWorkDao.cs" />
+    <Compile Include="Dao\PlanMachine_DailyworkDao.cs" />
+    <Compile Include="Dao\PlanMachinWeekDailyWorkDao.cs" />
+    <Compile Include="Dao\PlanMachinWorkDao.cs" />
+    <Compile Include="Dao\PlanMachin_DayDao.cs" />
+    <Compile Include="Dao\PlanMachin_WeekDao.cs" />
+    <Compile Include="Dao\PlanStockDailyWeekDao.cs" />
+    <Compile Include="Dao\PlanStockDailyWorkDao.cs" />
+    <Compile Include="Dao\PlanStockDao.cs" />
+    <Compile Include="Dao\PlanStockWorkDao.cs" />
+    <Compile Include="Dao\PowerDao.cs" />
+    <Compile Include="Dao\ProductBLWorkDao.cs" />
+    <Compile Include="Dao\ProductCycleDao.cs" />
+    <Compile Include="Dao\ProductDailyWorkDao.cs" />
+    <Compile Include="Dao\ProductionAssembleDao.cs" />
+    <Compile Include="Dao\ProductionPaintDao.cs" />
+    <Compile Include="Dao\ProductionPaintDayDailyDao.cs" />
+    <Compile Include="Dao\ProductionPaintDayDao.cs" />
+    <Compile Include="Dao\ProductionPaintWeekDailyDao.cs" />
+    <Compile Include="Dao\ProductionPaintWeekDao.cs" />
+    <Compile Include="Dao\ProductionPaintWeek_Dao.cs" />
+    <Compile Include="Dao\ProductionPaint_DayDao.cs" />
+    <Compile Include="Dao\ProductionStockDao.cs" />
+    <Compile Include="Dao\ProductionStockPlanDay_Dao.cs" />
+    <Compile Include="Dao\ProductionStock_DailyworkDao.cs" />
+    <Compile Include="Dao\ProductionStock_DayDao.cs" />
+    <Compile Include="Dao\ProductionStock_WeekDao.cs" />
+    <Compile Include="Dao\ProductScheduleDao.cs" />
+    <Compile Include="Dao\ProductScheduleTrackTableDao.cs" />
+    <Compile Include="Dao\ProgramControlDao.cs" />
+    <Compile Include="Dao\RemindDao.cs" />
+    <Compile Include="Dao\SchedulDao.cs" />
+    <Compile Include="Dao\SetReviewDao.cs" />
+    <Compile Include="Dao\SetTransmitDao.cs" />
+    <Compile Include="Dao\TransmitDao.cs" />
+    <Compile Include="Dao\WageCoefDao.cs" />
+    <Compile Include="Dao\WoodBaseDao.cs" />
+    <Compile Include="Dao\WoodPaintDao.cs" />
+    <Compile Include="Examine.cs" />
+    <Compile Include="LogHelperToSql.cs" />
+    <Compile Include="Paramete.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlHelper.cs" />
+    <Compile Include="UserInformation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="07/21/2017 17:42:04" ReportInfo.Modified="08/29/2017 14:48:18" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDhPFD1w+LtzdaMPBNAktEr5X3IRPwm4yRmnBiJm2g5mQ==">
+      <TableDataSource Name="Table" Alias="TableOne" DataType="System.Int32" Enabled="true" SelectCommand="SELECT EQU001,EQU002,EQU005 FROM MOXEQU">
+        <Column Name="EQU001" DataType="System.String"/>
+        <Column Name="EQU002" DataType="System.String"/>
+        <Column Name="EQU005" DataType="System.String"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" RawPaperSize="9" Columns.Count="2" Columns.Width="95" Columns.Positions="0,95">
+    <DataBand Name="Data1" Width="359.1" Height="141.75" DataSource="Table">
+      <TextObject Name="Text1" Left="9.45" Top="28.35" Width="85.05" Height="47.25" Text="设备名称：" HorzAlign="Right" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text2" Left="9.45" Top="75.6" Width="85.05" Height="28.35" Text="设备车间：" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text3" Left="103.95" Top="28.35" Width="103.95" Height="47.25" Text="[TableOne.EQU002]" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text4" Left="103.95" Top="75.6" Width="103.95" Height="28.35" Text="[TableOne.EQU005]" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <BarcodeObject Name="Barcode1" Left="217.35" Top="28.35" Width="98.75" Height="94.5" DataColumn="TableOne.EQU001" Barcode="Code128" Barcode.AutoEncode="true"/>
+    </DataBand>
+  </ReportPage>
+</Report>

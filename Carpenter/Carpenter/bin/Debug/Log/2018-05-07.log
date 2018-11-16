@@ -1,0 +1,1160 @@
+09:26:49.995  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+09:26:54.634 @EMP002 系统管理员
+09:26:54.635 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+10:55:45.225  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+10:56:20.014 @EMP002 系统管理员
+10:56:20.015 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+10:57:38.328 @PRD001 101011
+10:57:38.329 @PRD002 木工热压机
+10:57:38.330 @PRD003 压板
+10:57:38.331 @PRD004 1000
+10:57:38.331 @PRD005 阳林
+10:57:38.332 @PRD006 201711300319
+10:57:38.332 @PRD007 1746
+10:57:38.333 @PRD008 51-1.002.05.004
+10:57:38.334 @PRD009 50号电视柜1.68米
+10:57:38.334 @PRD010 1680*480*635
+10:57:38.335 @PRD011 面框竖档
+10:57:38.335 @PRD012 20
+10:57:38.336 @PRD013 2018/5/7 10:57:38
+10:57:38.337 @PRD014 False
+10:57:38.337 @PRD015 8
+10:57:38.338 @PRD016 
+10:57:38.339 @PRD017 2018/5/7 10:57:38
+10:57:38.339 @PRD018 系统管理员
+10:57:38.340 @PRD019 40.0
+10:57:38.340 @PRD020 False
+10:57:38.341 @PRD021 False
+10:57:38.341 @PRD022 
+10:57:38.342 @PRD023 1
+10:57:38.343 @PRD024 
+10:57:38.343 @PRD025 0
+10:57:38.344 @PRD026 
+10:57:38.344 @PRD027 
+10:57:38.345 @PRD028 0
+10:57:38.346 @PRD029 0
+10:57:38.346 @PRD030 0
+10:57:38.347 @PRD031 
+10:57:38.347 @PRD032 0047
+10:57:38.348 @PRD033 
+10:57:38.349 @PRD034 106*394*22
+10:57:38.349 @PRD035 False
+10:57:38.350 @PRD036 
+10:57:38.350 @PRD037 0
+10:57:38.351 @PRD038 
+10:57:38.352 @PRD039 0
+10:57:38.352 @PRD040 
+10:57:38.353 @PRD041 0
+10:58:25.714 @PRD001 101011
+10:58:25.715 @PRD002 木工热压机
+10:58:25.715 @PRD003 压板
+10:58:25.717 @PRD004 1000
+10:58:25.718 @PRD005 阳林
+10:58:25.718 @PRD006 201711300319
+10:58:25.719 @PRD007 1746
+10:58:25.720 @PRD008 51-1.002.05.004
+10:58:25.721 @PRD009 50号电视柜1.68米
+10:58:25.721 @PRD010 1680*480*635
+10:58:25.723 @PRD011 面框竖档
+10:58:25.724 @PRD012 20
+10:58:25.724 @PRD013 2018/5/7 10:58:25
+10:58:25.725 @PRD014 True
+10:58:25.726 @PRD015 9
+10:58:25.727 @PRD016 
+10:58:25.728 @PRD017 2018/5/7 10:58:25
+10:58:25.728 @PRD018 系统管理员
+10:58:25.729 @PRD019 40.0
+10:58:25.730 @PRD020 False
+10:58:25.731 @PRD021 False
+10:58:25.731 @PRD022 
+10:58:25.732 @PRD023 1
+10:58:25.733 @PRD024 
+10:58:25.734 @PRD025 0
+10:58:25.734 @PRD026 
+10:58:25.735 @PRD027 
+10:58:25.736 @PRD028 0
+10:58:25.737 @PRD029 0
+10:58:25.737 @PRD030 0
+10:58:25.738 @PRD031 
+10:58:25.738 @PRD032 0047
+10:58:25.739 @PRD033 
+10:58:25.739 @PRD034 106*394*22
+10:58:25.740 @PRD035 False
+10:58:25.741 @PRD036 1680*480*635
+10:58:25.741 @PRD037 10
+10:58:25.742 @PRD038 
+10:58:25.743 @PRD039 0
+10:58:25.744 @PRD040 
+10:58:25.744 @PRD041 0
+10:59:21.992 @PRD001 101011
+10:59:21.993 @PRD002 木工热压机
+10:59:21.994 @PRD003 压板
+10:59:21.995 @PRD004 1000
+10:59:21.997 @PRD005 阳林
+10:59:21.998 @PRD006 201711300319
+10:59:21.999 @PRD007 1746
+10:59:22.000 @PRD008 51-1.002.05.004
+10:59:22.001 @PRD009 50号电视柜1.68米
+10:59:22.002 @PRD010 1680*480*635
+10:59:22.003 @PRD011 面框竖档
+10:59:22.003 @PRD012 20
+10:59:22.004 @PRD013 2018/5/7 10:59:21
+10:59:22.005 @PRD014 False
+10:59:22.006 @PRD015 10
+10:59:22.007 @PRD016 
+10:59:22.008 @PRD017 2018/5/7 10:59:21
+10:59:22.008 @PRD018 系统管理员
+10:59:22.009 @PRD019 40.0
+10:59:22.010 @PRD020 False
+10:59:22.011 @PRD021 False
+10:59:22.012 @PRD022 
+10:59:22.013 @PRD023 1
+10:59:22.013 @PRD024 
+10:59:22.014 @PRD025 0
+10:59:22.014 @PRD026 
+10:59:22.015 @PRD027 
+10:59:22.016 @PRD028 0
+10:59:22.017 @PRD029 0
+10:59:22.018 @PRD030 0
+10:59:22.018 @PRD031 
+10:59:22.019 @PRD032 0047
+10:59:22.020 @PRD033 
+10:59:22.020 @PRD034 106*394*22
+10:59:22.021 @PRD035 True
+10:59:22.022 @PRD036 1680*480*635
+10:59:22.023 @PRD037 10
+10:59:22.024 @PRD038 1680*480*635
+10:59:22.024 @PRD039 5
+10:59:22.025 @PRD040 
+10:59:22.026 @PRD041 0
+11:19:18.775  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+11:19:37.084 @EMP002 系统管理员
+11:19:37.085 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+11:20:08.170 @PWS001 1000
+11:20:08.171 @PWS008 2018/5/5 12:10:03
+11:20:08.180 @PWS001 1000
+11:20:08.181 @PWS008 2018/5/7 10:58:25
+11:20:08.185 @PWS001 1000
+11:20:08.186 @PWS002 阳林
+11:20:08.187 @PWS003 1746
+11:20:08.187 @PWS004 51-1.002.05.004
+11:20:08.188 @PWS005 50号电视柜1.68米
+11:20:08.189 @PWS006 1680*480*635
+11:20:08.190 @PWS007 20
+11:20:08.190 @PWS008 2018/5/7 10:58:25
+11:20:08.191 @PWS009 面框竖档
+11:20:08.191 @PWS010 106*394*22
+11:20:08.192 @PWS011 0047
+11:20:08.193 @PWS012 压板
+11:20:08.193 @PWS013 
+11:20:08.194 @PWS014 0
+11:20:08.194 @PWS015 0
+11:20:08.195 @PWS016 0.00
+11:20:08.195 @PWS017 0.000918808
+11:20:08.196 @PWS018 0.041764
+11:20:08.197 @PWS019 0.106
+11:20:08.198 @PWS021 40.00
+11:20:08.199 @PWS022 0
+11:20:08.199 @PWS023 1
+11:20:08.200 @PWS024 
+11:20:08.201 @PWS025 0
+11:20:08.201 @PWS026 0
+11:20:08.202 @PWS027 
+11:20:08.202 @PWS028 201805
+11:20:08.203 @PWS029 0
+11:20:08.204 @PWS030 0
+11:20:08.204 @PWS031 0
+11:20:08.205 @PWS032 0
+11:20:08.218 @PWS001 1000
+11:20:08.219 @PWS002 阳林
+11:20:08.220 @PWS003 1746
+11:20:08.221 @PWS004 51-1.002.05.004
+11:20:08.223 @PWS005 50号电视柜1.68米
+11:20:08.224 @PWS006 1680*480*635
+11:20:08.225 @PWS007 20
+11:20:08.226 @PWS008 2018/5/5 12:10:03
+11:20:08.226 @PWS009 面框竖档
+11:20:08.227 @PWS010 106*394*22
+11:20:08.229 @PWS011 0047
+11:20:08.229 @PWS012 压板
+11:20:08.230 @PWS013 
+11:20:08.231 @PWS014 0
+11:20:08.232 @PWS015 0
+11:20:08.232 @PWS016 0.00
+11:20:08.233 @PWS017 0.000918808
+11:20:08.234 @PWS018 0.041764
+11:20:08.234 @PWS019 0.106
+11:20:08.235 @PWS021 40.00
+11:20:08.236 @PWS022 0
+11:20:08.236 @PWS023 1
+11:20:08.238 @PWS024 
+11:20:08.239 @PWS025 0
+11:20:08.240 @PWS026 0
+11:20:08.241 @PWS027 
+11:20:08.241 @PWS028 201805
+11:20:08.242 @PWS029 0
+11:20:08.242 @PWS030 0
+11:20:08.243 @PWS031 0
+11:20:08.244 @PWS032 0
+11:25:51.889  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+11:26:16.892 @EMP002 系统管理员
+11:26:16.893 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+13:28:17.705 @PRD020 True
+13:28:17.707 @PRD021 False
+13:28:17.728 @PRD020 True
+13:28:17.730 @PRD021 False
+13:28:17.736 @PRD020 True
+13:28:17.737 @PRD021 False
+13:28:22.477 @PRD020 True
+13:28:22.479 @PRD021 False
+13:28:22.498 @PRD020 True
+13:28:22.499 @PRD021 False
+13:28:22.503 @PRD020 True
+13:28:22.504 @PRD021 False
+13:28:31.154 @PRD020 True
+13:28:31.164 @PRD021 False
+13:28:31.171 @PRD020 True
+13:28:31.172 @PRD021 False
+13:28:31.178 @PRD020 True
+13:28:31.180 @PRD021 False
+13:56:10.015  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:46:58.884  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:54:22.990 @EMP002 系统管理员
+14:54:22.991 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+14:55:22.018 必须声明标量变量 "@PRD003"。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 265
+14:55:22.019 SELECT SUM(PRD019) PRD019 FROM MOXPRD WHERE PRD003=@PRD003 AND PRD006=@PRD006 AND PRD014=@PRD014
+14:56:30.243  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+14:56:36.674 @EMP002 系统管理员
+14:56:36.675 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+14:57:07.699 @PRD001 101011
+14:57:07.700 @PRD002 木工热压机
+14:57:07.701 @PRD003 压板
+14:57:07.701 @PRD004 1000
+14:57:07.702 @PRD005 阳林
+14:57:07.703 @PRD006 201711300319
+14:57:07.704 @PRD007 1746
+14:57:07.704 @PRD008 51-1.002.05.004
+14:57:07.705 @PRD009 50号电视柜1.68米
+14:57:07.705 @PRD010 1680*480*635
+14:57:07.706 @PRD011 面框竖档
+14:57:07.706 @PRD012 40.0
+14:57:07.707 @PRD013 2018/5/7 14:57:07
+14:57:07.708 @PRD014 True
+14:57:07.708 @PRD015 1
+14:57:07.709 @PRD016 
+14:57:07.709 @PRD017 2018/5/7 14:57:07
+14:57:07.710 @PRD018 系统管理员
+14:57:07.710 @PRD019 20
+14:57:07.711 @PRD020 False
+14:57:07.712 @PRD021 False
+14:57:07.712 @PRD022 
+14:57:07.713 @PRD023 1
+14:57:07.714 @PRD024 
+14:57:07.715 @PRD025 0
+14:57:07.715 @PRD026 
+14:57:07.716 @PRD027 
+14:57:07.716 @PRD028 0
+14:57:07.717 @PRD029 0
+14:57:07.717 @PRD030 0
+14:57:07.718 @PRD031 
+14:57:07.719 @PRD032 0047
+14:57:07.719 @PRD033 
+14:57:07.720 @PRD034 106*394*22
+14:57:07.720 @PRD035 False
+14:57:07.721 @PRD036 
+14:57:07.721 @PRD037 0
+14:57:07.722 @PRD038 
+14:57:07.723 @PRD039 0
+14:57:07.724 @PRD040 
+14:57:07.724 @PRD041 0
+14:57:07.725 @PRD042 20
+14:57:10.246 @PRD001 101011
+14:57:10.247 @PRD002 木工热压机
+14:57:10.248 @PRD003 压板
+14:57:10.249 @PRD004 1000
+14:57:10.250 @PRD005 阳林
+14:57:10.251 @PRD006 201711300319
+14:57:10.251 @PRD007 1746
+14:57:10.252 @PRD008 51-1.002.05.004
+14:57:10.253 @PRD009 50号电视柜1.68米
+14:57:10.254 @PRD010 1680*480*635
+14:57:10.254 @PRD011 面框竖档
+14:57:10.255 @PRD012 40.0
+14:57:10.256 @PRD013 2018/5/7 14:57:10
+14:57:10.256 @PRD014 False
+14:57:10.257 @PRD015 2
+14:57:10.257 @PRD016 
+14:57:10.258 @PRD017 2018/5/7 14:57:10
+14:57:10.258 @PRD018 系统管理员
+14:57:10.259 @PRD019 20
+14:57:10.260 @PRD020 False
+14:57:10.260 @PRD021 False
+14:57:10.261 @PRD022 
+14:57:10.261 @PRD023 1
+14:57:10.262 @PRD024 
+14:57:10.263 @PRD025 0
+14:57:10.264 @PRD026 
+14:57:10.264 @PRD027 
+14:57:10.265 @PRD028 0
+14:57:10.265 @PRD029 0
+14:57:10.266 @PRD030 0
+14:57:10.266 @PRD031 
+14:57:10.267 @PRD032 0047
+14:57:10.268 @PRD033 
+14:57:10.269 @PRD034 106*394*22
+14:57:10.270 @PRD035 False
+14:57:10.270 @PRD036 
+14:57:10.271 @PRD037 0
+14:57:10.271 @PRD038 
+14:57:10.272 @PRD039 0
+14:57:10.273 @PRD040 
+14:57:10.274 @PRD041 0
+14:57:10.274 @PRD042 20
+14:59:38.185  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+15:01:01.049 @EMP002 系统管理员
+15:01:01.050 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+15:06:04.093 @PRD001 101011
+15:06:04.094 @PRD002 木工热压机
+15:06:04.095 @PRD003 压板
+15:06:04.095 @PRD004 1000
+15:06:04.096 @PRD005 阳林
+15:06:04.097 @PRD006 201711300319
+15:06:04.097 @PRD007 1746
+15:06:04.098 @PRD008 51-1.002.05.004
+15:06:04.099 @PRD009 50号电视柜1.68米
+15:06:04.100 @PRD010 1680*480*635
+15:06:04.100 @PRD011 面框竖档
+15:06:04.101 @PRD012 40.0
+15:06:04.101 @PRD013 2018/5/7 15:06:04
+15:06:04.102 @PRD014 True
+15:06:04.102 @PRD015 3
+15:06:04.103 @PRD016 
+15:06:04.104 @PRD017 2018/5/7 15:06:04
+15:06:04.104 @PRD018 系统管理员
+15:06:04.105 @PRD019 20
+15:06:04.105 @PRD020 False
+15:06:04.106 @PRD021 False
+15:06:04.107 @PRD022 
+15:06:04.107 @PRD023 1
+15:06:04.108 @PRD024 
+15:06:04.108 @PRD025 0
+15:06:04.109 @PRD026 
+15:06:04.110 @PRD027 
+15:06:04.110 @PRD028 0
+15:06:04.111 @PRD029 0
+15:06:04.112 @PRD030 0
+15:06:04.112 @PRD031 
+15:06:04.113 @PRD032 0047
+15:06:04.113 @PRD033 
+15:06:04.114 @PRD034 106*394*22
+15:06:04.114 @PRD035 False
+15:06:04.115 @PRD036 106*394*22
+15:06:04.116 @PRD037 20
+15:06:04.116 @PRD038 
+15:06:04.117 @PRD039 0
+15:06:04.117 @PRD040 
+15:06:04.118 @PRD041 0
+15:06:04.119 @PRD042 20
+15:06:18.352 @PRD001 101011
+15:06:18.353 @PRD002 木工热压机
+15:06:18.354 @PRD003 压板
+15:06:18.354 @PRD004 1000
+15:06:18.355 @PRD005 阳林
+15:06:18.356 @PRD006 201711300319
+15:06:18.357 @PRD007 1746
+15:06:18.358 @PRD008 51-1.002.05.004
+15:06:18.358 @PRD009 50号电视柜1.68米
+15:06:18.359 @PRD010 1680*480*635
+15:06:18.359 @PRD011 面框竖档
+15:06:18.360 @PRD012 40.0
+15:06:18.361 @PRD013 2018/5/7 15:06:18
+15:06:18.362 @PRD014 False
+15:06:18.363 @PRD015 4
+15:06:18.363 @PRD016 
+15:06:18.364 @PRD017 2018/5/7 15:06:18
+15:06:18.365 @PRD018 系统管理员
+15:06:18.365 @PRD019 20
+15:06:18.366 @PRD020 False
+15:06:18.367 @PRD021 False
+15:06:18.367 @PRD022 
+15:06:18.368 @PRD023 1
+15:06:18.368 @PRD024 
+15:06:18.369 @PRD025 0
+15:06:18.370 @PRD026 
+15:06:18.371 @PRD027 
+15:06:18.371 @PRD028 0
+15:06:18.373 @PRD029 0
+15:06:18.374 @PRD030 0
+15:06:18.375 @PRD031 
+15:06:18.375 @PRD032 0047
+15:06:18.377 @PRD033 
+15:06:18.378 @PRD034 106*394*22
+15:06:18.378 @PRD035 False
+15:06:18.379 @PRD036 106*394*22
+15:06:18.380 @PRD037 20
+15:06:18.380 @PRD038 
+15:06:18.381 @PRD039 0
+15:06:18.381 @PRD040 
+15:06:18.382 @PRD041 0
+15:06:18.383 @PRD042 20
+16:06:30.872  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:06:34.771 @EMP002 系统管理员
+16:06:34.772 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+16:07:41.786 @PRD001 101011
+16:07:41.787 @PRD002 木工热压机
+16:07:41.787 @PRD003 压板
+16:07:41.788 @PRD004 1000
+16:07:41.789 @PRD005 阳林
+16:07:41.789 @PRD006 201711300319
+16:07:41.790 @PRD007 1746
+16:07:41.791 @PRD008 51-1.002.05.004
+16:07:41.791 @PRD009 50号电视柜1.68米
+16:07:41.792 @PRD010 1680*480*635
+16:07:41.793 @PRD011 面框竖档
+16:07:41.793 @PRD012 40.0
+16:07:41.794 @PRD013 2018/5/7 16:07:41
+16:07:41.794 @PRD014 True
+16:07:41.795 @PRD015 5
+16:07:41.796 @PRD016 
+16:07:41.796 @PRD017 2018/5/7 16:07:41
+16:07:41.797 @PRD018 系统管理员
+16:07:41.798 @PRD019 40.0
+16:07:41.798 @PRD020 False
+16:07:41.799 @PRD021 False
+16:07:41.800 @PRD022 
+16:07:41.800 @PRD023 1
+16:07:41.801 @PRD024 
+16:07:41.801 @PRD025 0
+16:07:41.802 @PRD026 
+16:07:41.803 @PRD027 
+16:07:41.803 @PRD028 0
+16:07:41.804 @PRD029 0
+16:07:41.804 @PRD030 0
+16:07:41.805 @PRD031 
+16:07:41.806 @PRD032 0047
+16:07:41.807 @PRD033 
+16:07:41.808 @PRD034 106*394*22
+16:07:41.811 @PRD035 False
+16:07:41.812 @PRD036 106*394*21
+16:07:41.812 @PRD037 40
+16:07:41.813 @PRD038 106*394*23
+16:07:41.814 @PRD039 10
+16:07:41.814 @PRD040 
+16:07:41.815 @PRD041 0
+16:07:41.816 @PRD042 20
+16:07:45.175 @PRD001 101011
+16:07:45.176 @PRD002 木工热压机
+16:07:45.178 @PRD003 压板
+16:07:45.178 @PRD004 1000
+16:07:45.179 @PRD005 阳林
+16:07:45.180 @PRD006 201711300319
+16:07:45.181 @PRD007 1746
+16:07:45.182 @PRD008 51-1.002.05.004
+16:07:45.183 @PRD009 50号电视柜1.68米
+16:07:45.183 @PRD010 1680*480*635
+16:07:45.184 @PRD011 面框竖档
+16:07:45.185 @PRD012 40.0
+16:07:45.186 @PRD013 2018/5/7 16:07:45
+16:07:45.187 @PRD014 False
+16:07:45.187 @PRD015 6
+16:07:45.188 @PRD016 
+16:07:45.189 @PRD017 2018/5/7 16:07:45
+16:07:45.190 @PRD018 系统管理员
+16:07:45.191 @PRD019 40.0
+16:07:45.191 @PRD020 False
+16:07:45.192 @PRD021 False
+16:07:45.194 @PRD022 
+16:07:45.195 @PRD023 1
+16:07:45.196 @PRD024 
+16:07:45.197 @PRD025 0
+16:07:45.198 @PRD026 
+16:07:45.199 @PRD027 
+16:07:45.200 @PRD028 0
+16:07:45.201 @PRD029 0
+16:07:45.202 @PRD030 0
+16:07:45.203 @PRD031 
+16:07:45.204 @PRD032 0047
+16:07:45.204 @PRD033 
+16:07:45.205 @PRD034 106*394*22
+16:07:45.206 @PRD035 False
+16:07:45.206 @PRD036 106*394*21
+16:07:45.207 @PRD037 40
+16:07:45.207 @PRD038 106*394*23
+16:07:45.208 @PRD039 10
+16:07:45.209 @PRD040 
+16:07:45.209 @PRD041 0
+16:07:45.210 @PRD042 20
+16:08:25.060 @PWS001 1000
+16:08:25.061 @PWS008 2018/5/7 14:57:07
+16:08:25.062 @PWS010 106*394*22
+16:08:25.072 @PWS001 1000
+16:08:25.073 @PWS008 2018/5/7 15:06:04
+16:08:25.074 @PWS010 106*394*22
+16:08:25.078 @PWS001 1000
+16:08:25.078 @PWS008 2018/5/7 16:07:41
+16:08:25.079 @PWS010 106*394*21
+16:08:25.082 @PWS001 1000
+16:08:25.083 @PWS008 2018/5/7 16:07:41
+16:08:25.084 @PWS010 106*394*23
+16:08:25.086 @PWS001 1000
+16:08:25.087 @PWS002 阳林
+16:08:25.088 @PWS003 1746
+16:08:25.089 @PWS004 51-1.002.05.004
+16:08:25.089 @PWS005 50号电视柜1.68米
+16:08:25.090 @PWS006 1680*480*635
+16:08:25.091 @PWS007 20
+16:08:25.091 @PWS008 2018/5/7 14:57:07
+16:08:25.092 @PWS009 面框竖档
+16:08:25.093 @PWS010 106*394*22
+16:08:25.093 @PWS011 0047
+16:08:25.094 @PWS012 压板
+16:08:25.095 @PWS013 
+16:08:25.095 @PWS014 0
+16:08:25.096 @PWS015 0
+16:08:25.096 @PWS016 0.00
+16:08:25.097 @PWS017 0.000918808
+16:08:25.098 @PWS018 0.041764
+16:08:25.099 @PWS019 0.106
+16:08:25.099 @PWS021 20.00
+16:08:25.100 @PWS022 0
+16:08:25.101 @PWS023 1
+16:08:25.102 @PWS024 
+16:08:25.103 @PWS025 0
+16:08:25.103 @PWS026 0
+16:08:25.104 @PWS027 
+16:08:25.104 @PWS028 201805
+16:08:25.105 @PWS029 0
+16:08:25.106 @PWS030 0
+16:08:25.106 @PWS031 0
+16:08:25.107 @PWS032 0
+16:08:25.112 @PWS001 1000
+16:08:25.113 @PWS002 阳林
+16:08:25.114 @PWS003 1746
+16:08:25.115 @PWS004 51-1.002.05.004
+16:08:25.116 @PWS005 50号电视柜1.68米
+16:08:25.118 @PWS006 1680*480*635
+16:08:25.119 @PWS007 20
+16:08:25.120 @PWS008 2018/5/7 16:07:41
+16:08:25.120 @PWS009 面框竖档
+16:08:25.121 @PWS010 106*394*23
+16:08:25.122 @PWS011 0047
+16:08:25.123 @PWS012 压板
+16:08:25.123 @PWS013 
+16:08:25.124 @PWS014 301.000000
+16:08:25.125 @PWS015 4000.000000
+16:08:25.125 @PWS016 0.00
+16:08:25.126 @PWS017 88842.390608972
+16:08:25.128 @PWS018 41847.569764
+16:08:25.129 @PWS019 106.106
+16:08:25.130 @PWS021 50.00
+16:08:25.131 @PWS022 0.170000
+16:08:25.132 @PWS023 1
+16:08:25.133 @PWS024 
+16:08:25.133 @PWS025 0
+16:08:25.134 @PWS026 0
+16:08:25.134 @PWS027 
+16:08:25.135 @PWS028 201805
+16:08:25.136 @PWS029 0.000000
+16:08:25.136 @PWS030 0.000000
+16:08:25.137 @PWS031 1.000000
+16:08:25.137 @PWS032 18.000000
+16:08:25.142 @PWS001 1000
+16:08:25.143 @PWS002 阳林
+16:08:25.144 @PWS003 1746
+16:08:25.144 @PWS004 51-1.002.05.004
+16:08:25.145 @PWS005 50号电视柜1.68米
+16:08:25.146 @PWS006 1680*480*635
+16:08:25.146 @PWS007 20
+16:08:25.147 @PWS008 2018/5/7 15:06:04
+16:08:25.148 @PWS009 面框竖档
+16:08:25.148 @PWS010 106*394*22
+16:08:25.149 @PWS011 0047
+16:08:25.150 @PWS012 压板
+16:08:25.151 @PWS013 
+16:08:25.152 @PWS014 0
+16:08:25.152 @PWS015 0
+16:08:25.153 @PWS016 0.00
+16:08:25.154 @PWS017 0.000918808
+16:08:25.154 @PWS018 0.041764
+16:08:25.155 @PWS019 0.106
+16:08:25.156 @PWS021 40.00
+16:08:25.156 @PWS022 0
+16:08:25.157 @PWS023 1
+16:08:25.158 @PWS024 
+16:08:25.158 @PWS025 0
+16:08:25.159 @PWS026 0
+16:08:25.160 @PWS027 
+16:08:25.160 @PWS028 201805
+16:08:25.161 @PWS029 0
+16:08:25.162 @PWS030 0
+16:08:25.165 @PWS031 0
+16:08:25.166 @PWS032 0
+16:08:25.170 @PWS001 1000
+16:08:25.171 @PWS002 阳林
+16:08:25.171 @PWS003 1746
+16:08:25.172 @PWS004 51-1.002.05.004
+16:08:25.173 @PWS005 50号电视柜1.68米
+16:08:25.173 @PWS006 1680*480*635
+16:08:25.174 @PWS007 20
+16:08:25.175 @PWS008 2018/5/7 16:07:41
+16:08:25.175 @PWS009 面框竖档
+16:08:25.176 @PWS010 106*394*21
+16:08:25.176 @PWS011 0047
+16:08:25.177 @PWS012 压板
+16:08:25.178 @PWS013 
+16:08:25.178 @PWS014 301.000000
+16:08:25.179 @PWS015 4000.000000
+16:08:25.180 @PWS016 0.00
+16:08:25.180 @PWS017 0.000877044
+16:08:25.181 @PWS018 0.041764
+16:08:25.182 @PWS019 0.106
+16:08:25.183 @PWS021 40.00
+16:08:25.183 @PWS022 0.170000
+16:08:25.184 @PWS023 1
+16:08:25.185 @PWS024 
+16:08:25.185 @PWS025 0
+16:08:25.186 @PWS026 0
+16:08:25.187 @PWS027 
+16:08:25.187 @PWS028 201805
+16:08:25.188 @PWS029 0.000000
+16:08:25.189 @PWS030 0.000000
+16:08:25.190 @PWS031 1.000000
+16:08:25.190 @PWS032 18.000000
+16:09:45.367 @PWS001 1000
+16:09:45.369 @PWS008 2018/5/7 14:57:07
+16:09:45.371 @PWS010 106*394*22
+16:10:34.752 @PWS001 1000
+16:10:34.753 @PWS008 2018/5/7 15:06:04
+16:10:34.754 @PWS010 106*394*22
+16:11:18.116 @PWS001 1000
+16:11:18.118 @PWS008 2018/5/7 16:07:41
+16:11:18.119 @PWS010 106*394*21
+16:11:18.125 @PWS001 1000
+16:11:18.126 @PWS008 2018/5/7 16:07:41
+16:11:18.128 @PWS010 106*394*23
+16:11:18.132 @PWS001 1000
+16:11:18.133 @PWS002 阳林
+16:11:18.133 @PWS003 1746
+16:11:18.134 @PWS004 51-1.002.05.004
+16:11:18.135 @PWS005 50号电视柜1.68米
+16:11:18.136 @PWS006 1680*480*635
+16:11:18.136 @PWS007 20
+16:11:18.137 @PWS008 2018/5/7 14:57:07
+16:11:18.138 @PWS009 面框竖档
+16:11:18.139 @PWS010 106*394*22
+16:11:18.140 @PWS011 0047
+16:11:18.141 @PWS012 压板
+16:11:18.141 @PWS013 
+16:11:18.142 @PWS014 0
+16:11:18.142 @PWS015 0
+16:11:18.143 @PWS016 0.00
+16:11:18.144 @PWS017 0.000918808
+16:11:18.144 @PWS018 0.041764
+16:11:18.145 @PWS019 0.106
+16:11:18.145 @PWS021 20.00
+16:11:18.146 @PWS022 0
+16:11:18.147 @PWS023 1
+16:11:18.147 @PWS024 
+16:11:18.148 @PWS025 0
+16:11:18.149 @PWS026 0
+16:11:18.149 @PWS027 
+16:11:18.150 @PWS028 201805
+16:11:18.150 @PWS029 0
+16:11:18.151 @PWS030 0
+16:11:18.153 @PWS031 0
+16:11:18.153 @PWS032 0
+16:11:18.158 @PWS001 1000
+16:11:18.159 @PWS002 阳林
+16:11:18.159 @PWS003 1746
+16:11:18.160 @PWS004 51-1.002.05.004
+16:11:18.161 @PWS005 50号电视柜1.68米
+16:11:18.161 @PWS006 1680*480*635
+16:11:18.162 @PWS007 20
+16:11:18.163 @PWS008 2018/5/7 16:07:41
+16:11:18.163 @PWS009 面框竖档
+16:11:18.164 @PWS010 106*394*21
+16:11:18.164 @PWS011 0047
+16:11:18.165 @PWS012 压板
+16:11:18.166 @PWS013 
+16:11:18.166 @PWS014 301.000000
+16:11:18.167 @PWS015 4000.000000
+16:11:18.168 @PWS016 0.00
+16:11:18.170 @PWS017 0.000877044
+16:11:18.170 @PWS018 0.041764
+16:11:18.171 @PWS019 0.106
+16:11:18.172 @PWS021 40.00
+16:11:18.172 @PWS022 0.170000
+16:11:18.173 @PWS023 1
+16:11:18.173 @PWS024 
+16:11:18.174 @PWS025 0
+16:11:18.175 @PWS026 0
+16:11:18.175 @PWS027 
+16:11:18.176 @PWS028 201805
+16:11:18.177 @PWS029 0.000000
+16:11:18.177 @PWS030 0.000000
+16:11:18.178 @PWS031 1.000000
+16:11:18.179 @PWS032 18.000000
+16:11:18.182 @PWS001 1000
+16:11:18.183 @PWS002 阳林
+16:11:18.184 @PWS003 1746
+16:11:18.185 @PWS004 51-1.002.05.004
+16:11:18.185 @PWS005 50号电视柜1.68米
+16:11:18.186 @PWS006 1680*480*635
+16:11:18.186 @PWS007 20
+16:11:18.187 @PWS008 2018/5/7 15:06:04
+16:11:18.187 @PWS009 面框竖档
+16:11:18.188 @PWS010 106*394*22
+16:11:18.189 @PWS011 0047
+16:11:18.189 @PWS012 压板
+16:11:18.190 @PWS013 
+16:11:18.191 @PWS014 0
+16:11:18.191 @PWS015 0
+16:11:18.192 @PWS016 0.00
+16:11:18.192 @PWS017 0.000918808
+16:11:18.193 @PWS018 0.041764
+16:11:18.193 @PWS019 0.106
+16:11:18.194 @PWS021 40.00
+16:11:18.195 @PWS022 0
+16:11:18.195 @PWS023 1
+16:11:18.196 @PWS024 
+16:11:18.197 @PWS025 0
+16:11:18.197 @PWS026 0
+16:11:18.198 @PWS027 
+16:11:18.199 @PWS028 201805
+16:11:18.200 @PWS029 0
+16:11:18.200 @PWS030 0
+16:11:18.201 @PWS031 0
+16:11:18.202 @PWS032 0
+16:11:18.206 @PWS001 1000
+16:11:18.207 @PWS002 阳林
+16:11:18.208 @PWS003 1746
+16:11:18.208 @PWS004 51-1.002.05.004
+16:11:18.209 @PWS005 50号电视柜1.68米
+16:11:18.210 @PWS006 1680*480*635
+16:11:18.210 @PWS007 20
+16:11:18.211 @PWS008 2018/5/7 16:07:41
+16:11:18.212 @PWS009 面框竖档
+16:11:18.213 @PWS010 106*394*23
+16:11:18.214 @PWS011 0047
+16:11:18.215 @PWS012 压板
+16:11:18.216 @PWS013 
+16:11:18.217 @PWS014 301.000000
+16:11:18.217 @PWS015 4000.000000
+16:11:18.218 @PWS016 0.00
+16:11:18.219 @PWS017 88842.390608972
+16:11:18.220 @PWS018 41847.569764
+16:11:18.221 @PWS019 106.106
+16:11:18.221 @PWS021 50.00
+16:11:18.222 @PWS022 0.170000
+16:11:18.222 @PWS023 1
+16:11:18.223 @PWS024 
+16:11:18.224 @PWS025 0
+16:11:18.224 @PWS026 0
+16:11:18.225 @PWS027 
+16:11:18.226 @PWS028 201805
+16:11:18.226 @PWS029 0.000000
+16:11:18.227 @PWS030 0.000000
+16:11:18.228 @PWS031 1.000000
+16:11:18.229 @PWS032 18.000000
+16:35:40.350  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:35:45.181 @EMP002 系统管理员
+16:35:45.182 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+16:37:21.614  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:37:30.332 @EMP002 系统管理员
+16:37:30.333 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+16:37:43.418 关键字 'AND' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 265
+16:37:43.419 SELECT PRD005,PRD013,PRD007,PRD008,PRD011,PRD034,PRD003,PRD019,PRD023 FROM MOXPRD WHERE  AND PRD013='2018/5/7 0:00:00'
+16:38:33.727  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:38:37.620 @EMP002 系统管理员
+16:38:37.621 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+16:38:52.865 关键字 'AND' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 265
+16:38:52.865 SELECT PRD005,PRD013,PRD007,PRD008,PRD011,PRD034,PRD003,PRD019,PRD023 FROM MOXPRD WHERE  AND PRD013='2018/5/7 0:00:00'
+16:39:30.016  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:39:35.797 @EMP002 系统管理员
+16:39:35.798 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+16:39:57.048 关键字 'AND' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 265
+16:39:57.049 SELECT PRD005,PRD013,PRD007,PRD008,PRD011,PRD034,PRD003,PRD019,PRD023 FROM MOXPRD WHERE  AND PRD013='2018/5/7 0:00:00'
+16:40:52.365  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:46:08.930  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:47:20.796 @EMP002 系统管理员
+16:47:20.797 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+16:49:17.740  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:49:49.188 @EMP002 系统管理员
+16:49:49.189 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+16:51:34.805  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\Project data\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+16:51:58.939 @EMP002 系统管理员
+16:51:58.940 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+16:52:09.155 @PWS001 1000
+16:52:09.156 @PWS008 2018/5/7 14:57:07
+16:52:09.156 @PWS010 106*394*22
+16:52:09.165 @PWS001 1000
+16:52:09.166 @PWS008 2018/5/7 15:06:04
+16:52:09.166 @PWS010 106*394*22
+16:52:09.170 @PWS001 1000
+16:52:09.171 @PWS008 2018/5/7 16:07:41
+16:52:09.171 @PWS010 106*394*21
+16:52:09.174 @PWS001 1000
+16:52:09.176 @PWS008 2018/5/7 16:07:41
+16:52:09.176 @PWS010 106*394*23
+16:52:09.181 @PWS001 1000
+16:52:09.182 @PWS002 阳林
+16:52:09.182 @PWS003 1746
+16:52:09.183 @PWS004 51-1.002.05.004
+16:52:09.184 @PWS005 50号电视柜1.68米
+16:52:09.184 @PWS006 1680*480*635
+16:52:09.185 @PWS007 20
+16:52:09.186 @PWS008 2018/5/7 15:06:04
+16:52:09.186 @PWS009 面框竖档
+16:52:09.187 @PWS010 106*394*22
+16:52:09.187 @PWS011 0047
+16:52:09.188 @PWS012 压板
+16:52:09.189 @PWS013 
+16:52:09.190 @PWS014 0
+16:52:09.190 @PWS015 0
+16:52:09.191 @PWS016 0.00
+16:52:09.191 @PWS017 0.000918808
+16:52:09.192 @PWS018 0.041764
+16:52:09.193 @PWS019 0.106
+16:52:09.194 @PWS021 40.00
+16:52:09.195 @PWS022 0
+16:52:09.196 @PWS023 1
+16:52:09.196 @PWS024 
+16:52:09.197 @PWS025 0
+16:52:09.197 @PWS026 0
+16:52:09.198 @PWS027 
+16:52:09.199 @PWS028 201805
+16:52:09.199 @PWS029 0
+16:52:09.200 @PWS030 0
+16:52:09.200 @PWS031 0
+16:52:09.201 @PWS032 0
+16:52:09.213 @PWS001 1000
+16:52:09.214 @PWS002 阳林
+16:52:09.215 @PWS003 1746
+16:52:09.216 @PWS004 51-1.002.05.004
+16:52:09.217 @PWS005 50号电视柜1.68米
+16:52:09.217 @PWS006 1680*480*635
+16:52:09.218 @PWS007 20
+16:52:09.218 @PWS008 2018/5/7 14:57:07
+16:52:09.219 @PWS009 面框竖档
+16:52:09.220 @PWS010 106*394*22
+16:52:09.220 @PWS011 0047
+16:52:09.221 @PWS012 压板
+16:52:09.222 @PWS013 
+16:52:09.222 @PWS014 0
+16:52:09.223 @PWS015 0
+16:52:09.224 @PWS016 0.00
+16:52:09.224 @PWS017 0.000918808
+16:52:09.225 @PWS018 0.041764
+16:52:09.226 @PWS019 0.106
+16:52:09.226 @PWS021 20.00
+16:52:09.227 @PWS022 0
+16:52:09.228 @PWS023 1
+16:52:09.229 @PWS024 
+16:52:09.230 @PWS025 0
+16:52:09.230 @PWS026 0
+16:52:09.231 @PWS027 
+16:52:09.232 @PWS028 201805
+16:52:09.232 @PWS029 0
+16:52:09.233 @PWS030 0
+16:52:09.233 @PWS031 0
+16:52:09.234 @PWS032 0
+16:52:09.237 @PWS001 1000
+16:52:09.238 @PWS002 阳林
+16:52:09.239 @PWS003 1746
+16:52:09.240 @PWS004 51-1.002.05.004
+16:52:09.241 @PWS005 50号电视柜1.68米
+16:52:09.242 @PWS006 1680*480*635
+16:52:09.243 @PWS007 20
+16:52:09.243 @PWS008 2018/5/7 16:07:41
+16:52:09.244 @PWS009 面框竖档
+16:52:09.245 @PWS010 106*394*21
+16:52:09.245 @PWS011 0047
+16:52:09.246 @PWS012 压板
+16:52:09.247 @PWS013 
+16:52:09.247 @PWS014 301.000000
+16:52:09.248 @PWS015 4000.000000
+16:52:09.249 @PWS016 0.00
+16:52:09.249 @PWS017 0.000877044
+16:52:09.250 @PWS018 0.041764
+16:52:09.251 @PWS019 0.106
+16:52:09.251 @PWS021 40.00
+16:52:09.252 @PWS022 0.170000
+16:52:09.253 @PWS023 1
+16:52:09.254 @PWS024 
+16:52:09.255 @PWS025 0
+16:52:09.255 @PWS026 0
+16:52:09.256 @PWS027 
+16:52:09.257 @PWS028 201805
+16:52:09.257 @PWS029 0.000000
+16:52:09.258 @PWS030 0.000000
+16:52:09.258 @PWS031 1.000000
+16:52:09.259 @PWS032 18.000000
+16:52:09.262 @PWS001 1000
+16:52:09.263 @PWS002 阳林
+16:52:09.264 @PWS003 1746
+16:52:09.265 @PWS004 51-1.002.05.004
+16:52:09.265 @PWS005 50号电视柜1.68米
+16:52:09.266 @PWS006 1680*480*635
+16:52:09.267 @PWS007 20
+16:52:09.267 @PWS008 2018/5/7 16:07:41
+16:52:09.268 @PWS009 面框竖档
+16:52:09.270 @PWS010 106*394*23
+16:52:09.270 @PWS011 0047
+16:52:09.271 @PWS012 压板
+16:52:09.272 @PWS013 
+16:52:09.273 @PWS014 301.000000
+16:52:09.273 @PWS015 4000.000000
+16:52:09.274 @PWS016 0.00
+16:52:09.275 @PWS017 88842.390608972
+16:52:09.276 @PWS018 41847.569764
+16:52:09.276 @PWS019 106.106
+16:52:09.277 @PWS021 50.00
+16:52:09.277 @PWS022 0.170000
+16:52:09.278 @PWS023 1
+16:52:09.279 @PWS024 
+16:52:09.279 @PWS025 0
+16:52:09.280 @PWS026 0
+16:52:09.281 @PWS027 
+16:52:09.281 @PWS028 201805
+16:52:09.282 @PWS029 0.000000
+16:52:09.283 @PWS030 0.000000
+16:52:09.283 @PWS031 1.000000
+16:52:09.284 @PWS032 18.000000
+16:52:20.682 @PWS001 1000
+16:52:20.684 @PWS008 2018/5/7 14:57:07
+16:52:20.686 @PWS010 106*394*22
+16:52:20.694 @PWS001 1000
+16:52:20.695 @PWS008 2018/5/7 15:06:04
+16:52:20.695 @PWS010 106*394*22
+16:52:20.698 @PWS001 1000
+16:52:20.699 @PWS008 2018/5/7 16:07:41
+16:52:20.700 @PWS010 106*394*21
+16:52:20.702 @PWS001 1000
+16:52:20.704 @PWS008 2018/5/7 16:07:41
+16:52:20.704 @PWS010 106*394*23
+16:52:20.707 @PWS001 1000
+16:52:20.708 @PWS002 阳林
+16:52:20.708 @PWS003 1746
+16:52:20.710 @PWS004 51-1.002.05.004
+16:52:20.711 @PWS005 50号电视柜1.68米
+16:52:20.712 @PWS006 1680*480*635
+16:52:20.712 @PWS007 20
+16:52:20.713 @PWS008 2018/5/7 16:07:41
+16:52:20.714 @PWS009 面框竖档
+16:52:20.714 @PWS010 106*394*21
+16:52:20.715 @PWS011 0047
+16:52:20.715 @PWS012 压板
+16:52:20.716 @PWS013 
+16:52:20.717 @PWS014 301.000000
+16:52:20.717 @PWS015 4000.000000
+16:52:20.718 @PWS016 0.00
+16:52:20.718 @PWS017 0.000877044
+16:52:20.719 @PWS018 0.041764
+16:52:20.720 @PWS019 0.106
+16:52:20.720 @PWS021 40.00
+16:52:20.721 @PWS022 0.170000
+16:52:20.722 @PWS023 1
+16:52:20.723 @PWS024 
+16:52:20.723 @PWS025 0
+16:52:20.724 @PWS026 0
+16:52:20.725 @PWS027 
+16:52:20.725 @PWS028 201805
+16:52:20.726 @PWS029 0.000000
+16:52:20.727 @PWS030 0.000000
+16:52:20.727 @PWS031 1.000000
+16:52:20.728 @PWS032 18.000000
+16:52:20.732 @PWS001 1000
+16:52:20.733 @PWS002 阳林
+16:52:20.734 @PWS003 1746
+16:52:20.735 @PWS004 51-1.002.05.004
+16:52:20.735 @PWS005 50号电视柜1.68米
+16:52:20.736 @PWS006 1680*480*635
+16:52:20.737 @PWS007 20
+16:52:20.738 @PWS008 2018/5/7 16:07:41
+16:52:20.738 @PWS009 面框竖档
+16:52:20.739 @PWS010 106*394*23
+16:52:20.739 @PWS011 0047
+16:52:20.740 @PWS012 压板
+16:52:20.741 @PWS013 
+16:52:20.741 @PWS014 301.000000
+16:52:20.742 @PWS015 4000.000000
+16:52:20.742 @PWS016 0.00
+16:52:20.743 @PWS017 88842.390608972
+16:52:20.744 @PWS018 41847.569764
+16:52:20.744 @PWS019 106.106
+16:52:20.745 @PWS021 50.00
+16:52:20.745 @PWS022 0.170000
+16:52:20.746 @PWS023 1
+16:52:20.747 @PWS024 
+16:52:20.748 @PWS025 0
+16:52:20.748 @PWS026 0
+16:52:20.749 @PWS027 
+16:52:20.749 @PWS028 201805
+16:52:20.750 @PWS029 0.000000
+16:52:20.751 @PWS030 0.000000
+16:52:20.751 @PWS031 1.000000
+16:52:20.752 @PWS032 18.000000
+16:52:20.756 @PWS001 1000
+16:52:20.757 @PWS002 阳林
+16:52:20.757 @PWS003 1746
+16:52:20.758 @PWS004 51-1.002.05.004
+16:52:20.759 @PWS005 50号电视柜1.68米
+16:52:20.759 @PWS006 1680*480*635
+16:52:20.760 @PWS007 20
+16:52:20.761 @PWS008 2018/5/7 14:57:07
+16:52:20.761 @PWS009 面框竖档
+16:52:20.762 @PWS010 106*394*22
+16:52:20.763 @PWS011 0047
+16:52:20.763 @PWS012 压板
+16:52:20.764 @PWS013 
+16:52:20.765 @PWS014 0
+16:52:20.765 @PWS015 0
+16:52:20.766 @PWS016 0.00
+16:52:20.767 @PWS017 0.000918808
+16:52:20.768 @PWS018 0.041764
+16:52:20.768 @PWS019 0.106
+16:52:20.769 @PWS021 20.00
+16:52:20.770 @PWS022 0
+16:52:20.770 @PWS023 1
+16:52:20.771 @PWS024 
+16:52:20.772 @PWS025 0
+16:52:20.772 @PWS026 0
+16:52:20.773 @PWS027 
+16:52:20.774 @PWS028 201805
+16:52:20.774 @PWS029 0
+16:52:20.775 @PWS030 0
+16:52:20.775 @PWS031 0
+16:52:20.776 @PWS032 0
+16:52:20.779 @PWS001 1000
+16:52:20.780 @PWS002 阳林
+16:52:20.781 @PWS003 1746
+16:52:20.781 @PWS004 51-1.002.05.004
+16:52:20.782 @PWS005 50号电视柜1.68米
+16:52:20.782 @PWS006 1680*480*635
+16:52:20.783 @PWS007 20
+16:52:20.784 @PWS008 2018/5/7 15:06:04
+16:52:20.784 @PWS009 面框竖档
+16:52:20.785 @PWS010 106*394*22
+16:52:20.786 @PWS011 0047
+16:52:20.786 @PWS012 压板
+16:52:20.787 @PWS013 
+16:52:20.788 @PWS014 0
+16:52:20.788 @PWS015 0
+16:52:20.789 @PWS016 0.00
+16:52:20.790 @PWS017 0.000918808
+16:52:20.790 @PWS018 0.041764
+16:52:20.791 @PWS019 0.106
+16:52:20.792 @PWS021 40.00
+16:52:20.792 @PWS022 0
+16:52:20.793 @PWS023 1
+16:52:20.794 @PWS024 
+16:52:20.794 @PWS025 0
+16:52:20.795 @PWS026 0
+16:52:20.796 @PWS027 
+16:52:20.796 @PWS028 201805
+16:52:20.797 @PWS029 0
+16:52:20.798 @PWS030 0
+16:52:20.798 @PWS031 0
+16:52:20.799 @PWS032 0
+16:52:31.798 @PWS001 1000
+16:52:31.800 @PWS008 2018/5/7 14:57:07
+16:52:31.801 @PWS010 106*394*22
+16:52:31.806 @PWS001 1000
+16:52:31.808 @PWS008 2018/5/7 15:06:04
+16:52:31.809 @PWS010 106*394*22
+16:52:31.812 @PWS001 1000
+16:52:31.813 @PWS008 2018/5/7 16:07:41
+16:52:31.814 @PWS010 106*394*21
+16:52:31.819 @PWS001 1000
+16:52:31.820 @PWS008 2018/5/7 16:07:41
+16:52:31.821 @PWS010 106*394*23

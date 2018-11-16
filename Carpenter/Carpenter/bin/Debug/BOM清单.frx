@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="07/04/2017 15:20:35" ReportInfo.Modified="01/08/2018 15:07:18" ReportInfo.CreatorVersion="2013.2.5.0">
+  <ScriptText>using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {
+    int numOne=0;
+    decimal numTwo=0M;
+    
+    private void PageHeader1_AfterData(object sender, EventArgs e)
+    {
+      if(!String.IsNullOrEmpty(Text22.Text))
+        numOne=Convert.ToInt32(Text22.Text);
+      else
+        numOne=0;
+    }
+    private void Data1_AfterData(object sender, EventArgs e)
+    {
+      if(!String.IsNullOrEmpty(Text34.Text))
+        numTwo=Convert.ToDecimal(Text34.Text);
+      else
+        numTwo=0M;
+       
+      Text35.Text=(numOne*numTwo).ToString();
+      
+    }
+  }
+}
+</ScriptText>
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDhPFD1w+LtzdaMPBNAktErXEDRNc84Iw1ma3liZoHLCQ==">
+      <TableDataSource Name="Table" Alias="WOQ" DataType="System.Int32" Enabled="true" SelectCommand="SELECT row,WOQ008,WOQ009,CUU003,CUU001 FROM MOXWOQ A LEFT JOIN &#13;&#10;(SELECT ROW_NUMBER() OVER(ORDER BY CUU002) row,CUU002,CUU001,CUU003 FROM MOXCUU WHERE CUU001='1801') B ON A.WOQ001=B.CUU002 WHERE CUU001='1801' AND WOQ001='59-1.002.12.002'">
+        <Column Name="WOQ008" DataType="System.String"/>
+        <Column Name="WOQ009" DataType="System.String"/>
+        <Column Name="CUU003" DataType="System.Int32"/>
+        <Column Name="CUU001" DataType="System.String"/>
+        <Column Name="row" DataType="System.Int64"/>
+      </TableDataSource>
+      <TableDataSource Name="Table1" Alias="WOR" DataType="System.Int32" Enabled="true" SelectCommand="SELECT WOR006,WOR007+'*'+WOR010+'*'+WOR013 WOR,CONVERT(FLOAT,WOR017) WOR017,WOR018,WOR019,WOR020,WOR021,&#13;&#10;REPLACE(REPLACE(WOR022,char(13),''),CHAR(10),'') WOR022,WOR016,WOR030 FROM MOXWOR WHERE WOR001='61-1.001.02.004'">
+        <Column Name="WOR006" DataType="System.String"/>
+        <Column Name="WOR" DataType="System.String"/>
+        <Column Name="WOR017" DataType="System.Int32"/>
+        <Column Name="WOR018" DataType="System.String"/>
+        <Column Name="WOR019" DataType="System.Int32"/>
+        <Column Name="WOR020" DataType="System.String"/>
+        <Column Name="WOR021" DataType="System.String"/>
+        <Column Name="WOR022" DataType="System.String"/>
+        <Column Name="WOR016" DataType="System.String"/>
+        <Column Name="WOR030" DataType="System.String"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" RawPaperSize="9">
+    <PageHeaderBand Name="PageHeader1" Width="718.2" Height="103.95" AfterDataEvent="PageHeader1_AfterData">
+      <TextObject Name="Text5" Top="66.15" Width="75.6" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="零件名称" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text23" Left="75.6" Top="66.15" Width="66.15" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="规格" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text24" Left="141.75" Top="66.15" Width="28.35" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="单量" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text25" Left="170.1" Top="66.15" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="需要量" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text26" Left="217.35" Top="66.15" Width="66.15" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="材质" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text27" Left="283.5" Top="66.15" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="作业类型" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text28" Left="368.55" Top="66.15" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="板厚(mm)" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text29" Left="415.8" Top="66.15" Width="56.7" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="部件要求" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text30" Left="472.5" Top="66.15" Width="56.7" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="材料等级" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text31" Left="529.2" Top="66.15" Width="189" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="备注" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text2" Left="538.65" Top="37.8" Width="103.95" Height="18.9" Text="生产批次：" HorzAlign="Right" Font="宋体, 12pt"/>
+      <TextObject Name="Text3" Left="642.6" Top="37.8" Width="75.6" Height="18.9" Border.Lines="Bottom" Border.Style="Dot" Text="[WOQ.CUU001]" Font="宋体, 12pt"/>
+      <TextObject Name="Text4" Left="113.4" Top="37.8" Width="66.15" Height="18.9" Text="规格：" HorzAlign="Right" Font="宋体, 12pt"/>
+      <TextObject Name="Text20" Left="179.55" Top="37.8" Width="151.2" Height="18.9" Border.Lines="Bottom" Border.Style="Dot" Text="[WOQ.WOQ009]" Font="宋体, 12pt"/>
+      <TextObject Name="Text21" Left="330.75" Top="37.8" Width="94.5" Height="18.9" Text="生产数量：" HorzAlign="Right" Font="宋体, 12pt"/>
+      <TextObject Name="Text22" Left="425.25" Top="37.8" Width="113.4" Height="18.9" Border.Lines="Bottom" Border.Style="Dot" Text="[WOQ.CUU003]" Font="宋体, 12pt"/>
+      <TextObject Name="Text1" Width="718.2" Height="37.8" Text="[WOQ.WOQ008]" HorzAlign="Center" VertAlign="Center" Font="宋体, 18pt"/>
+      <TextObject Name="Text42" Left="330.75" Top="66.15" Width="37.8" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="编号" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text6" Top="37.8" Width="66.15" Height="18.9" Text="序号：" HorzAlign="Right" Font="宋体, 12pt"/>
+      <TextObject Name="Text7" Left="66.15" Top="37.8" Width="47.25" Height="18.9" Border.Lines="Bottom" Border.Style="Dot" Text="[WOQ.row]" Font="宋体, 12pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="107.95" Width="718.2" Height="37.8" BeforePrintEvent="Data1_BeforePrint" AfterDataEvent="Data1_AfterData" DataSource="Table1">
+      <TextObject Name="Text32" Width="75.6" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[WOR.WOR006]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text33" Left="75.6" Width="66.15" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[WOR.WOR]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text34" Left="141.75" Width="28.35" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[WOR.WOR017]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text35" Left="170.1" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text36" Left="217.35" Width="66.15" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[WOR.WOR018]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text37" Left="283.5" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[WOR.WOR016]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text38" Left="368.55" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[WOR.WOR019]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text39" Left="415.8" Width="56.7" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[WOR.WOR020]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text40" Left="472.5" Width="56.7" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[WOR.WOR021]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text41" Left="529.2" Width="189" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[WOR.WOR022]" HorzAlign="Center" VertAlign="Center" Font="宋体, 8.25pt"/>
+      <TextObject Name="Text43" Left="330.75" Width="37.8" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[WOR.WOR030]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

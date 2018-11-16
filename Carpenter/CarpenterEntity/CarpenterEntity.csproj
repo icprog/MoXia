@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F14D9ABF-315B-4182-8C8E-16159716FDF6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CarpenterEntity</RootNamespace>
+    <AssemblyName>CarpenterEntity</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DepartMentEntity.cs" />
+    <Compile Include="ExoendBasePaintEntity.cs" />
+    <Compile Include="ExpendPaintAnalysisEntity.cs" />
+    <Compile Include="ExpendPaintEntity.cs" />
+    <Compile Include="ExpendPlanPaintEntity.cs" />
+    <Compile Include="ExpendWoodEntity.cs" />
+    <Compile Include="OutPutValueEntity.cs" />
+    <Compile Include="PaintBaseAndProductEntity.cs" />
+    <Compile Include="PayrollReportEntity.cs" />
+    <Compile Include="PersonEntity.cs" />
+    <Compile Include="PiceWageStatisticalTableEntity.cs" />
+    <Compile Include="productBLWorkEntity.cs" />
+    <Compile Include="ProductDailyWorkPREEntity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserEntity.cs" />
+    <Compile Include="EmployeeEntity.cs" />
+    <Compile Include="PowerEntity.cs" />
+    <Compile Include="ProgramControlEntity.cs" />
+    <Compile Include="SetReviewEntity.cs" />
+    <Compile Include="RemindEntity.cs" />
+    <Compile Include="EquimentEntity.cs" />
+    <Compile Include="EquimentChildEntity.cs" />
+    <Compile Include="ArtEntity.cs" />
+    <Compile Include="OPIEntity.cs" />
+    <Compile Include="WageCoefEntity.cs" />
+    <Compile Include="WoodBaseEntity.cs" />
+    <Compile Include="WOODEntity.cs" />
+    <Compile Include="PAITEntity.cs" />
+    <Compile Include="PAIJEntity.cs" />
+    <Compile Include="BomWorkPlanWOREntity.cs" />
+    <Compile Include="BomWorkPlanWOQEntity.cs" />
+    <Compile Include="PlanCutCUUEntity.cs" />
+    <Compile Include="PlanCutCUTEntity.cs" />
+    <Compile Include="ProductScheduleEntity.cs" />
+    <Compile Include="ProductionStockEntity.cs" />
+    <Compile Include="PlanStockPLSEntity.cs" />
+    <Compile Include="PlanStockPLTEntity.cs" />
+    <Compile Include="PlanStockWorkPSWEntity.cs" />
+    <Compile Include="PlanStockWorkPSXEntity.cs" />
+    <Compile Include="PlanStockDailyWorkEntity.cs" />
+    <Compile Include="TransmitEntity.cs" />
+    <Compile Include="SetTransmitEntity.cs" />
+    <Compile Include="MaintainTransmitMTREntity.cs" />
+    <Compile Include="MaintainTransmitMTSEntity.cs" />
+    <Compile Include="PlanStockDailyWeekEntity.cs" />
+    <Compile Include="BomWorkPlanCodeEntity.cs" />
+    <Compile Include="PlanMachinPMCEntity.cs" />
+    <Compile Include="PlanMachinPMDEntity.cs" />
+    <Compile Include="PlanMachinWeekDailyWorkEntity.cs" />
+    <Compile Include="PlanMachinWorkPMWEntity.cs" />
+    <Compile Include="PlanMachinWorkPMXEntity.cs" />
+    <Compile Include="PlanMachinDayDailyWorkEntity.cs" />
+    <Compile Include="ProductDailyWorkEntity.cs" />
+    <Compile Include="ProductionAssembleEntity.cs" />
+    <Compile Include="PlanAssembleWeekPLAEntity.cs" />
+    <Compile Include="PlanAssembleWeekPLBEntity.cs" />
+    <Compile Include="PlanAssembleWeekDailyEntity.cs" />
+    <Compile Include="PlanAssembleDayPLDEntity.cs" />
+    <Compile Include="PlanAssembleDayPLEEntity.cs" />
+    <Compile Include="PlanAssemebleDayDailyEntity.cs" />
+    <Compile Include="AssembleWorkOrderAWOEntity.cs" />
+    <Compile Include="AssembleWorkOrderAWQEntity.cs" />
+    <Compile Include="ProductionPaintEntity.cs" />
+    <Compile Include="ProductionPaintWeekPWHEntity.cs" />
+    <Compile Include="ProductionPaintWeekPWGEntity.cs" />
+    <Compile Include="ProductionPaintWeekDailyEntity.cs" />
+    <Compile Include="ProductionPaintDayPWEEntity.cs" />
+    <Compile Include="ProductionPaintDayPWDEntity.cs" />
+    <Compile Include="ProductionPaintDayDailyEntity.cs" />
+    <Compile Include="AruEntity.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

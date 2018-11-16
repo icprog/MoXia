@@ -1,0 +1,66 @@
+09:48:27.764 @EMP002 系统管理员
+09:48:27.811 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:09:13.402 @EMP002 系统管理员
+10:09:13.433 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:20:00.193 @EMP002 系统管理员
+10:20:00.224 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:39:19.440 @EMP002 系统管理员
+10:39:19.487 @EMP009 d2f278e251d1566edd72846d4ad97f
+10:53:22.871 @EMP002 系统管理员
+10:53:22.918 @EMP009 d2f278e251d1566edd72846d4ad97f
+11:05:48.007 @EMP002 系统管理员
+11:05:48.023 @EMP009 d2f278e251d1566edd72846d4ad97f
+11:06:12.531 从字符串转换日期和/或时间时，转换失败。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   在 System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   在 System.Data.SqlClient.SqlDataReader.Read()
+   在 System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   在 System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   在 System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MoXia\Carpenter\CarpenterBll\SqlHelper.cs:行号 266
+11:06:12.531 SELECT A.idx,PDP001,PDP002,PDP003,PDP004,PDP005,PDP006,PDP007,PDP008,PDP009,PDP010,PDP011,PDP012,PDP013,PDP014,PDP015,PDP016,PDP017,PDP018,PDP019,PDP020,PDP021,PDP022,PDP023,PDP024,PDP025,OPI006,PAS011,PAS012,PDP026 FROM MOXPDP A LEFT JOIN MOXOPI B ON A.PDP002=B.OPI001 LEFT JOIN MOXPAS C ON A.PDP001=C.PAS001 AND A.PDP002=C.PAS002 WHERE 1=1 AND PAS012>'2018年05月01日' AND (PDP027 IS NULL OR PDP027='' OR PDP027='0')  ORDER BY PDP026 DESC,PDP001,OPI006
+12:12:38.937 @EMP002 系统管理员
+12:12:38.968 @EMP009 d2f278e251d1566edd72846d4ad97f
+12:31:07.325 @EMP002 系统管理员
+12:31:07.356 @EMP009 d2f278e251d1566edd72846d4ad97f
+13:09:14.549 @EPP001 61-1.004.03.010
+13:09:14.549 @EPP002 1601茶凳
+13:09:14.549 @EPP003 致简
+13:09:14.565 @EPP004 坐板
+13:09:14.565 @EPP005 20.0000
+13:09:14.565 @EPP006 3.0000
+13:09:14.565 @EPP007 2
+13:09:14.565 @EPP008 虹堡
+13:09:14.565 @EPP009 500固化剂
+13:09:14.580 @EPP010 1
+13:09:14.580 @EPP011 0.23000
+13:09:14.580 @idx 2
+13:09:14.612 @EPP001 61-1.004.03.010
+13:09:14.612 @EPP002 1601茶凳
+13:09:14.612 @EPP003 致简
+13:09:14.612 @EPP004 脚
+13:09:14.612 @EPP005 30.0000
+13:09:14.612 @EPP006 2.0000
+13:09:14.612 @EPP007 2
+13:09:14.612 @EPP008 虹堡
+13:09:14.612 @EPP009 500固化剂
+13:09:14.627 @EPP010 1
+13:09:14.627 @EPP011 0.23000
+13:09:14.627 @idx 1
+13:09:14.643 @EPP001 51-1.001.02.006-1
+13:09:14.643 @EPP002 2号床靠1.8米-B
+13:09:14.643 @EPP003 致简
+13:09:14.643 @EPP004 坐板
+13:09:14.643 @EPP005 4
+13:09:14.643 @EPP006 2
+13:09:14.643 @EPP007 2
+13:09:14.658 @EPP008 虹堡
+13:09:14.658 @EPP009 500固化剂
+13:09:14.658 @EPP010 1
+13:09:14.658 @EPP011 0.23000

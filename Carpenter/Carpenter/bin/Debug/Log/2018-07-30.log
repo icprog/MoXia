@@ -1,0 +1,18 @@
+13:55:59.251  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+13:56:42.648  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+13:58:44.468  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+13:58:50.915 @EMP002 系统管理员
+13:58:50.916 @EMP009 cebfd1559b68d67688884d7a3d3e8c
+13:58:52.510 @EMP002 系统管理员
+13:58:52.516 @EMP009 d2f278e251d1566edd72846d4ad97f
+17:10:41.308  异常信息：由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.1.188:80
+  堆栈信息:   在 AutoUpdate.AppUpdate.DownloadFile(String url, String localFilePath) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 242
+   在 AutoUpdate.AppUpdate.CheckAppVersion(String& msg) 位置 D:\ProjectData\MoXia\Carpenter\Carpenter\AppUpdate.cs:行号 310
+17:10:58.370 @EMP002 系统管理员
+17:10:58.372 @EMP009 d2f278e251d1566edd72846d4ad97f

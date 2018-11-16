@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="07/21/2017 17:42:04" ReportInfo.Modified="11/06/2018 14:30:27" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDhPFD1w+LtzdaMPBNAktEromn60q1OKWLYsCg5nftVjA==">
+      <TableDataSource Name="Table" DataType="System.Int32" Enabled="true" SelectCommand="SELECT EPA001,EPA002,CONVERT(FLOAT,EPA003) EPA003,CONVERT(FLOAT,EPA004) EPA004,CONVERT(FLOAT,EPA005) EPA005,CONVERT(FLOAT,EPA006) EPA006,EPA007,CONVERT(FLOAT,EPA008) EPA008,CONVERT(FLOAT,ISNULL(EPA006,0)+ISNULL(EPA005,0)-ISNULL(EPA004,0)-ISNULL(EPA008,0)) U0,CONVERT(FLOAT,ISNULL(EPA004,0)+ISNULL(EPA008,0)-ISNULL(EPA005,0)) U2,CONVERT(FLOAT,(ISNULL(EPA006,0)+ISNULL(EPA005,0)-ISNULL(EPA004,0)-ISNULL(EPA008,0))*EPA003) U1 FROM MOXEPA">
+        <Column Name="EPA002" DataType="System.String"/>
+        <Column Name="EPA003" DataType="System.Decimal"/>
+        <Column Name="EPA004" DataType="System.Decimal"/>
+        <Column Name="EPA005" DataType="System.Decimal"/>
+        <Column Name="EPA006" DataType="System.Decimal"/>
+        <Column Name="EPA007" DataType="System.String"/>
+        <Column Name="EPA001" DataType="System.String"/>
+        <Column Name="EPA008" DataType="System.Double"/>
+        <Column Name="U0" DataType="System.Double"/>
+        <Column Name="U1" DataType="System.Double"/>
+        <Column Name="U2" DataType="System.Double"/>
+      </TableDataSource>
+      <TableDataSource Name="Table1" Alias="TableOne" DataType="System.Int32" Enabled="true" SelectCommand="WITH CET AS(SELECT SUBSTRING(EPA001,0,5)+'年各月油漆耗用小计汇总' YEA,CONVERT(INT,SUBSTRING(EPA001,5,3)) MONT,SUM(CONVERT(FLOAT,(ISNULL(EPA006,0)+ISNULL(EPA005,0)-ISNULL(EPA004,0)-ISNULL(EPA008,0))*EPA003)) U1 FROM MOXEPA WHERE EPA001 LIKE '2018%' GROUP BY EPA001) SELECT YEA,SUM(CASE WHEN MONT=1 THEN ISNULL(CONVERT(DECIMAL(18,1),U1),0) ELSE 0 END) ONE,SUM(CASE WHEN MONT=2 THEN ISNULL(CONVERT(DECIMAL(18,1),U1),0) ELSE 0 END) TWO,SUM(CASE WHEN MONT=3 THEN ISNULL(CONVERT(DECIMAL(18,1),U1),0) ELSE 0 END) THREE,SUM(CASE WHEN MONT=4 THEN ISNULL(CONVERT(DECIMAL(18,1),U1),0) ELSE 0 END) FORE,SUM(CASE WHEN MONT=5 THEN ISNULL(CONVERT(DECIMAL(18,1),U1),0) ELSE 0 END) FIV,SUM(CASE WHEN MONT=6 THEN ISNULL(CONVERT(DECIMAL(18,1),U1),0) ELSE 0 END) SIX,SUM(CASE WHEN MONT=7 THEN ISNULL(CONVERT(DECIMAL(18,1),U1),0) ELSE 0 END) SEVEN,SUM(CASE WHEN MONT=8 THEN ISNULL(CONVERT(DECIMAL(18,1),U1),0) ELSE 0 END) EIGTH,SUM(CASE WHEN MONT=9 THEN ISNULL(CONVERT(DECIMAL(18,1),U1),0) ELSE 0 END) NINE,SUM(CASE WHEN MONT=10 THEN ISNULL(CONVERT(DECIMAL(18,1),U1),0) ELSE 0 END) TEN,SUM(CASE WHEN MONT=11 THEN ISNULL(CONVERT(DECIMAL(18,1),U1),0) ELSE 0 END) ELE,SUM(CASE WHEN MONT=12 THEN ISNULL(CONVERT(DECIMAL(18,1),U1),0) ELSE 0 END) TWE FROM CET GROUP BY YEA&#13;&#10;">
+        <Column Name="YEA" DataType="System.String"/>
+        <Column Name="ONE" DataType="System.Decimal"/>
+        <Column Name="TWO" DataType="System.Decimal"/>
+        <Column Name="THREE" DataType="System.Decimal"/>
+        <Column Name="FORE" DataType="System.Decimal"/>
+        <Column Name="FIV" DataType="System.Decimal"/>
+        <Column Name="SIX" DataType="System.Decimal"/>
+        <Column Name="SEVEN" DataType="System.Decimal"/>
+        <Column Name="EIGTH" DataType="System.Decimal"/>
+        <Column Name="NINE" DataType="System.Decimal"/>
+        <Column Name="TEN" DataType="System.Decimal"/>
+        <Column Name="ELE" DataType="System.Decimal"/>
+        <Column Name="TWE" DataType="System.Decimal"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+    <Total Name="Total1" Expression="[Table.EPA004]" Evaluator="Data1" PrintOn="ReportSummary1"/>
+    <Total Name="Total2" Expression="[Table.EPA005]" Evaluator="Data1" PrintOn="ReportSummary1"/>
+    <Total Name="Total3" Expression="[Table.EPA008]" Evaluator="Data1" PrintOn="ReportSummary1"/>
+    <Total Name="Total6" Expression="[Table.EPA006]" Evaluator="Data1" PrintOn="ReportSummary1"/>
+    <Total Name="Total5" Expression="[Table.U0]" Evaluator="Data1" PrintOn="ReportSummary1"/>
+    <Total Name="Total7" Expression="[Table.U1]" Evaluator="Data1" PrintOn="ReportSummary1"/>
+    <Total Name="Total8" Expression="[Table.U2]" Evaluator="Data1" PrintOn="ReportSummary1"/>
+  </Dictionary>
+  <ReportPage Name="Page1" RawPaperSize="9">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="75.6">
+      <TextObject Name="Text5" Width="718.2" Height="37.8" Text="油漆耗用月报表" HorzAlign="Center" VertAlign="Center" Font="宋体, 22pt"/>
+      <TextObject Name="Text1" Top="37.8" Width="94.5" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="物料名称" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text6" Left="94.5" Top="37.8" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="单价(元)" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text7" Left="141.75" Top="37.8" Width="75.6" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="期初库存(公斤)" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text8" Left="217.35" Top="37.8" Width="75.6" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="盘低留存(公斤)" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text9" Left="359.1" Top="37.8" Width="66.15" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="理论耗用(公斤)" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text10" Left="491.4" Top="37.8" Width="66.15" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="差异(公斤)" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text11" Left="557.55" Top="37.8" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="小计(元)" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text12" Left="604.8" Top="37.8" Width="113.4" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="备注" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text2" Left="595.35" Top="18.9" Width="122.85" Height="18.9" Text="[Table.EPA001]" Font="宋体, 12pt"/>
+      <TextObject Name="Text3" Left="538.65" Top="18.9" Width="56.7" Height="18.9" Text="日期:" Font="宋体, 12pt"/>
+      <TextObject Name="Text21" Left="292.95" Top="37.8" Width="66.15" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="本期领用(公斤)" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text32" Left="425.25" Top="37.8" Width="66.15" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="实际耗用(公斤)" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+    </ReportTitleBand>
+    <DataBand Name="Data1" Top="79.6" Width="718.2" Height="28.35" DataSource="Table">
+      <TextObject Name="Text13" Width="94.5" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.EPA002]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text14" Left="94.5" Width="47.25" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.EPA003]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text15" Left="141.75" Width="75.6" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.EPA004]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text16" Left="217.35" Width="75.6" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.EPA005]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text17" Left="359.1" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.EPA006]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text18" Left="491.4" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.U0]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text19" Left="557.55" Width="47.25" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.U1]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text20" Left="604.8" Width="113.4" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.EPA007]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text22" Left="292.95" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.EPA008]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text33" Left="425.25" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.U2]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+    </DataBand>
+    <ReportSummaryBand Name="ReportSummary1" Top="111.95" Width="718.2" Height="160.65">
+      <TextObject Name="Text23" Width="94.5" Height="28.35" Border.Lines="All" Border.Style="Dot" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text24" Left="94.5" Width="47.25" Height="28.35" Border.Lines="All" Border.Style="Dot" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text25" Left="141.75" Width="75.6" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Total1]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text26" Left="217.35" Width="75.6" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Total2]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text27" Left="359.1" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Total6]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text28" Left="491.4" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Total5]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text29" Left="557.55" Width="47.25" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Total7]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text30" Left="604.8" Width="113.4" Height="28.35" Border.Lines="All" Border.Style="Dot" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text31" Left="292.95" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Total3]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text34" Left="425.25" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Total8]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="1" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text4" Top="28.35" Width="718.2" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="[TableOne.YEA]" HorzAlign="Center" VertAlign="Center" Font="宋体, 18pt"/>
+      <TextObject Name="Text35" Left="576.45" Top="47.25" Width="94.5" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="单位：元" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text36" Left="28.35" Top="66.15" Width="66.15" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="1月" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text37" Left="94.5" Top="66.15" Width="66.15" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="2月" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text38" Left="160.65" Top="66.15" Width="66.15" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="3月" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text39" Left="226.8" Top="66.15" Width="66.15" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="4月" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text40" Left="292.95" Top="66.15" Width="66.15" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="5月" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text41" Left="359.1" Top="66.15" Width="66.15" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="6月" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text42" Left="425.25" Top="66.15" Width="66.15" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="7月" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text43" Left="491.4" Top="66.15" Width="66.15" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="8月" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text44" Left="557.55" Top="66.15" Width="66.15" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="9月" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text45" Left="623.7" Top="66.15" Width="66.15" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="10月" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text46" Left="28.35" Top="113.4" Width="66.15" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="11月" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text47" Left="94.5" Top="113.4" Width="66.15" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="12月" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text48" Left="623.7" Top="113.4" Width="66.15" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="合计" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text49" Left="28.35" Top="85.05" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.ONE]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text50" Left="94.5" Top="85.05" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.TWO]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text51" Left="160.65" Top="85.05" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.THREE]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text52" Left="226.8" Top="85.05" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.FORE]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text53" Left="292.95" Top="85.05" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.FIV]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text54" Left="359.1" Top="85.05" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.SIX]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text55" Left="425.25" Top="85.05" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.SEVEN]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text56" Left="491.4" Top="85.05" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.EIGTH]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text57" Left="557.55" Top="85.05" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.NINE]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text58" Left="623.7" Top="85.05" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.TEN]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text59" Left="28.35" Top="132.3" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.ELE]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text60" Left="94.5" Top="132.3" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[TableOne.TWE]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text61" Left="623.7" Top="132.3" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[[TableOne.ONE]+[TableOne.TWO]+[TableOne.THREE]+[TableOne.FORE]+[TableOne.FIV]+[TableOne.SIX]+[TableOne.SEVEN]+[TableOne.EIGTH]+[TableOne.NINE]+[TableOne.TEN]+[TableOne.ELE]+[TableOne.TWE]]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+    </ReportSummaryBand>
+  </ReportPage>
+</Report>

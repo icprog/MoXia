@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="07/04/2017 15:20:35" ReportInfo.Modified="12/18/2017 10:08:42" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDhPFD1w+LtzdaMPBNAktErZU5TOKd79Kph2S6JtSH5eA==">
+      <TableDataSource Name="Table" Alias="TableOne" DataType="System.Int32" Enabled="true" SelectCommand="SELECT AWQ002,AWQ004,AWQ005,AWQ006,AWQ007,AWQ008,OPI006,AWO002,AWO003,AWO004,AWQ010 FROM MOXAWQ A LEFT JOIN MOXOPI B ON A.AWQ003=B.OPI001&#13;&#10;                                                                                                  INNER JOIN MOXAWO C ON A.AWQ001=C.AWO001">
+        <Column Name="AWO002" DataType="System.String"/>
+        <Column Name="AWO003" DataType="System.String"/>
+        <Column Name="AWO004" DataType="System.String"/>
+        <Column Name="AWQ002" DataType="System.String"/>
+        <Column Name="AWQ004" DataType="System.String"/>
+        <Column Name="AWQ005" DataType="System.String"/>
+        <Column Name="AWQ006" DataType="System.Int32"/>
+        <Column Name="AWQ007" DataType="System.Decimal"/>
+        <Column Name="AWQ008" DataType="System.String"/>
+        <Column Name="OPI006" DataType="System.String"/>
+        <Column Name="AWQ010" DataType="System.String"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperHeight="60">
+    <DataBand Name="Data1" Width="718.2" Height="132.3" DataSource="Table">
+      <TextObject Name="Text13" Top="85.05" Width="47.25" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="[TableOne.AWQ002]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text14" Left="47.25" Top="85.05" Width="113.4" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="[TableOne.AWQ004]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text15" Left="160.65" Top="85.05" Width="103.95" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="[TableOne.AWQ005]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text16" Left="264.6" Top="85.05" Width="75.6" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="[TableOne.AWQ006]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text17" Left="340.2" Top="85.05" Width="75.6" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="[TableOne.AWQ007]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text18" Left="415.8" Top="85.05" Width="75.6" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="[TableOne.OPI006]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text19" Left="491.4" Top="85.05" Width="226.8" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="[TableOne.AWQ008]" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text7" Left="47.25" Top="66.15" Width="113.4" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="品名" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text6" Top="66.15" Width="47.25" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="批次" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text8" Left="160.65" Top="66.15" Width="103.95" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="规格" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text9" Left="264.6" Top="66.15" Width="75.6" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="数量" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text10" Left="340.2" Top="66.15" Width="75.6" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="单价" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text11" Left="415.8" Top="66.15" Width="75.6" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="颜色" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text12" Left="491.4" Top="66.15" Width="226.8" Height="18.9" Border.Lines="All" Border.Style="Dot" Text="备注" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text3" Left="56.7" Top="37.8" Width="122.85" Height="18.9" Text="[TableOne.AWQ010]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text2" Top="37.8" Width="56.7" Height="18.9" Text="生产者:" HorzAlign="Right" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text4" Left="255.15" Top="37.8" Width="94.5" Height="18.9" Text="派工时间:" HorzAlign="Right" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text5" Left="349.65" Top="37.8" Width="151.2" Height="18.9" Text="[TableOne.AWO002]" Format="Date" Format.Format="d" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text1" Width="718.2" Height="37.8" Text="组装派工单" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 24pt"/>
+      <TextObject Name="Text20" Top="113.4" Width="56.7" Height="18.9" Text="经办人:" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text21" Left="56.7" Top="113.4" Width="122.85" Height="18.9" Text="[TableOne.AWO003]" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text22" Left="264.6" Top="113.4" Width="94.5" Height="18.9" Text="完工时间:" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 10pt"/>
+      <TextObject Name="Text23" Left="359.1" Top="113.4" Width="151.2" Height="18.9" Text="[TableOne.AWO004]" Format="Date" Format.Format="d" VertAlign="Bottom" Font="宋体, 10pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

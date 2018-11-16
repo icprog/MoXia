@@ -1,0 +1,980 @@
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ConnectionBll.pdb
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\Carpenter.exe.config
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.exe
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.pdb
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.AddContact.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.BLDailyWork.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayPlan.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayPlanQuery.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.MaintainTranmsmitPeoQuery.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PersonQuery.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanCutProduct.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanCutQuery.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanStockQuery.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.SetTransmitAdd.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.WeeklyPlan.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Form1.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormArt.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormBase.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormBomWoodPaint.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormBomWorkPlan.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormChild.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormDepartMent.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormEmployee.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormEquipment.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormLogin.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormMain.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormMaintainTransmit.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormMajor.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormOPI.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanCutting.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStock.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStockDailyWork.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStockWork.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormPower.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionStock.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductSchedule.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormProgramControl.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormRemind.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormReview.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormSetPW.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormSetReview.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormSetTransmit.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.FormTransmit.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Query.DepartSelection.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormBomWorkPlanQuery.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormControl.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormControlOne.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormDepartQueryOfPerson.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPaintEdit.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPaintWorkProcedureEdit.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPictureEnlarge.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormWoodEdit.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Query.OPIEdit.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Query.PowerEdit.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Query.ProgramControlEdit.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.Query.SetReviewEdit.resources
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\obj\Debug\Carpenter.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\Carpenter.exe
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\Carpenter.pdb
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\CarpenterBll.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\CarpenterEntity.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\Connection.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.Data.v16.2.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.Utils.v16.2.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.XtraBars.v16.2.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.XtraNavBar.v16.2.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\UIControl.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\Utility.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ConnectionBll.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.Office.v16.2.Core.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\EnvDTE.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\stdole.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\UIControl.pdb
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\CarpenterBll.pdb
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\CarpenterEntity.pdb
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\Connection.pdb
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.Data.v16.2.xml
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.Utils.v16.2.xml
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.XtraBars.v16.2.xml
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.XtraNavBar.v16.2.xml
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\Utility.pdb
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ConnectionBll.pdb
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\DevExpress.Office.v16.2.Core.xml
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\EnvDTE.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\stdole.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\Microsoft.MSXML.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\Carpenter.exe.config
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\Carpenter.exe
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\Carpenter.pdb
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\CarpenterBll.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\CarpenterEntity.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\Connection.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Data.v16.2.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Office.v16.2.Core.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Utils.v16.2.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraBars.v16.2.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.UI.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraNavBar.v16.2.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraRichEdit.v16.2.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\UIControl.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\Utility.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ConnectionBll.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Charts.v16.2.Core.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Utils.v16.2.UI.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\UIControl.pdb
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\CarpenterBll.pdb
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\CarpenterEntity.pdb
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\Connection.pdb
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Data.v16.2.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Office.v16.2.Core.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Utils.v16.2.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraBars.v16.2.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.UI.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraNavBar.v16.2.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraRichEdit.v16.2.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\Utility.pdb
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Utils.v16.2.UI.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.xml
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraCharts.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraCharts.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraCharts.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraCharts.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\zh-Hans\DevExpress.XtraCharts.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\zh-Hans\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.Utils.v16.2.UI.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.Utils.v16.2.UI.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Utils.v16.2.UI.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Utils.v16.2.UI.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\zh-Hans\DevExpress.Utils.v16.2.UI.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\zh-Hans\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\zh-Hans\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.csprojResolveAssemblyReference.cache
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.AddContact.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.AssembleWorkOrder.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.AssembleWorkOrderQuery.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.BLDailyWeek.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.BLDailyWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayPlan.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayPlanAssemebleWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayPlanMachinWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayPlanQuery.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayProductionPaintWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DLPlanDayPort.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DWPrintControl1.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DWPrintWeekControl.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.JDailyWeek.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.JDailyWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.keyBoard.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.MaintainTranmsmitPeoQuery.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PDailyWeek.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PDailyWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PersonQuery.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanAssmebleQuery.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanCutProduct.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanCutQuery.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanMachinQuery.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanStockQuery.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ProductionPaintWeekQuery.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.SetTransmitAdd.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.WeeklyPlan.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.workShopSectionChoise.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ZDailyWeek.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ZDailyWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ZDayDailyWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ZPlanDayPort.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormArt.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormAssembleWorkOrder.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormBase.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormBC.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormBomWoodPaint.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormBomWorkPlan.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormBomWorkPlanCode.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormBomWorkPlanCodeAddNewBom.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormChild.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormCodeDailyWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormDepartMent.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormEmployee.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormEquipment.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExoendBasePaint.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendPaint.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendPaintAnalysis.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendPlanPaint.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendWood.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendWoodAnalysis.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExportPaint.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExportWood.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormImportExeclToTable.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormLogin.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormMain.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormMaintainTransmit.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormMajor.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormOPI.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPayrollReport.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPiceWageStatisticalTable.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanAssembleDayDaily.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanAssembleWeek.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanAssembleWeekDaily.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanCutting.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanMachin.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanMachinDayDailyWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanMachinWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStock.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStockDailyWeek.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStockDailyWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStockWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPower.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductBLWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductCycle.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductDailyWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionAssemble.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaint.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaintDay.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaintDayDaily.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaintWeek.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaintWeekDaily.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionStock.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductSchedule.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductScheduleTrackTable.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProgramControl.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormRemind.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormReview.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormSchedul.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormSetPW.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormSetReview.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormSetTransmit.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormSkinsFeed.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormTransmit.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormWoodBase.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FromPlanMachinWeekDailyWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.PaintAllInfoEdit.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Properties.Resources.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.DepartSelection.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormBomWorkPlanQuery.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormControl.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormControlOne.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormDepartQueryOfPerson.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormDWPrint.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormDWPrintWeek.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPaintEdit.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPaintWorkProcedureEdit.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPictureEnlarge.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPrintBoms.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormWeekDailyWork.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormWoodEdit.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormWorkOrder.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.OPIEdit.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.PowerEdit.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.ProgramControlEdit.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.SetReviewEdit.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanAssembleDay.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.csproj.GenerateResource.Cache
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.exe
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.pdb
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\NPOI.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\NPOI.OOXML.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\NPOI.OpenXml4Net.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Project data\MoXia\Carpenter\Carpenter\bin\Debug\NPOI.xml
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormWageCoef.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPaintBaseAndProduct.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormOutPutValue.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.FormProductScheduleDateEdit.resources
+D:\Project data\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.FormProductDailyEdit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\Carpenter.exe.config
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.exe
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.pdb
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\Carpenter.exe
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\Carpenter.pdb
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\CarpenterBll.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\CarpenterEntity.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\Connection.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Data.v16.2.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Office.v16.2.Core.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Utils.v16.2.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraBars.v16.2.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.UI.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraNavBar.v16.2.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraRichEdit.v16.2.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\NPOI.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\NPOI.OOXML.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\NPOI.OpenXml4Net.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\UIControl.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\Utility.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ConnectionBll.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Charts.v16.2.Core.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Utils.v16.2.UI.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\stdole.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\Microsoft.MSXML.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\UIControl.pdb
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\CarpenterBll.pdb
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\CarpenterEntity.pdb
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\Connection.pdb
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Data.v16.2.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Office.v16.2.Core.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Utils.v16.2.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraBars.v16.2.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.UI.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraNavBar.v16.2.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraRichEdit.v16.2.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\NPOI.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\Utility.pdb
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ConnectionBll.pdb
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.Utils.v16.2.UI.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.xml
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraCharts.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraCharts.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraCharts.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraCharts.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\zh-Hans\DevExpress.XtraCharts.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\zh-Hans\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.Utils.v16.2.UI.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.Utils.v16.2.UI.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Utils.v16.2.UI.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Utils.v16.2.UI.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\zh-Hans\DevExpress.Utils.v16.2.UI.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\zh-Hans\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\bin\Debug\zh-Hans\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.csprojResolveAssemblyReference.cache
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.AddContact.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.AssembleWorkOrder.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.AssembleWorkOrderQuery.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.BLDailyWeek.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.BLDailyWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayPlan.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayPlanAssemebleWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayPlanMachinWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayPlanQuery.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayProductionPaintWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DLPlanDayPort.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DWPrintControl1.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DWPrintWeekControl.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.JDailyWeek.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.JDailyWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.keyBoard.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.MaintainTranmsmitPeoQuery.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PDailyWeek.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PDailyWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PersonQuery.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanAssmebleQuery.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanCutProduct.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanCutQuery.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanMachinQuery.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanStockQuery.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ProductionPaintWeekQuery.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.SetTransmitAdd.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.WeeklyPlan.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.workShopSectionChoise.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ZDailyWeek.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ZDailyWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ZDayDailyWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ZPlanDayPort.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormArt.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormAssembleWorkOrder.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormBase.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormBC.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormBomWoodPaint.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormBomWorkPlan.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormBomWorkPlanCode.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormBomWorkPlanCodeAddNewBom.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormChild.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormCodeDailyWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormDepartMent.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormEmployee.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormEquipment.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExoendBasePaint.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendPaint.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendPaintAnalysis.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendPlanPaint.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendWood.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendWoodAnalysis.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExportPaint.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormExportWood.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormImportExeclToTable.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormLogin.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormMain.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormMaintainTransmit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormMajor.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormOPI.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormOutPutValue.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPaintBaseAndProduct.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPayrollReport.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPiceWageStatisticalTable.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanAssembleDayDaily.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanAssembleWeek.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanAssembleWeekDaily.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanCutting.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanMachin.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanMachinDayDailyWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanMachinWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStock.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStockDailyWeek.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStockDailyWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStockWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPower.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductBLWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductCycle.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductDailyWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionAssemble.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaint.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaintDay.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaintDayDaily.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaintWeek.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaintWeekDaily.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionStock.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductSchedule.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductScheduleTrackTable.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormProgramControl.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormRemind.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormReview.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormSchedul.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormSetPW.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormSetReview.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormSetTransmit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormSkinsFeed.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormTransmit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormWageCoef.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormWoodBase.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FromPlanMachinWeekDailyWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.FormProductDailyEdit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.FormProductScheduleDateEdit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.PaintAllInfoEdit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Properties.Resources.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.DepartSelection.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormBomWorkPlanQuery.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormControl.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormControlOne.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormDepartQueryOfPerson.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormDWPrint.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormDWPrintWeek.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPaintEdit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPaintWorkProcedureEdit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPictureEnlarge.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPrintBoms.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormWeekDailyWork.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormWoodEdit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormWorkOrder.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.OPIEdit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.PowerEdit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.ProgramControlEdit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.Query.SetReviewEdit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanAssembleDay.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.csproj.GenerateResource.Cache
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.FormPiceWageStatisticalTableEdit.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.FormExpendWarn.resources
+D:\ProjectData\MoXia\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.FormPrint.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\Carpenter.exe.config
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.exe
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.pdb
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\Carpenter.exe
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\Carpenter.pdb
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\CarpenterBll.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\CarpenterEntity.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\Connection.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Data.v16.2.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Office.v16.2.Core.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Utils.v16.2.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraBars.v16.2.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.UI.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraNavBar.v16.2.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraRichEdit.v16.2.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\NPOI.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\NPOI.OOXML.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\NPOI.OpenXml4Net.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\UIControl.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\Utility.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ConnectionBll.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Charts.v16.2.Core.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Utils.v16.2.UI.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\Microsoft.MSXML.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\UIControl.pdb
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\CarpenterBll.pdb
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\CarpenterEntity.pdb
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\Connection.pdb
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Data.v16.2.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Office.v16.2.Core.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Utils.v16.2.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraBars.v16.2.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.UI.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraNavBar.v16.2.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraRichEdit.v16.2.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\NPOI.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\Utility.pdb
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ConnectionBll.pdb
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.Utils.v16.2.UI.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.xml
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraCharts.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraCharts.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraCharts.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraCharts.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.Utils.v16.2.UI.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.Utils.v16.2.UI.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.Utils.v16.2.UI.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.Utils.v16.2.UI.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.csprojResolveAssemblyReference.cache
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.AddContact.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.AssembleWorkOrder.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.AssembleWorkOrderQuery.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.BLDailyWeek.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.BLDailyWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayPlan.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayPlanAssemebleWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayPlanMachinWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayPlanQuery.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DayProductionPaintWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DLPlanDayPort.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DWPrintControl1.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.DWPrintWeekControl.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.JDailyWeek.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.JDailyWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.keyBoard.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.MaintainTranmsmitPeoQuery.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PDailyWeek.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PDailyWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PersonQuery.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanAssmebleQuery.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanCutProduct.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanCutQuery.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanMachinQuery.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.PlanStockQuery.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ProductionPaintWeekQuery.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.SetTransmitAdd.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.WeeklyPlan.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.workShopSectionChoise.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ZDailyWeek.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ZDailyWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ZDayDailyWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.ControlUser.ZPlanDayPort.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormArt.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormAssembleWorkOrder.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormBase.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormBC.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormBomWoodPaint.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormBomWorkPlan.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormBomWorkPlanCode.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormBomWorkPlanCodeAddNewBom.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormChild.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormCodeDailyWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormDepartMent.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormEmployee.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormEquipment.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormExoendBasePaint.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendPaint.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendPaintAnalysis.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendPlanPaint.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendWood.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormExpendWoodAnalysis.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormExportPaint.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormExportWood.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormImportExeclToTable.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormLogin.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormMain.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormMaintainTransmit.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormMajor.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormOPI.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormOutPutValue.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPaintBaseAndProduct.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPayrollReport.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPiceWageStatisticalTable.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanAssembleDayDaily.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanAssembleWeek.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanAssembleWeekDaily.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanCutting.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanMachin.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanMachinDayDailyWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanMachinWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStock.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStockDailyWeek.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStockDailyWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanStockWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPower.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductBLWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductCycle.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductDailyWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionAssemble.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaint.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaintDay.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaintDayDaily.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaintWeek.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionPaintWeekDaily.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductionStock.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductSchedule.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormProductScheduleTrackTable.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormProgramControl.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormRemind.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormReview.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormSchedul.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormSetPW.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormSetReview.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormSetTransmit.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormSkinsFeed.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormTransmit.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormWageCoef.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormWoodBase.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FromPlanMachinWeekDailyWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.FormExpendWarn.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.FormPiceWageStatisticalTableEdit.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.FormPrint.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.FormProductDailyEdit.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.FormProductScheduleDateEdit.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.PaintAllInfoEdit.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Properties.Resources.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.DepartSelection.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormBomWorkPlanQuery.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormControl.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormControlOne.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormDepartQueryOfPerson.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormDWPrint.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormDWPrintWeek.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPaintEdit.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPaintWorkProcedureEdit.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPictureEnlarge.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormPrintBoms.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormWeekDailyWork.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormWoodEdit.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.FormWorkOrder.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.OPIEdit.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.PowerEdit.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.ProgramControlEdit.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.SetReviewEdit.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanAssembleDay.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.csproj.GenerateResource.Cache

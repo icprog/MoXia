@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="07/21/2017 17:42:04" ReportInfo.Modified="12/18/2017 10:06:19" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDhPFD1w+LtzdaMPBNAktErjKJDhdYjLkXOGkl0CyEGNw==">
+      <TableDataSource Name="Table" DataType="System.Int32" Enabled="true" SelectCommand="WITH CET AS(&#13;&#10;SELECT CUT001,OPI003,OPI006,SUM(CUU003*WOB005) WOB005 FROM MOXWOB A INNER JOIN MOXCUU B ON A.WOB001=B.CUU002&#13;&#10;                       INNER JOIN MOXCUT C ON B.CUU001=C.CUT001&#13;&#10;                       INNER JOIN MOXOPI D ON A.WOB001=D.OPI001&#13;&#10;                       WHERE A.idx NOT IN (SELECT idx FROM MOXWOB WHERE WOB004 LIKE '%包芯%')&#13;&#10;                       AND CUT001='1801'&#13;&#10;                       GROUP BY CUT001,OPI003,OPI006),&#13;&#10;CFT AS(&#13;&#10;SELECT EXW002,EXW003,OPI006,SUM(CUU003*EXW006) EXW006 FROM MOXEXW A INNER JOIN MOXCUT B ON A.EXW002=B.CUT001&#13;&#10;                       INNER JOIN MOXCUU C ON B.CUT001=C.CUU001&#13;&#10;                       INNER JOIN MOXOPI D ON C.CUU002=D.OPI001 AND A.EXW003=D.OPI003&#13;&#10;                       WHERE CUT001='1801'&#13;&#10;						GROUP BY EXW002,EXW003,OPI006),&#13;&#10;CHT AS(&#13;&#10;SELECT CUT001,OPI003,OPI006,SUM(CUU003*WOB005) WOB004 FROM MOXWOB A INNER JOIN MOXCUU B ON A.WOB001=B.CUU002&#13;&#10;                       INNER JOIN MOXCUT C ON B.CUU001=C.CUT001&#13;&#10;                       INNER JOIN MOXOPI D ON A.WOB001=D.OPI001&#13;&#10;                       WHERE WOB004 LIKE '包芯%' AND CUT001='1801'&#13;&#10;                       GROUP BY CUT001,OPI003,OPI006)&#13;&#10;                       				&#13;&#10;SELECT A.CUT001 PIH,A.OPI003 MCLX,A.OPI006 CPXL,A.WOB005 LHY,B.EXW006 SHY,&#13;&#10;CASE WHEN EXW006=0 THEN 0 ELSE CONVERT(DECIMAL(11,2),WOB005/EXW006) END BFB,ISNULL(C.WOB004,0) BXH &#13;&#10;FROM CET A INNER JOIN CFT B ON A.CUT001=B.EXW002 AND A.OPI003=B.EXW003 AND A.OPI006=B.OPI006&#13;&#10;           LEFT JOIN CHT C ON A.CUT001=C.CUT001 AND A.OPI003=C.OPI003 AND A.OPI006=C.OPI006">
+        <Column Name="PIH" DataType="System.String"/>
+        <Column Name="MCLX" DataType="System.String"/>
+        <Column Name="CPXL" DataType="System.String"/>
+        <Column Name="LHY" DataType="System.Decimal"/>
+        <Column Name="SHY" DataType="System.Decimal"/>
+        <Column Name="BFB" DataType="System.Decimal"/>
+        <Column Name="BXH" DataType="System.Decimal"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" RawPaperSize="9">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="66.15">
+      <TextObject Name="Text5" Width="718.2" Height="37.8" Text="木材耗用分析表" HorzAlign="Center" VertAlign="Center" Font="宋体, 22pt"/>
+      <TextObject Name="Text1" Top="37.8" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="批次" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text6" Left="66.15" Top="37.8" Width="85.05" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="木材类型" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text7" Left="151.2" Top="37.8" Width="85.05" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="产品系列" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text8" Left="236.25" Top="37.8" Width="85.05" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="理论耗用" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text9" Left="321.3" Top="37.8" Width="85.05" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="实际耗用" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text10" Left="406.35" Top="37.8" Width="85.05" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="出材率" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text11" Left="491.4" Top="37.8" Width="103.95" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="包芯料耗用" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text12" Left="595.35" Top="37.8" Width="122.85" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="备注" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+    </ReportTitleBand>
+    <DataBand Name="Data1" Top="70.15" Width="718.2" Height="28.35" DataSource="Table">
+      <TextObject Name="Text13" Width="66.15" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.PIH]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text14" Left="66.15" Width="85.05" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.MCLX]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text15" Left="151.2" Width="85.05" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.CPXL]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text16" Left="236.25" Width="85.05" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.LHY]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text17" Left="321.3" Width="85.05" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.SHY]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text18" Left="406.35" Width="85.05" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.BFB]" Format="Percent" Format.UseLocale="false" Format.DecimalDigits="0" Format.DecimalSeparator="." Format.GroupSeparator="," Format.PercentSymbol="%" Format.PositivePattern="1" Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text19" Left="491.4" Width="103.95" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="[Table.BXH]" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text20" Left="595.35" Width="122.85" Height="28.35" Border.Lines="All" Border.Style="Dot" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

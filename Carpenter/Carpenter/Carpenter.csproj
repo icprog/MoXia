@@ -1,0 +1,1331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D9D5FC6A-8CBB-47B4-A5C6-C0FF19980308}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Carpenter</RootNamespace>
+    <AssemblyName>Carpenter</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CarpenterBll">
+      <HintPath>..\CarpenterBll\bin\Debug\CarpenterBll.dll</HintPath>
+    </Reference>
+    <Reference Include="CarpenterEntity">
+      <HintPath>..\CarpenterEntity\bin\Debug\CarpenterEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="Connection">
+      <HintPath>..\Connection\Connection\bin\Debug\Connection.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DengFen\Report\Base\bin\Debug\DevExpress.XtraCharts.v16.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.2.UI, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DengFen\Report\Base\bin\Debug\DevExpress.XtraCharts.v16.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.2.Wizard, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DengFen\Report\Base\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\EnvDTE.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport, Version=2013.2.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Bars, Version=2013.2.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FastReport.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Editor, Version=2013.2.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FastReport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Install, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FastReport.Install.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.VSDesign, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FastReport.VSDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Web, Version=2013.2.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FastReport.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\test\bin\Debug\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\test\bin\Debug\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\test\bin\Debug\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\test\bin\Debug\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="Register">
+      <HintPath>..\..\..\AutomaticallyGenerateCode\Register\Register\Register\bin\Debug\Register.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Utility">
+      <HintPath>..\Utility\obj\Debug\Utility.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnnouncementRemindThread.cs" />
+    <Compile Include="AppUpdate.cs" />
+    <Compile Include="ControlState.cs" />
+    <Compile Include="ControlUser\AddContact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\AddContact.Designer.cs">
+      <DependentUpon>AddContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\AssembleWorkOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\AssembleWorkOrder.Designer.cs">
+      <DependentUpon>AssembleWorkOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\AssembleWorkOrderQuery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\AssembleWorkOrderQuery.Designer.cs">
+      <DependentUpon>AssembleWorkOrderQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\BLDailyWeek.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\BLDailyWeek.Designer.cs">
+      <DependentUpon>BLDailyWeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\BLDailyWork.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\BLDailyWork.Designer.cs">
+      <DependentUpon>BLDailyWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\DayPlan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\DayPlan.Designer.cs">
+      <DependentUpon>DayPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\DayPlanAssemebleWork.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\DayPlanAssemebleWork.Designer.cs">
+      <DependentUpon>DayPlanAssemebleWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\DayPlanMachinWork.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\DayPlanMachinWork.Designer.cs">
+      <DependentUpon>DayPlanMachinWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\DayPlanQuery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\DayPlanQuery.Designer.cs">
+      <DependentUpon>DayPlanQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\DayProductionPaintWork.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\DayProductionPaintWork.Designer.cs">
+      <DependentUpon>DayProductionPaintWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\DLPlanDayPort.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\DLPlanDayPort.Designer.cs">
+      <DependentUpon>DLPlanDayPort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\DWPrintControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\DWPrintControl1.Designer.cs">
+      <DependentUpon>DWPrintControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\DWPrintWeekControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\DWPrintWeekControl.Designer.cs">
+      <DependentUpon>DWPrintWeekControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\JDailyWeek.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\JDailyWeek.Designer.cs">
+      <DependentUpon>JDailyWeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\JDailyWork.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\JDailyWork.Designer.cs">
+      <DependentUpon>JDailyWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\keyBoard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\keyBoard.Designer.cs">
+      <DependentUpon>keyBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\MaintainTranmsmitPeoQuery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\MaintainTranmsmitPeoQuery.Designer.cs">
+      <DependentUpon>MaintainTranmsmitPeoQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\PDailyWeek.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\PDailyWeek.Designer.cs">
+      <DependentUpon>PDailyWeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\PDailyWork.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\PDailyWork.Designer.cs">
+      <DependentUpon>PDailyWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\PersonQuery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\PersonQuery.Designer.cs">
+      <DependentUpon>PersonQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\PlanAssmebleQuery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\PlanAssmebleQuery.Designer.cs">
+      <DependentUpon>PlanAssmebleQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\PlanCutProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\PlanCutProduct.Designer.cs">
+      <DependentUpon>PlanCutProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\PlanCutQuery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\PlanCutQuery.Designer.cs">
+      <DependentUpon>PlanCutQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\PlanMachinQuery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\PlanMachinQuery.Designer.cs">
+      <DependentUpon>PlanMachinQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\PlanStockQuery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\PlanStockQuery.Designer.cs">
+      <DependentUpon>PlanStockQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\ProductionPaintWeekQuery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\ProductionPaintWeekQuery.Designer.cs">
+      <DependentUpon>ProductionPaintWeekQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\SetTransmitAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\SetTransmitAdd.Designer.cs">
+      <DependentUpon>SetTransmitAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\WeeklyPlan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\WeeklyPlan.Designer.cs">
+      <DependentUpon>WeeklyPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\workShopSectionChoise.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\workShopSectionChoise.Designer.cs">
+      <DependentUpon>workShopSectionChoise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\ZDailyWeek.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\ZDailyWeek.Designer.cs">
+      <DependentUpon>ZDailyWeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\ZDailyWork.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\ZDailyWork.Designer.cs">
+      <DependentUpon>ZDailyWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\ZDayDailyWork.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\ZDayDailyWork.Designer.cs">
+      <DependentUpon>ZDayDailyWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUser\ZPlanDayPort.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUser\ZPlanDayPort.Designer.cs">
+      <DependentUpon>ZPlanDayPort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrossThreadCalls.cs" />
+    <Compile Include="Encrypt.cs" />
+    <Compile Include="ExeclExportHelper.cs" />
+    <Compile Include="FormArt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormArt.Designer.cs">
+      <DependentUpon>FormArt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAssembleWorkOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAssembleWorkOrder.Designer.cs">
+      <DependentUpon>FormAssembleWorkOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBase.Designer.cs">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBC.Designer.cs">
+      <DependentUpon>FormBC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBomWoodPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBomWoodPaint.Designer.cs">
+      <DependentUpon>FormBomWoodPaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBomWorkPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBomWorkPlan.Designer.cs">
+      <DependentUpon>FormBomWorkPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBomWorkPlanCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBomWorkPlanCode.Designer.cs">
+      <DependentUpon>FormBomWorkPlanCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBomWorkPlanCodeAddNewBom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBomWorkPlanCodeAddNewBom.Designer.cs">
+      <DependentUpon>FormBomWorkPlanCodeAddNewBom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChild.Designer.cs">
+      <DependentUpon>FormChild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCodeDailyWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCodeDailyWork.Designer.cs">
+      <DependentUpon>FormCodeDailyWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDepartMent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDepartMent.Designer.cs">
+      <DependentUpon>FormDepartMent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmployee.Designer.cs">
+      <DependentUpon>FormEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEquipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEquipment.Designer.cs">
+      <DependentUpon>FormEquipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExoendBasePaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExoendBasePaint.Designer.cs">
+      <DependentUpon>FormExoendBasePaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExpendPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExpendPaint.Designer.cs">
+      <DependentUpon>FormExpendPaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExpendPaintAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExpendPaintAnalysis.Designer.cs">
+      <DependentUpon>FormExpendPaintAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExpendPlanPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExpendPlanPaint.Designer.cs">
+      <DependentUpon>FormExpendPlanPaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExpendWood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExpendWood.Designer.cs">
+      <DependentUpon>FormExpendWood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExpendWoodAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExpendWoodAnalysis.Designer.cs">
+      <DependentUpon>FormExpendWoodAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExportPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExportPaint.Designer.cs">
+      <DependentUpon>FormExportPaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExportWood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExportWood.Designer.cs">
+      <DependentUpon>FormExportWood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormImportExeclToTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormImportExeclToTable.Designer.cs">
+      <DependentUpon>FormImportExeclToTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMaintainTransmit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMaintainTransmit.Designer.cs">
+      <DependentUpon>FormMaintainTransmit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMajor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMajor.Designer.cs">
+      <DependentUpon>FormMajor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOPI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOPI.Designer.cs">
+      <DependentUpon>FormOPI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOutPutValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOutPutValue.Designer.cs">
+      <DependentUpon>FormOutPutValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPaintBaseAndProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPaintBaseAndProduct.Designer.cs">
+      <DependentUpon>FormPaintBaseAndProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPayrollReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPayrollReport.Designer.cs">
+      <DependentUpon>FormPayrollReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPiceWageStatisticalTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPiceWageStatisticalTable.Designer.cs">
+      <DependentUpon>FormPiceWageStatisticalTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlanAssembleDayDaily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlanAssembleDayDaily.Designer.cs">
+      <DependentUpon>FormPlanAssembleDayDaily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlanAssembleWeek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlanAssembleWeek.Designer.cs">
+      <DependentUpon>FormPlanAssembleWeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlanAssembleWeekDaily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlanAssembleWeekDaily.Designer.cs">
+      <DependentUpon>FormPlanAssembleWeekDaily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlanCutting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlanCutting.Designer.cs">
+      <DependentUpon>FormPlanCutting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlanMachin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlanMachin.Designer.cs">
+      <DependentUpon>FormPlanMachin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlanMachinDayDailyWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlanMachinDayDailyWork.Designer.cs">
+      <DependentUpon>FormPlanMachinDayDailyWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlanMachinWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlanMachinWork.Designer.cs">
+      <DependentUpon>FormPlanMachinWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlanStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlanStock.Designer.cs">
+      <DependentUpon>FormPlanStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlanStockDailyWeek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlanStockDailyWeek.Designer.cs">
+      <DependentUpon>FormPlanStockDailyWeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlanStockDailyWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlanStockDailyWork.Designer.cs">
+      <DependentUpon>FormPlanStockDailyWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlanStockWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlanStockWork.Designer.cs">
+      <DependentUpon>FormPlanStockWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPower.Designer.cs">
+      <DependentUpon>FormPower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductBLWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductBLWork.Designer.cs">
+      <DependentUpon>FormProductBLWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductCycle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductCycle.Designer.cs">
+      <DependentUpon>FormProductCycle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductDailyWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductDailyWork.Designer.cs">
+      <DependentUpon>FormProductDailyWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductionAssemble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductionAssemble.Designer.cs">
+      <DependentUpon>FormProductionAssemble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductionPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductionPaint.Designer.cs">
+      <DependentUpon>FormProductionPaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductionPaintDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductionPaintDay.Designer.cs">
+      <DependentUpon>FormProductionPaintDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductionPaintDayDaily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductionPaintDayDaily.Designer.cs">
+      <DependentUpon>FormProductionPaintDayDaily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductionPaintWeek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductionPaintWeek.Designer.cs">
+      <DependentUpon>FormProductionPaintWeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductionPaintWeekDaily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductionPaintWeekDaily.Designer.cs">
+      <DependentUpon>FormProductionPaintWeekDaily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductionStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductionStock.Designer.cs">
+      <DependentUpon>FormProductionStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductSchedule.Designer.cs">
+      <DependentUpon>FormProductSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductScheduleTrackTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductScheduleTrackTable.Designer.cs">
+      <DependentUpon>FormProductScheduleTrackTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProgramControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProgramControl.Designer.cs">
+      <DependentUpon>FormProgramControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRemind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRemind.Designer.cs">
+      <DependentUpon>FormRemind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReview.Designer.cs">
+      <DependentUpon>FormReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSchedul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSchedul.Designer.cs">
+      <DependentUpon>FormSchedul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetPW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetPW.Designer.cs">
+      <DependentUpon>FormSetPW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetReview.Designer.cs">
+      <DependentUpon>FormSetReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetTransmit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetTransmit.Designer.cs">
+      <DependentUpon>FormSetTransmit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSkinsFeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSkinsFeed.Designer.cs">
+      <DependentUpon>FormSkinsFeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransmit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTransmit.Designer.cs">
+      <DependentUpon>FormTransmit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWageCoef.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWageCoef.Designer.cs">
+      <DependentUpon>FormWageCoef.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWoodBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWoodBase.Designer.cs">
+      <DependentUpon>FormWoodBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FromPlanMachinWeekDailyWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromPlanMachinWeekDailyWork.Designer.cs">
+      <DependentUpon>FromPlanMachinWeekDailyWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graph.cs" />
+    <Compile Include="GridControlExport.cs" />
+    <Compile Include="OrderEdit\FormExpendWarn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderEdit\FormExpendWarn.Designer.cs">
+      <DependentUpon>FormExpendWarn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderEdit\FormPiceWageStatisticalTableEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderEdit\FormPiceWageStatisticalTableEdit.Designer.cs">
+      <DependentUpon>FormPiceWageStatisticalTableEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderEdit\FormPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderEdit\FormPrint.Designer.cs">
+      <DependentUpon>FormPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderEdit\FormProductDailyEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderEdit\FormProductDailyEdit.Designer.cs">
+      <DependentUpon>FormProductDailyEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderEdit\FormProductScheduleDateEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderEdit\FormProductScheduleDateEdit.Designer.cs">
+      <DependentUpon>FormProductScheduleDateEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderEdit\PaintAllInfoEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderEdit\PaintAllInfoEdit.Designer.cs">
+      <DependentUpon>PaintAllInfoEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderPrintAndExport.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Query\DepartSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\DepartSelection.Designer.cs">
+      <DependentUpon>DepartSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\FormBomWorkPlanQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\FormBomWorkPlanQuery.Designer.cs">
+      <DependentUpon>FormBomWorkPlanQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\FormControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\FormControl.Designer.cs">
+      <DependentUpon>FormControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\FormControlOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\FormControlOne.Designer.cs">
+      <DependentUpon>FormControlOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\FormDepartQueryOfPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\FormDepartQueryOfPerson.Designer.cs">
+      <DependentUpon>FormDepartQueryOfPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\FormDWPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\FormDWPrint.Designer.cs">
+      <DependentUpon>FormDWPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\FormDWPrintWeek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\FormDWPrintWeek.Designer.cs">
+      <DependentUpon>FormDWPrintWeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\FormPaintEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\FormPaintEdit.Designer.cs">
+      <DependentUpon>FormPaintEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\FormPaintWorkProcedureEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\FormPaintWorkProcedureEdit.Designer.cs">
+      <DependentUpon>FormPaintWorkProcedureEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\FormPictureEnlarge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\FormPictureEnlarge.Designer.cs">
+      <DependentUpon>FormPictureEnlarge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\FormPrintBoms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\FormPrintBoms.Designer.cs">
+      <DependentUpon>FormPrintBoms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\FormWeekDailyWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\FormWeekDailyWork.Designer.cs">
+      <DependentUpon>FormWeekDailyWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\FormWoodEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\FormWoodEdit.Designer.cs">
+      <DependentUpon>FormWoodEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\FormWorkOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\FormWorkOrder.Designer.cs">
+      <DependentUpon>FormWorkOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\OPIEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\OPIEdit.Designer.cs">
+      <DependentUpon>OPIEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\PowerEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\PowerEdit.Designer.cs">
+      <DependentUpon>PowerEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\ProgramControlEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\ProgramControlEdit.Designer.cs">
+      <DependentUpon>ProgramControlEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\SetReviewEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\SetReviewEdit.Designer.cs">
+      <DependentUpon>SetReviewEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReadOrWriteImageOfPicutre.cs" />
+    <Compile Include="SetImage.cs" />
+    <Compile Include="ThreadManager.cs" />
+    <Compile Include="ToolBarContain.cs" />
+    <Compile Include="UserLogin.cs" />
+    <Compile Include="Version.cs" />
+    <Compile Include="ViewTable.cs" />
+    <Compile Include="XmlFiles.cs" />
+    <Compile Include="XtrPaint.cs" />
+    <Compile Include="FormPlanAssembleDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlanAssembleDay.Designer.cs">
+      <DependentUpon>FormPlanAssembleDay.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ControlUser\AddContact.resx">
+      <DependentUpon>AddContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\AssembleWorkOrder.resx">
+      <DependentUpon>AssembleWorkOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\AssembleWorkOrderQuery.resx">
+      <DependentUpon>AssembleWorkOrderQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\BLDailyWeek.resx">
+      <DependentUpon>BLDailyWeek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\BLDailyWork.resx">
+      <DependentUpon>BLDailyWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\DayPlan.resx">
+      <DependentUpon>DayPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\DayPlanAssemebleWork.resx">
+      <DependentUpon>DayPlanAssemebleWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\DayPlanMachinWork.resx">
+      <DependentUpon>DayPlanMachinWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\DayPlanQuery.resx">
+      <DependentUpon>DayPlanQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\DayProductionPaintWork.resx">
+      <DependentUpon>DayProductionPaintWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\DLPlanDayPort.resx">
+      <DependentUpon>DLPlanDayPort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\DWPrintControl1.resx">
+      <DependentUpon>DWPrintControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\DWPrintWeekControl.resx">
+      <DependentUpon>DWPrintWeekControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\JDailyWeek.resx">
+      <DependentUpon>JDailyWeek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\JDailyWork.resx">
+      <DependentUpon>JDailyWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\keyBoard.resx">
+      <DependentUpon>keyBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\MaintainTranmsmitPeoQuery.resx">
+      <DependentUpon>MaintainTranmsmitPeoQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\PDailyWeek.resx">
+      <DependentUpon>PDailyWeek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\PDailyWork.resx">
+      <DependentUpon>PDailyWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\PersonQuery.resx">
+      <DependentUpon>PersonQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\PlanAssmebleQuery.resx">
+      <DependentUpon>PlanAssmebleQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\PlanCutProduct.resx">
+      <DependentUpon>PlanCutProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\PlanCutQuery.resx">
+      <DependentUpon>PlanCutQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\PlanMachinQuery.resx">
+      <DependentUpon>PlanMachinQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\PlanStockQuery.resx">
+      <DependentUpon>PlanStockQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\ProductionPaintWeekQuery.resx">
+      <DependentUpon>ProductionPaintWeekQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\SetTransmitAdd.resx">
+      <DependentUpon>SetTransmitAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\WeeklyPlan.resx">
+      <DependentUpon>WeeklyPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\workShopSectionChoise.resx">
+      <DependentUpon>workShopSectionChoise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\ZDailyWeek.resx">
+      <DependentUpon>ZDailyWeek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\ZDailyWork.resx">
+      <DependentUpon>ZDailyWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\ZDayDailyWork.resx">
+      <DependentUpon>ZDayDailyWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUser\ZPlanDayPort.resx">
+      <DependentUpon>ZPlanDayPort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormArt.resx">
+      <DependentUpon>FormArt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAssembleWorkOrder.resx">
+      <DependentUpon>FormAssembleWorkOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBC.resx">
+      <DependentUpon>FormBC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBomWoodPaint.resx">
+      <DependentUpon>FormBomWoodPaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBomWorkPlan.resx">
+      <DependentUpon>FormBomWorkPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBomWorkPlanCode.resx">
+      <DependentUpon>FormBomWorkPlanCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBomWorkPlanCodeAddNewBom.resx">
+      <DependentUpon>FormBomWorkPlanCodeAddNewBom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChild.resx">
+      <DependentUpon>FormChild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCodeDailyWork.resx">
+      <DependentUpon>FormCodeDailyWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDepartMent.resx">
+      <DependentUpon>FormDepartMent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmployee.resx">
+      <DependentUpon>FormEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEquipment.resx">
+      <DependentUpon>FormEquipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExoendBasePaint.resx">
+      <DependentUpon>FormExoendBasePaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExpendPaint.resx">
+      <DependentUpon>FormExpendPaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExpendPaintAnalysis.resx">
+      <DependentUpon>FormExpendPaintAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExpendPlanPaint.resx">
+      <DependentUpon>FormExpendPlanPaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExpendWood.resx">
+      <DependentUpon>FormExpendWood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExpendWoodAnalysis.resx">
+      <DependentUpon>FormExpendWoodAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExportPaint.resx">
+      <DependentUpon>FormExportPaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExportWood.resx">
+      <DependentUpon>FormExportWood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormImportExeclToTable.resx">
+      <DependentUpon>FormImportExeclToTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMaintainTransmit.resx">
+      <DependentUpon>FormMaintainTransmit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMajor.resx">
+      <DependentUpon>FormMajor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOPI.resx">
+      <DependentUpon>FormOPI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOutPutValue.resx">
+      <DependentUpon>FormOutPutValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPaintBaseAndProduct.resx">
+      <DependentUpon>FormPaintBaseAndProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPayrollReport.resx">
+      <DependentUpon>FormPayrollReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPiceWageStatisticalTable.resx">
+      <DependentUpon>FormPiceWageStatisticalTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlanAssembleDayDaily.resx">
+      <DependentUpon>FormPlanAssembleDayDaily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlanAssembleWeek.resx">
+      <DependentUpon>FormPlanAssembleWeek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlanAssembleWeekDaily.resx">
+      <DependentUpon>FormPlanAssembleWeekDaily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlanCutting.resx">
+      <DependentUpon>FormPlanCutting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlanMachin.resx">
+      <DependentUpon>FormPlanMachin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlanMachinDayDailyWork.resx">
+      <DependentUpon>FormPlanMachinDayDailyWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlanMachinWork.resx">
+      <DependentUpon>FormPlanMachinWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlanStock.resx">
+      <DependentUpon>FormPlanStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlanStockDailyWeek.resx">
+      <DependentUpon>FormPlanStockDailyWeek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlanStockDailyWork.resx">
+      <DependentUpon>FormPlanStockDailyWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlanStockWork.resx">
+      <DependentUpon>FormPlanStockWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPower.resx">
+      <DependentUpon>FormPower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductBLWork.resx">
+      <DependentUpon>FormProductBLWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductCycle.resx">
+      <DependentUpon>FormProductCycle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductDailyWork.resx">
+      <DependentUpon>FormProductDailyWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductionAssemble.resx">
+      <DependentUpon>FormProductionAssemble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductionPaint.resx">
+      <DependentUpon>FormProductionPaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductionPaintDay.resx">
+      <DependentUpon>FormProductionPaintDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductionPaintDayDaily.resx">
+      <DependentUpon>FormProductionPaintDayDaily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductionPaintWeek.resx">
+      <DependentUpon>FormProductionPaintWeek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductionPaintWeekDaily.resx">
+      <DependentUpon>FormProductionPaintWeekDaily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductionStock.resx">
+      <DependentUpon>FormProductionStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductSchedule.resx">
+      <DependentUpon>FormProductSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductScheduleTrackTable.resx">
+      <DependentUpon>FormProductScheduleTrackTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProgramControl.resx">
+      <DependentUpon>FormProgramControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRemind.resx">
+      <DependentUpon>FormRemind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReview.resx">
+      <DependentUpon>FormReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSchedul.resx">
+      <DependentUpon>FormSchedul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetPW.resx">
+      <DependentUpon>FormSetPW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetReview.resx">
+      <DependentUpon>FormSetReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetTransmit.resx">
+      <DependentUpon>FormSetTransmit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSkinsFeed.resx">
+      <DependentUpon>FormSkinsFeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransmit.resx">
+      <DependentUpon>FormTransmit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWageCoef.resx">
+      <DependentUpon>FormWageCoef.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWoodBase.resx">
+      <DependentUpon>FormWoodBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromPlanMachinWeekDailyWork.resx">
+      <DependentUpon>FromPlanMachinWeekDailyWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="OrderEdit\FormExpendWarn.resx">
+      <DependentUpon>FormExpendWarn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderEdit\FormPiceWageStatisticalTableEdit.resx">
+      <DependentUpon>FormPiceWageStatisticalTableEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderEdit\FormPrint.resx">
+      <DependentUpon>FormPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderEdit\FormProductDailyEdit.resx">
+      <DependentUpon>FormProductDailyEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderEdit\FormProductScheduleDateEdit.resx">
+      <DependentUpon>FormProductScheduleDateEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderEdit\PaintAllInfoEdit.resx">
+      <DependentUpon>PaintAllInfoEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Query\DepartSelection.resx">
+      <DependentUpon>DepartSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\FormBomWorkPlanQuery.resx">
+      <DependentUpon>FormBomWorkPlanQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\FormControl.resx">
+      <DependentUpon>FormControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\FormControlOne.resx">
+      <DependentUpon>FormControlOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\FormDepartQueryOfPerson.resx">
+      <DependentUpon>FormDepartQueryOfPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\FormDWPrint.resx">
+      <DependentUpon>FormDWPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\FormDWPrintWeek.resx">
+      <DependentUpon>FormDWPrintWeek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\FormPaintEdit.resx">
+      <DependentUpon>FormPaintEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\FormPaintWorkProcedureEdit.resx">
+      <DependentUpon>FormPaintWorkProcedureEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\FormPictureEnlarge.resx">
+      <DependentUpon>FormPictureEnlarge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\FormPrintBoms.resx">
+      <DependentUpon>FormPrintBoms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\FormWeekDailyWork.resx">
+      <DependentUpon>FormWeekDailyWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\FormWoodEdit.resx">
+      <DependentUpon>FormWoodEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\FormWorkOrder.resx">
+      <DependentUpon>FormWorkOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\OPIEdit.resx">
+      <DependentUpon>OPIEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\PowerEdit.resx">
+      <DependentUpon>PowerEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\ProgramControlEdit.resx">
+      <DependentUpon>ProgramControlEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\SetReviewEdit.resx">
+      <DependentUpon>SetReviewEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlanAssembleDay.resx">
+      <DependentUpon>FormPlanAssembleDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UIControl\UIControl.csproj">
+      <Project>{DE044511-D4E4-4B87-B183-9D0A278681B0}</Project>
+      <Name>UIControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="Resources\QQ图片20170816152558.png" />
+    <Content Include="TextFileBL.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

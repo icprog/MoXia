@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="06/20/2017 11:08:29" ReportInfo.Modified="07/25/2018 13:27:34" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDhPFD1w+LtzdaMPBNAktErf4xBdZ3so7TD6Oh3v93zbA==">
+      <TableDataSource Name="Table" Alias="TableOne" DataType="System.Int32" Enabled="true" SelectCommand="WITH CET AS (&#13;&#10;SELECT CASE WHEN PLT002!='' THEN '上周遗留' WHEN PLT013=1 THEN '预排' ELSE ''+OPI003 END OPI003,PLT003,PLT005,PLT006,OPI006,OPI007,PLT012,&#13;&#10;SUBSTRING(CONVERT(VARCHAR,PLT007, 11),4,5) PLT007,PLT008 FROM MOXPLT A LEFT JOIN MOXOPI B ON A.PLT004=B.OPI001&#13;&#10;)&#13;&#10;&#13;&#10;SELECT *,CASE WHEN OPI003='上周遗留' THEN '1' WHEN OPI003='预排' THEN '3' ELSE '2' END OPI FROM CET&#13;&#10;ORDER BY OPI,OPI003">
+        <Column Name="OPI003" DataType="System.String"/>
+        <Column Name="PLT003" DataType="System.String"/>
+        <Column Name="PLT005" DataType="System.String"/>
+        <Column Name="PLT006" DataType="System.String"/>
+        <Column Name="OPI006" DataType="System.String"/>
+        <Column Name="OPI007" DataType="System.String"/>
+        <Column Name="PLT012" DataType="System.Int32"/>
+        <Column Name="PLT007" DataType="System.String"/>
+        <Column Name="PLT008" DataType="System.String"/>
+        <Column Name="OPI" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="Table1" Alias="TableTwo" DataType="System.Int32" Enabled="true" SelectCommand="SELECT PLS002,PLS003,PLS004,PLS005,SUM(PLT012*OPI004) PLS FROM MOXPLS A LEFT JOIN MOXPLT B ON A.PLS001=B.PLT001 LEFT JOIN MOXOPI C ON B.PLT004=C.OPI001&#13;&#10;GROUP BY PLS002,PLS003,PLS004,PLS005&#13;&#10;">
+        <Column Name="PLS002" DataType="System.String"/>
+        <Column Name="PLS003" DataType="System.String"/>
+        <Column Name="PLS004" DataType="System.String"/>
+        <Column Name="PLS005" DataType="System.String"/>
+        <Column Name="PLS" DataType="System.Decimal"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" RawPaperSize="9" LeftMargin="5" RightMargin="5">
+    <ReportTitleBand Name="ReportTitle1" Width="756" Height="66.15">
+      <TextObject Name="Text1" Width="718.2" Height="28.35" Text="莫  霞  家  居  有  限  公  司" HorzAlign="Center" VertAlign="Center" Font="宋体, 18pt"/>
+      <TextObject Name="Text2" Top="28.35" Width="321.3" Height="37.8" Text="备料车间第" HorzAlign="Right" VertAlign="Center" Font="宋体, 14pt"/>
+      <TextObject Name="Text3" Left="321.3" Top="28.35" Width="37.8" Height="37.8" Text="[TableTwo.PLS002]" HorzAlign="Center" VertAlign="Center" Font="宋体, 14pt"/>
+      <TextObject Name="Text4" Left="359.1" Top="28.35" Width="359.1" Height="37.8" Text="周生产计划表" VertAlign="Center" Font="宋体, 14pt"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="70.15" Width="756" Height="94.5">
+      <TextObject Name="Text5" Width="340.2" Height="56.7" Border.Lines="All" Border.Style="Dot" Text="                   计划生产量        生产控制&#13;&#10;  产品类别  " VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text6" Left="340.2" Width="85.05" Height="28.35" Border.Lines="Left, Top" Border.Style="Dot" Text="下单日期：" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text7" Left="425.25" Width="94.5" Height="28.35" Border.Lines="Top" Border.Style="Dot" Text="[TableTwo.PLS003]" Format="Date" Format.Format="d" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text8" Left="519.75" Width="94.5" Height="28.35" Border.Lines="Top" Border.Style="Dot" Text="计划总产值：" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text9" Left="614.25" Width="141.75" Height="28.35" Border.Lines="Right, Top" Border.Style="Dot" Text="[TableTwo.PLS]万元" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text10" Left="340.2" Top="28.35" Width="85.05" Height="28.35" Border.Lines="Left" Border.Style="Dot" Text="生产周期：" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text11" Left="425.25" Top="28.35" Width="141.75" Height="28.35" Text="[TableTwo.PLS004]" Format="Date" Format.Format="d" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text12" Top="56.7" Width="28.35" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="系列" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text13" Left="28.35" Top="56.7" Width="37.8" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="批次" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text14" Left="66.15" Top="56.7" Width="113.4" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="产品名称" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text15" Left="179.55" Top="56.7" Width="94.5" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="规格" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text16" Left="274.05" Top="56.7" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="颜色" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text17" Left="321.3" Top="56.7" Width="37.8" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="单位" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text18" Left="359.1" Top="56.7" Width="47.25" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="订单量" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text19" Left="406.35" Top="56.7" Width="66.15" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="备料计划完成时间" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text21" Left="472.5" Top="56.7" Width="283.5" Height="37.8" Border.Lines="All" Border.Style="Dot" Text="备注" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <LineObject Name="Line1" Left="340.2" Top="56.7" Width="-179.55" Height="-56.7" Border.Style="Dot" Diagonal="true"/>
+      <LineObject Name="Line2" Left="340.2" Top="56.7" Width="-340.2" Height="-56.7" Border.Style="Dot" Diagonal="true"/>
+      <TextObject Name="Text46" Left="595.35" Top="28.35" Width="160.65" Height="28.35" Border.Lines="Right" Border.Style="Dot" Text="[TableTwo.PLS005]" Format="Date" Format.Format="d" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text47" Left="567" Top="28.35" Width="28.35" Height="28.35" Text="-" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="168.65" Width="756" Height="45.36" Guides="18.9" DataSource="Table">
+      <TextObject Name="Text22" Width="28.35" Height="45.36" Border.Lines="All" Border.Style="Dot" CanGrow="true" Text="[TableOne.OPI003]" Duplicates="Merge" Format="Boolean" Format.TrueText="True" Format.FalseText="False" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text23" Left="28.35" Width="37.8" Height="45.36" Border.Lines="All" Border.Style="Dot" Text="[TableOne.PLT003]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text24" Left="66.15" Width="113.4" Height="45.36" Border.Lines="All" Border.Style="Dot" Text="[TableOne.PLT005]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text25" Left="179.55" Width="94.5" Height="45.36" Border.Lines="All" Border.Style="Dot" Text="[TableOne.PLT006]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text26" Left="274.05" Width="47.25" Height="45.36" Border.Lines="All" Border.Style="Dot" Text="[TableOne.OPI006]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text27" Left="321.3" Width="37.8" Height="45.36" Border.Lines="All" Border.Style="Dot" Text="[TableOne.OPI007]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text28" Left="359.1" Width="47.25" Height="45.36" Border.Lines="All" Border.Style="Dot" Text="[TableOne.PLT012]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text29" Left="406.35" Width="66.15" Height="45.36" Border.Lines="All" Border.Style="Dot" Text="[TableOne.PLT007]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text30" Left="472.5" Width="283.5" Height="45.36" Border.Lines="All" Border.Style="Dot" Text="[TableOne.PLT008]" VertAlign="Center" Font="宋体, 8pt"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="218.01" Width="756" Height="56.7">
+      <TextObject Name="Text31" Width="47.25" Height="18.9" Text="制表：" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text32" Left="47.25" Width="75.6" Height="18.9" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text33" Left="122.85" Width="75.6" Height="18.9" Text="车间主任：" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text34" Left="198.45" Width="75.6" Height="18.9" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text35" Left="274.05" Width="66.15" Height="18.9" Text="副厂长：" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text36" Left="340.2" Width="75.6" Height="18.9" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text37" Left="415.8" Width="47.25" Height="18.9" Text="厂长：" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text38" Left="463.05" Width="94.5" Height="18.9" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text39" Left="557.55" Width="56.7" Height="18.9" Text="核准：" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text40" Left="614.25" Width="103.95" Height="18.9" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text41" Left="292.95" Top="37.8" Width="28.35" Height="18.9" Text="[TotalPages#]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text42" Left="387.45" Top="37.8" Width="28.35" Height="18.9" Text="[Page#]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text20" Left="274.05" Top="37.8" Width="18.9" Height="18.9" Text="共" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text43" Left="321.3" Top="37.8" Width="18.9" Height="18.9" Text="页" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text44" Left="368.55" Top="37.8" Width="18.9" Height="18.9" Text="第" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text45" Left="415.8" Top="37.8" Width="18.9" Height="18.9" Text="页" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

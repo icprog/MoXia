@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackSqlServer", "BackSqlServer\BackSqlServer.csproj", "{7B3B92A3-621B-421C-9FC6-9351F41761EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{0E4DF6CE-B608-40EB-9D31-4D0204230235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B3B92A3-621B-421C-9FC6-9351F41761EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3B92A3-621B-421C-9FC6-9351F41761EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3B92A3-621B-421C-9FC6-9351F41761EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3B92A3-621B-421C-9FC6-9351F41761EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4DF6CE-B608-40EB-9D31-4D0204230235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4DF6CE-B608-40EB-9D31-4D0204230235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4DF6CE-B608-40EB-9D31-4D0204230235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4DF6CE-B608-40EB-9D31-4D0204230235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="07/04/2017 15:20:35" ReportInfo.Modified="12/18/2017 10:04:15" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDhPFD1w+LtzdaMPBNAktErxwF4Gnhp9FeY/sOaVKthLA==">
+      <TableDataSource Name="Table" Alias="Maintain" DataType="System.Int32" Enabled="true" SelectCommand="SELECT MTS001,MTR002,MTS002,CONVERT(VARCHAR,MTR003,102) MTR003,CONVERT(CHAR(8),MTR004,108) MTR004,MTR005,MTR006,MTR007,MTR008,MTR010,&#13;&#10;MTS002+' '+CONVERT(VARCHAR,MTS004,120)+'：'+REPLACE(MTS003,CHAR(10),'') MTS003,MTS004,MTR011 &#13;&#10;FROM MOXMTR A LEFT JOIN MOXMTS B ON A.MTR001=B.MTS001&#13;&#10;">
+        <Column Name="MTS001" DataType="System.String"/>
+        <Column Name="MTR002" DataType="System.String"/>
+        <Column Name="MTS002" DataType="System.String"/>
+        <Column Name="MTR003" DataType="System.String"/>
+        <Column Name="MTR004" DataType="System.String"/>
+        <Column Name="MTR005" DataType="System.String"/>
+        <Column Name="MTR006" DataType="System.String"/>
+        <Column Name="MTR007" DataType="System.String"/>
+        <Column Name="MTR008" DataType="System.String"/>
+        <Column Name="MTR010" DataType="System.String"/>
+        <Column Name="MTS003" DataType="System.String"/>
+        <Column Name="MTR011" DataType="System.String"/>
+        <Column Name="MTS004" DataType="System.DateTime"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" RawPaperSize="9">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="170.1">
+      <TextObject Name="Text1" Top="9.45" Width="718.2" Height="37.8" Text="工作联系单" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 24pt"/>
+      <TextObject Name="Text2" Top="47.25" Width="85.05" Height="28.35" Text="联系编号：" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text3" Left="85.05" Top="47.25" Width="94.5" Height="28.35" Border.Lines="Bottom" Border.Style="Dot" Text="[Maintain.MTS001]" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text4" Left="179.55" Top="47.25" Width="94.5" Height="28.35" Text="开单日期：" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text5" Left="274.05" Top="47.25" Width="85.05" Height="28.35" Border.Lines="Bottom" Border.Style="Dot" Text="[Maintain.MTR003]" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text6" Left="359.1" Top="47.25" Width="94.5" Height="28.35" Text="开单时间：" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text7" Left="453.6" Top="47.25" Width="85.05" Height="28.35" Border.Lines="Bottom" Border.Style="Dot" Text="[Maintain.MTR004]" Format="Time" Format.Format="T" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text8" Left="538.65" Top="47.25" Width="85.05" Height="28.35" Text="开单人员：" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text9" Left="623.7" Top="47.25" Width="94.5" Height="28.35" Border.Lines="Bottom" Border.Style="Dot" Text="[Maintain.MTR006]" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text10" Top="75.6" Width="85.05" Height="28.35" Text="单据类别：" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text11" Left="85.05" Top="75.6" Width="94.5" Height="28.35" Border.Lines="Bottom" Border.Style="Dot" Text="[Maintain.MTR008]" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text12" Left="179.55" Top="75.6" Width="94.5" Height="28.35" Text="流转人员：" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text13" Left="274.05" Top="75.6" Width="444.15" Height="28.35" Border.Lines="Bottom" Border.Style="Dot" Text="[Maintain.MTR010]" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text14" Top="103.95" Width="85.05" Height="28.35" Text="项目简述：" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text15" Left="85.05" Top="103.95" Width="444.15" Height="28.35" Border.Lines="Bottom" Border.Style="Dot" Text="[Maintain.MTR011]" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text16" Left="529.2" Top="103.95" Width="85.05" Height="28.35" Text="结束标记：" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text17" Left="614.25" Top="103.95" Width="103.95" Height="28.35" Border.Lines="Bottom" Border.Style="Dot" Text="[Maintain.MTR002]" VertAlign="Bottom" Font="宋体, 11pt"/>
+      <TextObject Name="Text18" Top="141.75" Width="718.2" Height="28.35" Border.Lines="All" Border.Style="Dot" Text="联系内容" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 11pt"/>
+    </ReportTitleBand>
+    <DataBand Name="Data1" Top="174.1" Width="718.2" Height="47.25" DataSource="Table">
+      <TextObject Name="Text19" Width="718.2" Height="47.25" Border.Lines="All" Border.Style="Dot" Text="[Maintain.MTS003]" VertAlign="Center" Font="宋体, 8pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

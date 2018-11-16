@@ -1,0 +1,269 @@
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\BackSqlServer.exe.config
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.csprojResolveAssemblyReference.cache
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.BCSQL.resources
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.AAA.resources
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.csproj.GenerateResource.Cache
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\SqlHelper.cs
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\BackSqlServer.exe
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\BackSqlServer.pdb
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\Utility.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Utils.v16.2.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Data.v16.2.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraBars.v16.2.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Office.v16.2.Core.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\Utility.pdb
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Utils.v16.2.xml
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Data.v16.2.xml
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraBars.v16.2.xml
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Office.v16.2.Core.xml
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.exe
+d:\userdata\documents\visual studio 2015\Projects\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.pdb
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\BackSqlServer.exe.config
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.exe
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.pdb
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\SqlHelper.cs
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\BackSqlServer.exe
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\BackSqlServer.pdb
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\Utility.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Utils.v16.2.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Data.v16.2.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraBars.v16.2.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Office.v16.2.Core.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\Utility.pdb
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Utils.v16.2.xml
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Data.v16.2.xml
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraBars.v16.2.xml
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Office.v16.2.Core.xml
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.BCSQL.resources
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.AAA.resources
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.csproj.GenerateResource.Cache
+D:\Project data\MoXia\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.csprojResolveAssemblyReference.cache
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\BackSqlServer.exe.config
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.exe
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.pdb
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\SqlHelper.cs
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\BackSqlServer.exe
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\BackSqlServer.pdb
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Utils.v16.2.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Data.v16.2.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraBars.v16.2.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Office.v16.2.Core.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\Utility.pdb
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Utils.v16.2.xml
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Data.v16.2.xml
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraBars.v16.2.xml
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\DevExpress.Office.v16.2.Core.xml
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.csprojResolveAssemblyReference.cache
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.BCSQL.resources
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.AAA.resources
+D:\ProjectData\MoXia\BackSqlServer\BackSqlServer\obj\Debug\BackSqlServer.csproj.GenerateResource.Cache
