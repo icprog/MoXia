@@ -155,7 +155,6 @@ D:\ProjectData\MoXia\Project\Carpenter\UIControl\bin\Debug\de\DevExpress.Sparkli
 D:\ProjectData\MoXia\Project\Carpenter\UIControl\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
 D:\ProjectData\MoXia\Project\Carpenter\UIControl\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
 D:\ProjectData\MoXia\Project\Carpenter\UIControl\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
-D:\ProjectData\MoXia\Project\Carpenter\UIControl\obj\Debug\UIControl.csprojResolveAssemblyReference.cache
 D:\ProjectData\MoXia\Project\Carpenter\UIControl\obj\Debug\UIControl.buttonReP.resources
 D:\ProjectData\MoXia\Project\Carpenter\UIControl\obj\Debug\UIControl.buttonRePaint.resources
 D:\ProjectData\MoXia\Project\Carpenter\UIControl\obj\Debug\UIControl.Form1.resources

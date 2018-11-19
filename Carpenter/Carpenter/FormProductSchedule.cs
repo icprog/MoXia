@@ -91,6 +91,7 @@ namespace Carpenter
                 XtraMessageBox . Show ( "成功删除" );
                 tableQuery . Rows . Remove ( row );
                 gridControl1 . RefreshDataSource ( );
+                row = null;
             }
             else
                 XtraMessageBox . Show ( "删除失败" );
