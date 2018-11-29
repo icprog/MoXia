@@ -37,6 +37,16 @@ namespace CarpenterBll . Dao
         }
 
         /// <summary>
+        /// 是否报工，若有则不能删除
+        /// </summary>
+        /// <param name="oddNum"></param>
+        /// <returns></returns>
+        //public bool Exists_BG_All ( string oddNum )
+        //{
+
+        //}
+
+        /// <summary>
         /// 删除一条记录
         /// </summary>
         /// <param name="oddNum"></param>

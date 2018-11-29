@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+    <ListView android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/code"
+        />
+        <TextView
+                android:id="@+id/code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintRight_toRightOf="@id/code"
+                android:hint="@string/codeHint"
+        />
+
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/productNum"
+                  app:layout_constraintTop_toBottomOf="@id/code"
+        />
+        <TextView android:id="@+id/proNum"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/productNumHint"
+                  app:layout_constraintTop_toBottomOf="@id/code"
+                  app:layout_constraintRight_toRightOf="@id/proNum"/>
+    </ListView>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

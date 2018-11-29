@@ -120,6 +120,7 @@
     <Compile Include="Bll\ProductScheduleBll.cs" />
     <Compile Include="Bll\ProductScheduleTrackTableBll.cs" />
     <Compile Include="Bll\ProgramControlBll.cs" />
+    <Compile Include="Bll\ProPartArtBll.cs" />
     <Compile Include="Bll\RemindBll.cs" />
     <Compile Include="Bll\SchedulBll.cs" />
     <Compile Include="Bll\SetReviewBll.cs" />
@@ -191,6 +192,7 @@
     <Compile Include="Dao\ProductScheduleDao.cs" />
     <Compile Include="Dao\ProductScheduleTrackTableDao.cs" />
     <Compile Include="Dao\ProgramControlDao.cs" />
+    <Compile Include="Dao\ProPartArtDao.cs" />
     <Compile Include="Dao\RemindDao.cs" />
     <Compile Include="Dao\SchedulDao.cs" />
     <Compile Include="Dao\SetReviewDao.cs" />

@@ -515,6 +515,13 @@ namespace Carpenter
             Form from = new FormProductScheduleTrackTable ( " AND 1=2 " );
             from . Show ( );
         }
+        //产品部件工序表
+        private void ProPartArt_LinkClicked ( object sender ,DevExpress . XtraNavBar . NavBarLinkEventArgs e )
+        {
+            UserLogin . programName = CarpenterBll . UserInformation . ProgramName = "FormProPartArt";
+            Form from = new FormProPartArt ( );
+            from . Show ( );
+        }
         #endregion
 
         #region wpN Information
@@ -606,6 +613,7 @@ namespace Carpenter
             //}
         }
         #endregion
+
 
     }
 }

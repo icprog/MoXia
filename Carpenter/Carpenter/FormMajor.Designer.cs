@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent ( )
         {
-            this.dockManager1 = new DevExpress.XtraBars.Docking.DockManager();
+            this.components = new System.ComponentModel.Container();
+            this.dockManager1 = new DevExpress.XtraBars.Docking.DockManager(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolClose = new System.Windows.Forms.ToolStripMenuItem();
@@ -39,15 +40,6 @@
             this.消息toolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripRemind = new System.Windows.Forms.ToolStripMenuItem();
             this.navBarControl1 = new DevExpress.XtraNavBar.NavBarControl();
-            this.wpN = new DevExpress.XtraNavBar.NavBarGroup();
-            this.ExpendWood = new DevExpress.XtraNavBar.NavBarItem();
-            this.WoodBase = new DevExpress.XtraNavBar.NavBarItem();
-            this.ExpendWoodAnalysis = new DevExpress.XtraNavBar.NavBarItem();
-            this.ExoendBasePaint = new DevExpress.XtraNavBar.NavBarItem();
-            this.PaintBaseAndProduct = new DevExpress.XtraNavBar.NavBarItem();
-            this.ExpendPlanPaint = new DevExpress.XtraNavBar.NavBarItem();
-            this.ExpendPaint = new DevExpress.XtraNavBar.NavBarItem();
-            this.ExpendPaintAnalysis = new DevExpress.XtraNavBar.NavBarItem();
             this.baseN = new DevExpress.XtraNavBar.NavBarGroup();
             this.Powers = new DevExpress.XtraNavBar.NavBarItem();
             this.ProgramControl = new DevExpress.XtraNavBar.NavBarItem();
@@ -91,6 +83,15 @@
             this.ProductionPaintWeekDaily = new DevExpress.XtraNavBar.NavBarItem();
             this.ProductionPaintDay = new DevExpress.XtraNavBar.NavBarItem();
             this.FormProductionPaintDayDaily = new DevExpress.XtraNavBar.NavBarItem();
+            this.wpN = new DevExpress.XtraNavBar.NavBarGroup();
+            this.ExpendWood = new DevExpress.XtraNavBar.NavBarItem();
+            this.WoodBase = new DevExpress.XtraNavBar.NavBarItem();
+            this.ExpendWoodAnalysis = new DevExpress.XtraNavBar.NavBarItem();
+            this.ExoendBasePaint = new DevExpress.XtraNavBar.NavBarItem();
+            this.PaintBaseAndProduct = new DevExpress.XtraNavBar.NavBarItem();
+            this.ExpendPlanPaint = new DevExpress.XtraNavBar.NavBarItem();
+            this.ExpendPaint = new DevExpress.XtraNavBar.NavBarItem();
+            this.ExpendPaintAnalysis = new DevExpress.XtraNavBar.NavBarItem();
             this.OtherN = new DevExpress.XtraNavBar.NavBarGroup();
             this.BomWorkPlanCode = new DevExpress.XtraNavBar.NavBarItem();
             this.ImportExeclToTable = new DevExpress.XtraNavBar.NavBarItem();
@@ -109,6 +110,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolLogin = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.ProPartArt = new DevExpress.XtraNavBar.NavBarItem();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
@@ -209,7 +211,7 @@
             // 
             // navBarControl1
             // 
-            this.navBarControl1.ActiveGroup = this.baseN;
+            this.navBarControl1.ActiveGroup = this.OtherN;
             this.navBarControl1.Appearance.Background.BackColor = System.Drawing.Color.White;
             this.navBarControl1.Appearance.Background.BackColor2 = System.Drawing.Color.White;
             this.navBarControl1.Appearance.Background.BorderColor = System.Drawing.Color.White;
@@ -289,7 +291,8 @@
             this.ProductScheduleTrackTable,
             this.WageCoef,
             this.PaintBaseAndProduct,
-            this.OutPutValue});
+            this.OutPutValue,
+            this.ProPartArt});
             this.navBarControl1.Location = new System.Drawing.Point(0, 0);
             this.navBarControl1.Name = "navBarControl1";
             this.navBarControl1.OptionsNavPane.ExpandedWidth = 203;
@@ -297,192 +300,6 @@
             this.navBarControl1.TabIndex = 3;
             this.navBarControl1.Text = "navBarControl1";
             this.navBarControl1.View = new DevExpress.XtraNavBar.ViewInfo.StandardSkinNavigationPaneViewInfoRegistrator("DevExpress Style");
-            // 
-            // wpN
-            // 
-            this.wpN.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.wpN.Appearance.BackColor2 = System.Drawing.Color.LightGray;
-            this.wpN.Appearance.BorderColor = System.Drawing.Color.LightGray;
-            this.wpN.Appearance.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.wpN.Appearance.ForeColor = System.Drawing.Color.Blue;
-            this.wpN.Appearance.Options.UseBackColor = true;
-            this.wpN.Appearance.Options.UseBorderColor = true;
-            this.wpN.Appearance.Options.UseFont = true;
-            this.wpN.Appearance.Options.UseForeColor = true;
-            this.wpN.AppearanceBackground.BackColor = System.Drawing.Color.White;
-            this.wpN.AppearanceBackground.BackColor2 = System.Drawing.Color.White;
-            this.wpN.AppearanceBackground.BorderColor = System.Drawing.Color.White;
-            this.wpN.AppearanceBackground.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.wpN.AppearanceBackground.ForeColor = System.Drawing.Color.Blue;
-            this.wpN.AppearanceBackground.Options.UseBackColor = true;
-            this.wpN.AppearanceBackground.Options.UseBorderColor = true;
-            this.wpN.AppearanceBackground.Options.UseFont = true;
-            this.wpN.AppearanceBackground.Options.UseForeColor = true;
-            this.wpN.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.wpN.AppearanceHotTracked.ForeColor = System.Drawing.Color.Blue;
-            this.wpN.AppearanceHotTracked.Options.UseFont = true;
-            this.wpN.AppearanceHotTracked.Options.UseForeColor = true;
-            this.wpN.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.wpN.AppearancePressed.ForeColor = System.Drawing.Color.Blue;
-            this.wpN.AppearancePressed.Options.UseFont = true;
-            this.wpN.AppearancePressed.Options.UseForeColor = true;
-            this.wpN.Caption = "木材油漆耗用";
-            this.wpN.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.ExpendWood),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.WoodBase),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.ExpendWoodAnalysis),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.ExoendBasePaint),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.PaintBaseAndProduct),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.ExpendPlanPaint),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.ExpendPaint),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.ExpendPaintAnalysis)});
-            this.wpN.Name = "wpN";
-            this.wpN.TopVisibleLinkIndex = 3;
-            // 
-            // ExpendWood
-            // 
-            this.ExpendWood.Appearance.BackColor = System.Drawing.Color.White;
-            this.ExpendWood.Appearance.BackColor2 = System.Drawing.Color.White;
-            this.ExpendWood.Appearance.BorderColor = System.Drawing.Color.White;
-            this.ExpendWood.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendWood.Appearance.Options.UseBackColor = true;
-            this.ExpendWood.Appearance.Options.UseBorderColor = true;
-            this.ExpendWood.Appearance.Options.UseFont = true;
-            this.ExpendWood.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendWood.AppearanceHotTracked.Options.UseFont = true;
-            this.ExpendWood.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendWood.AppearancePressed.Options.UseFont = true;
-            this.ExpendWood.Caption = "每日木材耗用录入";
-            this.ExpendWood.Name = "ExpendWood";
-            this.ExpendWood.Tag = "FormExpendWood";
-            this.ExpendWood.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ExpendWood_LinkClicked);
-            // 
-            // WoodBase
-            // 
-            this.WoodBase.Appearance.BackColor = System.Drawing.Color.White;
-            this.WoodBase.Appearance.BackColor2 = System.Drawing.Color.White;
-            this.WoodBase.Appearance.BorderColor = System.Drawing.Color.White;
-            this.WoodBase.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.WoodBase.Appearance.Options.UseBackColor = true;
-            this.WoodBase.Appearance.Options.UseBorderColor = true;
-            this.WoodBase.Appearance.Options.UseFont = true;
-            this.WoodBase.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.WoodBase.AppearanceHotTracked.Options.UseFont = true;
-            this.WoodBase.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.WoodBase.AppearancePressed.Options.UseFont = true;
-            this.WoodBase.Caption = "木材理论耗用";
-            this.WoodBase.Name = "WoodBase";
-            this.WoodBase.Tag = "FormWoodBase";
-            this.WoodBase.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.WoodBase_LinkClicked);
-            // 
-            // ExpendWoodAnalysis
-            // 
-            this.ExpendWoodAnalysis.Appearance.BackColor = System.Drawing.Color.White;
-            this.ExpendWoodAnalysis.Appearance.BackColor2 = System.Drawing.Color.White;
-            this.ExpendWoodAnalysis.Appearance.BorderColor = System.Drawing.Color.White;
-            this.ExpendWoodAnalysis.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendWoodAnalysis.Appearance.Options.UseBackColor = true;
-            this.ExpendWoodAnalysis.Appearance.Options.UseBorderColor = true;
-            this.ExpendWoodAnalysis.Appearance.Options.UseFont = true;
-            this.ExpendWoodAnalysis.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendWoodAnalysis.AppearanceHotTracked.Options.UseFont = true;
-            this.ExpendWoodAnalysis.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendWoodAnalysis.AppearancePressed.Options.UseFont = true;
-            this.ExpendWoodAnalysis.Caption = "木材耗用分析表";
-            this.ExpendWoodAnalysis.Name = "ExpendWoodAnalysis";
-            this.ExpendWoodAnalysis.Tag = "FormExpendWoodAnalysis";
-            this.ExpendWoodAnalysis.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ExpendWoodAnalysis_LinkClicked);
-            // 
-            // ExoendBasePaint
-            // 
-            this.ExoendBasePaint.Appearance.BackColor = System.Drawing.Color.White;
-            this.ExoendBasePaint.Appearance.BackColor2 = System.Drawing.Color.White;
-            this.ExoendBasePaint.Appearance.BorderColor = System.Drawing.Color.White;
-            this.ExoendBasePaint.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExoendBasePaint.Appearance.Options.UseBackColor = true;
-            this.ExoendBasePaint.Appearance.Options.UseBorderColor = true;
-            this.ExoendBasePaint.Appearance.Options.UseFont = true;
-            this.ExoendBasePaint.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExoendBasePaint.AppearanceHotTracked.Options.UseFont = true;
-            this.ExoendBasePaint.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExoendBasePaint.AppearancePressed.Options.UseFont = true;
-            this.ExoendBasePaint.Caption = "油漆基础资料";
-            this.ExoendBasePaint.Name = "ExoendBasePaint";
-            this.ExoendBasePaint.Tag = "FormExoendBasePaint";
-            this.ExoendBasePaint.Visible = false;
-            this.ExoendBasePaint.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ExoendBasePaint_LinkClicked);
-            // 
-            // PaintBaseAndProduct
-            // 
-            this.PaintBaseAndProduct.Appearance.BackColor = System.Drawing.Color.White;
-            this.PaintBaseAndProduct.Appearance.BackColor2 = System.Drawing.Color.White;
-            this.PaintBaseAndProduct.Appearance.BorderColor = System.Drawing.Color.White;
-            this.PaintBaseAndProduct.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.PaintBaseAndProduct.Appearance.Options.UseBackColor = true;
-            this.PaintBaseAndProduct.Appearance.Options.UseBorderColor = true;
-            this.PaintBaseAndProduct.Appearance.Options.UseFont = true;
-            this.PaintBaseAndProduct.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.PaintBaseAndProduct.AppearanceHotTracked.Options.UseFont = true;
-            this.PaintBaseAndProduct.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.PaintBaseAndProduct.AppearancePressed.Options.UseFont = true;
-            this.PaintBaseAndProduct.Caption = "油漆名称";
-            this.PaintBaseAndProduct.Name = "PaintBaseAndProduct";
-            this.PaintBaseAndProduct.Tag = "FormPaintBaseAndProduct";
-            this.PaintBaseAndProduct.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.PaintBaseAndProduct_LinkClicked);
-            // 
-            // ExpendPlanPaint
-            // 
-            this.ExpendPlanPaint.Appearance.BackColor = System.Drawing.Color.White;
-            this.ExpendPlanPaint.Appearance.BackColor2 = System.Drawing.Color.White;
-            this.ExpendPlanPaint.Appearance.BorderColor = System.Drawing.Color.White;
-            this.ExpendPlanPaint.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendPlanPaint.Appearance.Options.UseBackColor = true;
-            this.ExpendPlanPaint.Appearance.Options.UseBorderColor = true;
-            this.ExpendPlanPaint.Appearance.Options.UseFont = true;
-            this.ExpendPlanPaint.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendPlanPaint.AppearanceHotTracked.Options.UseFont = true;
-            this.ExpendPlanPaint.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendPlanPaint.AppearancePressed.Options.UseFont = true;
-            this.ExpendPlanPaint.Caption = "油漆平方用量";
-            this.ExpendPlanPaint.Name = "ExpendPlanPaint";
-            this.ExpendPlanPaint.Tag = "FormExpendPlanPaint";
-            this.ExpendPlanPaint.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ExpendPlanPaint_LinkClicked);
-            // 
-            // ExpendPaint
-            // 
-            this.ExpendPaint.Appearance.BackColor = System.Drawing.Color.White;
-            this.ExpendPaint.Appearance.BackColor2 = System.Drawing.Color.White;
-            this.ExpendPaint.Appearance.BorderColor = System.Drawing.Color.White;
-            this.ExpendPaint.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendPaint.Appearance.Options.UseBackColor = true;
-            this.ExpendPaint.Appearance.Options.UseBorderColor = true;
-            this.ExpendPaint.Appearance.Options.UseFont = true;
-            this.ExpendPaint.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendPaint.AppearanceHotTracked.Options.UseFont = true;
-            this.ExpendPaint.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendPaint.AppearancePressed.Options.UseFont = true;
-            this.ExpendPaint.Caption = "每日油漆耗用录入";
-            this.ExpendPaint.Name = "ExpendPaint";
-            this.ExpendPaint.Tag = "FormExpendPaint";
-            this.ExpendPaint.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ExpendPaint_LinkClicked);
-            // 
-            // ExpendPaintAnalysis
-            // 
-            this.ExpendPaintAnalysis.Appearance.BackColor = System.Drawing.Color.White;
-            this.ExpendPaintAnalysis.Appearance.BackColor2 = System.Drawing.Color.White;
-            this.ExpendPaintAnalysis.Appearance.BorderColor = System.Drawing.Color.White;
-            this.ExpendPaintAnalysis.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendPaintAnalysis.Appearance.Options.UseBackColor = true;
-            this.ExpendPaintAnalysis.Appearance.Options.UseBorderColor = true;
-            this.ExpendPaintAnalysis.Appearance.Options.UseFont = true;
-            this.ExpendPaintAnalysis.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendPaintAnalysis.AppearanceHotTracked.Options.UseFont = true;
-            this.ExpendPaintAnalysis.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.ExpendPaintAnalysis.AppearancePressed.Options.UseFont = true;
-            this.ExpendPaintAnalysis.Caption = "油漆耗用分析表";
-            this.ExpendPaintAnalysis.Name = "ExpendPaintAnalysis";
-            this.ExpendPaintAnalysis.Tag = "FormExpendPaintAnalysis";
-            this.ExpendPaintAnalysis.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ExpendPaintAnalysis_LinkClicked);
             // 
             // baseN
             // 
@@ -515,7 +332,6 @@
             this.baseN.AppearancePressed.Options.UseFont = true;
             this.baseN.AppearancePressed.Options.UseForeColor = true;
             this.baseN.Caption = "基础信息";
-            this.baseN.Expanded = true;
             this.baseN.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
             new DevExpress.XtraNavBar.NavBarItemLink(this.Powers),
             new DevExpress.XtraNavBar.NavBarItemLink(this.ProgramControl),
@@ -1341,6 +1157,192 @@
             this.FormProductionPaintDayDaily.Tag = "FormProductionPaintDayDaily";
             this.FormProductionPaintDayDaily.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.FormProductionPaintDayDaily_LinkClicked);
             // 
+            // wpN
+            // 
+            this.wpN.Appearance.BackColor = System.Drawing.Color.LightGray;
+            this.wpN.Appearance.BackColor2 = System.Drawing.Color.LightGray;
+            this.wpN.Appearance.BorderColor = System.Drawing.Color.LightGray;
+            this.wpN.Appearance.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.wpN.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.wpN.Appearance.Options.UseBackColor = true;
+            this.wpN.Appearance.Options.UseBorderColor = true;
+            this.wpN.Appearance.Options.UseFont = true;
+            this.wpN.Appearance.Options.UseForeColor = true;
+            this.wpN.AppearanceBackground.BackColor = System.Drawing.Color.White;
+            this.wpN.AppearanceBackground.BackColor2 = System.Drawing.Color.White;
+            this.wpN.AppearanceBackground.BorderColor = System.Drawing.Color.White;
+            this.wpN.AppearanceBackground.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.wpN.AppearanceBackground.ForeColor = System.Drawing.Color.Blue;
+            this.wpN.AppearanceBackground.Options.UseBackColor = true;
+            this.wpN.AppearanceBackground.Options.UseBorderColor = true;
+            this.wpN.AppearanceBackground.Options.UseFont = true;
+            this.wpN.AppearanceBackground.Options.UseForeColor = true;
+            this.wpN.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.wpN.AppearanceHotTracked.ForeColor = System.Drawing.Color.Blue;
+            this.wpN.AppearanceHotTracked.Options.UseFont = true;
+            this.wpN.AppearanceHotTracked.Options.UseForeColor = true;
+            this.wpN.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.wpN.AppearancePressed.ForeColor = System.Drawing.Color.Blue;
+            this.wpN.AppearancePressed.Options.UseFont = true;
+            this.wpN.AppearancePressed.Options.UseForeColor = true;
+            this.wpN.Caption = "木材油漆耗用";
+            this.wpN.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.ExpendWood),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.WoodBase),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.ExpendWoodAnalysis),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.ExoendBasePaint),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.PaintBaseAndProduct),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.ExpendPlanPaint),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.ExpendPaint),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.ExpendPaintAnalysis)});
+            this.wpN.Name = "wpN";
+            this.wpN.TopVisibleLinkIndex = 3;
+            // 
+            // ExpendWood
+            // 
+            this.ExpendWood.Appearance.BackColor = System.Drawing.Color.White;
+            this.ExpendWood.Appearance.BackColor2 = System.Drawing.Color.White;
+            this.ExpendWood.Appearance.BorderColor = System.Drawing.Color.White;
+            this.ExpendWood.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendWood.Appearance.Options.UseBackColor = true;
+            this.ExpendWood.Appearance.Options.UseBorderColor = true;
+            this.ExpendWood.Appearance.Options.UseFont = true;
+            this.ExpendWood.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendWood.AppearanceHotTracked.Options.UseFont = true;
+            this.ExpendWood.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendWood.AppearancePressed.Options.UseFont = true;
+            this.ExpendWood.Caption = "每日木材耗用录入";
+            this.ExpendWood.Name = "ExpendWood";
+            this.ExpendWood.Tag = "FormExpendWood";
+            this.ExpendWood.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ExpendWood_LinkClicked);
+            // 
+            // WoodBase
+            // 
+            this.WoodBase.Appearance.BackColor = System.Drawing.Color.White;
+            this.WoodBase.Appearance.BackColor2 = System.Drawing.Color.White;
+            this.WoodBase.Appearance.BorderColor = System.Drawing.Color.White;
+            this.WoodBase.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.WoodBase.Appearance.Options.UseBackColor = true;
+            this.WoodBase.Appearance.Options.UseBorderColor = true;
+            this.WoodBase.Appearance.Options.UseFont = true;
+            this.WoodBase.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.WoodBase.AppearanceHotTracked.Options.UseFont = true;
+            this.WoodBase.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.WoodBase.AppearancePressed.Options.UseFont = true;
+            this.WoodBase.Caption = "木材理论耗用";
+            this.WoodBase.Name = "WoodBase";
+            this.WoodBase.Tag = "FormWoodBase";
+            this.WoodBase.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.WoodBase_LinkClicked);
+            // 
+            // ExpendWoodAnalysis
+            // 
+            this.ExpendWoodAnalysis.Appearance.BackColor = System.Drawing.Color.White;
+            this.ExpendWoodAnalysis.Appearance.BackColor2 = System.Drawing.Color.White;
+            this.ExpendWoodAnalysis.Appearance.BorderColor = System.Drawing.Color.White;
+            this.ExpendWoodAnalysis.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendWoodAnalysis.Appearance.Options.UseBackColor = true;
+            this.ExpendWoodAnalysis.Appearance.Options.UseBorderColor = true;
+            this.ExpendWoodAnalysis.Appearance.Options.UseFont = true;
+            this.ExpendWoodAnalysis.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendWoodAnalysis.AppearanceHotTracked.Options.UseFont = true;
+            this.ExpendWoodAnalysis.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendWoodAnalysis.AppearancePressed.Options.UseFont = true;
+            this.ExpendWoodAnalysis.Caption = "木材耗用分析表";
+            this.ExpendWoodAnalysis.Name = "ExpendWoodAnalysis";
+            this.ExpendWoodAnalysis.Tag = "FormExpendWoodAnalysis";
+            this.ExpendWoodAnalysis.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ExpendWoodAnalysis_LinkClicked);
+            // 
+            // ExoendBasePaint
+            // 
+            this.ExoendBasePaint.Appearance.BackColor = System.Drawing.Color.White;
+            this.ExoendBasePaint.Appearance.BackColor2 = System.Drawing.Color.White;
+            this.ExoendBasePaint.Appearance.BorderColor = System.Drawing.Color.White;
+            this.ExoendBasePaint.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExoendBasePaint.Appearance.Options.UseBackColor = true;
+            this.ExoendBasePaint.Appearance.Options.UseBorderColor = true;
+            this.ExoendBasePaint.Appearance.Options.UseFont = true;
+            this.ExoendBasePaint.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExoendBasePaint.AppearanceHotTracked.Options.UseFont = true;
+            this.ExoendBasePaint.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExoendBasePaint.AppearancePressed.Options.UseFont = true;
+            this.ExoendBasePaint.Caption = "油漆基础资料";
+            this.ExoendBasePaint.Name = "ExoendBasePaint";
+            this.ExoendBasePaint.Tag = "FormExoendBasePaint";
+            this.ExoendBasePaint.Visible = false;
+            this.ExoendBasePaint.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ExoendBasePaint_LinkClicked);
+            // 
+            // PaintBaseAndProduct
+            // 
+            this.PaintBaseAndProduct.Appearance.BackColor = System.Drawing.Color.White;
+            this.PaintBaseAndProduct.Appearance.BackColor2 = System.Drawing.Color.White;
+            this.PaintBaseAndProduct.Appearance.BorderColor = System.Drawing.Color.White;
+            this.PaintBaseAndProduct.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.PaintBaseAndProduct.Appearance.Options.UseBackColor = true;
+            this.PaintBaseAndProduct.Appearance.Options.UseBorderColor = true;
+            this.PaintBaseAndProduct.Appearance.Options.UseFont = true;
+            this.PaintBaseAndProduct.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.PaintBaseAndProduct.AppearanceHotTracked.Options.UseFont = true;
+            this.PaintBaseAndProduct.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.PaintBaseAndProduct.AppearancePressed.Options.UseFont = true;
+            this.PaintBaseAndProduct.Caption = "油漆名称";
+            this.PaintBaseAndProduct.Name = "PaintBaseAndProduct";
+            this.PaintBaseAndProduct.Tag = "FormPaintBaseAndProduct";
+            this.PaintBaseAndProduct.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.PaintBaseAndProduct_LinkClicked);
+            // 
+            // ExpendPlanPaint
+            // 
+            this.ExpendPlanPaint.Appearance.BackColor = System.Drawing.Color.White;
+            this.ExpendPlanPaint.Appearance.BackColor2 = System.Drawing.Color.White;
+            this.ExpendPlanPaint.Appearance.BorderColor = System.Drawing.Color.White;
+            this.ExpendPlanPaint.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendPlanPaint.Appearance.Options.UseBackColor = true;
+            this.ExpendPlanPaint.Appearance.Options.UseBorderColor = true;
+            this.ExpendPlanPaint.Appearance.Options.UseFont = true;
+            this.ExpendPlanPaint.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendPlanPaint.AppearanceHotTracked.Options.UseFont = true;
+            this.ExpendPlanPaint.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendPlanPaint.AppearancePressed.Options.UseFont = true;
+            this.ExpendPlanPaint.Caption = "油漆平方用量";
+            this.ExpendPlanPaint.Name = "ExpendPlanPaint";
+            this.ExpendPlanPaint.Tag = "FormExpendPlanPaint";
+            this.ExpendPlanPaint.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ExpendPlanPaint_LinkClicked);
+            // 
+            // ExpendPaint
+            // 
+            this.ExpendPaint.Appearance.BackColor = System.Drawing.Color.White;
+            this.ExpendPaint.Appearance.BackColor2 = System.Drawing.Color.White;
+            this.ExpendPaint.Appearance.BorderColor = System.Drawing.Color.White;
+            this.ExpendPaint.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendPaint.Appearance.Options.UseBackColor = true;
+            this.ExpendPaint.Appearance.Options.UseBorderColor = true;
+            this.ExpendPaint.Appearance.Options.UseFont = true;
+            this.ExpendPaint.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendPaint.AppearanceHotTracked.Options.UseFont = true;
+            this.ExpendPaint.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendPaint.AppearancePressed.Options.UseFont = true;
+            this.ExpendPaint.Caption = "每日油漆耗用录入";
+            this.ExpendPaint.Name = "ExpendPaint";
+            this.ExpendPaint.Tag = "FormExpendPaint";
+            this.ExpendPaint.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ExpendPaint_LinkClicked);
+            // 
+            // ExpendPaintAnalysis
+            // 
+            this.ExpendPaintAnalysis.Appearance.BackColor = System.Drawing.Color.White;
+            this.ExpendPaintAnalysis.Appearance.BackColor2 = System.Drawing.Color.White;
+            this.ExpendPaintAnalysis.Appearance.BorderColor = System.Drawing.Color.White;
+            this.ExpendPaintAnalysis.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendPaintAnalysis.Appearance.Options.UseBackColor = true;
+            this.ExpendPaintAnalysis.Appearance.Options.UseBorderColor = true;
+            this.ExpendPaintAnalysis.Appearance.Options.UseFont = true;
+            this.ExpendPaintAnalysis.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendPaintAnalysis.AppearanceHotTracked.Options.UseFont = true;
+            this.ExpendPaintAnalysis.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ExpendPaintAnalysis.AppearancePressed.Options.UseFont = true;
+            this.ExpendPaintAnalysis.Caption = "油漆耗用分析表";
+            this.ExpendPaintAnalysis.Name = "ExpendPaintAnalysis";
+            this.ExpendPaintAnalysis.Tag = "FormExpendPaintAnalysis";
+            this.ExpendPaintAnalysis.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ExpendPaintAnalysis_LinkClicked);
+            // 
             // OtherN
             // 
             this.OtherN.Appearance.BackColor = System.Drawing.Color.LightGray;
@@ -1370,8 +1372,10 @@
             this.OtherN.AppearancePressed.Options.UseFont = true;
             this.OtherN.AppearancePressed.Options.UseForeColor = true;
             this.OtherN.Caption = "其它信息";
+            this.OtherN.Expanded = true;
             this.OtherN.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
             new DevExpress.XtraNavBar.NavBarItemLink(this.BomWorkPlanCode),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.ProPartArt),
             new DevExpress.XtraNavBar.NavBarItemLink(this.ImportExeclToTable),
             new DevExpress.XtraNavBar.NavBarItemLink(this.Schedul),
             new DevExpress.XtraNavBar.NavBarItemLink(this.ProductDailyWork),
@@ -1385,7 +1389,6 @@
             new DevExpress.XtraNavBar.NavBarItemLink(this.ProductScheduleTrackTable),
             new DevExpress.XtraNavBar.NavBarItemLink(this.OutPutValue)});
             this.OtherN.Name = "OtherN";
-            this.OtherN.TopVisibleLinkIndex = 2;
             // 
             // BomWorkPlanCode
             // 
@@ -1646,6 +1649,19 @@
             this.toolStripStatusLabel1.Text = "杭州瑞阁微科技有限公司  Tel：(0571)  86961522  E_mail：my_rgw@163.com";
             this.toolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // ProPartArt
+            // 
+            this.ProPartArt.Appearance.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ProPartArt.Appearance.Options.UseFont = true;
+            this.ProPartArt.AppearanceHotTracked.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ProPartArt.AppearanceHotTracked.Options.UseFont = true;
+            this.ProPartArt.AppearancePressed.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.ProPartArt.AppearancePressed.Options.UseFont = true;
+            this.ProPartArt.Caption = "产品部件工序表";
+            this.ProPartArt.Name = "ProPartArt";
+            this.ProPartArt.Tag = "FormProPartArt";
+            this.ProPartArt.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ProPartArt_LinkClicked);
+            // 
             // FormMajor
             // 
             this.Appearance.BackColor = System.Drawing.Color.White;
@@ -1757,6 +1773,7 @@
         private DevExpress . XtraNavBar . NavBarItem WageCoef;
         private DevExpress . XtraNavBar . NavBarItem PaintBaseAndProduct;
         private DevExpress . XtraNavBar . NavBarItem OutPutValue;
+        private DevExpress . XtraNavBar . NavBarItem ProPartArt;
     }
 }
 

@@ -11,8 +11,8 @@ namespace CarpenterBll . Dao
     public class SchedulDao
     {
         //AIS20091231164539
-        //private string conS="Data Source=192.168.1.188;Initial Catalog=AIS20091231164539;User Id=sa;Password=123.com";
-        private string conS="Data Source=127.0.0.1;Initial Catalog=AIS20091231164539;User Id=sa;Password=1";
+        private string conS="Data Source=192.168.1.188;Initial Catalog=AIS20091231164539;User Id=sa;Password=123.com";
+        //private string conS="Data Source=127.0.0.1;Initial Catalog=AIS20091231164539;User Id=sa;Password=1";
         /// <summary>
         /// get data from database for StoredProcedure
         /// </summary>

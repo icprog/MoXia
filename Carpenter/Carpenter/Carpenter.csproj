@@ -676,6 +676,12 @@
     <Compile Include="FormProgramControl.Designer.cs">
       <DependentUpon>FormProgramControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormProPartArt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProPartArt.Designer.cs">
+      <DependentUpon>FormProPartArt.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRemind.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1172,6 +1178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormProgramControl.resx">
       <DependentUpon>FormProgramControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProPartArt.resx">
+      <DependentUpon>FormProPartArt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRemind.resx">
       <DependentUpon>FormRemind.cs</DependentUpon>

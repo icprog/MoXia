@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Carpenter</string>
+
+    <string name="code">条码:</string>
+    <string name="codeHint">扫描条码</string>
+
+    <string name="productNum">品号:</string>
+    <string name="productNumHint">请输入品号</string>
+
+    <string name="productName">品名</string>
+    <string name="productNameHint">请输入品名</string>
+</resources>

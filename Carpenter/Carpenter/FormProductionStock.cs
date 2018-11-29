@@ -545,7 +545,14 @@ namespace Carpenter
                 XtraMessageBox . Show ( "请选择需要排计划的产品" );
                 return;
             }
+            CarpenterBll . Bll . PlanStockDailyWeekBll bll = new CarpenterBll . Bll . PlanStockDailyWeekBll ( );
+            int proArr = bll . ExistsProductAttr ( intList );
 
+            if ( proArr == 3 || proArr == 2 || proArr == 4 )
+            {
+                XtraMessageBox . Show ( "您选择的产品属性包括定制,定制不允许排计划" );
+                return;
+            }
             Carpenter . Query . FormControl from = new Carpenter . Query . FormControl ( "备料生产日计划" ,"BLDayPlan" );
             DialogResult result = from . ShowDialog ( );
             if ( result == DialogResult . OK )
@@ -849,7 +856,13 @@ namespace Carpenter
                 XtraMessageBox . Show ( "请选择需要排计划的产品" );
                 return;
             }
-
+            CarpenterBll . Bll . PlanMachinWeekDailyWorkBll bll = new CarpenterBll . Bll . PlanMachinWeekDailyWorkBll ( );
+            int proArr = bll . ExistsProductAttr ( intList );
+            if ( proArr == 2 || proArr == 4 || proArr == 3 )
+            {
+                XtraMessageBox . Show ( "您选择的产品属性包括定制,定制不允许排计划" );
+                return;
+            }
             Carpenter . Query . FormControl from = new Carpenter . Query . FormControl ( "机加工生产日计划" ,"JDayPlan" );
             DialogResult result = from . ShowDialog ( );
             if ( result == DialogResult . OK )

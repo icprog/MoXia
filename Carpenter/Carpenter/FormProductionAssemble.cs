@@ -438,6 +438,12 @@ namespace Carpenter
                 XtraMessageBox . Show ( "请选择需要排计划的产品" );
                 return;
             }
+            int proArr = _bll . ExistsProductAttr ( intList );
+            if ( proArr == 2 || proArr == 4 || proArr == 3 )
+            {
+                XtraMessageBox . Show ( "您选择的产品属性包括定制,定制不允许排计划" );
+                return;
+            }
             Carpenter . Query . FormControl from = new Carpenter . Query . FormControl ( "组装生产日计划" ,"ZDayPlan" );
             DialogResult result = from . ShowDialog ( );
             if ( result == DialogResult . OK )

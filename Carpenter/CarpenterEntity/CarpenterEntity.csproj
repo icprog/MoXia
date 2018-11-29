@@ -53,6 +53,7 @@
     <Compile Include="PiceWageStatisticalTableEntity.cs" />
     <Compile Include="productBLWorkEntity.cs" />
     <Compile Include="ProductDailyWorkPREEntity.cs" />
+    <Compile Include="ProPartArtEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserEntity.cs" />
     <Compile Include="EmployeeEntity.cs" />
