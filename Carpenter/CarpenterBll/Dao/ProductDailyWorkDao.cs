@@ -45,7 +45,7 @@ namespace CarpenterBll . Dao
         public DataTable perExists ( string num )
         {
             StringBuilder strSql = new StringBuilder ( );
-            strSql . AppendFormat ( "SELECT DISTINCT EMP001,EMP002 FROM MOXEMP WHERE EMP001='{0}'" ,num );
+            strSql . AppendFormat ( "SELECT DISTINCT EMP001,EMP002,DEP002 FROM MOXEMP A LEFT JOIN MOXDEP B ON A.EMP003=B.DEP001 WHERE EMP001='{0}'" ,num );
 
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
         }
@@ -134,6 +134,7 @@ namespace CarpenterBll . Dao
             {
                 _model . PRD004 = table . Rows [ i ] [ "PRD004" ] . ToString ( );
                 _model . PRD005 = table . Rows [ i ] [ "PRD005" ] . ToString ( );
+                _model . PRD044 = table . Rows [ i ] [ "DEP002" ] . ToString ( );
                 add ( SQLString ,strSql ,_model );
             }
             
@@ -290,9 +291,9 @@ namespace CarpenterBll . Dao
         {
             strSql = new StringBuilder ( );
             strSql . Append ( "insert into MOXPRD(" );
-            strSql . Append ( "PRD001,PRD002,PRD003,PRD004,PRD005,PRD006,PRD007,PRD008,PRD009,PRD010,PRD011,PRD012,PRD013,PRD014,PRD015,PRD016,PRD017,PRD018,PRD019,PRD020,PRD021,PRD022,PRD023,PRD024,PRD025,PRD026,PRD027,PRD028,PRD029,PRD030,PRD031,PRD032,PRD033,PRD034,PRD035,PRD036,PRD037,PRD038,PRD039,PRD040,PRD041,PRD042,PRD043)" );
+            strSql . Append ( "PRD001,PRD002,PRD003,PRD004,PRD005,PRD006,PRD007,PRD008,PRD009,PRD010,PRD011,PRD012,PRD013,PRD014,PRD015,PRD016,PRD017,PRD018,PRD019,PRD020,PRD021,PRD022,PRD023,PRD024,PRD025,PRD026,PRD027,PRD028,PRD029,PRD030,PRD031,PRD032,PRD033,PRD034,PRD035,PRD036,PRD037,PRD038,PRD039,PRD040,PRD041,PRD042,PRD043,PRD044)" );
             strSql . Append ( " values (" );
-            strSql . Append ( "@PRD001,@PRD002,@PRD003,@PRD004,@PRD005,@PRD006,@PRD007,@PRD008,@PRD009,@PRD010,@PRD011,@PRD012,@PRD013,@PRD014,@PRD015,@PRD016,@PRD017,@PRD018,@PRD019,@PRD020,@PRD021,@PRD022,@PRD023,@PRD024,@PRD025,@PRD026,@PRD027,@PRD028,@PRD029,@PRD030,@PRD031,@PRD032,@PRD033,@PRD034,@PRD035,@PRD036,@PRD037,@PRD038,@PRD039,@PRD040,@PRD041,@PRD042,@PRD043)" );
+            strSql . Append ( "@PRD001,@PRD002,@PRD003,@PRD004,@PRD005,@PRD006,@PRD007,@PRD008,@PRD009,@PRD010,@PRD011,@PRD012,@PRD013,@PRD014,@PRD015,@PRD016,@PRD017,@PRD018,@PRD019,@PRD020,@PRD021,@PRD022,@PRD023,@PRD024,@PRD025,@PRD026,@PRD027,@PRD028,@PRD029,@PRD030,@PRD031,@PRD032,@PRD033,@PRD034,@PRD035,@PRD036,@PRD037,@PRD038,@PRD039,@PRD040,@PRD041,@PRD042,@PRD043,@PRD044)" );
             SqlParameter [ ] parameters = {
                     new SqlParameter("@PRD001", SqlDbType.NVarChar,50),
                     new SqlParameter("@PRD002", SqlDbType.NVarChar,50),
@@ -336,7 +337,8 @@ namespace CarpenterBll . Dao
                     new SqlParameter("@PRD040", SqlDbType.NVarChar,50),
                     new SqlParameter("@PRD041", SqlDbType.Decimal,11),
                     new SqlParameter("@PRD042", SqlDbType.Int,4),
-                    new SqlParameter("@PRD043", SqlDbType.Int,4)
+                    new SqlParameter("@PRD043", SqlDbType.Int,4),
+                    new SqlParameter("@PRD044", SqlDbType.NVarChar,50)
             };
             parameters [ 0 ] . Value = model . PRD001;
             parameters [ 1 ] . Value = model . PRD002;
@@ -381,6 +383,7 @@ namespace CarpenterBll . Dao
             parameters [ 40 ] . Value = model . PRD041;
             parameters [ 41 ] . Value = model . PRD042;
             parameters [ 42 ] . Value = model . PRD043;
+            parameters [ 43 ] . Value = model . PRD044;
 
             SQLString . Add ( strSql ,parameters );
         }
@@ -463,7 +466,7 @@ namespace CarpenterBll . Dao
         public DataTable GetDataTable ( string strWhere )
         {
             StringBuilder strSql = new StringBuilder ( );
-            strSql . Append ( "SELECT idx,PRD001,PRD002,PRD003,PRD004,PRD005,PRD006,PRD007,PRD008,PRD009,PRD010,PRD011,PRD012,PRD013,PRD014,PRD015,PRD016,PRD017,PRD018,PRD019,PRD020,PRD021,PRD022,PRD023,PRD024,PRD025,PRD026,PRD032,PRD033,PRD034,PRD035,PRD036,PRD037,PRD038,PRD039,PRD040,PRD041,PRD042,PRD043 FROM MOXPRD " );
+            strSql . Append ( "SELECT idx,PRD001,PRD002,PRD003,PRD004,PRD005,PRD006,PRD007,PRD008,PRD009,PRD010,PRD011,PRD012,PRD013,PRD014,PRD015,PRD016,PRD017,PRD018,PRD019,PRD020,PRD021,PRD022,PRD023,PRD024,PRD025,PRD026,PRD032,PRD033,PRD034,PRD035,PRD036,PRD037,PRD038,PRD039,PRD040,PRD041,PRD042,PRD043,PRD044 FROM MOXPRD " );
             strSql . Append ( "WHERE " + strWhere );
 
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );

@@ -14,7 +14,7 @@ namespace Carpenter
     public partial class FormCodeDailyWork :FormBase
     {
         Thread thread; SynchronizationContext m_SyncContext = null;
-        DataTable tableView,table; int len=0;decimal jgNum=0M;
+        DataTable tableView,table; int len=0;/*decimal*/ /*jgNum=0M*//*;*/
         CarpenterBll.Bll.ProductDailyWorkBll _bll=null;
         CarpenterEntity.ProductDailyWorkEntity _model=null;
         TextBox str=new TextBox(); bool isOk =false;
@@ -23,7 +23,7 @@ namespace Carpenter
         public FormCodeDailyWork ( )
         {
             InitializeComponent ( );
-
+            
             FieldInfo fi = typeof ( DevExpress . Utils . Paint . XPaint ) . GetField ( "graphics" ,BindingFlags . Static | BindingFlags . NonPublic );
             fi . SetValue ( null ,new DrawXPaint ( ) );
 
@@ -35,6 +35,7 @@ namespace Carpenter
             tableView = new DataTable ( );
             tableView . Columns . Add ( "PRD004" ,typeof ( System . String ) );
             tableView . Columns . Add ( "PRD005" ,typeof ( System . String ) );
+            tableView . Columns . Add ( "DEP002" ,typeof ( System . String ) );
             tableView . Columns . Add ( "De" ,typeof ( System . String ) );
             gridControl1 . DataSource = tableView;
             //this . txtCode . Focus ( );
@@ -895,22 +896,25 @@ namespace Carpenter
                 txtCode . Text = String . Empty;
                 string perName = table . Rows [ 0 ] [ "EMP002" ] . ToString ( );
                 string perNum = table . Rows [ 0 ] [ "EMP001" ] . ToString ( );
+                string partNum = table . Rows [ 0 ] [ "DEP002" ] . ToString ( );
+
                 if ( tableView != null && tableView . Rows . Count > 0 )
                 {
                     if ( tableView . Select ( "PRD005='" + perNum + "'" ) . Length < 1 )
-                        tableView . Rows . Add ( perNum ,perName ,"" );
+                        tableView . Rows . Add ( perNum ,perName ,partNum ,"" );
                 }
                 else if ( tableView == null )
                 {
                     tableView . Columns . Add ( "PRD004" ,typeof ( System . String ) );
                     tableView . Columns . Add ( "PRD005" ,typeof ( System . String ) );
+                    tableView . Columns . Add ( "DEP002" ,typeof ( System . String ) );
                     tableView . Columns . Add ( "De" ,typeof ( System . String ) );
-                    tableView . Rows . Add ( perNum ,perName ,"" );
+                    tableView . Rows . Add ( perNum ,perName ,partNum ,"" );
                     gridControl1 . DataSource = tableView;
                 }
                 else
                 {
-                    tableView . Rows . Add ( perNum ,perName ,"" );
+                    tableView . Rows . Add ( perNum ,perName ,partNum ,"" );
                     gridControl1 . DataSource = tableView;
                 }
             }

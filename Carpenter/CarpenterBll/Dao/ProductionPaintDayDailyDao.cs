@@ -480,11 +480,16 @@ namespace CarpenterBll . Dao
                 //_model . PWF011 += string . IsNullOrEmpty ( table . Rows [ i ] [ "PWF011" ] . ToString ( ) ) == true ? 0 : Convert . ToInt32 ( table . Rows [ i ] [ "PWF011" ] . ToString ( ) );
                 //_model . PWF016 += string . IsNullOrEmpty ( table . Rows [ i ] [ "PWF016" ] . ToString ( ) ) == true ? 0 : Convert . ToInt32 ( table . Rows [ i ] [ "PWF016" ] . ToString ( ) );
                 if ( _model . PWF015 == false )
-                    edit_BL_OverTime ( _model ,strSql ,SQLString ,work );
+                {
+                    if ( _model . PWF017 == string . Empty )
+                        edit_BL_OverTime_NoPlan ( _model ,strSql ,SQLString ,work );
+                    else
+                        edit_BL_OverTime ( _model ,strSql ,SQLString ,work );
+                }
 
                 //if ( Exists_bl_weekEnds ( _model . PWF002 ,_model . PWF003 ,_model . PWF011 ) == true )
                 //    edit_bl_weekEnds ( _model . PWF002 ,_model . PWF003 ,SQLString ,strSql );
-
+                
                 if ( Exists_bl_day ( _model . PWF002 ,_model . PWF003 ,new int [ ] { _model . PWF007 ,_model . PWF008 ,_model . PWF009 ,_model . PWF010 ,_model . PWF011 } ) == true )
                     edit_bl_day ( _model . PWF002 ,_model . PWF003 ,SQLString ,strSql ,plan );
             }
@@ -613,6 +618,53 @@ namespace CarpenterBll . Dao
             }
         }
 
+        /// <summary>
+        /// 回写油漆工段对应批号产品实际完工时间   非计划产品
+        /// </summary>
+        /// <param name="_model"></param>
+        /// <param name="strSql"></param>
+        /// <param name="SQLString"></param>
+        /// <param name="work"></param>
+        void edit_BL_OverTime_NoPlan ( CarpenterEntity . ProductionPaintDayDailyEntity _model ,StringBuilder strSql ,Hashtable SQLString ,string work )
+        {
+            strSql = new StringBuilder ( );
+            if ( work . Equals ( ColumnValues . yq_dq ) )
+            {
+                strSql . AppendFormat ( "UPDATE MOXPDP SET PDP009=ISNULL(PDP009,0)+{0},PDP010='{1}' WHERE PDP001='{2}' AND PDP002='{3}'" ,_model . PWF007 ,_model . PWF012 ,_model . PWF002 ,_model . PWF003 );
+                SQLString . Add ( strSql ,null );
+                strSql = new StringBuilder ( );
+            }
+            if ( work . Equals ( ColumnValues . yq_ym ) )
+            {
+                strSql . AppendFormat ( "UPDATE MOXPDP SET PDP012=ISNULL(PDP012,0)+{0},PDP013='{1}' WHERE PDP001='{2}' AND PDP002='{3}'" ,_model . PWF008 ,_model . PWF012 ,_model . PWF002 ,_model . PWF003 );
+                SQLString . Add ( strSql ,null );
+                strSql = new StringBuilder ( );
+            }
+            if ( work . Equals ( ColumnValues . yq_xs ) )
+            {
+                strSql . AppendFormat ( "UPDATE MOXPDP SET PDP015=ISNULL(PDP015,0)+{0},PDP016='{1}' WHERE PDP001='{2}' AND PDP002='{3}'" ,_model . PWF009 ,_model . PWF012 ,_model . PWF002 ,_model . PWF003 );
+                SQLString . Add ( strSql ,null );
+                strSql = new StringBuilder ( );
+            }
+            if ( work . Equals ( ColumnValues . yq_mq ) )
+            {
+                strSql . AppendFormat ( "UPDATE MOXPDP SET PDP018=ISNULL(PDP018,0)+{0},PDP019='{1}' WHERE PDP001='{2}' AND PDP002='{3}'" ,_model . PWF010 ,_model . PWF012 ,_model . PWF002 ,_model . PWF003 );
+                SQLString . Add ( strSql ,null );
+                strSql = new StringBuilder ( );
+            }
+            //if ( work . Equals ( ColumnValues . yq_rb ) )
+            //{
+            //    strSql . AppendFormat ( "UPDATE MOXPDP SET PDP020=ISNULL(PDP020,0)+'{0}',PDP021='{1}' WHERE PDP001='{2}' AND PDP002='{3}'" ,_model . PWF011 ,_model . PWF012 ,_model . PWF002 ,_model . PWF003 );
+            //    SQLString . Add ( strSql ,null );
+            //    strSql = new StringBuilder ( );
+            //}
+            if ( work . Equals ( ColumnValues . yq_bz ) )
+            {
+                strSql . AppendFormat ( "UPDATE MOXPDP SET PDP022=ISNULL(PDP022,0)+{0},PDP023='{1}' WHERE PDP001='{2}' AND PDP002='{3}'" ,_model . PWF016 ,_model . PWF012 ,_model . PWF002 ,_model . PWF003 );
+                SQLString . Add ( strSql ,null );
+                strSql = new StringBuilder ( );
+            }
+        }
 
         /// <summary>
         /// 日计划中是否存在此批号和品号

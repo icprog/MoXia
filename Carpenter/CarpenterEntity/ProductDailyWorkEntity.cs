@@ -95,6 +95,7 @@ namespace CarpenterEntity
         private decimal _prd041;
         private int _prd042;
         private int _prd043;
+        private string _prd044;
 
         // 
         public int idx
@@ -797,6 +798,20 @@ namespace CarpenterEntity
             }
         }
 
+        /// <summary>
+        /// 人员所属车间
+        /// </summary>
+        public string PRD044
+        {
+            get
+            {
+                return _prd044;
+            }
 
+            set
+            {
+                _prd044 = value;
+            }
+        }
     }
 }

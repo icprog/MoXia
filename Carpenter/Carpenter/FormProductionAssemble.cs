@@ -223,7 +223,8 @@ namespace Carpenter
         {
             Point pt = gridControl1 . PointToClient ( Control . MousePosition );
             GridHitInfo info = bandedGridView1 . CalcHitInfo ( pt );
-            if ( !info . InRowCell && info . Column . AbsoluteIndex == 1 )
+
+            if ( !info . InRowCell && info.Column!=null && info . Column . AbsoluteIndex == 1 )
             {
                 if ( checkAll == 0 )
                 {

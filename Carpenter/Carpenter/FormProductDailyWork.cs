@@ -37,7 +37,7 @@ namespace Carpenter
             gridView1 . OptionsBehavior . Editable = false;
 
 
-            ToolBarContain . ToolbarsC ( barTool ,new DevExpress . XtraBars . BarButtonItem [ ] { toolExport ,toolReview ,toolAdd } );
+            ToolBarContain . ToolbarsC ( barTool ,new DevExpress . XtraBars . BarButtonItem [ ] { toolReview ,toolAdd } );
 
 
             DataTable dt = _bll . GetDataTableOnly ( );
@@ -257,6 +257,12 @@ namespace Carpenter
 
             return base . Print ( );
         }
+        protected override int Export ( )
+        {
+            ViewExport . ExportToExcel ( this . Text ,gridControl1 );
+
+            return base . Export ( );
+        }
         #endregion
 
         #region Event
@@ -277,6 +283,7 @@ namespace Carpenter
                 toolExamin . Visibility = DevExpress . XtraBars . BarItemVisibility . Always;
                 toolCancellation . Visibility = DevExpress . XtraBars . BarItemVisibility . Always;
                 toolPrint . Visibility = DevExpress . XtraBars . BarItemVisibility . Always;
+                toolExport . Visibility = DevExpress . XtraBars . BarItemVisibility . Always;
             }
         }
         private void gridView1_RowClick ( object sender ,DevExpress . XtraGrid . Views . Grid . RowClickEventArgs e )

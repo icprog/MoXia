@@ -14,7 +14,7 @@ namespace Carpenter
         CarpenterEntity.ProductionPaintWeekPWHEntity _pwh=null;
         CarpenterBll.Bll.ProductionPaintWeekBll _bll=null;
         DataTable tableView,PrintOne,PrintTwo;
-        string state=string.Empty;bool isOk=false;int num=0;
+        string state=string.Empty;bool isOk=false;/*int num=0;*/
         
         public FormProductionPaintWeek ( )
         {

@@ -112,6 +112,7 @@
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.PRD044 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -188,6 +189,8 @@
             this.PRE003.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
             this.PRE003.AppearanceHeader.Options.UseFont = true;
             this.PRE003.Caption = "长区间头";
+            this.PRE003.DisplayFormat.FormatString = "0.######";
+            this.PRE003.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.PRE003.FieldName = "PRE003";
             this.PRE003.Name = "PRE003";
             this.PRE003.Visible = true;
@@ -201,6 +204,8 @@
             this.PRE004.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
             this.PRE004.AppearanceHeader.Options.UseFont = true;
             this.PRE004.Caption = "长区间尾";
+            this.PRE004.DisplayFormat.FormatString = "0.######";
+            this.PRE004.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.PRE004.FieldName = "PRE004";
             this.PRE004.Name = "PRE004";
             this.PRE004.Visible = true;
@@ -214,6 +219,8 @@
             this.PRE008.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
             this.PRE008.AppearanceHeader.Options.UseFont = true;
             this.PRE008.Caption = "宽区间头";
+            this.PRE008.DisplayFormat.FormatString = "0.######";
+            this.PRE008.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.PRE008.FieldName = "PRE008";
             this.PRE008.Name = "PRE008";
             this.PRE008.Visible = true;
@@ -227,6 +234,8 @@
             this.PRE009.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
             this.PRE009.AppearanceHeader.Options.UseFont = true;
             this.PRE009.Caption = "宽区间尾";
+            this.PRE009.DisplayFormat.FormatString = "0.######";
+            this.PRE009.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.PRE009.FieldName = "PRE009";
             this.PRE009.Name = "PRE009";
             this.PRE009.Visible = true;
@@ -240,6 +249,8 @@
             this.PRE010.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
             this.PRE010.AppearanceHeader.Options.UseFont = true;
             this.PRE010.Caption = "厚区间头";
+            this.PRE010.DisplayFormat.FormatString = "0.######";
+            this.PRE010.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.PRE010.FieldName = "PRE010";
             this.PRE010.Name = "PRE010";
             this.PRE010.Visible = true;
@@ -253,6 +264,8 @@
             this.PRE011.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
             this.PRE011.AppearanceHeader.Options.UseFont = true;
             this.PRE011.Caption = "厚区间尾";
+            this.PRE011.DisplayFormat.FormatString = "0.######";
+            this.PRE011.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.PRE011.FieldName = "PRE011";
             this.PRE011.Name = "PRE011";
             this.PRE011.Visible = true;
@@ -266,6 +279,8 @@
             this.PRE005.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
             this.PRE005.AppearanceHeader.Options.UseFont = true;
             this.PRE005.Caption = "价格";
+            this.PRE005.DisplayFormat.FormatString = "0.######";
+            this.PRE005.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Custom;
             this.PRE005.FieldName = "PRE005";
             this.PRE005.Name = "PRE005";
             this.PRE005.Visible = true;
@@ -324,6 +339,7 @@
             this.PRD034,
             this.PRD001,
             this.PRD002,
+            this.PRD044,
             this.PRD032,
             this.PRD003,
             this.PRD004,
@@ -540,7 +556,7 @@
             this.PRD006.Name = "PRD006";
             this.PRD006.OptionsColumn.AllowEdit = false;
             this.PRD006.Visible = true;
-            this.PRD006.VisibleIndex = 15;
+            this.PRD006.VisibleIndex = 16;
             this.PRD006.Width = 81;
             // 
             // PRD012
@@ -554,7 +570,7 @@
             this.PRD012.Name = "PRD012";
             this.PRD012.OptionsColumn.AllowEdit = false;
             this.PRD012.Visible = true;
-            this.PRD012.VisibleIndex = 16;
+            this.PRD012.VisibleIndex = 17;
             this.PRD012.Width = 66;
             // 
             // PRD013
@@ -569,7 +585,7 @@
             this.PRD013.Name = "PRD013";
             this.PRD013.OptionsColumn.AllowEdit = false;
             this.PRD013.Visible = true;
-            this.PRD013.VisibleIndex = 30;
+            this.PRD013.VisibleIndex = 31;
             this.PRD013.Width = 120;
             // 
             // repositoryItemDateEdit1
@@ -602,7 +618,7 @@
             this.PRD014.Name = "PRD014";
             this.PRD014.OptionsColumn.AllowEdit = false;
             this.PRD014.Visible = true;
-            this.PRD014.VisibleIndex = 31;
+            this.PRD014.VisibleIndex = 32;
             this.PRD014.Width = 94;
             // 
             // PRD015
@@ -616,7 +632,7 @@
             this.PRD015.Name = "PRD015";
             this.PRD015.OptionsColumn.AllowEdit = false;
             this.PRD015.Visible = true;
-            this.PRD015.VisibleIndex = 33;
+            this.PRD015.VisibleIndex = 34;
             this.PRD015.Width = 44;
             // 
             // PRD016
@@ -629,7 +645,7 @@
             this.PRD016.FieldName = "PRD016";
             this.PRD016.Name = "PRD016";
             this.PRD016.Visible = true;
-            this.PRD016.VisibleIndex = 34;
+            this.PRD016.VisibleIndex = 35;
             this.PRD016.Width = 178;
             // 
             // idx
@@ -648,7 +664,7 @@
             this.PRD019.FieldName = "PRD019";
             this.PRD019.Name = "PRD019";
             this.PRD019.Visible = true;
-            this.PRD019.VisibleIndex = 17;
+            this.PRD019.VisibleIndex = 18;
             // 
             // PRD020
             // 
@@ -686,7 +702,7 @@
             this.PRD022.FieldName = "PRD022";
             this.PRD022.Name = "PRD022";
             this.PRD022.Visible = true;
-            this.PRD022.VisibleIndex = 24;
+            this.PRD022.VisibleIndex = 25;
             // 
             // PRD023
             // 
@@ -698,7 +714,7 @@
             this.PRD023.FieldName = "PRD023";
             this.PRD023.Name = "PRD023";
             this.PRD023.Visible = true;
-            this.PRD023.VisibleIndex = 25;
+            this.PRD023.VisibleIndex = 26;
             // 
             // PRD024
             // 
@@ -711,7 +727,7 @@
             this.PRD024.Name = "PRD024";
             this.PRD024.OptionsColumn.AllowEdit = false;
             this.PRD024.Visible = true;
-            this.PRD024.VisibleIndex = 27;
+            this.PRD024.VisibleIndex = 28;
             this.PRD024.Width = 113;
             // 
             // PRD025
@@ -725,7 +741,7 @@
             this.PRD025.Name = "PRD025";
             this.PRD025.OptionsColumn.AllowEdit = false;
             this.PRD025.Visible = true;
-            this.PRD025.VisibleIndex = 28;
+            this.PRD025.VisibleIndex = 29;
             this.PRD025.Width = 139;
             // 
             // PRD026
@@ -739,7 +755,7 @@
             this.PRD026.Name = "PRD026";
             this.PRD026.OptionsColumn.AllowEdit = false;
             this.PRD026.Visible = true;
-            this.PRD026.VisibleIndex = 29;
+            this.PRD026.VisibleIndex = 30;
             this.PRD026.Width = 142;
             // 
             // PRD033
@@ -752,7 +768,7 @@
             this.PRD033.FieldName = "PRD033";
             this.PRD033.Name = "PRD033";
             this.PRD033.Visible = true;
-            this.PRD033.VisibleIndex = 26;
+            this.PRD033.VisibleIndex = 27;
             // 
             // PRD036
             // 
@@ -764,7 +780,7 @@
             this.PRD036.FieldName = "PRD036";
             this.PRD036.Name = "PRD036";
             this.PRD036.Visible = true;
-            this.PRD036.VisibleIndex = 18;
+            this.PRD036.VisibleIndex = 19;
             // 
             // PRD037
             // 
@@ -776,7 +792,7 @@
             this.PRD037.FieldName = "PRD037";
             this.PRD037.Name = "PRD037";
             this.PRD037.Visible = true;
-            this.PRD037.VisibleIndex = 19;
+            this.PRD037.VisibleIndex = 20;
             // 
             // PRD038
             // 
@@ -788,7 +804,7 @@
             this.PRD038.FieldName = "PRD038";
             this.PRD038.Name = "PRD038";
             this.PRD038.Visible = true;
-            this.PRD038.VisibleIndex = 20;
+            this.PRD038.VisibleIndex = 21;
             // 
             // PRD039
             // 
@@ -800,7 +816,7 @@
             this.PRD039.FieldName = "PRD039";
             this.PRD039.Name = "PRD039";
             this.PRD039.Visible = true;
-            this.PRD039.VisibleIndex = 21;
+            this.PRD039.VisibleIndex = 22;
             // 
             // PRD040
             // 
@@ -812,7 +828,7 @@
             this.PRD040.FieldName = "PRD040";
             this.PRD040.Name = "PRD040";
             this.PRD040.Visible = true;
-            this.PRD040.VisibleIndex = 22;
+            this.PRD040.VisibleIndex = 23;
             // 
             // PRD041
             // 
@@ -824,7 +840,7 @@
             this.PRD041.FieldName = "PRD041";
             this.PRD041.Name = "PRD041";
             this.PRD041.Visible = true;
-            this.PRD041.VisibleIndex = 23;
+            this.PRD041.VisibleIndex = 24;
             // 
             // PRD035
             // 
@@ -836,7 +852,7 @@
             this.PRD035.FieldName = "PRD035";
             this.PRD035.Name = "PRD035";
             this.PRD035.Visible = true;
-            this.PRD035.VisibleIndex = 35;
+            this.PRD035.VisibleIndex = 36;
             // 
             // PRD042
             // 
@@ -861,7 +877,7 @@
             this.PRD043.FieldName = "PRD043";
             this.PRD043.Name = "PRD043";
             this.PRD043.Visible = true;
-            this.PRD043.VisibleIndex = 32;
+            this.PRD043.VisibleIndex = 33;
             this.PRD043.Width = 94;
             // 
             // splitContainerControl1
@@ -1205,6 +1221,19 @@
             this.gridColumn10.Visible = true;
             this.gridColumn10.VisibleIndex = 9;
             // 
+            // PRD044
+            // 
+            this.PRD044.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.PRD044.AppearanceCell.Options.UseFont = true;
+            this.PRD044.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.PRD044.AppearanceHeader.Options.UseFont = true;
+            this.PRD044.Caption = "所属车间";
+            this.PRD044.FieldName = "PRD044";
+            this.PRD044.Name = "PRD044";
+            this.PRD044.OptionsColumn.AllowEdit = false;
+            this.PRD044.Visible = true;
+            this.PRD044.VisibleIndex = 15;
+            // 
             // FormProductDailyWork
             // 
             this.Appearance.Options.UseFont = true;
@@ -1324,5 +1353,6 @@
         private DevExpress . XtraGrid . Columns . GridColumn gridColumn10;
         private DevExpress . XtraGrid . Columns . GridColumn PRD043;
         private DevExpress . XtraEditors . SplitContainerControl splitContainerControl2;
+        private DevExpress . XtraGrid . Columns . GridColumn PRD044;
     }
 }
