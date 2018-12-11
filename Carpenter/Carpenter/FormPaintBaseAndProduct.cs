@@ -6,6 +6,7 @@ using System . Collections . Generic;
 using System;
 using System . Reflection;
 using DevExpress . Utils . Paint;
+using System . Linq;
 
 namespace Carpenter
 {
@@ -23,7 +24,7 @@ namespace Carpenter
 
             _bll = new CarpenterBll . Bll . PaintBaseAndProductBll ( );
 
-            ToolBarContain . ToolbarsC ( barTool ,new DevExpress . XtraBars . BarButtonItem [ ] { toolExport ,toolPrint ,toolCancellation ,toolExamin ,toolReview } );
+            ToolBarContain . ToolbarsC ( barTool ,new DevExpress . XtraBars . BarButtonItem [ ] {  toolCancellation ,toolExamin ,toolReview } );
 
             controlUnEnable ( );
 
@@ -36,6 +37,8 @@ namespace Carpenter
             gridL . DisplayMember = "PBA001";
             gridL . ValueMember = "PBA001";
             wait . Hide ( );
+
+            toolPrint . Caption = "导入";
         }
 
         #region Main
@@ -120,8 +123,32 @@ namespace Carpenter
 
             return base . Cancel ( );
         }
+        protected override int Export ( )
+        {
+            ViewExport . ExportToExcel ( this . Text ,gridControl1 );
+
+            return base . Export ( );
+        }
+        protected override int Print ( )
+        {
+            DataTable table = ExeclToDataSource . Choise ( );
+
+            if ( table == null || table . Rows . Count < 1 )
+                return 0;
+
+            if ( checkTable ( table ) == false )
+                return 0;
+
+            result = _bll . SaveTable ( table );
+            if ( result )
+                XtraMessageBox . Show ( "成功保存,请查询" );
+            else
+                XtraMessageBox . Show ( "保存失败,请重试" );
+
+            return base . Print ( );
+        }
         #endregion
-        
+
         #region Event
         private void backgroundWorker1_DoWork ( object sender ,DoWorkEventArgs e )
         {
@@ -135,6 +162,8 @@ namespace Carpenter
                 gridControl1 . DataSource = tableView;
                 QueryTool ( );
                 controlUnEnable ( );
+                toolExport . Visibility = DevExpress . XtraBars . BarItemVisibility . Always;
+                toolPrint . Visibility = DevExpress . XtraBars . BarItemVisibility . Always;
             }
         }
         private void backgroundWorker2_DoWork ( object sender ,DoWorkEventArgs e )
@@ -230,6 +259,42 @@ namespace Carpenter
         void controlEnable ( )
         {
             gridView1 . OptionsBehavior . Editable = true;
+        }
+        bool checkTable ( DataTable table )
+        {
+            result = true;
+
+            var query = from p in table . AsEnumerable ( )
+                        group p by new
+                        {
+                            p2 = p . Field<string> ( "2" ) ,
+                            p3 = p . Field<string> ( "3" ) ,
+                            p4 = p . Field<string> ( "4" ) ,
+                            p5 = p . Field<string> ( "5" ) 
+                        } into m
+                        select new
+                        {
+                            epp002 = m . Key . p2 ,
+                            epp003 = m . Key . p3 ,
+                            epp004 = m . Key . p4 ,
+                            epp005 = m . Key . p5 ,
+                            rowcount = m . Count ( )
+                        };
+
+            if ( query != null )
+            {
+                foreach ( var x in query )
+                {
+                    if ( x . rowcount > 1 )
+                    {
+                        XtraMessageBox . Show ( "系列:" + x . epp002 + "\n\r品号:" + x . epp003 + "\n\r品名:" + x . epp004 + "\n\r部件:" + x . epp005 + "\n\r重复,请核实" ,"提示" );
+                        result = false;
+                        break;
+                    }
+                }
+            }
+
+            return result;
         }
         #endregion
 

@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Report ScriptLanguage="CSharp" ReportInfo.Created="05/03/2018 09:24:08" ReportInfo.Modified="05/07/2018 16:50:34" ReportInfo.CreatorVersion="2013.2.5.0">
+<Report ScriptLanguage="CSharp" ReportInfo.Created="05/03/2018 09:24:08" ReportInfo.Modified="12/05/2018 15:56:34" ReportInfo.CreatorVersion="2013.2.5.0">
   <Dictionary>
-    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDhPFD1w+LtzdaMPBNAktEr+g/Sm3lULf9FnM6g745axA==">
-      <TableDataSource Name="Table" DataType="System.Int32" Enabled="true" SelectCommand="SELECT PRD004,PRD005,PRD013,PRD007,PRD009,PRD011,PRD034,PRD003,PRD019,PRD023 FROM MOXPRD&#13;&#10;">
-        <Column Name="PRD004" DataType="System.String"/>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuDhPFD1w+LtzdaMPBNAktErvZgak94w/tIgKudzk2VU2A==">
+      <TableDataSource Name="Table" DataType="System.Int32" Enabled="true" SelectCommand="SELECT PRD005,CONVERT(VARCHAR,PRD013,111) PRD013,PRD007,PRD008,PRD009,PRD011,PRD034,PRD003,PRD019,PRD023,PRD013 FROM MOXPRD WHERE 1=1 AND convert(varchar,PRD013,112)='20181204'">
         <Column Name="PRD005" DataType="System.String"/>
         <Column Name="PRD013" DataType="System.DateTime"/>
         <Column Name="PRD007" DataType="System.String"/>
@@ -13,6 +12,8 @@
         <Column Name="PRD019" DataType="System.Decimal"/>
         <Column Name="PRD023" DataType="System.Int32"/>
         <Column Name="PRD009" DataType="System.String"/>
+        <Column Name="PRD008" DataType="System.String"/>
+        <Column Name="PRD0131" DataType="System.DateTime"/>
       </TableDataSource>
     </OleDbDataConnection>
   </Dictionary>

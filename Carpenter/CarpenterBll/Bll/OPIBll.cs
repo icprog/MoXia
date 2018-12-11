@@ -1,4 +1,5 @@
 ﻿
+using System . Collections . Generic;
 using System . Data;
 using System . Text;
 
@@ -106,6 +107,17 @@ namespace CarpenterBll . Bll
         public bool Exists ( int idx )
         {
             return _dao . Exists ( idx );
+        }
+
+        /// <summary>
+        /// 批量编辑产品系列
+        /// </summary>
+        /// <param name="piStr"></param>
+        /// <param name="odd"></param>
+        /// <returns></returns>
+        public bool BatchProOfAll ( List<string> piStr ,string odd )
+        {
+            return _dao . BatchProOfAll ( piStr ,odd );
         }
 
     }

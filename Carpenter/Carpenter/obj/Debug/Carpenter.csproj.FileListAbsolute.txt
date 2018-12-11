@@ -979,3 +979,4 @@ D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.Query.SetRe
 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormPlanAssembleDay.resources
 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.csproj.GenerateResource.Cache
 D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.FormProPartArt.resources
+D:\ProjectData\MoXia\Project\Carpenter\Carpenter\obj\Debug\Carpenter.OrderEdit.FormBatchProduct.resources

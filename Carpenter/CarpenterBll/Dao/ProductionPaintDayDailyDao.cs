@@ -200,6 +200,8 @@ namespace CarpenterBll . Dao
             strSql . Append ( " UNION ALL " );
             strSql . AppendFormat ( "SELECT PWF002,PWF003,PWF004,PDP025,OPI006,CUU005 PWE008,{0} PWF FROM MOXPWF A INNER JOIN MOXPWE B ON A.PWF002=B.PWE003 AND A.PWF003=B.PWE004 INNER JOIN MOXOPI C ON A.PWF003=C.OPI001 INNER JOIN MOXPWD D ON B.PWE001=D.PWD001 INNER JOIN MOXPDP E ON A.PWF002=E.PDP001 AND A.PWF003=E.PDP002 INNER JOIN MOXCUU F ON A.PWF002=CUU001 AND PWF003=CUU002  " ,column );
             strSql . AppendFormat ( "WHERE PWF012='{0}' AND PWF014='{1}' AND PWD002='{2}' AND {3}>0 AND PWF017='' " ,dateTime ,person ,workShop ,column );
+            strSql . Append ( " UNION ALL " );
+            strSql . AppendFormat ( "SELECT PWF002,PWF003,PWF004,PDP025,OPI006,CUU005 PWE008,{2} PWF FROM MOXPWF A INNER JOIN MOXOPI B ON A.PWF003=B.OPI001 INNER JOIN MOXPDP C ON A.PWF002=C.PDP001 AND A.PWF003=C.PDP002 INNER JOIN MOXCUU D ON A.PWF002=D.CUU001 AND A.PWF003=D.CUU002 WHERE PWF012='{0}' AND PWF014='{1}' AND {2}>0 AND PWF017=''" ,dateTime ,person ,column );
             strSql . Append ( "), CFT AS (" );
             strSql . AppendFormat ( "SELECT A.PWF002,A.PWF003,SUM(A.{0}) PWF FROM MOXPWF A INNER JOIN CET B ON A.PWF002=B.PWF002 AND A.PWF003=B.PWF003 WHERE PWF012<'{1}' GROUP BY A.PWF002,A.PWF003) " ,column ,dateTime );
             strSql . Append ( "SELECT A.*,ISNULL(B.PWF,0) PWFSUM,A.PDP025-A.PWF-ISNULL(B.PWF,0) RES FROM CET A LEFT JOIN CFT B ON A.PWF002=B.PWF002 AND A.PWF003=B.PWF003 ORDER BY A.PWF002,A.PWF003" );
@@ -220,9 +222,13 @@ namespace CarpenterBll . Dao
             StringBuilder strSql = new StringBuilder ( );
             if ( workShop . Equals ( "包装" ) )
             {
+                strSql . Append ( "WITH CET AS (" );
                 strSql . Append ( "SELECT PWF012,PWF014,'包装' PWD002,CONVERT(FLOAT,SUM(PWF016*OPI004)) PWE FROM MOXPWF A LEFT JOIN MOXOPI C ON A.PWF003=C.OPI001  " );
                 strSql . AppendFormat ( "WHERE PWF012='{0}' AND PWF014='{1}' " ,dateTime ,person  );
-                strSql . Append ( "GROUP BY PWF012,PWF014" );
+                strSql . Append ( "GROUP BY PWF012,PWF014 " );
+                strSql . AppendFormat ( " UNION ALL " );
+                strSql . AppendFormat ( "SELECT PWF012,PWF014,'包装',CONVERT(FLOAT,SUM(PWF016*OPI004)) PWF FROM MOXPWF A INNER JOIN MOXOPI B ON A.PWF003=B.OPI001 WHERE PWF012='{0}' AND PWF014='{1}' AND PWF016>0 AND PWF017='' GROUP BY PWF012,PWF014) "  ,dateTime ,person  );
+                strSql . AppendFormat ( "SELECT PWF012,PWF014,PWD002,SUM(PWE) PWE FROM CET GROUP BY PWF012,PWF014,PWD002" );
             }
             else
             {
@@ -238,9 +244,13 @@ namespace CarpenterBll . Dao
                 else if ( workShop . Equals ( ColumnValues . yq_ym ) )
                     column = "PWF008";
 
+                strSql . Append ( "WITH CET AS (" );
                 strSql . AppendFormat ( "SELECT PWF012,PWF014,PWD002,CONVERT(FLOAT,SUM({0}*OPI004)) PWE FROM MOXPWF A INNER JOIN MOXPWE B ON A.PWF002=B.PWE003 AND A.PWF003=B.PWE004 AND A.PWF017=B.PWE001 INNER JOIN MOXOPI C ON A.PWF003=C.OPI001 INNER JOIN MOXPWD D ON B.PWE001=D.PWD001 " ,column );
                 strSql . AppendFormat ( "WHERE PWF012='{0}' AND PWF014='{1}' AND PWD002='{2}' " ,dateTime ,person ,workShop );
                 strSql . Append ( "GROUP BY PWF012,PWF014,PWD002" );
+                strSql . AppendFormat ( " UNION ALL " );
+                strSql . AppendFormat ( "SELECT PWF012,PWF014,'{0}',CONVERT(FLOAT,SUM({3}*OPI004)) PWF FROM MOXPWF A INNER JOIN MOXOPI B ON A.PWF003=B.OPI001 WHERE PWF012='{1}' AND PWF014='{2}' AND {3}>0 AND PWF017='' GROUP BY PWF012,PWF014) " ,workShop ,dateTime ,person ,column );
+                strSql . AppendFormat ( "SELECT PWF012,PWF014,PWD002,SUM(PWE) PWE FROM CET GROUP BY PWF012,PWF014,PWD002" );
             }
 
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );

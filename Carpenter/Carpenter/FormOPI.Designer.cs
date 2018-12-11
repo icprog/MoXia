@@ -63,6 +63,7 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.btnCl = new DevExpress.XtraEditors.SimpleButton();
+            this.btnBatch = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.lupColor.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lupSpeci.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lupType.Properties)).BeginInit();
@@ -166,7 +167,7 @@
             this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1245, 326);
+            this.gridControl1.Size = new System.Drawing.Size(1245, 335);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -194,6 +195,9 @@
             this.gridView1.IndicatorWidth = 45;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsBehavior.Editable = false;
+            this.gridView1.OptionsSelection.CheckBoxSelectorColumnWidth = 35;
+            this.gridView1.OptionsSelection.MultiSelect = true;
+            this.gridView1.OptionsSelection.MultiSelectMode = DevExpress.XtraGrid.Views.Grid.GridMultiSelectMode.CheckBoxRowSelect;
             this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.RowClick += new DevExpress.XtraGrid.Views.Grid.RowClickEventHandler(this.gridView1_RowClick);
             this.gridView1.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gridView1_CustomDrawRowIndicator);
@@ -372,8 +376,9 @@
             // 
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerControl1.Horizontal = false;
-            this.splitContainerControl1.Location = new System.Drawing.Point(0, 26);
+            this.splitContainerControl1.Location = new System.Drawing.Point(0, 24);
             this.splitContainerControl1.Name = "splitContainerControl1";
+            this.splitContainerControl1.Panel1.Controls.Add(this.btnBatch);
             this.splitContainerControl1.Panel1.Controls.Add(this.comUnit);
             this.splitContainerControl1.Panel1.Controls.Add(this.comAtt);
             this.splitContainerControl1.Panel1.Controls.Add(this.comClass);
@@ -395,7 +400,7 @@
             this.splitContainerControl1.Panel2.Controls.Add(this.wait);
             this.splitContainerControl1.Panel2.Controls.Add(this.gridControl1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1245, 411);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1245, 413);
             this.splitContainerControl1.SplitterPosition = 73;
             this.splitContainerControl1.TabIndex = 4;
             this.splitContainerControl1.Text = "splitContainerControl1";
@@ -543,6 +548,17 @@
             this.btnCl.Text = "清除";
             this.btnCl.Click += new System.EventHandler(this.btnCl_Click);
             // 
+            // btnBatch
+            // 
+            this.btnBatch.Appearance.Font = new System.Drawing.Font("宋体", 12F);
+            this.btnBatch.Appearance.Options.UseFont = true;
+            this.btnBatch.Location = new System.Drawing.Point(913, 41);
+            this.btnBatch.Name = "btnBatch";
+            this.btnBatch.Size = new System.Drawing.Size(75, 23);
+            this.btnBatch.TabIndex = 49;
+            this.btnBatch.Text = "批量编辑";
+            this.btnBatch.Click += new System.EventHandler(this.btnBatch_Click);
+            // 
             // FormOPI
             // 
             this.Appearance.Options.UseFont = true;
@@ -607,5 +623,6 @@
         private DevExpress . XtraEditors . ComboBoxEdit comUnit;
         private DevExpress . XtraEditors . ComboBoxEdit comAtt;
         private DevExpress . XtraEditors . ComboBoxEdit comClass;
+        private DevExpress . XtraEditors . SimpleButton btnBatch;
     }
 }

@@ -1,6 +1,8 @@
 ﻿
+using Carpenter . OrderEdit;
 using DevExpress . XtraEditors;
 using System;
+using System . Collections . Generic;
 using System . Data;
 using System . Reflection;
 using System . Threading;
@@ -311,6 +313,26 @@ namespace Carpenter
             {
                 e . Info . DisplayText = ( e . RowHandle + 1 ) . ToString ( );
             }
+        }
+        //批量编辑
+        private void btnBatch_Click ( object sender ,EventArgs e )
+        {
+            int [ ] selectRows = gridView1 . GetSelectedRows ( );
+            if ( selectRows . Length < 1 )
+            {
+                XtraMessageBox . Show ( "请选择需要批量编辑的产品" );
+                return;
+            }
+            List<string> piStr = new List<string> ( );
+            DataRow row;
+            foreach ( int i in selectRows )
+            {
+                row = gridView1 . GetDataRow ( i );
+                piStr . Add ( row [ "OPI001" ] . ToString ( ) );
+            }
+
+            FormBatchProduct from = new FormBatchProduct ( piStr );
+            from . ShowDialog ( );
         }
         #endregion
 

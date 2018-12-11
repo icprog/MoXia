@@ -144,5 +144,39 @@ namespace CarpenterBll . Dao
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
         }
 
+        /// <summary>
+        /// 导入数据
+        /// </summary>
+        /// <param name="table"></param>
+        /// <returns></returns>
+        public bool SaveTable ( DataTable table )
+        {
+            Hashtable SQLString = new Hashtable ( );
+            StringBuilder strSql = new StringBuilder ( );
+            CarpenterEntity . PaintBaseAndProductEntity model = new CarpenterEntity . PaintBaseAndProductEntity ( );
+            foreach ( DataRow row in table . Rows )
+            {
+                model . PBA001 = row [ "3" ] . ToString ( );
+                if ( model . PBA001 . Equals ( "品号" ) )
+                    continue;
+                model . PBA002 = row [ "4" ] . ToString ( );
+                model . PBA003 = row [ "5" ] . ToString ( );
+                model . PBA004 = string . IsNullOrEmpty ( row [ "6" ] . ToString ( ) ) == true ? 0 : Convert . ToDecimal ( row [ "6" ] . ToString ( ) );
+                model . PBA005 = row [ "2" ] . ToString ( );
+                if ( !Exists ( model ) )
+                    Add ( SQLString ,strSql ,model );
+            }
+
+            return SqlHelper . ExecuteSqlTran ( SQLString );
+        }
+
+        bool Exists ( CarpenterEntity . PaintBaseAndProductEntity model )
+        {
+            StringBuilder strSql = new StringBuilder ( );
+            strSql . AppendFormat ( "SELECT COUNT(1) FROM MOXPBA WHERE PBA001='{0}' AND PBA003='{1}' AND PBA005='{2}'" ,model . PBA001 ,model . PBA003 ,model . PBA005 );
+
+            return SqlHelper . Exists ( strSql . ToString ( ) );
+        }
+
     }
 }

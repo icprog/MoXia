@@ -63,6 +63,15 @@ namespace CarpenterBll . Bll
             return dal . getColumns ( xl );
         }
 
+        /// <summary>
+        /// 导入数据
+        /// </summary>
+        /// <param name="table"></param>
+        /// <returns></returns>
+        public bool SaveTable ( DataTable table )
+        {
+            return dal . SaveTable ( table );
+        }
 
         }
 }

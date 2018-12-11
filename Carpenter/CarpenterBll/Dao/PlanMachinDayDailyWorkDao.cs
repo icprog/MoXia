@@ -188,13 +188,15 @@ namespace CarpenterBll . Dao
             strSql . Append ( "WITH CET AS (" );
             strSql . AppendFormat ( "SELECT PMY002,PMY003,PMY004,PST028,OPI006,PMX008,{0} PMY FROM MOXPMY A INNER JOIN MOXPMX B ON A.PMY002=B.PMX003 AND A.PMY003=B.PMX004 AND A.PMY016=B.PMX001 INNER JOIN MOXOPI C ON A.PMY003=C.OPI001 INNER JOIN MOXPMW D ON B.PMX001=D.PMW001 INNER JOIN MOXPST E ON A.PMY002=E.PST001 AND A.PMY003=E.PST002 " ,column );
             strSql . AppendFormat ( "WHERE PMY012='{0}' AND PMY014='{1}' AND PMW002='{2}' AND {3}>0" ,dateTime ,person ,workShop ,column );
+            strSql . Append ( " UNION ALL " );
+            strSql . AppendFormat ( "SELECT PMY002,PMY003,PMY004,PST028,OPI006,CUU008,{0} PMY FROM MOXPMY A INNER JOIN MOXOPI C ON A.PMY003=C.OPI001 INNER JOIN MOXPST E ON A.PMY002=E.PST001 AND A.PMY003=E.PST002 INNER JOIN MOXCUU B ON A.PMY002=B.CUU001 AND A.PMY003=B.CUU002 WHERE PMY012='{1}' AND PMY014='{2}' AND {0}>0 AND PMY016=''" ,column ,dateTime ,person );
             strSql . Append ( "),CFT AS (" );
             strSql . AppendFormat ( "SELECT A.PMY002,A.PMY003,MAX(A.{0}) PMY FROM MOXPMY A INNER JOIN CET B ON A.PMY002=B.PMY002 AND A.PMY003=B.PMY003 WHERE PMY012<'{1}' GROUP BY A.PMY002,A.PMY003) " ,column ,dateTime );
             strSql . Append ( "SELECT A.*,B.PMY PMYSUM,A.PST028-A.PMY-B.PMY RES FROM CET A LEFT JOIN CFT B ON A.PMY002=B.PMY002 AND A.PMY003=B.PMY003 ORDER BY A.PMY002,A.PMY003" );
 
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
         }
-
+        
         /// <summary>
         /// 获取打印数据
         /// </summary>
@@ -205,13 +207,17 @@ namespace CarpenterBll . Dao
         public DataTable GetDataTablePrintTwo ( string workShop ,string dateTime ,string person )
         {
             StringBuilder strSql = new StringBuilder ( );
+            strSql . Append ( "WITH CET AS(" );
             strSql . Append ( "SELECT PMY012,PMY014,PMW002,CONVERT(FLOAT,SUM(PMX007*OPI004)) PSX FROM MOXPMY A INNER JOIN MOXPMX B ON A.PMY002=B.PMX003 AND A.PMY003=B.PMX004 AND A.PMY016=B.PMX001 INNER JOIN MOXOPI C ON A.PMY003=C.OPI001 INNER JOIN MOXPMW D ON B.PMX001=D.PMW001 " );
             strSql . AppendFormat ( "WHERE PMY012='{0}' AND PMY014='{1}' AND PMW002='{2}' " ,dateTime ,person ,workShop );
             strSql . Append ( "GROUP BY PMY012,PMY014,PMW002" );
+            strSql . Append ( " UNION ALL " );
+            strSql . AppendFormat ( "SELECT PMY012,PMY014,'{2}',CONVERT(FLOAT,SUM(PST028*OPI004)) PSX FROM MOXPMY A INNER JOIN MOXPST E ON A.PMY002=E.PST001 AND A.PMY003=E.PST002 INNER JOIN MOXOPI C ON A.PMY003=C.OPI001 WHERE PMY012='{0}' AND PMY014='{1}'  AND PMY016='' GROUP BY PMY012,PMY014)" ,dateTime ,person ,workShop );
+            strSql . AppendFormat ( " SELECT PMY012,PMY014,PMW002,SUM(PSX) PSX FROM CET GROUP BY PMY012,PMY014,PMW002 " );
 
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
         }
-
+        
         /// <summary>
         /// 删除
         /// </summary>

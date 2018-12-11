@@ -340,6 +340,7 @@
     <Compile Include="CrossThreadCalls.cs" />
     <Compile Include="Encrypt.cs" />
     <Compile Include="ExeclExportHelper.cs" />
+    <Compile Include="ExeclToDataSource.cs" />
     <Compile Include="FormArt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -750,6 +751,12 @@
     </Compile>
     <Compile Include="Graph.cs" />
     <Compile Include="GridControlExport.cs" />
+    <Compile Include="OrderEdit\FormBatchProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderEdit\FormBatchProduct.Designer.cs">
+      <DependentUpon>FormBatchProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="OrderEdit\FormExpendWarn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1216,6 +1223,9 @@
       <DependentUpon>FromPlanMachinWeekDailyWork.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="OrderEdit\FormBatchProduct.resx">
+      <DependentUpon>FormBatchProduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OrderEdit\FormExpendWarn.resx">
       <DependentUpon>FormExpendWarn.cs</DependentUpon>
     </EmbeddedResource>

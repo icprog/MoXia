@@ -91,6 +91,15 @@ namespace CarpenterBll . Bll
             return _dal . getTableOther ( );
         }
 
+        /// <summary>
+        /// 导入数据到库
+        /// </summary>
+        /// <param name="table"></param>
+        /// <returns></returns>
+        public bool SaveTable ( DataTable table )
+        {
+            return _dal . SaveTable ( table );
+        }
 
     }
 }

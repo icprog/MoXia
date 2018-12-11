@@ -3,6 +3,8 @@ using System . Data;
 using System . Text;
 using StudentMgr;
 using System . Data . SqlClient;
+using System . Collections . Generic;
+using System . Collections;
 
 namespace CarpenterBll . Dao
 {
@@ -255,6 +257,26 @@ namespace CarpenterBll . Dao
                 else
                     return false;
             }
+        }
+
+        /// <summary>
+        /// 批量编辑产品系列
+        /// </summary>
+        /// <param name="piStr"></param>
+        /// <param name="odd"></param>
+        /// <returns></returns>
+        public bool BatchProOfAll ( List<string> piStr ,string odd )
+        {
+            Hashtable SQLString = new Hashtable ( );
+            StringBuilder strSql;
+            foreach ( string str in piStr )
+            {
+                strSql = new StringBuilder ( );
+                strSql . AppendFormat ( "UPDATE MOXOPI SET OPI003='{0}' WHERE OPI001='{1}'"  ,odd ,str );
+                SQLString . Add ( strSql . ToString ( ) ,null );
+            }
+
+            return SqlHelper . ExecuteSqlTran ( SQLString );
         }
 
     }

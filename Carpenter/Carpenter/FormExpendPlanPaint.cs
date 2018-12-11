@@ -26,7 +26,7 @@ namespace Carpenter
             _bll = new CarpenterBll . Bll . ExpendPlanPaintBll ( );
             tableView = new DataTable ( );
 
-            ToolBarContain . ToolbarsC ( barTool ,new DevExpress . XtraBars . BarButtonItem [ ] { toolExport,toolPrint,toolCancellation ,toolExamin ,toolReview  } );
+            ToolBarContain . ToolbarsC ( barTool ,new DevExpress . XtraBars . BarButtonItem [ ] { toolCancellation ,toolExamin ,toolReview  } );
 
             Utility . GridViewMoHuSelect . SetFilter ( gridView1 );
 
@@ -36,6 +36,8 @@ namespace Carpenter
             wait . Hide ( );
             gridView1 . OptionsBehavior . Editable = false;
             getColumnData ( );
+
+            toolPrint . Caption = "导入";
         }
         
         #region Main
@@ -126,6 +128,32 @@ namespace Carpenter
 
             return base . Cancel ( );
         }
+        protected override int Export ( )
+        {
+            ViewExport . ExportToExcel ( this . Text ,gridControl1 );
+
+            return base . Export ( );
+        }
+        protected override int Print ( )
+        {
+            DataTable table = ExeclToDataSource . Choise ( );
+            if ( table == null || table . Rows . Count < 1 )
+                return 0;
+
+            if ( checkTable ( table ) == false )
+                return 0;
+
+            result = _bll . SaveTable ( table );
+            if ( result )
+            {
+                XtraMessageBox . Show ( "成功导入,请查询" );
+                return 0;
+            }
+            else
+                XtraMessageBox . Show ( "导入失败,请重试" );
+
+            return base . Print ( );
+        }
         #endregion
 
         #region Event
@@ -148,6 +176,8 @@ namespace Carpenter
                 gridControl1 . DataSource = tableView;
                 QueryTool ( );
                 gridView1 . OptionsBehavior . Editable = false;
+                toolExport . Visibility = DevExpress . XtraBars . BarItemVisibility . Always;
+                toolPrint . Visibility = DevExpress . XtraBars . BarItemVisibility . Always;
             }
         }
         private void gridControl1_KeyPress ( object sender ,System . Windows . Forms . KeyPressEventArgs e )
@@ -334,7 +364,47 @@ namespace Carpenter
             }
 
             return result;
-        } 
+        }
+        bool checkTable ( DataTable table )
+        {
+            result = true;
+
+            var query = from p in table . AsEnumerable ( )
+                        group p by new
+                        {
+                            p1 = p . Field<string> ( "1" ) ,
+                            p2 = p . Field<string> ( "2" ) ,
+                            p3 = p . Field<string> ( "3" ) ,
+                            p4 = p . Field<string> ( "4" ) ,
+                            p5 = p . Field<string> ( "5" ) ,
+                            p7 = p . Field<string> ( "7" )
+                        } into m
+                        select new
+                        {
+                            epp001 = m . Key . p1 ,
+                            epp002 = m . Key . p2 ,
+                            epp003 = m . Key . p3 ,
+                            epp004 = m . Key . p4 ,
+                            epp005 = m . Key . p5 ,
+                            epp007 = m . Key . p7 ,
+                            rowcount = m . Count ( )
+                        };
+
+            if ( query != null )
+            {
+                foreach ( var x in query )
+                {
+                    if ( x . rowcount > 1 )
+                    {
+                        XtraMessageBox . Show ( "系列:" + x . epp001 + "\n\r部件:" + x . epp002 + "\n\r名称:" + x . epp003 + "\n\r工序:" + x . epp004 + "\n\r油漆:" + x . epp005 + "\n\r时间:" + x . epp007 + "\n\r重复,请核实" ,"提示" );
+                        result = false;
+                        break;
+                    }
+                }
+            }
+
+            return result;
+        }
         #endregion
 
     }

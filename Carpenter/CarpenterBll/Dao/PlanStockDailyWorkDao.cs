@@ -212,10 +212,12 @@ namespace CarpenterBll . Dao
             strSql . Append ( "WITH CET AS (" );
             strSql . AppendFormat ( "SELECT PDW002,PDW003,PDW004,PST028,OPI006,PSX008,{0} PDW FROM MOXPDW A INNER JOIN MOXPSX B ON A.PDW002=B.PSX003 AND A.PDW003=B.PSX004 AND A.PDW016=B.PSX001 INNER JOIN MOXOPI C ON A.PDW003=C.OPI001 INNER JOIN MOXPSW D ON B.PSX001=D.PSW001 INNER JOIN MOXPST E ON A.PDW002=E.PST001 AND A.PDW003=E.PST002 " ,column );
             strSql . AppendFormat ( "WHERE PDW012='{0}' AND PDW014='{1}' AND PSW002='{2}' AND {3}>0" ,dateTime ,person ,workShop ,column );
+            strSql . Append ( " UNION ALL " );
+            strSql . AppendFormat ( "SELECT PDW002,PDW003,PDW004,PST028,OPI006,CUU008 PSX008,{0} PDW FROM MOXPDW A INNER JOIN MOXOPI C ON A.PDW003=C.OPI001 INNER JOIN MOXPST E ON A.PDW002=E.PST001 AND A.PDW003=E.PST002 INNER JOIN MOXCUU F ON A.PDW002=F.CUU001 AND A.PDW003=F.CUU002 WHERE PDW012='{1}' AND PDW014='{2}' AND {0}>0 AND PDW016=''" ,column ,dateTime ,person );
             strSql . Append ( "),CFT AS (" );
             strSql . AppendFormat ( "SELECT A.PDW002,A.PDW003,SUM(A.{0}) PDW FROM MOXPDW A INNER JOIN CET B ON A.PDW002=B.PDW002 AND A.PDW003=B.PDW003 WHERE PDW012<'{1}' GROUP BY A.PDW002,A.PDW003) " ,column ,dateTime );
             strSql . Append ( " SELECT A.*,B.PDW PDWSUM,A.PST028-A.PDW-B.PDW RES FROM CET A LEFT JOIN CFT B ON A.PDW002=B.PDW002 AND A.PDW003=B.PDW003 ORDER BY A.PDW002,A.PDW003" );
-
+            
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
         }
 
@@ -229,9 +231,13 @@ namespace CarpenterBll . Dao
         public DataTable GetDataTablePrintTwo (string workShop,string dateTime,string person )
         {
             StringBuilder strSql = new StringBuilder ( );
+            strSql . Append ( "WITH CET AS (" );
             strSql . Append ( "SELECT PDW012,PDW014,PSW002,CONVERT(FLOAT,SUM(PSX007*OPI004)) PSX FROM MOXPDW A INNER JOIN MOXPSX B ON A.PDW002=B.PSX003 AND A.PDW003=B.PSX004 AND A.PDW016=B.PSX001 INNER JOIN MOXOPI C ON A.PDW003=C.OPI001 INNER JOIN MOXPSW D ON B.PSX001=D.PSW001 " );
             strSql . AppendFormat ( "WHERE PDW012='{0}' AND PDW014='{1}' AND PSW002='{2}' " ,dateTime ,person ,workShop );
             strSql . Append ( "GROUP BY PDW012,PDW014,PSW002" );
+            strSql . Append ( " UNION ALL " );
+            strSql . AppendFormat ( "SELECT PDW012,PDW014,'{2}',CONVERT(FLOAT,SUM(PST028*OPI004)) PSX FROM MOXPDW A INNER JOIN MOXPST E ON A.PDW002=E.PST001 AND A.PDW003=E.PST002 INNER JOIN MOXOPI C ON A.PDW003=C.OPI001 WHERE PDW012='{0}' AND PDW014='{1}' AND PDW016='' GROUP BY PDW012,PDW014) " ,dateTime ,person ,workShop );
+            strSql . Append ( " SELECT PDW012,PDW014,PSW002,SUM(PSX) PSX FROM CET GROUP BY PDW012,PDW014,PSW002" );
 
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
         }

@@ -248,5 +248,38 @@ namespace CarpenterBll . Dao
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
         }
 
+        /// <summary>
+        /// 导入数据到库
+        /// </summary>
+        /// <param name="table"></param>
+        /// <returns></returns>
+        public bool SaveTable ( DataTable table )
+        {
+            Hashtable SQLString = new Hashtable ( );
+            StringBuilder strSql = new StringBuilder ( );
+            CarpenterEntity . ExpendPlanPaintEntity model = new CarpenterEntity . ExpendPlanPaintEntity ( );
+            foreach ( DataRow row in table . Rows )
+            {
+                if ( row [ 0 ] . ToString ( ) . Equals ( "系列" ) )
+                    continue;
+                model . EPP001 = row [ "1" ] . ToString ( );
+                model . EPP002 = row [ "2" ] . ToString ( );
+                model . EPP003 = row [ "3" ] . ToString ( );
+                model . EPP004 = row [ "4" ] . ToString ( );
+                model . EPP005 = row [ "5" ] . ToString ( );
+                model . EPP006 = string . IsNullOrEmpty ( row [ "6" ] . ToString ( ) ) == true ? 0 : Convert . ToDecimal ( row [ "6" ] );
+                if ( string . IsNullOrEmpty ( row [ "7" ] . ToString ( ) ) )
+                    model . EPP007 = null;
+                else
+                    model . EPP007 = Convert . ToDateTime ( row [ "7" ] . ToString ( ) );
+                if ( !Exists ( model ) )
+                    add_epp ( SQLString ,strSql ,model );
+            }
+
+            return SqlHelper . ExecuteSqlTran ( SQLString );
+        }
+
+
+
     }
 }

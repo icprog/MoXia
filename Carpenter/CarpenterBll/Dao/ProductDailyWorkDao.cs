@@ -728,7 +728,7 @@ namespace CarpenterBll . Dao
         public DataTable getPrintTable ( string strWhere )
         {
             StringBuilder strSql = new StringBuilder ( );
-            strSql . AppendFormat ( "SELECT PRD005,CONVERT(VARCHAR,PRD013,111) PRD013,PRD007,PRD008,PRD011,PRD034,PRD003,PRD019,PRD023 FROM MOXPRD WHERE {0}" ,strWhere );
+            strSql . AppendFormat ( "SELECT PRD005,CONVERT(VARCHAR,PRD013,111) PRD013,PRD007,PRD008,PRD009,PRD011,PRD034,PRD003,PRD019,PRD023 FROM MOXPRD WHERE {0}" ,strWhere );
             
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
         }
