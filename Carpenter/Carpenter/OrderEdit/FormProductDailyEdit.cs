@@ -12,7 +12,7 @@ namespace Carpenter . OrderEdit
         public FormProductDailyEdit ( DataRow row )
         {
             InitializeComponent ( );
-
+            
             _bll = new CarpenterBll . Bll . ProductDailyWorkBll ( );
             _model = new CarpenterEntity . ProductDailyWorkEntity ( );
 
@@ -25,15 +25,15 @@ namespace Carpenter . OrderEdit
         {
             textEdit1 . Tag = row [ "idx" ];
             textEdit1 . Text = row [ "PRD007" ] . ToString ( );
-            textEdit2 . Text = row [ "PRD003" ] . ToString ( );
             textEdit3 . Text = row [ "PRD009" ] . ToString ( );
             textEdit4 . Text = row [ "PRD011" ] . ToString ( );
             textEdit5 . Text = row [ "PRD034" ] . ToString ( );
-            textEdit6 . Text = row [ "PRD007" ] . ToString ( );
-            textEdit7 . Text = row [ "PRD002" ] . ToString ( );
+            textEdit6 . Text = row [ "PRD002" ] . ToString ( );
+            textEdit7 . Text = row [ "PRD001" ] . ToString ( );
             textEdit8 . Text = row [ "PRD005" ] . ToString ( );
             textEdit9 . Text = row [ "PRD004" ] . ToString ( );
             textEdit10 . Text = row [ "PRD032" ] . ToString ( );
+            textEdit2 . Text = row [ "PRD003" ] . ToString ( );
             textEdit11 . Text = row [ "PRD005" ] . ToString ( );
             textEdit12 . Text = row [ "PRD037" ] . ToString ( );
             textEdit13 . Text = row [ "PRD036" ] . ToString ( );
@@ -54,12 +54,42 @@ namespace Carpenter . OrderEdit
             {
                 textEdit19 . Properties . Items . Add ( art );
             }
+           
         }
 
         bool getValue ( )
         {
             dxErrorProvider1 . ClearErrors ( );
+            if ( string . IsNullOrEmpty ( textEdit10 . Text ) )
+            {
+                dxErrorProvider1 . SetError ( textEdit10 ,"不可为空" );
+                return false;
+            }
+            _model . PRD032 = textEdit10 . Text;
+            if ( string . IsNullOrEmpty ( textEdit2 . Text ) )
+            {
+                dxErrorProvider1 . SetError ( textEdit2 ,"不可为空" );
+                return false;
+            }
+            _model . PRD003 = textEdit2 . Text;
+            if ( string . IsNullOrEmpty ( textEdit5 . Text ) )
+            {
+                dxErrorProvider1 . SetError ( textEdit5 ,"不可为空" );
+                return false;
+            }
+            _model . PRD034 = textEdit5 . Text;
+            if ( string . IsNullOrEmpty ( textEdit20 . Text ) )
+            {
+                dxErrorProvider1 . SetError ( textEdit20 ,"不可为空" );
+                return false;
+            }
             decimal outResult = 0;
+            if ( !string . IsNullOrEmpty ( textEdit20 . Text ) && decimal . TryParse ( textEdit20 . Text ,out outResult ) == false )
+            {
+                dxErrorProvider1 . SetError ( textEdit20 ,"请输入数字" );
+                return false;
+            }
+            _model . PRD012 = outResult;
             int outResultNum = 0;
             if ( string . IsNullOrEmpty ( textEdit18 . Text ) )
             {
@@ -166,5 +196,20 @@ namespace Carpenter . OrderEdit
             }
         }
 
+        private void textEdit7_TextChanged ( object sender ,EventArgs e )
+        {
+            DataTable table = _bll . getTableForArt ( textEdit7 . Text );
+            textEdit10 . Properties . DataSource = table;
+            textEdit10 . Properties . DisplayMember = "EQV002";
+            textEdit10 . Properties . ValueMember = "EQV002";
+        }
+
+        private void textEdit10_EditValueChanged ( object sender ,EventArgs e )
+        {
+            DataRow row = View . GetFocusedDataRow ( );
+            if ( row == null )
+                return;
+            textEdit2 . Text = row [ "EQV003" ] . ToString ( );
+        }
     }
 }

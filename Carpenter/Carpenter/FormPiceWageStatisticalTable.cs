@@ -72,23 +72,23 @@ namespace Carpenter
             //intList . Clear ( );
             //editTool ( );
             //gridView1 . OptionsBehavior . Editable = true;
-            if ( row == null )
-            {
-                XtraMessageBox . Show ( "请选择需要编辑的内容" );
-                return 0;
-            }
-            if ( string . IsNullOrEmpty ( dtOne . Text )  )
-            {
-                XtraMessageBox . Show ( "请选择年月" );
-                return 0;
-            }
-            row [ "PWS028" ] = dtOne . Text;
-            OrderEdit . FormPiceWageStatisticalTableEdit from = new OrderEdit . FormPiceWageStatisticalTableEdit ( row );
-            from . StartPosition = FormStartPosition . CenterParent;
-            if ( from . ShowDialog ( ) == DialogResult . OK )
-            {
-                Query ( );
-            }
+            //if ( row == null )
+            //{
+            //    XtraMessageBox . Show ( "请选择需要编辑的内容" );
+            //    return 0;
+            //}
+            //if ( string . IsNullOrEmpty ( dtOne . Text )  )
+            //{
+            //    XtraMessageBox . Show ( "请选择年月" );
+            //    return 0;
+            //}
+            //row [ "PWS028" ] = dtOne . Text;
+            //OrderEdit . FormPiceWageStatisticalTableEdit from = new OrderEdit . FormPiceWageStatisticalTableEdit ( row );
+            //from . StartPosition = FormStartPosition . CenterParent;
+            //if ( from . ShowDialog ( ) == DialogResult . OK )
+            //{
+            //    Query ( );
+            //}
 
             return base . Edit ( );
         }

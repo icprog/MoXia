@@ -8,7 +8,8 @@ namespace Carpenter
         public FormChild ( )
         {
             InitializeComponent ( );
-            Power ( );
+
+           Power ( );
         }
 
         private void FormChild_Load ( object sender ,EventArgs e )

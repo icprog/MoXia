@@ -47,7 +47,6 @@
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit10 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit11 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
@@ -74,6 +73,10 @@
             this.dxErrorProvider1 = new DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider(this.components);
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
+            this.textEdit10 = new DevExpress.XtraEditors.GridLookUpEdit();
+            this.View = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.EQV002 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.EQV003 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
@@ -83,7 +86,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit10.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).BeginInit();
@@ -97,6 +99,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dxErrorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit10.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.View)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl1
@@ -165,7 +169,6 @@
             this.textEdit5.Name = "textEdit5";
             this.textEdit5.Properties.Appearance.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit5.Properties.Appearance.Options.UseFont = true;
-            this.textEdit5.Properties.ReadOnly = true;
             this.textEdit5.Size = new System.Drawing.Size(141, 20);
             this.textEdit5.TabIndex = 9;
             // 
@@ -208,6 +211,7 @@
             this.textEdit7.Properties.ReadOnly = true;
             this.textEdit7.Size = new System.Drawing.Size(141, 20);
             this.textEdit7.TabIndex = 11;
+            this.textEdit7.TextChanged += new System.EventHandler(this.textEdit7_TextChanged);
             // 
             // labelControl7
             // 
@@ -278,16 +282,6 @@
             this.labelControl2.Size = new System.Drawing.Size(63, 14);
             this.labelControl2.TabIndex = 20;
             this.labelControl2.Text = "工艺名称:";
-            // 
-            // textEdit10
-            // 
-            this.textEdit10.Location = new System.Drawing.Point(92, 121);
-            this.textEdit10.Name = "textEdit10";
-            this.textEdit10.Properties.Appearance.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit10.Properties.Appearance.Options.UseFont = true;
-            this.textEdit10.Properties.ReadOnly = true;
-            this.textEdit10.Size = new System.Drawing.Size(141, 20);
-            this.textEdit10.TabIndex = 19;
             // 
             // labelControl10
             // 
@@ -468,7 +462,6 @@
             this.textEdit20.Name = "textEdit20";
             this.textEdit20.Properties.Appearance.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit20.Properties.Appearance.Options.UseFont = true;
-            this.textEdit20.Properties.ReadOnly = true;
             this.textEdit20.Size = new System.Drawing.Size(141, 20);
             this.textEdit20.TabIndex = 41;
             // 
@@ -536,6 +529,50 @@
             this.checkEdit2.Size = new System.Drawing.Size(75, 19);
             this.checkEdit2.TabIndex = 45;
             // 
+            // textEdit10
+            // 
+            this.textEdit10.Location = new System.Drawing.Point(92, 121);
+            this.textEdit10.Name = "textEdit10";
+            this.textEdit10.Properties.Appearance.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit10.Properties.Appearance.Options.UseFont = true;
+            this.textEdit10.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
+            this.textEdit10.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.textEdit10.Properties.ImmediatePopup = true;
+            this.textEdit10.Properties.NullText = "";
+            this.textEdit10.Properties.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.Contains;
+            this.textEdit10.Properties.View = this.View;
+            this.textEdit10.Size = new System.Drawing.Size(141, 20);
+            this.textEdit10.TabIndex = 19;
+            this.textEdit10.EditValueChanged += new System.EventHandler(this.textEdit10_EditValueChanged);
+            // 
+            // View
+            // 
+            this.View.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.EQV002,
+            this.EQV003});
+            this.View.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
+            this.View.Name = "View";
+            this.View.OptionsBehavior.Editable = false;
+            this.View.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.View.OptionsView.ShowGroupPanel = false;
+            // 
+            // EQV002
+            // 
+            this.EQV002.Caption = "工艺编号";
+            this.EQV002.FieldName = "EQV002";
+            this.EQV002.Name = "EQV002";
+            this.EQV002.Visible = true;
+            this.EQV002.VisibleIndex = 0;
+            // 
+            // EQV003
+            // 
+            this.EQV003.Caption = "工艺名称";
+            this.EQV003.FieldName = "EQV003";
+            this.EQV003.Name = "EQV003";
+            this.EQV003.Visible = true;
+            this.EQV003.VisibleIndex = 1;
+            // 
             // FormProductDailyEdit
             // 
             this.Appearance.Options.UseFont = true;
@@ -567,7 +604,6 @@
             this.Controls.Add(this.labelControl11);
             this.Controls.Add(this.textEdit2);
             this.Controls.Add(this.labelControl2);
-            this.Controls.Add(this.textEdit10);
             this.Controls.Add(this.labelControl10);
             this.Controls.Add(this.textEdit8);
             this.Controls.Add(this.labelControl8);
@@ -586,6 +622,7 @@
             this.Controls.Add(this.textEdit1);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.textEdit19);
+            this.Controls.Add(this.textEdit10);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "FormProductDailyEdit";
@@ -599,7 +636,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit10.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).EndInit();
@@ -613,6 +649,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dxErrorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit10.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.View)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -638,7 +676,6 @@
         private DevExpress . XtraEditors . LabelControl labelControl9;
         private DevExpress . XtraEditors . TextEdit textEdit2;
         private DevExpress . XtraEditors . LabelControl labelControl2;
-        private DevExpress . XtraEditors . TextEdit textEdit10;
         private DevExpress . XtraEditors . LabelControl labelControl10;
         private DevExpress . XtraEditors . TextEdit textEdit11;
         private DevExpress . XtraEditors . LabelControl labelControl11;
@@ -665,5 +702,9 @@
         private DevExpress . XtraEditors . DXErrorProvider . DXErrorProvider dxErrorProvider1;
         private DevExpress . XtraEditors . CheckEdit checkEdit2;
         private DevExpress . XtraEditors . CheckEdit checkEdit1;
+        private DevExpress . XtraEditors . GridLookUpEdit textEdit10;
+        private DevExpress . XtraGrid . Views . Grid . GridView View;
+        private DevExpress . XtraGrid . Columns . GridColumn EQV002;
+        private DevExpress . XtraGrid . Columns . GridColumn EQV003;
     }
 }

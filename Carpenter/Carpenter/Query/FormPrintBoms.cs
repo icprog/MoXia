@@ -114,6 +114,13 @@ namespace Carpenter . Query
                 DataTable print = _bll . printOne ( weekEnds ,proList );
                 if ( print != null && print . Rows . Count > 0 )
                 {
+                    DataColumn dc = new DataColumn ( "UserName" ,typeof ( String ) );
+                    dc . DefaultValue = UserLogin . userName;
+                    print . Columns . Add ( dc );
+                    dc = new DataColumn ( "PTime" ,typeof ( DateTime ) );
+                    dc . DefaultValue = CarpenterBll . UserInformation . dt ( ) . ToString ( "yyyy-MM-dd" );
+                    print . Columns . Add ( dc );
+
                     print . TableName = "TableOne";
 
                     Print ( new DataTable [ ] { print } ,"传票.frx" );

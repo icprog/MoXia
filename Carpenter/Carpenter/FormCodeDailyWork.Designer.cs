@@ -226,13 +226,15 @@
             this.btnSave.BackColor = System.Drawing.Color.Gainsboro;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSave.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnSave.Location = new System.Drawing.Point(713, 15);
+            this.btnSave.Location = new System.Drawing.Point(683, 15);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(52, 26);
             this.btnSave.TabIndex = 14;
             this.btnSave.Text = "保存";
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            this.btnSave.MouseLeave += new System.EventHandler(this.btnSave_MouseLeave);
+            this.btnSave.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnSave_MouseMove);
             // 
             // btnCancel
             // 
@@ -240,13 +242,15 @@
             this.btnCancel.BackColor = System.Drawing.Color.Gainsboro;
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCancel.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnCancel.Location = new System.Drawing.Point(773, 15);
+            this.btnCancel.Location = new System.Drawing.Point(753, 15);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(52, 26);
             this.btnCancel.TabIndex = 15;
             this.btnCancel.Text = "取消";
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            this.btnCancel.MouseLeave += new System.EventHandler(this.btnCancel_MouseLeave);
+            this.btnCancel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnCancel_MouseMove);
             // 
             // btnReset
             // 
@@ -254,13 +258,15 @@
             this.btnReset.BackColor = System.Drawing.Color.Gainsboro;
             this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnReset.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnReset.Location = new System.Drawing.Point(833, 15);
+            this.btnReset.Location = new System.Drawing.Point(823, 15);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(52, 26);
             this.btnReset.TabIndex = 16;
             this.btnReset.Text = "重置";
             this.btnReset.UseVisualStyleBackColor = false;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            this.btnReset.MouseLeave += new System.EventHandler(this.btnReset_MouseLeave);
+            this.btnReset.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnReset_MouseMove);
             // 
             // labelControl1
             // 
@@ -795,7 +801,7 @@
             // btnSaveOver
             // 
             this.btnSaveOver.AutoSize = true;
-            this.btnSaveOver.BackColor = System.Drawing.Color.Moccasin;
+            this.btnSaveOver.BackColor = System.Drawing.Color.NavajoWhite;
             this.btnSaveOver.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSaveOver.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnSaveOver.Location = new System.Drawing.Point(893, 57);
@@ -805,6 +811,8 @@
             this.btnSaveOver.Text = "强制完工";
             this.btnSaveOver.UseVisualStyleBackColor = false;
             this.btnSaveOver.Click += new System.EventHandler(this.btnSaveOver_Click);
+            this.btnSaveOver.MouseLeave += new System.EventHandler(this.btnSaveOver_MouseLeave);
+            this.btnSaveOver.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnSaveOver_MouseMove);
             // 
             // cmbSalary
             // 
@@ -843,6 +851,8 @@
             this.button1.Text = "重置全部";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
+            this.button1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button1_MouseMove);
             // 
             // lupSpace
             // 

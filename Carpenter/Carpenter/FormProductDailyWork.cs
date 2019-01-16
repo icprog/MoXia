@@ -1,4 +1,5 @@
 ﻿
+using Carpenter . OrderEdit;
 using DevExpress . XtraEditors;
 using System;
 using System . Collections . Generic;
@@ -13,10 +14,10 @@ namespace Carpenter
     {
         CarpenterEntity.ProductDailyWorkEntity _model=null;
         CarpenterBll.Bll.ProductDailyWorkBll _bll=null;
-        DataTable tableView,tablePrint,tableViewTwo;
+        DataTable tableView,tablePrint,tableViewTwo,tableWarnTitle;
         int num=0;string strWhere=""; List<string> strList = new List<string> ( );
         bool result=false;
-        DataRow row;
+        DataRow row,rowArt;
         
         public FormProductDailyWork ( )
         {
@@ -99,8 +100,8 @@ namespace Carpenter
             if ( isOk )
             {
                 XtraMessageBox . Show ( "删除成功" );
-                tableView . Rows . RemoveAt ( num );
-                gridControl1 . RefreshDataSource ( );
+                tableView . Rows . Remove ( row );
+                gridControl1 . Refresh ( );
             }
             else
                 XtraMessageBox . Show ( "删除失败" );
@@ -269,6 +270,7 @@ namespace Carpenter
         private void backgroundWorker1_DoWork ( object sender ,System . ComponentModel . DoWorkEventArgs e )
         {
             tableView = _bll . GetDataTable ( strWhere );
+            tableWarnTitle = _bll . GetDataTableWarnTitle ( );
         }
         private void backgroundWorker1_RunWorkerCompleted ( object sender ,System . ComponentModel . RunWorkerCompletedEventArgs e )
         {
@@ -381,6 +383,47 @@ namespace Carpenter
                 }
             }
             base . OnClosing ( e );
+        }
+        private void gridView1_RowStyle ( object sender ,DevExpress . XtraGrid . Views . Grid . RowStyleEventArgs e )
+        {
+            if ( tableWarnTitle == null || tableWarnTitle . Rows . Count < 1 )
+                return;
+            DataRow row = gridView1 . GetDataRow ( e . RowHandle );
+            if ( row == null )
+                return;
+            if ( tableWarnTitle . Select ( "idx='" + row [ "idx" ] + "'" ) . Length > 0 )
+                e . Appearance . BackColor = System . Drawing . Color . Red;
+        }
+        private void gridView3_RowClick ( object sender ,DevExpress . XtraGrid . Views . Grid . RowClickEventArgs e )
+        {
+            rowArt = gridView3 . GetFocusedDataRow ( );
+        }
+        private void contextMenuStrip1_ItemClicked ( object sender ,ToolStripItemClickedEventArgs e )
+        {
+            if ( e . ClickedItem . Name == "editArt" )
+            {
+                if ( rowArt == null )
+                {
+                    XtraMessageBox . Show ( "请选择需要编辑的数据" );
+                    return;
+                }
+
+                FormProductDailyWorkArtEdit form = new FormProductDailyWorkArtEdit ( rowArt );
+                if ( form . ShowDialog ( ) == DialogResult . OK )
+                {
+                    CarpenterEntity . ProductDailyWorkPREEntity model = form . getModel;
+                    rowArt . BeginEdit ( );
+                    rowArt [ "PRE003" ] = model . PRE003;
+                    rowArt [ "PRE004" ] = model . PRE004;
+                    rowArt [ "PRE005" ] = model . PRE005;
+                    rowArt [ "PRE006" ] = model . PRE006;
+                    rowArt [ "PRE008" ] = model . PRE008;
+                    rowArt [ "PRE009" ] = model . PRE009;
+                    rowArt [ "PRE010" ] = model . PRE010;
+                    rowArt [ "PRE011" ] = model . PRE011;
+                    rowArt . EndEdit ( );
+                }
+            }
         }
         #endregion
 

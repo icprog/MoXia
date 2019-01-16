@@ -75,6 +75,7 @@ namespace Carpenter
             //E41F1
 
             //检查更新
+
             AppUpdate au = new AppUpdate ( );
             string msg = "";
             bool result = au . CheckAppVersion ( ref msg );
@@ -83,9 +84,26 @@ namespace Carpenter
                 System . Diagnostics . Process . Start ( Application . StartupPath + @"\AutoUpdate.exe" );
 
             if ( CarpenterBll . Dao . EncryptQuery . getResult ( ) . Equals ( "E41F1" ,StringComparison . CurrentCultureIgnoreCase ) )
+
                 //加载主窗体
                 Application . Run ( new FormMajor ( ) );
         }
 
     }
 }
+
+
+/*
+ WITH CET AS (
+SELECT idx,PRD001,PRD004,PRD006,PRD003,PRD014,PRD015,PRD013 FROM MOXPRD WHERE PRD014=1 
+) 
+,CFT AS (
+SELECT idx,PRD001,PRD004,PRD006,PRD003,PRD014,PRD015,PRD013 FROM MOXPRD WHERE PRD014=0
+)
+,CHT AS(
+SELECT a.idx idaa,b.idx FROM CET A INNER JOIN CFT B ON A.PRD001=B.PRD001 AND A.PRD003=B.PRD003 AND A.PRD004=B.PRD004 AND A.PRD006=B.PRD006 AND A.PRD015=B.PRD015)
+
+SELECT idx,PRD001,PRD004,PRD006,PRD003,PRD014,PRD015,PRD013 FROM MOXPRD WHERE idx NOT IN (SELECT idx FROM CHT) AND idx NOT IN (SELECT idaa FROM CHT)
+ORDER BY PRD001
+
+     */

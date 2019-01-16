@@ -107,7 +107,7 @@ namespace CarpenterBll . Dao
                         _model . PWS022 = 0;
                         _model . PWS033 = table . Rows [ i ] [ "PRD001" ] . ToString ( );
                         _model . PWS034 = table . Rows [ i ] [ "PRD002" ] . ToString ( );
-                        _model . PWS035 = 0M;
+                        _model . PWS035 = 1M;
 
                         calculationOfWages ( _model ,zb ,SQLString ,strSql );
                     }

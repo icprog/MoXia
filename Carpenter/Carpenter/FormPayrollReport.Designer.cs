@@ -93,7 +93,7 @@
             // 
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerControl1.Horizontal = false;
-            this.splitContainerControl1.Location = new System.Drawing.Point(0, 26);
+            this.splitContainerControl1.Location = new System.Drawing.Point(0, 24);
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.btnRead);
             this.splitContainerControl1.Panel1.Controls.Add(this.dateEdit);
@@ -101,7 +101,7 @@
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.gridControl1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1237, 412);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1237, 414);
             this.splitContainerControl1.SplitterPosition = 33;
             this.splitContainerControl1.TabIndex = 4;
             this.splitContainerControl1.Text = "splitContainerControl1";
@@ -156,7 +156,7 @@
             this.cmbType,
             this.cmbGrade,
             this.lupProduct});
-            this.gridControl1.Size = new System.Drawing.Size(1237, 367);
+            this.gridControl1.Size = new System.Drawing.Size(1237, 376);
             this.gridControl1.TabIndex = 9;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -208,6 +208,7 @@
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsBehavior.Editable = false;
             this.gridView1.OptionsView.ColumnAutoWidth = false;
+            this.gridView1.OptionsView.ShowFooter = true;
             this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gridView1_CustomDrawRowIndicator);
             // 
@@ -248,6 +249,8 @@
             this.PAY004.Caption = "1日";
             this.PAY004.FieldName = "PAY004";
             this.PAY004.Name = "PAY004";
+            this.PAY004.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY004", "{0:0.##}")});
             this.PAY004.Visible = true;
             this.PAY004.VisibleIndex = 2;
             this.PAY004.Width = 60;
@@ -262,6 +265,8 @@
             this.PAY005.FieldName = "PAY005";
             this.PAY005.Name = "PAY005";
             this.PAY005.OptionsColumn.AllowEdit = false;
+            this.PAY005.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY005", "{0:0.##}")});
             this.PAY005.Visible = true;
             this.PAY005.VisibleIndex = 3;
             this.PAY005.Width = 60;
@@ -275,6 +280,8 @@
             this.PAY006.Caption = "3日";
             this.PAY006.FieldName = "PAY006";
             this.PAY006.Name = "PAY006";
+            this.PAY006.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY006", "{0:0.##}")});
             this.PAY006.Visible = true;
             this.PAY006.VisibleIndex = 4;
             this.PAY006.Width = 60;
@@ -288,6 +295,8 @@
             this.PAY007.Caption = "4日";
             this.PAY007.FieldName = "PAY007";
             this.PAY007.Name = "PAY007";
+            this.PAY007.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY007", "{0:0.##}")});
             this.PAY007.Visible = true;
             this.PAY007.VisibleIndex = 5;
             this.PAY007.Width = 60;
@@ -301,6 +310,8 @@
             this.PAY008.Caption = "5日";
             this.PAY008.FieldName = "PAY008";
             this.PAY008.Name = "PAY008";
+            this.PAY008.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY008", "{0:0.##}")});
             this.PAY008.Visible = true;
             this.PAY008.VisibleIndex = 6;
             this.PAY008.Width = 60;
@@ -314,6 +325,8 @@
             this.PAY009.Caption = "6日";
             this.PAY009.FieldName = "PAY009";
             this.PAY009.Name = "PAY009";
+            this.PAY009.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY009", "{0:0.##}")});
             this.PAY009.Visible = true;
             this.PAY009.VisibleIndex = 7;
             this.PAY009.Width = 60;
@@ -327,6 +340,8 @@
             this.PAY010.Caption = "7日";
             this.PAY010.FieldName = "PAY010";
             this.PAY010.Name = "PAY010";
+            this.PAY010.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY010", "{0:0.##}")});
             this.PAY010.Visible = true;
             this.PAY010.VisibleIndex = 8;
             this.PAY010.Width = 60;
@@ -340,6 +355,8 @@
             this.PAY011.Caption = "8日";
             this.PAY011.FieldName = "PAY011";
             this.PAY011.Name = "PAY011";
+            this.PAY011.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY011", "{0:0.##}")});
             this.PAY011.Visible = true;
             this.PAY011.VisibleIndex = 9;
             this.PAY011.Width = 60;
@@ -353,6 +370,8 @@
             this.PAY012.Caption = "9日";
             this.PAY012.FieldName = "PAY012";
             this.PAY012.Name = "PAY012";
+            this.PAY012.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY012", "{0:0.##}")});
             this.PAY012.Visible = true;
             this.PAY012.VisibleIndex = 10;
             this.PAY012.Width = 60;
@@ -366,6 +385,8 @@
             this.PAY013.Caption = "10日";
             this.PAY013.FieldName = "PAY013";
             this.PAY013.Name = "PAY013";
+            this.PAY013.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY013", "{0:0.##}")});
             this.PAY013.Visible = true;
             this.PAY013.VisibleIndex = 11;
             this.PAY013.Width = 60;
@@ -379,6 +400,8 @@
             this.PAY014.Caption = "11日";
             this.PAY014.FieldName = "PAY014";
             this.PAY014.Name = "PAY014";
+            this.PAY014.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY014", "{0:0.##}")});
             this.PAY014.Visible = true;
             this.PAY014.VisibleIndex = 12;
             this.PAY014.Width = 60;
@@ -392,6 +415,8 @@
             this.PAY015.Caption = "12日";
             this.PAY015.FieldName = "PAY015";
             this.PAY015.Name = "PAY015";
+            this.PAY015.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY015", "{0:0.##}")});
             this.PAY015.Visible = true;
             this.PAY015.VisibleIndex = 13;
             this.PAY015.Width = 60;
@@ -405,6 +430,8 @@
             this.PAY016.Caption = "13日";
             this.PAY016.FieldName = "PAY016";
             this.PAY016.Name = "PAY016";
+            this.PAY016.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY016", "{0:0.##}")});
             this.PAY016.Visible = true;
             this.PAY016.VisibleIndex = 14;
             this.PAY016.Width = 60;
@@ -418,6 +445,8 @@
             this.PAY017.Caption = "14日";
             this.PAY017.FieldName = "PAY017";
             this.PAY017.Name = "PAY017";
+            this.PAY017.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY017", "{0:0.##}")});
             this.PAY017.Visible = true;
             this.PAY017.VisibleIndex = 15;
             this.PAY017.Width = 60;
@@ -431,6 +460,8 @@
             this.PAY018.Caption = "15日";
             this.PAY018.FieldName = "PAY018";
             this.PAY018.Name = "PAY018";
+            this.PAY018.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY018", "{0:0.##}")});
             this.PAY018.Visible = true;
             this.PAY018.VisibleIndex = 16;
             this.PAY018.Width = 60;
@@ -444,6 +475,8 @@
             this.PAY019.Caption = "16日";
             this.PAY019.FieldName = "PAY019";
             this.PAY019.Name = "PAY019";
+            this.PAY019.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY019", "{0:0.##}")});
             this.PAY019.Visible = true;
             this.PAY019.VisibleIndex = 17;
             this.PAY019.Width = 60;
@@ -457,6 +490,8 @@
             this.PAY020.Caption = "17日";
             this.PAY020.FieldName = "PAY020";
             this.PAY020.Name = "PAY020";
+            this.PAY020.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY020", "{0:0.##}")});
             this.PAY020.Visible = true;
             this.PAY020.VisibleIndex = 18;
             this.PAY020.Width = 60;
@@ -470,6 +505,8 @@
             this.PAY021.Caption = "18日";
             this.PAY021.FieldName = "PAY021";
             this.PAY021.Name = "PAY021";
+            this.PAY021.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY021", "{0:0.##}")});
             this.PAY021.Visible = true;
             this.PAY021.VisibleIndex = 19;
             this.PAY021.Width = 60;
@@ -483,6 +520,8 @@
             this.PAY022.Caption = "19日";
             this.PAY022.FieldName = "PAY022";
             this.PAY022.Name = "PAY022";
+            this.PAY022.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY022", "{0:0.##}")});
             this.PAY022.Visible = true;
             this.PAY022.VisibleIndex = 20;
             this.PAY022.Width = 60;
@@ -496,6 +535,8 @@
             this.PAY023.Caption = "20日";
             this.PAY023.FieldName = "PAY023";
             this.PAY023.Name = "PAY023";
+            this.PAY023.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY023", "{0:0.##}")});
             this.PAY023.Visible = true;
             this.PAY023.VisibleIndex = 21;
             this.PAY023.Width = 60;
@@ -509,6 +550,8 @@
             this.PAY024.Caption = "21日";
             this.PAY024.FieldName = "PAY024";
             this.PAY024.Name = "PAY024";
+            this.PAY024.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY024", "{0:0.##}")});
             this.PAY024.Visible = true;
             this.PAY024.VisibleIndex = 22;
             this.PAY024.Width = 60;
@@ -522,6 +565,8 @@
             this.PAY025.Caption = "22日";
             this.PAY025.FieldName = "PAY025";
             this.PAY025.Name = "PAY025";
+            this.PAY025.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY025", "{0:0.##}")});
             this.PAY025.Visible = true;
             this.PAY025.VisibleIndex = 23;
             this.PAY025.Width = 60;
@@ -535,6 +580,8 @@
             this.PAY026.Caption = "23日";
             this.PAY026.FieldName = "PAY026";
             this.PAY026.Name = "PAY026";
+            this.PAY026.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY026", "{0:0.##}")});
             this.PAY026.Visible = true;
             this.PAY026.VisibleIndex = 24;
             this.PAY026.Width = 60;
@@ -548,6 +595,8 @@
             this.PAY027.Caption = "24日";
             this.PAY027.FieldName = "PAY027";
             this.PAY027.Name = "PAY027";
+            this.PAY027.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY027", "{0:0.##}")});
             this.PAY027.Visible = true;
             this.PAY027.VisibleIndex = 25;
             this.PAY027.Width = 60;
@@ -561,6 +610,8 @@
             this.PAY028.Caption = "25日";
             this.PAY028.FieldName = "PAY028";
             this.PAY028.Name = "PAY028";
+            this.PAY028.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY028", "{0:0.##}")});
             this.PAY028.Visible = true;
             this.PAY028.VisibleIndex = 26;
             this.PAY028.Width = 60;
@@ -574,6 +625,8 @@
             this.PAY029.Caption = "26日";
             this.PAY029.FieldName = "PAY029";
             this.PAY029.Name = "PAY029";
+            this.PAY029.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY029", "{0:0.##}")});
             this.PAY029.Visible = true;
             this.PAY029.VisibleIndex = 27;
             this.PAY029.Width = 60;
@@ -587,6 +640,8 @@
             this.PAY030.Caption = "27日";
             this.PAY030.FieldName = "PAY030";
             this.PAY030.Name = "PAY030";
+            this.PAY030.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY030", "{0:0.##}")});
             this.PAY030.Visible = true;
             this.PAY030.VisibleIndex = 28;
             this.PAY030.Width = 60;
@@ -600,6 +655,8 @@
             this.PAY031.Caption = "28日";
             this.PAY031.FieldName = "PAY031";
             this.PAY031.Name = "PAY031";
+            this.PAY031.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY031", "{0:0.##}")});
             this.PAY031.Visible = true;
             this.PAY031.VisibleIndex = 29;
             this.PAY031.Width = 60;
@@ -613,6 +670,8 @@
             this.PAY032.Caption = "29日";
             this.PAY032.FieldName = "PAY032";
             this.PAY032.Name = "PAY032";
+            this.PAY032.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY032", "{0:0.##}")});
             this.PAY032.Visible = true;
             this.PAY032.VisibleIndex = 30;
             this.PAY032.Width = 60;
@@ -626,6 +685,8 @@
             this.PAY033.Caption = "30日";
             this.PAY033.FieldName = "PAY033";
             this.PAY033.Name = "PAY033";
+            this.PAY033.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY033", "{0:0.##}")});
             this.PAY033.Visible = true;
             this.PAY033.VisibleIndex = 31;
             this.PAY033.Width = 60;
@@ -639,6 +700,8 @@
             this.PAY034.Caption = "31日";
             this.PAY034.FieldName = "PAY034";
             this.PAY034.Name = "PAY034";
+            this.PAY034.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "PAY034", "{0:0.##}")});
             this.PAY034.Visible = true;
             this.PAY034.VisibleIndex = 32;
             this.PAY034.Width = 60;
@@ -652,6 +715,8 @@
             this.U0.Caption = "工资";
             this.U0.FieldName = "U0";
             this.U0.Name = "U0";
+            this.U0.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "U0", "{0:0.##}")});
             this.U0.Visible = true;
             this.U0.VisibleIndex = 33;
             this.U0.Width = 70;

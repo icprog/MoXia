@@ -110,6 +110,172 @@ namespace CarpenterBll . Dao
         }
 
         /// <summary>
+        ///  是否开工或完工闭合
+        /// </summary>
+        /// <param name="_model"></param>
+        /// <param name="table"></param>
+        /// <returns></returns>
+        public int ExistsSignStart ( CarpenterEntity . ProductDailyWorkEntity _model ,DataTable table )
+        {
+            int result = -1;
+            StringBuilder strSql = new StringBuilder ( );
+            if ( table != null && table . Rows . Count > 0 )
+            {
+                string userNum = string . Empty;
+                for ( int i = 0 ; i < table . Rows . Count ; i++ )
+                {
+                    _model . PRD004 = table . Rows [ i ] [ "PRD004" ] . ToString ( );
+                    if ( string . IsNullOrEmpty ( userNum ) )
+                        userNum = "'" + _model . PRD004 + "'";
+                    else
+                        userNum = userNum + "," + "'" + _model . PRD004 + "'";
+                }
+                //1、先查最大的报工记录  不管开工  完工
+                strSql . Append ( " WITH CET AS (" );
+                strSql . AppendFormat ( "SELECT idx,PRD001,PRD004,PRD006,PRD003,PRD014,PRD015,PRD013 FROM MOXPRD WHERE PRD014=1 AND PRD001='{0}' AND PRD004 IN ({1}) AND PRD006='{2}' AND PRD003='{3}') " ,_model . PRD001 ,userNum ,_model . PRD006 ,_model . PRD003 );
+                strSql . Append ( ",CFT AS (" );
+                strSql . AppendFormat ( "SELECT idx,PRD001,PRD004,PRD006,PRD003,PRD014,PRD015,PRD013 FROM MOXPRD WHERE PRD014=0 AND PRD001='{0}' AND PRD004 IN ({1}) AND PRD006='{2}' AND PRD003='{3}') " ,_model . PRD001 ,userNum ,_model . PRD006 ,_model . PRD003 );
+                strSql . AppendFormat ( ",CHT AS(SELECT a.idx idaa,b.idx FROM CET A INNER JOIN CFT B ON A.PRD001=B.PRD001 AND A.PRD003=B.PRD003 AND A.PRD004=B.PRD004 AND A.PRD006=B.PRD006 AND A.PRD015=B.PRD015) " );
+                strSql . AppendFormat ( "SELECT DISTINCT PRD004,PRD014,PRD015 FROM MOXPRD WHERE idx NOT IN (SELECT idx FROM CHT) AND idx NOT IN (SELECT idaa FROM CHT)  AND PRD001='{0}' AND PRD004 IN ({1}) AND PRD006='{2}' AND PRD003='{3}'" ,_model . PRD001 ,userNum ,_model . PRD006 ,_model . PRD003 );
+
+                DataTable tableResult = SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
+                if ( tableResult == null || tableResult . Rows . Count < 1 )
+                    //可以开工  不可以完工
+                    return 0;
+                string uName = string . Empty, groupU = string . Empty;
+                bool state = false;
+                if ( tableResult . Rows . Count == 1 )
+                {
+                    if ( tableResult . Rows . Count == table . Rows . Count )
+                    {
+                        state = string . IsNullOrEmpty ( tableResult . Rows [ 0 ] [ "PRD014" ] . ToString ( ) ) == true ? false : Convert . ToBoolean ( tableResult . Rows [ 0 ] [ "PRD014" ] );
+                        if ( state  == false )
+                            //有完工  没开工  数据异常  需要后台检查
+                            return 1;
+                        else
+                        {
+                            //有开工  没完工
+                            groupU = tableResult . Rows [ 0 ] [ "PRD015" ] . ToString ( );
+                            strSql = new StringBuilder ( );
+                            strSql . AppendFormat ( "SELECT COUNT(1) FROM MOXPRD WHERE PRD015='{0}' AND PRD004 NOT IN ({1})" ,groupU ,userNum );
+                            if ( SqlHelper . Exists ( strSql . ToString ( ) ) == false )
+                                //只能完工
+                                return 2;
+                            else
+                                //只能开工
+                                return 0;
+                        }
+                    }
+                    else
+                        //表示没有开工和完工  只能开工
+                        return 0;
+                }
+                else
+                {
+                    DataTable tableState = tableResult . DefaultView . ToTable ( true ,"PRD014" );
+                    if ( tableState . Rows . Count > 1 )
+                        //有完工  有开工  异常
+                        return 1;
+                    tableState = tableResult . DefaultView . ToTable ( true ,"PRD015" );
+                    groupU = tableState . Rows [ 0 ] [ "PRD015" ] . ToString ( );
+                    if ( tableState . Rows . Count == 1 )
+                    {
+                        state = Convert . ToBoolean ( tableResult . Select ( "PRD015='" + groupU + "'" ) [ 0 ] [ "PRD014" ] . ToString ( ) );
+                        if ( Convert . ToBoolean ( state ) == false )
+                        {
+                            //可以开工  不可以完工
+                            return 0;
+                        }
+                        else
+                        {
+                            //可以完工  不可以开工
+                            return 2;
+                        }
+                    }
+
+                    foreach ( DataRow row in tableState . Rows )
+                    {
+                        groupU = row [ "PRD015" ] . ToString ( );
+                        strSql = new StringBuilder ( );
+                        state = Convert . ToBoolean ( tableResult . Select ( "PRD015='" + groupU + "'" ) [ 0 ] [ "PRD014" ] . ToString ( ) );
+                        strSql . AppendFormat ( "SELECT PRD004 FROM MOXPRD WHERE PRD015='{0}'" ,groupU );
+                        DataTable tableTwo = SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
+                        if ( tableTwo == null || tableTwo . Rows . Count < 1 )
+                            continue;
+                        if ( tableTwo . Rows . Count > table . Rows . Count )
+                        {
+                            DataRow [ ] rs = tableTwo . Select ( "PRD004 NOT IN (" + userNum + ")" );
+                            if ( rs == null || rs . Length < 1 )
+                            {
+                                if ( state == false )
+                                {
+                                    //可以开工  不可以完工
+                                    result = 0;
+                                    break;
+                                }
+                                else
+                                {
+                                    //可以完工  不可以开工
+                                    result = 2;
+                                    break;
+                                }
+                            }
+                            else
+                                //可以开工  不可以完工
+                                result = 0;
+                        }
+                        else
+                        {
+                            string userNames = string . Empty;
+                            foreach ( DataRow r in tableTwo . Rows )
+                            {
+                                if ( string . IsNullOrEmpty ( userNames ) )
+                                    userNames = r [ "PRD004" ] . ToString ( );
+                                else
+                                    userNames = userNames + "," + r [ "PRD004" ] . ToString ( );
+
+                                if ( !userNum . Contains ( r [ "PRD004" ] . ToString ( ) ) )
+                                {
+                                    //只能开工  不能完工
+                                    result = 0;
+                                    break;
+                                }
+                            }
+                            if ( result != -1 )
+                                break;
+                            foreach ( DataRow r in tableResult . Rows )
+                            {
+                                if ( !userNames . Contains ( r [ "PRD004" ] . ToString ( ) ) )
+                                {
+                                    //只能开工  不能完工
+                                    result = 0;
+                                    break;
+                                }
+                            }
+                            if ( result != -1 )
+                                break;
+                            if ( state == false )
+                            {
+                                //可以开工  不可以完工
+                                result = 0;
+                                break;
+                            }
+                            else
+                            {
+                                //可以完工  不可以开工
+                                result = 2;
+                                break;
+                            }
+                            if ( result != -1 )
+                                break;
+                        }
+                    }
+                }
+            }
+            return result;
+        }
+
+        /// <summary>
         /// 保存记录
         /// </summary>
         /// <param name="_model"></param>
@@ -117,11 +283,25 @@ namespace CarpenterBll . Dao
         /// <returns></returns>
         public bool Save ( CarpenterEntity . ProductDailyWorkEntity _model ,DataTable table )
         {
+            bool result = true;
             Hashtable SQLString = new Hashtable ( );
             StringBuilder strSql = new StringBuilder ( );
             _model . PRD017 = _model . PRD013 = UserInformation . dt ( );
             _model . PRD018 = UserInformation . UserName;
-            _model . PRD015 = getGroup ( );
+            if ( _model . PRD014 )
+            {
+                while ( result )
+                {
+                    _model . PRD015 = getGroup ( _model ,0 );
+                    strSql = new StringBuilder ( );
+                    strSql . AppendFormat ( "SELECT COUNT(1) FROM MOXPRF WHERE PRF001='{0}' " ,_model . PRD015 );
+                    if ( SqlHelper . Exists ( strSql . ToString ( ) ) == false )
+                        result = false;
+                }
+                strSql = new StringBuilder ( );
+                strSql . AppendFormat ( "INSERT INTO MOXPRF (PRF001) VALUES ('{0}')" ,_model . PRD015 );
+                SqlHelper . ExecuteNonQueryBool ( strSql . ToString ( ) );
+            }
             _model . PRD021 = false;
             //_model . PRD033 = getSaTy ( _model . PRD032 );
             List<string> userList = new List<string> ( );
@@ -130,11 +310,24 @@ namespace CarpenterBll . Dao
                 userList . Add ( table . Rows [ i ] [ "PRD004" ] . ToString ( ) );
             }
             _model . PRD043 = Convert . ToInt32 ( getGroup ( userList ,_model . PRD001 ) );
+            _model . PRD004 = string . Empty;
+            foreach ( DataRow row in table . Rows )
+            {
+                if ( string . IsNullOrEmpty ( _model . PRD004 ) )
+                    _model . PRD004 = "'" + row [ "PRD004" ] . ToString ( ) + "'";
+                else
+                    _model . PRD004 = _model . PRD004 + "," + "'" + row [ "PRD004" ] . ToString ( ) + "'";
+            }
+
+            if ( _model . PRD014 == false )
+                _model . PRD015 = getGroup ( _model ,table . Rows . Count );
+
             for ( int i = 0 ; i < table . Rows . Count ; i++ )
             {
                 _model . PRD004 = table . Rows [ i ] [ "PRD004" ] . ToString ( );
                 _model . PRD005 = table . Rows [ i ] [ "PRD005" ] . ToString ( );
                 _model . PRD044 = table . Rows [ i ] [ "DEP002" ] . ToString ( );
+                
                 add ( SQLString ,strSql ,_model );
             }
             
@@ -167,21 +360,74 @@ namespace CarpenterBll . Dao
         /// 获取组别,用来得到同组生产的记录
         /// </summary>
         /// <returns></returns>
-        string getGroup ( )
+        string getGroup ( CarpenterEntity . ProductDailyWorkEntity _model ,int num  )
         {
+            DataTable dt;
+            string codeForGroup = string . Empty;
             StringBuilder strSql = new StringBuilder ( );
-            strSql . Append ( "SELECT  MAX(CONVERT(INT,PRD015)) PRD015 FROM MOXPRD " );
-
-            DataTable dt = SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
-            if ( dt != null && dt . Rows . Count > 0 )
+            if ( _model . PRD014 )
             {
-                if ( string . IsNullOrEmpty ( dt . Rows [ 0 ] [ "PRD015" ] . ToString ( ) ) )
-                    return 1 . ToString ( );
+                //strSql . Append ( "SELECT  MAX(CONVERT(INT,PRD015)) PRD015 FROM MOXPRD " );
+                strSql . Append ( "SELECT  MAX(CONVERT(INT,PRF001)) PRD015 FROM MOXPRF " );
+                dt = SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
+                if ( dt != null && dt . Rows . Count > 0 )
+                {
+                    codeForGroup = dt . Rows [ 0 ] [ "PRD015" ] . ToString ( );
+                    if ( _model . PRD014 )
+                    {
+                        if ( string . IsNullOrEmpty ( codeForGroup ) )
+                            return 1 . ToString ( );
+                        else
+                            return ( Convert . ToInt32 ( codeForGroup ) + 1 ) . ToString ( );
+                    }
+                    else
+                    {
+                        //如果没有对应的开工记录  则完工记录的组别是0  异常数据
+                        if ( string . IsNullOrEmpty ( codeForGroup ) )
+                            return 0 . ToString ( );
+                        else
+                            return codeForGroup;
+                    }
+                }
                 else
-                    return ( Convert . ToInt32 ( dt . Rows [ 0 ] [ "PRD015" ] . ToString ( ) ) + 1 ) . ToString ( );
+                {
+                    if ( _model . PRD014 )
+                        return 1 . ToString ( );
+                    else
+                        return 0 . ToString ( );
+                }
             }
             else
-                return 1 . ToString ( );
+            {
+                strSql . Append ( "WITH CET AS (" );
+                strSql . AppendFormat ( "SELECT idx,PRD001,PRD004,PRD006,PRD003,PRD014,PRD015,PRD013 FROM MOXPRD WHERE PRD014=1 AND PRD001='{0}' AND PRD004 IN ({1}) AND PRD006='{2}' AND PRD003='{3}'" ,_model . PRD001 ,_model . PRD004 ,_model . PRD006 ,_model . PRD003 );
+                strSql . Append ( ") ,CFT AS (" );
+                strSql . AppendFormat ( "SELECT idx,PRD001,PRD004,PRD006,PRD003,PRD014,PRD015,PRD013 FROM MOXPRD WHERE PRD014=0 AND PRD001='{0}' AND PRD004 IN ({1}) AND PRD006='{2}' AND PRD003='{3}'" ,_model . PRD001 ,_model . PRD004 ,_model . PRD006 ,_model . PRD003 );
+                strSql . Append ( ") ,CHT AS(" );
+                strSql . Append ( "SELECT a.idx idaa,b.idx FROM CET A INNER JOIN CFT B ON A.PRD001=B.PRD001 AND A.PRD003=B.PRD003 AND A.PRD004=B.PRD004 AND A.PRD006=B.PRD006 AND A.PRD015=B.PRD015) " );
+                strSql . AppendFormat ( "SELECT PRD015,COUNT(1) COUN FROM MOXPRD WHERE idx NOT IN (SELECT idx FROM CHT) AND idx NOT IN (SELECT idaa FROM CHT)  AND PRD001='{0}' AND PRD004 IN ({1}) AND PRD006='{2}' AND PRD003='{3}' AND PRD014=1 GROUP BY PRD015 " ,_model . PRD001 ,_model . PRD004 ,_model . PRD006 ,_model . PRD003 );
+                dt = SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
+                if ( dt != null && dt . Rows . Count > 0 )
+                {
+                    int count = 0;
+                    foreach ( DataRow row in dt . Rows )
+                    {
+                        codeForGroup = row [ "PRD015" ] . ToString ( );
+                        count = string . IsNullOrEmpty ( row [ "COUN" ] . ToString ( ) ) == true ? 0 : Convert . ToInt32 ( row [ "COUN" ] );
+                        if ( num == count )
+                            break;
+                    }
+                }
+                else
+                {
+                    if ( _model . PRD014 )
+                        return 1 . ToString ( );
+                    else
+                        return 0 . ToString ( );
+                }
+            }
+
+            return codeForGroup;
         }
 
         /// <summary>
@@ -450,7 +696,7 @@ namespace CarpenterBll . Dao
             strSql . Append ( "DELETE FROM MOXPRD " );
             strSql . AppendFormat ( "WHERE idx={0}" ,idx );
             SQLString . Add ( strSql ,null );
-
+            
             int row = SqlHelper . ExecuteNonQuery ( strSql . ToString ( ) );
             if ( row > 0 )
                 return true;
@@ -473,6 +719,18 @@ namespace CarpenterBll . Dao
         }
 
         /// <summary>
+        /// 获取开工和完工不配对的异常数据
+        /// </summary>
+        /// <returns></returns>
+        public DataTable GetDataTableWarnTitle ( )
+        {
+            StringBuilder strSql = new StringBuilder ( );
+            strSql . Append ( "WITH CET AS (SELECT idx,PRD001,PRD004,PRD006,PRD003,PRD014,PRD015,PRD013 FROM MOXPRD WHERE PRD014=1) ,CFT AS (SELECT idx,PRD001,PRD004,PRD006,PRD003,PRD014,PRD015,PRD013 FROM MOXPRD WHERE PRD014=0),CHT AS(SELECT a.idx idaa,b.idx FROM CET A INNER JOIN CFT B ON A.PRD001=B.PRD001 AND A.PRD003=B.PRD003 AND A.PRD004=B.PRD004 AND A.PRD006=B.PRD006 AND A.PRD015=B.PRD015) SELECT idx FROM MOXPRD WHERE idx NOT IN (SELECT idx FROM CHT) AND idx NOT IN (SELECT idaa FROM CHT)" );
+
+            return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
+        }
+
+        /// <summary>
         /// 获取数据列表
         /// </summary>
         /// <param name="strWhere"></param>
@@ -480,7 +738,7 @@ namespace CarpenterBll . Dao
         public DataTable GetDataTableTwo ( string strWhere )
         {
             StringBuilder strSql = new StringBuilder ( );
-            strSql . Append ( "SELECT DISTINCT PRE001,PRE002,PRE003,PRE004,PRE005,PRE006,PRE008,PRE009,PRE010,PRE011 FROM MOXPRE " );
+            strSql . Append ( "SELECT DISTINCT idx,PRE001,PRE002,PRE003,PRE004,PRE005,PRE006,PRE008,PRE009,PRE010,PRE011 FROM MOXPRE " );
             strSql . AppendFormat ( "WHERE PRE001='{0}'" ,strWhere );
 
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
@@ -755,6 +1013,10 @@ namespace CarpenterBll . Dao
         {
             StringBuilder strSql = new StringBuilder ( );
             strSql . Append ( "UPDATE MOXPRD SET " );
+            strSql . AppendFormat ( "PRD003='{0}'," ,model . PRD003 );
+            strSql . AppendFormat ( "PRD012='{0}'," ,model . PRD012 );
+            strSql . AppendFormat ( "PRD032='{0}'," ,model . PRD032 );
+            strSql . AppendFormat ( "PRD034='{0}'," ,model . PRD034 );
             strSql . AppendFormat ( "PRD020={0}," ,model . PRD020 == true ? 1 : 0 );
             strSql . AppendFormat ( "PRD021={0}," ,model . PRD021 == true ? 1 : 0 );
             strSql . AppendFormat ( "PRD023={0}," ,model . PRD023 );
@@ -790,7 +1052,10 @@ namespace CarpenterBll . Dao
             }
             
             StringBuilder strSql = new StringBuilder ( );
-            strSql . AppendFormat ( "SELECT PRD015,PRD004,PRD005 FROM MOXPRD WHERE PRD001='{0}' AND PRD032='{1}' AND PRD006='{2}' AND PRD020=0 AND PRD014=1 AND PRD013=(SELECT MAX(PRD013) PRD013 FROM MOXPRD WHERE PRD001='{0}' AND PRD032='{1}' AND PRD006='{2}' AND PRD004 IN ({3}) AND PRD020=0 AND PRD014=1)" ,model . PRD001 ,model . PRD032 ,model . PRD006 ,model . PRD004 );
+            strSql . AppendFormat ( "WITH CET AS (SELECT idx,PRD001,PRD004,PRD006,PRD003,PRD014,PRD015,PRD013 FROM MOXPRD WHERE PRD014=1 AND PRD001='{0}' AND PRD004 IN ({1}) AND PRD006='{2}' AND PRD003='{3}') " ,model . PRD001 ,model . PRD004 ,model . PRD006 ,model . PRD003 );
+            strSql . AppendFormat ( ",CFT AS (SELECT idx,PRD001,PRD004,PRD006,PRD003,PRD014,PRD015,PRD013 FROM MOXPRD WHERE PRD014=0 AND PRD001='{0}' AND PRD004 IN ({1}) AND PRD006='{2}' AND PRD003='{3}') " ,model . PRD001 ,model . PRD004 ,model . PRD006 ,model . PRD003 );
+            strSql . AppendFormat ( ",CHT AS(SELECT a.idx idaa,b.idx FROM CET A INNER JOIN CFT B ON A.PRD001=B.PRD001 AND A.PRD003=B.PRD003 AND A.PRD004=B.PRD004 AND A.PRD006=B.PRD006 AND A.PRD015=B.PRD015)" );
+            strSql . AppendFormat ( " SELECT DISTINCT PRD004,PRD014,PRD015 FROM MOXPRD WHERE idx NOT IN (SELECT idx FROM CHT) AND idx NOT IN (SELECT idaa FROM CHT)  AND PRD001='{0}' AND PRD004 IN ({1}) AND PRD006='{2}' AND PRD003='{3}'" ,model . PRD001 ,model . PRD004 ,model . PRD006 ,model . PRD003 );
 
             DataTable table = SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
             if ( table == null || table . Rows . Count < 1 )
@@ -806,6 +1071,61 @@ namespace CarpenterBll . Dao
                 }
                 return userList;
             }
+        }
+
+        /// <summary>
+        /// 编辑工艺信息
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        public bool editArt ( CarpenterEntity . ProductDailyWorkPREEntity model )
+        {
+            StringBuilder strSql = new StringBuilder ( );
+            strSql . Append ( "UPDATE MOXPRE SET " );
+            strSql . Append ( "PRE003=@PRE003," );
+            strSql . Append ( "PRE004=@PRE004," );
+            strSql . Append ( "PRE005=@PRE005," );
+            strSql . Append ( "PRE006=@PRE006," );
+            strSql . Append ( "PRE008=@PRE008," );
+            strSql . Append ( "PRE009=@PRE009," );
+            strSql . Append ( "PRE010=@PRE010," );
+            strSql . Append ( "PRE011=@PRE011 " );
+            strSql . Append ( "WHERE idx=@idx" );
+            SqlParameter [ ] parameter = {
+                new SqlParameter("@PRE003",SqlDbType.Decimal,12),
+                new SqlParameter("@PRE004",SqlDbType.Decimal,12),
+                new SqlParameter("@PRE005",SqlDbType.Decimal,12),
+                new SqlParameter("@PRE006",SqlDbType.NVarChar,100),
+                new SqlParameter("@PRE008",SqlDbType.Decimal,12),
+                new SqlParameter("@PRE009",SqlDbType.Decimal,12),
+                new SqlParameter("@PRE010",SqlDbType.Decimal,12),
+                new SqlParameter("@PRE011",SqlDbType.Decimal,12),
+                new SqlParameter("@idx",SqlDbType.Int,4)
+            };
+            parameter [ 0 ] . Value = model . PRE003;
+            parameter [ 1 ] . Value = model . PRE004;
+            parameter [ 2 ] . Value = model . PRE005;
+            parameter [ 3 ] . Value = model . PRE006;
+            parameter [ 4 ] . Value = model . PRE008;
+            parameter [ 5 ] . Value = model . PRE009;
+            parameter [ 6 ] . Value = model . PRE010;
+            parameter [ 7 ] . Value = model . PRE011;
+            parameter [ 8 ] . Value = model . idx;
+
+            return SqlHelper . ExecuteNonQueryBool ( strSql . ToString ( ) ,parameter );
+        }
+
+        /// <summary>
+        /// 获取工艺信息根据设备
+        /// </summary>
+        /// <param name="equCode"></param>
+        /// <returns></returns>
+        public DataTable getTableForArt ( string equCode )
+        {
+            StringBuilder strSql = new StringBuilder ( );
+            strSql . AppendFormat ( "SELECT EQV002,EQV003 FROM MOXEQV WHERE EQV001='{0}'" ,equCode );
+
+            return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
         }
 
     }

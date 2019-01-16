@@ -64,6 +64,19 @@ namespace CarpenterBll . Bll
             return dal . ExistsSign ( _model ,table );
         }
 
+
+
+        /// <summary>
+        /// 是否可以开工
+        /// </summary>
+        /// <param name="_model"></param>
+        /// <param name="table"></param>
+        /// <returns></returns>
+        public int ExistsSignStart ( CarpenterEntity . ProductDailyWorkEntity _model ,DataTable table )
+        {
+            return dal . ExistsSignStart ( _model ,table );
+        }
+
         /// <summary>
         /// 保存记录
         /// </summary>
@@ -102,6 +115,15 @@ namespace CarpenterBll . Bll
         public DataTable GetDataTable ( string strWhere )
         {
             return dal . GetDataTable ( strWhere );
+        }
+
+        /// <summary>
+        /// 获取开工和完工不配对的异常数据
+        /// </summary>
+        /// <returns></returns>
+        public DataTable GetDataTableWarnTitle ( )
+        {
+            return dal . GetDataTableWarnTitle ( );
         }
 
         /// <summary>
@@ -255,6 +277,26 @@ namespace CarpenterBll . Bll
         public Dictionary<string ,string> isOver ( CarpenterEntity . ProductDailyWorkEntity model ,DataTable tableUser )
         {
             return dal . isOver ( model ,tableUser );
+        }
+
+        /// <summary>
+        /// 编辑工艺信息
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        public bool editArt ( CarpenterEntity . ProductDailyWorkPREEntity model )
+        {
+            return dal . editArt ( model );
+        }
+
+        /// <summary>
+        /// 获取工艺信息根据设备
+        /// </summary>
+        /// <param name="equCode"></param>
+        /// <returns></returns>
+        public DataTable getTableForArt ( string equCode )
+        {
+            return dal . getTableForArt ( equCode );
         }
 
         }

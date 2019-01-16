@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent ( )
         {
+            this.components = new System.ComponentModel.Container();
             this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.PRE001 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.PRE002 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -40,6 +41,8 @@
             this.PRE005 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.PRE006 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.editArt = new System.Windows.Forms.ToolStripMenuItem();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.PRD007 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -50,6 +53,7 @@
             this.PRD034 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.PRD001 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.PRD002 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.PRD044 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.PRD032 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.PRD003 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.PRD004 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -112,9 +116,10 @@
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.PRD044 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1)).BeginInit();
@@ -150,11 +155,13 @@
             this.PRE010,
             this.PRE011,
             this.PRE005,
-            this.PRE006});
+            this.PRE006,
+            this.gridColumn11});
             this.gridView3.GridControl = this.gridControl2;
             this.gridView3.Name = "gridView3";
             this.gridView3.OptionsBehavior.Editable = false;
             this.gridView3.OptionsView.ShowGroupPanel = false;
+            this.gridView3.RowClick += new DevExpress.XtraGrid.Views.Grid.RowClickEventHandler(this.gridView3_RowClick);
             // 
             // PRE001
             // 
@@ -302,15 +309,31 @@
             // 
             // gridControl2
             // 
+            this.gridControl2.ContextMenuStrip = this.contextMenuStrip1;
             this.gridControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControl2.Location = new System.Drawing.Point(0, 0);
             this.gridControl2.MainView = this.gridView3;
             this.gridControl2.MenuManager = this.barManager1;
             this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(1242, 111);
+            this.gridControl2.Size = new System.Drawing.Size(1242, 126);
             this.gridControl2.TabIndex = 0;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView3});
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.editArt});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(101, 26);
+            this.contextMenuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.contextMenuStrip1_ItemClicked);
+            // 
+            // editArt
+            // 
+            this.editArt.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.editArt.Name = "editArt";
+            this.editArt.Size = new System.Drawing.Size(100, 22);
+            this.editArt.Text = "编辑";
             // 
             // gridControl1
             // 
@@ -320,7 +343,7 @@
             this.gridControl1.Name = "gridControl1";
             this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemDateEdit1});
-            this.gridControl1.Size = new System.Drawing.Size(1242, 233);
+            this.gridControl1.Size = new System.Drawing.Size(1242, 234);
             this.gridControl1.TabIndex = 3;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -377,6 +400,7 @@
             this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.RowClick += new DevExpress.XtraGrid.Views.Grid.RowClickEventHandler(this.gridView1_RowClick);
             this.gridView1.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gridView1_CustomDrawRowIndicator);
+            this.gridView1.RowStyle += new DevExpress.XtraGrid.Views.Grid.RowStyleEventHandler(this.gridView1_RowStyle);
             // 
             // PRD007
             // 
@@ -489,6 +513,19 @@
             this.PRD002.Visible = true;
             this.PRD002.VisibleIndex = 10;
             this.PRD002.Width = 66;
+            // 
+            // PRD044
+            // 
+            this.PRD044.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.PRD044.AppearanceCell.Options.UseFont = true;
+            this.PRD044.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.PRD044.AppearanceHeader.Options.UseFont = true;
+            this.PRD044.Caption = "所属车间";
+            this.PRD044.FieldName = "PRD044";
+            this.PRD044.Name = "PRD044";
+            this.PRD044.OptionsColumn.AllowEdit = false;
+            this.PRD044.Visible = true;
+            this.PRD044.VisibleIndex = 15;
             // 
             // PRD032
             // 
@@ -884,7 +921,7 @@
             // 
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerControl1.Horizontal = false;
-            this.splitContainerControl1.Location = new System.Drawing.Point(0, 26);
+            this.splitContainerControl1.Location = new System.Drawing.Point(0, 24);
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.dateEdit1);
             this.splitContainerControl1.Panel1.Controls.Add(this.labelControl5);
@@ -904,7 +941,7 @@
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.splitContainerControl2);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1242, 436);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1242, 438);
             this.splitContainerControl1.SplitterPosition = 68;
             this.splitContainerControl1.TabIndex = 1;
             this.splitContainerControl1.Text = "splitContainerControl1";
@@ -1112,8 +1149,8 @@
             this.splitContainerControl2.Panel1.Text = "Panel1";
             this.splitContainerControl2.Panel2.Controls.Add(this.gridControl2);
             this.splitContainerControl2.Panel2.Text = "Panel2";
-            this.splitContainerControl2.Size = new System.Drawing.Size(1242, 356);
-            this.splitContainerControl2.SplitterPosition = 111;
+            this.splitContainerControl2.Size = new System.Drawing.Size(1242, 365);
+            this.splitContainerControl2.SplitterPosition = 126;
             this.splitContainerControl2.TabIndex = 35;
             this.splitContainerControl2.Text = "splitContainerControl2";
             // 
@@ -1221,18 +1258,11 @@
             this.gridColumn10.Visible = true;
             this.gridColumn10.VisibleIndex = 9;
             // 
-            // PRD044
+            // gridColumn11
             // 
-            this.PRD044.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.PRD044.AppearanceCell.Options.UseFont = true;
-            this.PRD044.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.PRD044.AppearanceHeader.Options.UseFont = true;
-            this.PRD044.Caption = "所属车间";
-            this.PRD044.FieldName = "PRD044";
-            this.PRD044.Name = "PRD044";
-            this.PRD044.OptionsColumn.AllowEdit = false;
-            this.PRD044.Visible = true;
-            this.PRD044.VisibleIndex = 15;
+            this.gridColumn11.Caption = "编号";
+            this.gridColumn11.FieldName = "idx";
+            this.gridColumn11.Name = "gridColumn11";
             // 
             // FormProductDailyWork
             // 
@@ -1246,6 +1276,7 @@
             this.Controls.SetChildIndex(this.splitContainerControl1, 0);
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1.CalendarTimeProperties)).EndInit();
@@ -1354,5 +1385,8 @@
         private DevExpress . XtraGrid . Columns . GridColumn PRD043;
         private DevExpress . XtraEditors . SplitContainerControl splitContainerControl2;
         private DevExpress . XtraGrid . Columns . GridColumn PRD044;
+        private System . Windows . Forms . ContextMenuStrip contextMenuStrip1;
+        private System . Windows . Forms . ToolStripMenuItem editArt;
+        private DevExpress . XtraGrid . Columns . GridColumn gridColumn11;
     }
 }

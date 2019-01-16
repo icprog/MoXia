@@ -145,6 +145,7 @@ namespace Carpenter
         //Save
         private void btnSave_Click ( object sender ,EventArgs e )
         {
+            CarpenterBll . UserInformation . TypeOfOper = "保存";
             btnClick = false;
             if ( getValue ( ) == false )
                 return;
@@ -167,6 +168,7 @@ namespace Carpenter
             //TODO:应该带出规格就可以，记工数量自己填写，只要有内容就保存
             //TODO:强制完工是否需要开工扫描
 
+            CarpenterBll . UserInformation . TypeOfOper = "强制完工";
             btnClick = true;
             if ( getValue ( ) == false )
                 return;
@@ -334,6 +336,46 @@ namespace Carpenter
                     _model . PRD026 = v . Row [ "ARU006" ] . ToString ( );
                 }
             }
+        }
+        private void btnSave_MouseMove ( object sender ,MouseEventArgs e )
+        {
+            this . btnSave . BackColor = Color . Red;
+        }
+        private void btnSave_MouseLeave ( object sender ,EventArgs e )
+        {
+            this . btnSave . BackColor = Color . Gainsboro;
+        }
+        private void btnCancel_MouseMove ( object sender ,MouseEventArgs e )
+        {
+            this . btnCancel . BackColor = Color . Red;
+        }
+        private void btnCancel_MouseLeave ( object sender ,EventArgs e )
+        {
+            this . btnCancel . BackColor = Color . Gainsboro;
+        }
+        private void btnReset_MouseLeave ( object sender ,EventArgs e )
+        {
+            this . btnReset . BackColor = Color . Gainsboro;
+        }
+        private void btnReset_MouseMove ( object sender ,MouseEventArgs e )
+        {
+            this . btnReset . BackColor = Color . Red;
+        }
+        private void button1_MouseLeave ( object sender ,EventArgs e )
+        {
+            this . button1 . BackColor = Color . Gainsboro;
+        }
+        private void button1_MouseMove ( object sender ,MouseEventArgs e )
+        {
+            this . button1 . BackColor = Color . Red;
+        }
+        private void btnSaveOver_MouseLeave ( object sender ,EventArgs e )
+        {
+            this . btnSaveOver . BackColor = Color . NavajoWhite;
+        }
+        private void btnSaveOver_MouseMove ( object sender ,MouseEventArgs e )
+        {
+            this . btnSaveOver . BackColor = Color . Red;
         }
         #endregion
 
@@ -583,27 +625,33 @@ namespace Carpenter
         #region Other Method
         bool getValue ( )
         {
+            bool result = true;
+
             if ( string . IsNullOrEmpty ( equNum . Text ) )
             {
                 XtraMessageBox . Show ( "请扫描设备" );
-                return false;
+                result = false;
+                return result;
             }
             if ( string . IsNullOrEmpty ( cp . Text ) )
             {
                 XtraMessageBox . Show ( "请扫描传票" );
-                return false;
+                result = false;
+                return result;
             }
             if ( rabClose . Checked == false && rabOpen . Checked == false )
             {
                 XtraMessageBox . Show ( "请选择开工或完工" );
-                return false;
+                result = false;
+                return result;
             }
             gridView1 . CloseEditor ( );
             gridView1 . UpdateCurrentRow ( );
             if ( tableView == null || tableView . Rows . Count < 1 )
             {
                 XtraMessageBox . Show ( "请扫描人员" );
-                return false;
+                result = false;
+                return result;
             }
 
             if ( rabClose . Checked == true )
@@ -614,32 +662,38 @@ namespace Carpenter
                     if ( string . IsNullOrEmpty ( Num . Text ) && string . IsNullOrEmpty ( txtNum1 . Text ) && string . IsNullOrEmpty ( txtNum2 . Text ) && string . IsNullOrEmpty ( txtNum3 . Text ) )
                     {
                         XtraMessageBox . Show ( "请填写记工数量" );
-                        return false;
+                        result = false;
+                        return result;
                     }
                     if ( decimal . TryParse ( Num . Text ,out num ) == false )
                     {
                         XtraMessageBox . Show ( "数量请填写数字" );
-                        return false;
+                        result = false;
+                        return result;
                     }
                     if ( decimal . TryParse ( txtNum1 . Text ,out num ) == false )
                     {
                         XtraMessageBox . Show ( "数量请填写数字" );
-                        return false;
+                        result = false;
+                        return result;
                     }
                     if ( decimal . TryParse ( txtNum2 . Text ,out num ) == false )
                     {
                         XtraMessageBox . Show ( "数量请填写数字" );
-                        return false;
+                        result = false;
+                        return result;
                     }
                     if ( decimal . TryParse ( txtNum3 . Text ,out num ) == false )
                     {
                         XtraMessageBox . Show ( "数量请填写数字" );
-                        return false;
+                        result = false;
+                        return result;
                     }
                     if ( Convert . ToDecimal ( Num . Text ) <= 0 && Convert . ToDecimal ( txtNum1 . Text ) <= 0 && Convert . ToDecimal ( txtNum2 . Text ) <= 0 && Convert . ToDecimal ( txtNum3 . Text ) <= 0 )
                     {
                         XtraMessageBox . Show ( "记工数量必须大于0" );
-                        return false;
+                        result = false;
+                        return result;
                     }
                 }
                 else if ( btnClick )
@@ -647,22 +701,26 @@ namespace Carpenter
                     if ( !string . IsNullOrEmpty ( Num . Text ) && decimal . TryParse ( Num . Text ,out num ) == false )
                     {
                         XtraMessageBox . Show ( "数量请填写数字" );
-                        return false;
+                        result = false;
+                        return result;
                     }
                     if ( !string . IsNullOrEmpty ( txtNum1 . Text ) && decimal . TryParse ( txtNum1 . Text ,out num ) == false )
                     {
                         XtraMessageBox . Show ( "数量请填写数字" );
-                        return false;
+                        result = false;
+                        return result;
                     }
                     if ( !string . IsNullOrEmpty ( txtNum2 . Text ) && decimal . TryParse ( txtNum2 . Text ,out num ) == false )
                     {
                         XtraMessageBox . Show ( "数量请填写数字" );
-                        return false;
+                        result = false;
+                        return result;
                     }
                     if ( !string . IsNullOrEmpty ( txtNum3 . Text ) && decimal . TryParse ( txtNum3 . Text ,out num ) == false )
                     {
                         XtraMessageBox . Show ( "数量请填写数字" );
-                        return false;
+                        result = false;
+                        return result;
                     }
                 }
             }
@@ -670,12 +728,14 @@ namespace Carpenter
             if ( string . IsNullOrEmpty ( labNumProduct . Text ) )
             {
                 XtraMessageBox . Show ( "请填写产品数量" );
-                return false;
+                result = false;
+                return result;
             }
             if ( Convert . ToInt32 ( labNumProduct . Text ) < 1 )
             {
                 XtraMessageBox . Show ( "产品数量必须大于0" );
-                return false;
+                result = false;
+                return result;
             }
 
             string check = string . Empty;
@@ -709,7 +769,8 @@ namespace Carpenter
             if ( check == "1" && string . IsNullOrEmpty ( cmbSalary . Text ) )
             {
                 XtraMessageBox . Show ( "请选择工资类型" );
-                return false;
+                result = false;
+                return result;
             }
 
 
@@ -731,7 +792,8 @@ namespace Carpenter
             if ( !string . IsNullOrEmpty ( Num . Text ) && decimal . TryParse ( Num . Text ,out dLen ) == false )
             {
                 XtraMessageBox . Show ( "记工数量应为数字" );
-                return false;
+                result = false;
+                return result;
             }
             _model . PRD019 = dLen;
             _model . PRD020 = false;
@@ -740,12 +802,14 @@ namespace Carpenter
             if ( !string . IsNullOrEmpty ( txtTime . Text ) && int . TryParse ( txtTime . Text ,out len ) == false )
             {
                 XtraMessageBox . Show ( "加工次数应为数字" );
-                return false;
+                result = false;
+                return result;
             }
             if ( len < 1 )
             {
                 XtraMessageBox . Show ( "加工次数至少为1" );
-                return false;
+                result = false;
+                return result;
             }
             _model . PRD023 = len;
             _model . PRD033 = cmbSalary . Text;
@@ -755,7 +819,8 @@ namespace Carpenter
             if ( !string . IsNullOrEmpty ( txtNum1 . Text ) && decimal . TryParse ( txtNum1 . Text ,out dLen ) == false )
             {
                 XtraMessageBox . Show ( "记工数量应为数字" );
-                return false;
+                result = false;
+                return result;
             }
             _model . PRD037 = dLen;
             if ( dLen <= 0 )
@@ -765,7 +830,8 @@ namespace Carpenter
             if ( !string . IsNullOrEmpty ( txtNum2 . Text ) && decimal . TryParse ( txtNum2 . Text ,out dLen ) == false )
             {
                 XtraMessageBox . Show ( "记工数量应为数字" );
-                return false;
+                result = false;
+                return result;
             }
             _model . PRD039 = dLen;
             if ( dLen <= 0 )
@@ -775,7 +841,8 @@ namespace Carpenter
             if ( !string . IsNullOrEmpty ( txtNum3 . Text ) && decimal . TryParse ( txtNum3 . Text ,out dLen ) == false )
             {
                 XtraMessageBox . Show ( "记工数量应为数字" );
-                return false;
+                result = false;
+                return result;
             }
             _model . PRD041 = dLen;
             if ( dLen <= 0 )
@@ -784,30 +851,46 @@ namespace Carpenter
             if ( !string . IsNullOrEmpty ( Num . Tag . ToString ( ) ) && decimal . TryParse ( Num . Tag . ToString ( ) ,out dLen ) == false )
             {
                 XtraMessageBox . Show ( "记工数量应为数字" );
-                return false;
+                result = false;
+                return result;
             }
             _model . PRD012 = dLen;
 
             if ( _model . PRD019 > _model . PRD012 )
             {
                 XtraMessageBox . Show ( "记工数量多于零件数量,请更正" );
-                return false;
+                result = false;
+                return result;
             }
 
-            //是否有开工记录
-            _model . PRD005 = _bll . ExistsSign ( _model ,tableView );
-            if ( !string . IsNullOrEmpty ( _model . PRD005 ) )
+
+            //是否有开工完工记录
+            int resu = _bll . ExistsSignStart ( _model ,tableView );
+            _model . PRD005 = string . Empty;
+            foreach ( DataRow row in tableView . Rows )
             {
-                if ( _model . PRD014 )
-                {
-                    XtraMessageBox . Show ( "姓名:" + _model . PRD005 + "\r\n" + "设备:" + _model . PRD002 + "\r\n" + "工艺:" + _model . PRD003 + "\r\n" + "传票:" + _model . PRD006 + "\r\n" + "未完工,不可重复开工" );
-                    return false;
-                }
-                if ( _model . PRD014 == false )
-                {
-                    XtraMessageBox . Show ( "姓名:" + _model . PRD005 + "\r\n" + "设备:" + _model . PRD002 + "\r\n" + "工艺:" + _model . PRD003 + "\r\n" + "传票:" + _model . PRD006 + "\r\n" + "未开工,不可完工" );
-                    return false;
-                }
+                if ( string . IsNullOrEmpty ( _model . PRD005 ) )
+                    _model . PRD005 = row [ "PRD005" ] . ToString ( );
+                else
+                    _model . PRD005 = _model . PRD005 + "," + row [ "PRD005" ] . ToString ( );
+            }
+            if ( resu == 0 && _model . PRD014 == false )
+            {
+                XtraMessageBox . Show ( "姓名:" + _model . PRD005 + "\r\n" + "设备:" + _model . PRD002 + "\r\n" + "工艺:" + _model . PRD003 + "\r\n" + "传票:" + _model . PRD006 + "\r\n" + "未开工,不可完工" );
+                result = false;
+                return result;
+            }
+            else if ( resu == 1 )
+            {
+                XtraMessageBox . Show ( "姓名:" + _model . PRD005 + "\r\n" + "设备:" + _model . PRD002 + "\r\n" + "工艺:" + _model . PRD003 + "\r\n" + "传票:" + _model . PRD006 + "\r\n" + "有完工,无开工,数据异常,请核实" );
+                result = false;
+                return result;
+            }
+            else if ( resu == 2 && _model . PRD014 )
+            {
+                XtraMessageBox . Show ( "姓名:" + _model . PRD005 + "\r\n" + "设备:" + _model . PRD002 + "\r\n" + "工艺:" + _model . PRD003 + "\r\n" + "传票:" + _model . PRD006 + "\r\n" + "未完工,不可重复开工" );
+                result = false;
+                return result;
             }
 
             //完工操作
@@ -820,7 +903,8 @@ namespace Carpenter
                     foreach ( string str in userList . Keys )
                     {
                         XtraMessageBox . Show ( "人员编号:" + str + "\n\r人员姓名:" + userList [ str ] + "\n\r同时开工,请同时完工" );
-                        return false;
+                        result = false;
+                        return result;
                     }
                 }
             }
@@ -828,17 +912,23 @@ namespace Carpenter
             if ( _bll . isOver ( _model ) )
             {
                 if ( XtraMessageBox . Show ( "传票：" + _model . PRD006 + "\r\n工艺：" + _model . PRD003 + "\r\n已经强制完工,是否继续记工？" ,"报工提示" ,MessageBoxButtons . OKCancel ) == DialogResult . OK )
-                    return true;
+                    result = true;
                 else
-                    return false;
+                {
+                    result = false;
+                    return result;
+                }
             }
 
             if ( _bll . isOverForSave ( _model ) )
             {
                 if ( XtraMessageBox . Show ( "传票：" + _model . PRD006 + "\r\n工艺：" + _model . PRD003 + "\r\n订单数量已报工完成,是否继续报工？" ,"报工提示" ,MessageBoxButtons . OKCancel ) == DialogResult . OK )
-                    return true;
+                    result = true;
                 else
-                    return false;
+                {
+                    result = false;
+                    return result;
+                }
             }
 
             if ( _model . PRD019 > 0 )
@@ -847,11 +937,14 @@ namespace Carpenter
                 if ( _model . PRD012 - dLen < _model . PRD019 )
                 {
                     XtraMessageBox . Show ( "传票：" + _model . PRD006 + "\r\n工艺：" + _model . PRD003 + "\r\n已经记工" + dLen + ",记工数量多余剩余零件数量,请编辑其它记工数量" );
-                    return false;
+                    {
+                        result = false;
+                        return result;
+                    }
                 }
             }
 
-            return true;
+            return result;
         }
         void Equpment ( )
         {

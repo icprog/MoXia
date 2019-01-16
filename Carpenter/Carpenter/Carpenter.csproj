@@ -781,6 +781,12 @@
     <Compile Include="OrderEdit\FormProductDailyEdit.Designer.cs">
       <DependentUpon>FormProductDailyEdit.cs</DependentUpon>
     </Compile>
+    <Compile Include="OrderEdit\FormProductDailyWorkArtEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderEdit\FormProductDailyWorkArtEdit.Designer.cs">
+      <DependentUpon>FormProductDailyWorkArtEdit.cs</DependentUpon>
+    </Compile>
     <Compile Include="OrderEdit\FormProductScheduleDateEdit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1237,6 +1243,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OrderEdit\FormProductDailyEdit.resx">
       <DependentUpon>FormProductDailyEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderEdit\FormProductDailyWorkArtEdit.resx">
+      <DependentUpon>FormProductDailyWorkArtEdit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrderEdit\FormProductScheduleDateEdit.resx">
       <DependentUpon>FormProductScheduleDateEdit.cs</DependentUpon>
